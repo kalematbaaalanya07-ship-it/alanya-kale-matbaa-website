@@ -1,8 +1,8 @@
 export const site = {
   name: "Alanya Kale Matbaa",
   // WhatsApp / phone number in international format without "+" for wa.me links
-  whatsapp: "905321234567",
-  phoneDisplay: "+90 532 123 45 67",
+  whatsapp: "905309305564",
+  phoneDisplay: "+90 530 930 55 64",
   email: "info@kalematbaa.com",
   domain: "kalematbaa.com",
   address: "Şekerhane Mahallesi, Hacı Karanfil Sokak No:15/A, Alanya, Antalya, Türkiye",
