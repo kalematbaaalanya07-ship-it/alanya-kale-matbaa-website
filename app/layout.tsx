@@ -38,7 +38,15 @@ export const metadata: Metadata = {
     "matbaa Antalya",
   ],
   authors: [{ name: site.name }],
-  alternates: { canonical: site.url },
+  alternates: {
+    canonical: site.url,
+    languages: {
+      tr: site.url,
+      en: `${site.url}/?lang=en`,
+      ru: `${site.url}/?lang=ru`,
+      "x-default": site.url,
+    },
+  },
   openGraph: {
     type: "website",
     locale: "tr_TR",

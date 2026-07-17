@@ -17,7 +17,15 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [lang, setLangState] = useState<Lang>("tr")
 
   useEffect(() => {
-    const stored = typeof window !== "undefined" ? (localStorage.getItem(STORAGE_KEY) as Lang | null) : null
+    if (typeof window === "undefined") return
+    // URL ?lang= takes priority (shareable, matches hreflang), then localStorage.
+    const urlLang = new URLSearchParams(window.location.search).get("lang") as Lang | null
+    if (urlLang && urlLang in dictionaries) {
+      setLangState(urlLang)
+      localStorage.setItem(STORAGE_KEY, urlLang)
+      return
+    }
+    const stored = localStorage.getItem(STORAGE_KEY) as Lang | null
     if (stored && stored in dictionaries) setLangState(stored)
   }, [])
 
@@ -27,7 +35,14 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
   const setLang = (next: Lang) => {
     setLangState(next)
-    if (typeof window !== "undefined") localStorage.setItem(STORAGE_KEY, next)
+    if (typeof window !== "undefined") {
+      localStorage.setItem(STORAGE_KEY, next)
+      // Keep the URL in sync with the active language without a full navigation.
+      const url = new URL(window.location.href)
+      if (next === "tr") url.searchParams.delete("lang")
+      else url.searchParams.set("lang", next)
+      window.history.replaceState({}, "", url)
+    }
   }
 
   return (
