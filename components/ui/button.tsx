@@ -56,12 +56,17 @@ function Button({
   const renderProp =
     asChild && isValidElement(children) ? (children as ReactElement) : render
 
+  // When rendering as a custom element (e.g. an <a>/<Link>), it is no longer a
+  // native <button>, so tell Base UI to drop native button semantics.
+  const nativeButton = renderProp ? false : (props.nativeButton ?? true)
+
   return (
     <ButtonPrimitive
       data-slot="button"
       className={cn(buttonVariants({ variant, size, className }))}
-      render={renderProp}
       {...props}
+      render={renderProp}
+      nativeButton={nativeButton}
     >
       {asChild ? undefined : children}
     </ButtonPrimitive>
