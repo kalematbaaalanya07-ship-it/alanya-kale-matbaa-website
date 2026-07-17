@@ -20,7 +20,7 @@ type PortfolioItem = {
 }
 
 export type Dictionary = {
-  nav: { home: string; about: string; services: string; portfolio: string; contact: string }
+  nav: { home: string; about: string; services: string; products: string; portfolio: string; contact: string }
   cta: { quote: string; call: string; whatsapp: string; viewServices: string; contactUs: string; getOffer: string }
   home: {
     heroTag: string
@@ -131,7 +131,7 @@ export type Dictionary = {
 }
 
 const tr: Dictionary = {
-  nav: { home: "Ana Sayfa", about: "Hakkımızda", services: "Hizmetlerimiz", portfolio: "Portföy", contact: "İletişim" },
+  nav: { home: "Ana Sayfa", about: "Hakkımızda", services: "Hizmetlerimiz", products: "Ürünlerimiz", portfolio: "Portföy", contact: "İletişim" },
   cta: {
     quote: "Hızlı Teklif Al",
     call: "Hemen Ara",
@@ -353,7 +353,7 @@ const tr: Dictionary = {
 }
 
 const en: Dictionary = {
-  nav: { home: "Home", about: "About", services: "Services", portfolio: "Portfolio", contact: "Contact" },
+  nav: { home: "Home", about: "About", services: "Services", products: "Products", portfolio: "Portfolio", contact: "Contact" },
   cta: {
     quote: "Get a Quick Quote",
     call: "Call Now",
@@ -575,7 +575,7 @@ const en: Dictionary = {
 }
 
 const ru: Dictionary = {
-  nav: { home: "Главная", about: "О нас", services: "Услуги", portfolio: "Портфолио", contact: "Контакты" },
+  nav: { home: "Главная", about: "О нас", services: "Услуги", products: "Продукция", portfolio: "Портфолио", contact: "Контакты" },
   cta: {
     quote: "Быстрый расчёт",
     call: "Позвонить",
