@@ -57,6 +57,8 @@ export function StructuredData() {
     telephone: site.phone,
     email: site.email,
     priceRange: "$$",
+    foundingDate: "1990",
+    slogan: "35+ yıllık tecrübe, 20.000+ mutlu müşteri",
     description:
       "Alanya'da kaşe, ofset ve dijital baskı hizmetleri. Konica Minolta AccurioPrint C4065 ile katalog, broşür, menü ve kartvizit baskısı. Ücretsiz profesyonel grafik tasarım.",
     address: {

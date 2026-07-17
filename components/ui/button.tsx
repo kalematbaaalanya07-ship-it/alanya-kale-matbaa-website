@@ -1,3 +1,4 @@
+import { isValidElement, type ReactElement } from 'react'
 import { Button as ButtonPrimitive } from '@base-ui/react/button'
 import { cva, type VariantProps } from 'class-variance-authority'
 
@@ -44,14 +45,31 @@ function Button({
   className,
   variant = 'default',
   size = 'default',
+  asChild = false,
+  render,
+  children,
   ...props
-}: ButtonPrimitive.Props & VariantProps<typeof buttonVariants>) {
+}: ButtonPrimitive.Props &
+  VariantProps<typeof buttonVariants> & { asChild?: boolean }) {
+  // Base UI uses `render` (not Radix's `asChild`). Translate `asChild` so that
+  // <Button asChild><Link>...</Link></Button> renders as the child element.
+  const renderProp =
+    asChild && isValidElement(children) ? (children as ReactElement) : render
+
+  // When rendering as a custom element (e.g. an <a>/<Link>), it is no longer a
+  // native <button>, so tell Base UI to drop native button semantics.
+  const nativeButton = renderProp ? false : (props.nativeButton ?? true)
+
   return (
     <ButtonPrimitive
       data-slot="button"
       className={cn(buttonVariants({ variant, size, className }))}
       {...props}
-    />
+      render={renderProp}
+      nativeButton={nativeButton}
+    >
+      {asChild ? undefined : children}
+    </ButtonPrimitive>
   )
 }
 
