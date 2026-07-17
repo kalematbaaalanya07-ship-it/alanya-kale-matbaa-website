@@ -63,6 +63,18 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Stats */}
+      <section className="border-b border-border bg-card">
+        <div className="mx-auto grid max-w-6xl grid-cols-2 gap-6 px-4 py-10 md:grid-cols-4">
+          {t.about.stats.map((stat) => (
+            <div key={stat.label} className="flex flex-col items-center gap-1 text-center">
+              <span className="font-heading text-3xl font-extrabold text-accent sm:text-4xl">{stat.value}</span>
+              <span className="text-sm font-medium text-muted-foreground">{stat.label}</span>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* Features */}
       <section className="mx-auto max-w-6xl px-4 py-16">
         <div className="grid gap-6 md:grid-cols-3">

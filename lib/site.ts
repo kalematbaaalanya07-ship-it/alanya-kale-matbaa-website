@@ -8,7 +8,10 @@ export const site = {
   phoneHref: "+902425134830",
   // Backwards-compatible alias used across the UI
   phoneDisplay: "+90 530 930 55 64",
-  email: "info@kalematbaa.com",
+  email: "kalematbaaalanya@hotmail.com",
+  // Trust stats
+  yearsExperience: "35+",
+  happyCustomers: "20000+",
   domain: "kalematbaa.com",
   url: "https://kalematbaa.com",
   address: "Şekerhane Mahallesi, Hacı Karanfil Sokak No:15/A, 07400 Alanya, Antalya, Türkiye",

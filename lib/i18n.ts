@@ -170,7 +170,7 @@ const tr: Dictionary = {
   about: {
     tag: "Hakkımızda",
     title: "Alanya'da Baskının Adresi",
-    lead: "Yılların tecrübesiyle Alanya ve çevresine kaliteli matbaa hizmeti sunuyoruz.",
+    lead: "35 yılı aşkın tecrübeyle Alanya ve çevresine kaliteli matbaa hizmeti sunuyoruz.",
     body: [
       "Alanya Kale Matbaa olarak, işletmelerin ve bireylerin tüm baskı ihtiyaçlarına modern teknoloji ve deneyimli kadromuzla çözüm üretiyoruz.",
       "Kaşe üretiminden ofset baskıya, dijital baskıdan davetiye ve broşüre kadar geniş bir hizmet yelpazesi sunuyoruz. Konica Minolta AccurioPrint C4065 dijital baskı makinemizle canlı renkler ve keskin detaylar elde ediyoruz.",
@@ -178,8 +178,8 @@ const tr: Dictionary = {
     ],
     statsTitle: "Rakamlarla Biz",
     stats: [
-      { value: "15+", label: "Yıllık Tecrübe" },
-      { value: "5.000+", label: "Mutlu Müşteri" },
+      { value: "35+", label: "Yıllık Tecrübe" },
+      { value: "20.000+", label: "Mutlu Müşteri" },
       { value: "24s", label: "Hızlı Teslimat" },
       { value: "100%", label: "Kalite Odağı" },
     ],
@@ -392,7 +392,7 @@ const en: Dictionary = {
   about: {
     tag: "About Us",
     title: "Your Print Partner in Alanya",
-    lead: "We provide quality printing services to Alanya and the surrounding region with years of experience.",
+    lead: "We provide quality printing services to Alanya and the surrounding region with over 35 years of experience.",
     body: [
       "At Alanya Kale Matbaa, we solve all the printing needs of businesses and individuals with modern technology and an experienced team.",
       "We offer a wide range of services, from stamp production and offset printing to digital printing, invitations and brochures. Our Konica Minolta AccurioPrint C4065 digital press delivers vibrant colors and sharp detail.",
@@ -400,8 +400,8 @@ const en: Dictionary = {
     ],
     statsTitle: "By the Numbers",
     stats: [
-      { value: "15+", label: "Years of Experience" },
-      { value: "5,000+", label: "Happy Customers" },
+      { value: "35+", label: "Years of Experience" },
+      { value: "20,000+", label: "Happy Customers" },
       { value: "24h", label: "Fast Turnaround" },
       { value: "100%", label: "Quality Focused" },
     ],
@@ -614,7 +614,7 @@ const ru: Dictionary = {
   about: {
     tag: "О нас",
     title: "Ваш партнёр по печати в Аланье",
-    lead: "Мы предоставляем качественные полиграфические услуги в Аланье и регионе с многолетним опытом.",
+    lead: "Мы предоставляем качественные полиграфические услуги в Аланье и регионе с опытом более 35 лет.",
     body: [
       "В Alanya Kale Matbaa мы решаем все задачи печати для бизнеса и частных лиц с помощью современных технологий и опытной команды.",
       "Мы предлагаем широкий спектр услуг — от изготовления печатей и офсетной печати до цифровой печати, приглашений и брошюр. Наш цифровой пресс Konica Minolta AccurioPrint C4065 обеспечивает яркие цвета и чёткие детали.",
@@ -622,8 +622,8 @@ const ru: Dictionary = {
     ],
     statsTitle: "В цифрах",
     stats: [
-      { value: "15+", label: "Лет опыта" },
-      { value: "5 000+", label: "Довольных клиентов" },
+      { value: "35+", label: "Лет опыта" },
+      { value: "20 000+", label: "Довольных клиентов" },
       { value: "24ч", label: "Быстрое исполнение" },
       { value: "100%", label: "Фокус на качестве" },
     ],
