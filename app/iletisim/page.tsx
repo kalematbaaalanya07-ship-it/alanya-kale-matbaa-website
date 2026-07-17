@@ -1,6 +1,6 @@
 "use client"
 
-import { MapPin, Phone, Mail, Clock } from "lucide-react"
+import { MapPin, Phone, Mail, Clock, MessageCircle } from "lucide-react"
 import { PageHero } from "@/components/page-hero"
 import { QuoteForm } from "@/components/quote-form"
 import { useLanguage } from "@/components/language-provider"
@@ -36,12 +36,26 @@ export default function ContactPage() {
                 <div>
                   <p className="font-semibold text-foreground">{c.phoneLabel}</p>
                   <a
-                    href={waLink()}
+                    href={`tel:${site.phoneHref}`}
+                    className="text-sm text-muted-foreground transition-colors hover:text-accent"
+                  >
+                    {site.phone}
+                  </a>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-accent/10 text-accent">
+                  <MessageCircle className="size-5" />
+                </span>
+                <div>
+                  <p className="font-semibold text-foreground">WhatsApp</p>
+                  <a
+                    href={waLink(t.quote.intro)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm text-muted-foreground transition-colors hover:text-accent"
                   >
-                    {site.phoneDisplay}
+                    {site.whatsappDisplay}
                   </a>
                 </div>
               </li>

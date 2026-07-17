@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { MapPin, Phone, Mail } from "lucide-react"
+import { MapPin, Phone, Mail, MessageCircle } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 import { site, waLink } from "@/lib/site"
 
@@ -13,6 +13,7 @@ export function SiteFooter() {
     { href: "/hakkimizda", label: t.nav.about },
     { href: "/hizmetlerimiz", label: t.nav.services },
     { href: "/portfoy", label: t.nav.portfolio },
+    { href: "/blog", label: t.blog.tag },
     { href: "/iletisim", label: t.nav.contact },
   ]
 
@@ -54,8 +55,14 @@ export function SiteFooter() {
             </li>
             <li className="flex items-center gap-2">
               <Phone className="size-4 shrink-0 text-accent" />
+              <a href={`tel:${site.phoneHref}`} className="transition-colors hover:text-accent">
+                {site.phone}
+              </a>
+            </li>
+            <li className="flex items-center gap-2">
+              <MessageCircle className="size-4 shrink-0 text-accent" />
               <a href={waLink()} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-accent">
-                {site.phoneDisplay}
+                {site.whatsappDisplay}
               </a>
             </li>
             <li className="flex items-center gap-2">
