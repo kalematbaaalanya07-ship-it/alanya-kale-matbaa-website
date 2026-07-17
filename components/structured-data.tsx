@@ -98,21 +98,6 @@ export function StructuredData() {
       reviewRating: { "@type": "Rating", ratingValue: r.rating, bestRating: 5 },
       reviewBody: r.body,
     })),
-    hasOfferCatalog: {
-      "@type": "OfferCatalog",
-      name: "Baskı Hizmetleri",
-      itemListElement: [
-        "Dijital Baskı",
-        "Ofset Baskı",
-        "Kaşe",
-        "Katalog & Broşür Baskı",
-        "Menü Baskısı",
-        "Kartvizit Baskı",
-      ].map((s) => ({
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: s },
-      })),
-    },
   }
 
   const faqPage = {
