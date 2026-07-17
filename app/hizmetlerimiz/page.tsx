@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { PageHero } from "@/components/page-hero"
 import { SectionHeading } from "@/components/section-heading"
 import { ServiceCard } from "@/components/service-card"
+import { FaqSection } from "@/components/faq-section"
 import { useLanguage } from "@/components/language-provider"
 
 export default function ServicesPage() {
@@ -37,6 +38,8 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
+
+      <FaqSection />
 
       <section className="mx-auto max-w-6xl px-4 py-16">
         <div className="flex flex-col items-center gap-5 rounded-2xl bg-primary px-6 py-12 text-center text-primary-foreground">

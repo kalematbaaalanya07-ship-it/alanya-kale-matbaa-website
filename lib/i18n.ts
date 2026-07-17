@@ -93,11 +93,40 @@ export type Dictionary = {
     submit: string
     intro: string
   }
+  freeDesign: {
+    tag: string
+    title: string
+    desc: string
+    points: string[]
+    cta: string
+  }
+  testimonials: {
+    tag: string
+    title: string
+    subtitle: string
+    items: { name: string; role: string; text: string }[]
+  }
+  faq: {
+    tag: string
+    title: string
+    subtitle: string
+    items: { q: string; a: string }[]
+  }
+  blog: {
+    tag: string
+    title: string
+    subtitle: string
+    readMore: string
+    soon: string
+    items: { title: string; excerpt: string; category: string; date: string }[]
+  }
   footer: {
     about: string
     quickLinks: string
     contact: string
     rights: string
+    phoneLabel: string
+    whatsappLabel: string
   }
 }
 
@@ -225,11 +254,101 @@ const tr: Dictionary = {
     submit: "WhatsApp ile Gönder",
     intro: "Merhaba, teklif almak istiyorum:",
   },
+  freeDesign: {
+    tag: "Ayrıcalığımız",
+    title: "Ücretsiz Profesyonel Grafik Tasarım",
+    desc: "Baskı siparişlerinizde tasarım derdi yok. Deneyimli grafik ekibimiz CorelDRAW, Photoshop ve yapay zeka destekli araçlarla markanıza özel tasarımları ücretsiz hazırlar.",
+    points: [
+      "Kartvizit, broşür ve menü tasarımı dahil",
+      "CorelDRAW & Adobe Photoshop uzmanlığı",
+      "Yapay zeka destekli hızlı revizyon",
+      "Baskı öncesi ücretsiz dijital prova",
+    ],
+    cta: "Ücretsiz Tasarım İste",
+  },
+  testimonials: {
+    tag: "Yorumlar",
+    title: "Müşterilerimiz Ne Diyor?",
+    subtitle: "Alanya'da işletmelerin ve bireylerin güvendiği matbaa.",
+    items: [
+      {
+        name: "Mehmet Yılmaz",
+        role: "Restoran Sahibi, Alanya",
+        text: "Menülerimizi Konica Minolta C4065 ile bastırdılar, renkler harika çıktı. Sezon başında acil işimizi zamanında teslim ettiler.",
+      },
+      {
+        name: "Ayşe Demir",
+        role: "Otel Yöneticisi",
+        text: "Broşür ve tanıtım kataloglarımızı yıllardır buradan yaptırıyoruz. Ücretsiz tasarım desteği gerçekten büyük avantaj.",
+      },
+      {
+        name: "Sergey Ivanov",
+        role: "Tur Şirketi",
+        text: "Tekne turu broşürlerimizi 3 dilde hazırlayıp bastılar. Kalite ve hız mükemmel, kesinlikle tavsiye ederim.",
+      },
+    ],
+  },
+  faq: {
+    tag: "S.S.S.",
+    title: "Sıkça Sorulan Sorular",
+    subtitle: "Aklınıza takılanlar için hızlı yanıtlar.",
+    items: [
+      {
+        q: "Alanya'da acil baskı işlerini ne kadar sürede teslim ediyorsunuz?",
+        a: "Dijital baskı işlerinin çoğunu aynı gün veya 24 saat içinde teslim ediyoruz. Yoğun sezonda bile acil işleriniz için önceliklendirme yapıyoruz.",
+      },
+      {
+        q: "Tasarım dosyam yok, yardımcı olur musunuz?",
+        a: "Elbette. Ücretsiz profesyonel grafik tasarım hizmetimizle kartvizit, broşür, menü ve davetiye tasarımlarınızı sizin için hazırlıyoruz.",
+      },
+      {
+        q: "Konica Minolta C4065 ile hangi kağıtlara baskı yapılıyor?",
+        a: "80g ince kağıttan 350g ve üzeri kalın kartona kadar, A3 boyutuna dek canlı renklerle baskı yapabiliyoruz.",
+      },
+      {
+        q: "Dijital baskı mı ofset baskı mı seçmeliyim?",
+        a: "Düşük ve orta adetli, hızlı işler için dijital baskı; çok yüksek adetli işler için ofset baskı daha ekonomiktir. Size en uygun seçeneği ücretsiz danışmanlıkla belirliyoruz.",
+      },
+      {
+        q: "Alanya dışına gönderim yapıyor musunuz?",
+        a: "Evet, Antalya ve çevre ilçelere kargo ile gönderim yapıyoruz. Detaylar için WhatsApp'tan bize yazabilirsiniz.",
+      },
+    ],
+  },
+  blog: {
+    tag: "Blog",
+    title: "Baskı Rehberi & İpuçları",
+    subtitle: "Matbaa dünyasından faydalı bilgiler ve öneriler.",
+    readMore: "Devamını Oku",
+    soon: "Yakında",
+    items: [
+      {
+        title: "Dijital Baskı ile Ofset Baskı Arasındaki Farklar",
+        excerpt: "Hangi iş için hangi baskı yöntemi daha uygun? Maliyet, kalite ve adet karşılaştırması.",
+        category: "Rehber",
+        date: "2025",
+      },
+      {
+        title: "Restoran Menüsü Baskısında Dikkat Edilmesi Gerekenler",
+        excerpt: "Alanya'daki restoranlar için dayanıklı ve şık menü baskısı ipuçları.",
+        category: "Menü Baskı",
+        date: "2025",
+      },
+      {
+        title: "Kaliteli Kartvizit Nasıl Olur?",
+        excerpt: "Kağıt gramajı, laminasyon ve tasarım detaylarıyla fark yaratan kartvizitler.",
+        category: "Kartvizit",
+        date: "2025",
+      },
+    ],
+  },
   footer: {
-    about: "Alanya'da kaşe, ofset ve dijital baskı hizmetleri. Kaliteli baskı, zamanında teslimat.",
+    about: "Alanya'da kaşe, ofset ve dijital baskı hizmetleri. Konica Minolta C4065 ile kaliteli baskı, zamanında teslimat.",
     quickLinks: "Hızlı Bağlantılar",
     contact: "İletişim",
     rights: "Tüm hakları saklıdır.",
+    phoneLabel: "Telefon",
+    whatsappLabel: "WhatsApp",
   },
 }
 
@@ -357,11 +476,101 @@ const en: Dictionary = {
     submit: "Send via WhatsApp",
     intro: "Hello, I would like to get a quote:",
   },
+  freeDesign: {
+    tag: "Our Advantage",
+    title: "Free Professional Graphic Design",
+    desc: "No design headaches with your print orders. Our experienced graphic team prepares custom designs for your brand for free using CorelDRAW, Photoshop and AI-powered tools.",
+    points: [
+      "Business card, brochure and menu design included",
+      "CorelDRAW & Adobe Photoshop expertise",
+      "AI-assisted fast revisions",
+      "Free digital proof before printing",
+    ],
+    cta: "Request Free Design",
+  },
+  testimonials: {
+    tag: "Reviews",
+    title: "What Our Customers Say",
+    subtitle: "The print shop trusted by businesses and individuals in Alanya.",
+    items: [
+      {
+        name: "Mehmet Yılmaz",
+        role: "Restaurant Owner, Alanya",
+        text: "They printed our menus on the Konica Minolta C4065 and the colors came out great. Our urgent job was delivered right on time at the start of the season.",
+      },
+      {
+        name: "Ayşe Demir",
+        role: "Hotel Manager",
+        text: "We've had our brochures and catalogs printed here for years. The free design support is genuinely a huge advantage.",
+      },
+      {
+        name: "Sergey Ivanov",
+        role: "Tour Company",
+        text: "They prepared and printed our boat tour brochures in 3 languages. Quality and speed are excellent, highly recommended.",
+      },
+    ],
+  },
+  faq: {
+    tag: "FAQ",
+    title: "Frequently Asked Questions",
+    subtitle: "Quick answers to what you may be wondering.",
+    items: [
+      {
+        q: "How fast can you deliver urgent print jobs in Alanya?",
+        a: "Most digital print jobs are delivered the same day or within 24 hours. Even in peak season, we prioritize your urgent work.",
+      },
+      {
+        q: "I don't have a design file, can you help?",
+        a: "Absolutely. With our free professional graphic design service we prepare your business card, brochure, menu and invitation designs for you.",
+      },
+      {
+        q: "What papers can you print on with the Konica Minolta C4065?",
+        a: "We print in vibrant colors on everything from 80g light paper to 350g+ thick cardstock, up to A3 size.",
+      },
+      {
+        q: "Should I choose digital or offset printing?",
+        a: "Digital printing suits low-to-medium volume, fast jobs; offset is more economical for very high volumes. We help you pick the best option with free consultation.",
+      },
+      {
+        q: "Do you ship outside Alanya?",
+        a: "Yes, we ship to Antalya and surrounding districts by courier. Message us on WhatsApp for details.",
+      },
+    ],
+  },
+  blog: {
+    tag: "Blog",
+    title: "Printing Guide & Tips",
+    subtitle: "Useful insights and advice from the world of printing.",
+    readMore: "Read More",
+    soon: "Coming soon",
+    items: [
+      {
+        title: "Differences Between Digital and Offset Printing",
+        excerpt: "Which method suits which job? A comparison of cost, quality and quantity.",
+        category: "Guide",
+        date: "2025",
+      },
+      {
+        title: "What to Consider When Printing a Restaurant Menu",
+        excerpt: "Durable and stylish menu printing tips for restaurants in Alanya.",
+        category: "Menu Printing",
+        date: "2025",
+      },
+      {
+        title: "What Makes a Quality Business Card?",
+        excerpt: "Cards that stand out through paper weight, lamination and design details.",
+        category: "Business Cards",
+        date: "2025",
+      },
+    ],
+  },
   footer: {
-    about: "Stamps, offset and digital printing services in Alanya. Quality printing, delivered on time.",
+    about: "Stamps, offset and digital printing services in Alanya. Quality printing with the Konica Minolta C4065, delivered on time.",
     quickLinks: "Quick Links",
     contact: "Contact",
     rights: "All rights reserved.",
+    phoneLabel: "Phone",
+    whatsappLabel: "WhatsApp",
   },
 }
 
@@ -489,11 +698,101 @@ const ru: Dictionary = {
     submit: "Отправить в WhatsApp",
     intro: "Здравствуйте, хочу получить расчёт:",
   },
+  freeDesign: {
+    tag: "Наше преимущество",
+    title: "Бесплатный профессиональный дизайн",
+    desc: "Никаких забот о дизайне при заказе печати. Наша опытная команда дизайнеров бесплатно готовит индивидуальный дизайн для вашего бренда в CorelDRAW, Photoshop и с помощью ИИ-инструментов.",
+    points: [
+      "Дизайн визиток, брошюр и меню включён",
+      "Опыт работы в CorelDRAW и Adobe Photoshop",
+      "Быстрые правки с помощью ИИ",
+      "Бесплатная цифровая проба перед печатью",
+    ],
+    cta: "Запросить дизайн бесплатно",
+  },
+  testimonials: {
+    tag: "Отзывы",
+    title: "Что говорят наши клиенты",
+    subtitle: "Типография, которой доверяют компании и частные лица в Аланье.",
+    items: [
+      {
+        name: "Мехмет Йылмаз",
+        role: "Владелец ресторана, Аланья",
+        text: "Напечатали наши меню на Konica Minolta C4065 — цвета вышли отличные. Срочный заказ сдали вовремя к началу сезона.",
+      },
+      {
+        name: "Айше Демир",
+        role: "Менеджер отеля",
+        text: "Уже много лет печатаем здесь брошюры и каталоги. Бесплатная поддержка по дизайну — реально большое преимущество.",
+      },
+      {
+        name: "Сергей Иванов",
+        role: "Турагентство",
+        text: "Подготовили и напечатали брошюры для морских туров на 3 языках. Качество и скорость превосходные, очень рекомендую.",
+      },
+    ],
+  },
+  faq: {
+    tag: "Вопросы",
+    title: "Часто задаваемые вопросы",
+    subtitle: "Быстрые ответы на то, что вас интересует.",
+    items: [
+      {
+        q: "Как быстро вы выполняете срочные заказы печати в Аланье?",
+        a: "Большинство заказов цифровой печати мы сдаём в тот же день или в течение 24 часов. Даже в высокий сезон срочные заказы в приоритете.",
+      },
+      {
+        q: "У меня нет файла дизайна, вы поможете?",
+        a: "Конечно. Благодаря бесплатному профессиональному дизайну мы подготовим для вас визитки, брошюры, меню и приглашения.",
+      },
+      {
+        q: "На какой бумаге можно печатать на Konica Minolta C4065?",
+        a: "Печатаем яркими цветами на всём — от лёгкой бумаги 80г до плотного картона 350г и выше, вплоть до формата A3.",
+      },
+      {
+        q: "Выбрать цифровую или офсетную печать?",
+        a: "Цифровая печать подходит для малых и средних быстрых тиражей; офсет выгоднее для очень больших тиражей. Мы бесплатно поможем выбрать лучший вариант.",
+      },
+      {
+        q: "Доставляете ли вы за пределы Аланьи?",
+        a: "Да, отправляем в Анталью и соседние районы курьером. Напишите нам в WhatsApp для деталей.",
+      },
+    ],
+  },
+  blog: {
+    tag: "Блог",
+    title: "Гид по печати и советы",
+    subtitle: "Полезная информация и рекомендации из мира полиграфии.",
+    readMore: "Читать далее",
+    soon: "Скоро",
+    items: [
+      {
+        title: "Различия между цифровой и офсетной печатью",
+        excerpt: "Какой метод для какой задачи? Сравнение цены, качества и тиража.",
+        category: "Гид",
+        date: "2025",
+      },
+      {
+        title: "На что обратить внимание при печати меню ресторана",
+        excerpt: "Советы по прочной и стильной печати меню для ресторанов Аланьи.",
+        category: "Печать меню",
+        date: "2025",
+      },
+      {
+        title: "Каким должна быть качественная визитка?",
+        excerpt: "Визитки, которые выделяются плотностью бумаги, ламинацией и деталями дизайна.",
+        category: "Визитки",
+        date: "2025",
+      },
+    ],
+  },
   footer: {
-    about: "Печати, офсетная и цифровая печать в Аланье. Качественная печать точно в срок.",
+    about: "Печати, офсетная и цифровая печать в Аланье. Качественная печать на Konica Minolta C4065 точно в срок.",
     quickLinks: "Быстрые ссылки",
     contact: "Контакты",
     rights: "Все права защищены.",
+    phoneLabel: "Телефон",
+    whatsappLabel: "WhatsApp",
   },
 }
 

@@ -20,6 +20,7 @@ export function SiteHeader() {
     { href: "/hakkimizda", label: t.nav.about },
     { href: "/hizmetlerimiz", label: t.nav.services },
     { href: "/portfoy", label: t.nav.portfolio },
+    { href: "/blog", label: t.blog.tag },
     { href: "/iletisim", label: t.nav.contact },
   ]
 

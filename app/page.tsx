@@ -2,12 +2,16 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowRight, Zap, Layers, Clock, Check } from "lucide-react"
+import { ArrowRight, Zap, Layers, Clock, Check, PenTool, MessageCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { SectionHeading } from "@/components/section-heading"
 import { ServiceCard } from "@/components/service-card"
 import { QuoteForm } from "@/components/quote-form"
+import { TestimonialsSection } from "@/components/testimonials-section"
+import { FaqSection } from "@/components/faq-section"
+import { BlogSection } from "@/components/blog-section"
 import { useLanguage } from "@/components/language-provider"
+import { waLink } from "@/lib/site"
 
 const FEATURE_ICONS = [Zap, Layers, Clock]
 
@@ -50,7 +54,10 @@ export default function HomePage() {
               variant="outline"
               className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10"
             >
-              <Link href="/hizmetlerimiz">{t.cta.viewServices}</Link>
+              <a href={waLink(t.quote.intro)} target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="size-4" />
+                {t.cta.whatsapp}
+              </a>
             </Button>
           </div>
         </div>
@@ -66,7 +73,7 @@ export default function HomePage() {
                 <span className="flex size-11 items-center justify-center rounded-lg bg-accent/10 text-accent">
                   <Icon className="size-5" />
                 </span>
-                <h3 className="font-heading text-lg font-semibold text-foreground">{feature.title}</h3>
+                <h2 className="font-heading text-lg font-semibold text-foreground">{feature.title}</h2>
                 <p className="text-sm leading-relaxed text-muted-foreground">{feature.desc}</p>
               </div>
             )
@@ -100,7 +107,7 @@ export default function HomePage() {
           <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
             <Image
               src="/images/digital-press.png"
-              alt={t.home.machineTitle}
+              alt="Konica Minolta AccurioPrint C4065 profesyonel dijital baskı makinesi - Alanya Kale Matbaa"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"
@@ -124,11 +131,45 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Free design USP */}
+      <section className="bg-primary py-16 text-primary-foreground">
+        <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 lg:grid-cols-2">
+          <div className="flex flex-col gap-4">
+            <span className="inline-flex w-fit items-center gap-1.5 rounded-full bg-brand-magenta px-3 py-1 text-xs font-semibold uppercase tracking-wide text-brand-magenta-foreground">
+              <PenTool className="size-3.5" />
+              {t.freeDesign.tag}
+            </span>
+            <h2 className="font-heading text-3xl font-bold tracking-tight text-balance">{t.freeDesign.title}</h2>
+            <p className="leading-relaxed text-primary-foreground/80">{t.freeDesign.desc}</p>
+            <Button asChild size="lg" className="mt-2 w-fit bg-accent text-accent-foreground hover:bg-accent/90">
+              <a href={waLink(t.freeDesign.title)} target="_blank" rel="noopener noreferrer">
+                {t.freeDesign.cta}
+                <ArrowRight className="size-4" />
+              </a>
+            </Button>
+          </div>
+          <ul className="grid gap-4 sm:grid-cols-2">
+            {t.freeDesign.points.map((point) => (
+              <li
+                key={point}
+                className="flex items-start gap-3 rounded-xl border border-primary-foreground/10 bg-primary-foreground/5 p-4 text-sm leading-relaxed"
+              >
+                <Check className="mt-0.5 size-4 shrink-0 text-accent" />
+                {point}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <TestimonialsSection />
+
       {/* Quote form */}
-      <section id="teklif" className="bg-primary py-16">
+      <section id="teklif" className="bg-secondary/50 py-16">
         <div className="mx-auto grid max-w-6xl items-start gap-10 px-4 lg:grid-cols-2">
           <div className="flex flex-col gap-4 lg:pt-4">
-            <SectionHeading tag={t.cta.quote} title={t.home.quoteTitle} subtitle={t.home.quoteSubtitle} align="left" dark />
+            <SectionHeading tag={t.cta.quote} title={t.home.quoteTitle} subtitle={t.home.quoteSubtitle} align="left" />
           </div>
           <div className="rounded-2xl bg-card p-6 shadow-xl sm:p-8">
             <QuoteForm />
@@ -136,16 +177,30 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* FAQ */}
+      <FaqSection />
+
+      {/* Blog teaser */}
+      <BlogSection />
+
       {/* CTA */}
-      <section className="mx-auto max-w-6xl px-4 py-16">
+      <section className="mx-auto max-w-6xl px-4 pb-16">
         <div className="flex flex-col items-center gap-5 rounded-2xl border border-border bg-card px-6 py-12 text-center">
           <SectionHeading title={t.home.ctaTitle} subtitle={t.home.ctaSubtitle} />
-          <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
-            <Link href="/iletisim">
-              {t.cta.contactUs}
-              <ArrowRight className="size-4" />
-            </Link>
-          </Button>
+          <div className="flex flex-wrap justify-center gap-3">
+            <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
+              <a href={waLink(t.quote.intro)} target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="size-4" />
+                {t.cta.whatsapp}
+              </a>
+            </Button>
+            <Button asChild size="lg" variant="outline">
+              <Link href="/iletisim">
+                {t.cta.contactUs}
+                <ArrowRight className="size-4" />
+              </Link>
+            </Button>
+          </div>
         </div>
       </section>
     </>
