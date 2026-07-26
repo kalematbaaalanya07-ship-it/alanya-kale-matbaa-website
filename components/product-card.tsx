@@ -30,6 +30,7 @@ export function ProductCard({
 
       <div className="flex flex-1 flex-col gap-3 p-5">
         <h3 className="font-heading text-lg font-bold text-foreground">{content.title}</h3>
+        <p className="text-xs font-medium text-accent/70">Alanya Kale Matbaasından yaptırabilirsiniz</p>
         <p className="text-sm leading-relaxed text-muted-foreground">{content.desc}</p>
 
         <ul className="mt-1 flex flex-col gap-1.5">

@@ -20,6 +20,19 @@ export default function HomePage() {
 
   return (
     <>
+      {/* Logo */}
+      <section className="border-b border-border bg-card py-6">
+        <div className="mx-auto flex max-w-6xl items-center justify-center px-4">
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kalematbaalogo-AbWSkSjhTHWJ1LPfuyZtevQ7QDGmWM.jpg"
+            alt="Kale Matbaa Alanya Logo"
+            width={120}
+            height={120}
+            className="h-auto w-28"
+          />
+        </div>
+      </section>
+
       {/* Hero */}
       <section className="relative overflow-hidden bg-primary text-primary-foreground">
         <div className="absolute inset-0">
@@ -118,7 +131,7 @@ export default function HomePage() {
         <div className="grid items-center gap-10 lg:grid-cols-2">
           <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
             <Image
-              src="/images/digital-press.png"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/c4065-fHQ1NXeNquATKMhnAaJHvVwh3wNxjX.jpg"
               alt="Konica Minolta AccurioPrint C4065 profesyonel dijital baskı makinesi - Alanya Kale Matbaa"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"

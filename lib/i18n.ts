@@ -195,7 +195,8 @@ const tr: Dictionary = {
     title: "Baskı Çözümlerimiz",
     subtitle: "İşletmeniz ve etkinlikleriniz için ihtiyacınız olan her şey.",
     items: [
-      { id: "kase", title: "Kaşe", desc: "Otomatik ve klasik kaşe üretimi. Hızlı ve net baskı sonucu.", image: "/images/stamps.png" },
+      { id: "kase", title: "Profesyonel Kaşe Çeşitleri", desc: "Şirket Kaşesi, Şahıs Şirketi, Öğretmen, Cep, Yuvarlak Otomatik ve Stampa Kaşeleri. Siyah, Mavi, Kırmızı mürekkep seçenekleri.", image: "/images/stamps.png" },
+      { id: "otel", title: "Otel & Konaklama Baskı", desc: "Konaklama Belgesi, Adisyon, Housekeeper Raporu, Teknik Servis, Safe Makbuzu ve daha pek çok form çözümü.", image: "/images/hotel-print.png" },
       { id: "ofset", title: "Ofset Baskı", desc: "Yüksek adetli işlerde ekonomik ve kaliteli ofset baskı.", image: "/images/offset.png" },
       { id: "dijital", title: "C4065 Dijital Baskı", desc: "Konica Minolta C4065 ile 80g'dan 350g+'a kadar dijital baskı.", image: "/images/digital-press.png" },
       { id: "brosur", title: "Broşür", desc: "Katlı ve düz broşürler, katalog ve tanıtım materyalleri.", image: "/images/brochures.png" },
@@ -294,6 +295,10 @@ const tr: Dictionary = {
     subtitle: "Aklınıza takılanlar için hızlı yanıtlar.",
     items: [
       {
+        q: "Kaşe yaptırmak istiyorum hangi bilgileri size göndermeliyim?",
+        a: "Limited Şirket ve Anonim Şirketlerde şirket ünvanı, adres ve vergi numarası yeterlidir. İsteğe göre telefon numarası, mersis ve ticaret sicil numaraları, mail adresi gibi bilgiler eklenebilir. Şahıs şirketinde isim soysim, adres ve T.C. kimlik numarası (vergi dairesi numarası) yeterlidir. İsteğe göre ünvan, telefon numarası, mail adresi eklenebilir.",
+      },
+      {
         q: "Alanya'da acil baskı işlerini ne kadar sürede teslim ediyorsunuz?",
         a: "Dijital baskı işlerinin çoğunu aynı gün veya 24 saat içinde teslim ediyoruz. Yoğun sezonda bile acil işleriniz için önceliklendirme yapıyoruz.",
       },
@@ -308,10 +313,6 @@ const tr: Dictionary = {
       {
         q: "Dijital baskı mı ofset baskı mı seçmeliyim?",
         a: "Düşük ve orta adetli, hızlı işler için dijital baskı; çok yüksek adetli işler için ofset baskı daha ekonomiktir. Size en uygun seçeneği ücretsiz danışmanlıkla belirliyoruz.",
-      },
-      {
-        q: "Alanya dışına gönderim yapıyor musunuz?",
-        a: "Evet, Antalya ve çevre ilçelere kargo ile gönderim yapıyoruz. Detaylar için WhatsApp'tan bize yazabilirsiniz.",
       },
     ],
   },
@@ -417,7 +418,8 @@ const en: Dictionary = {
     title: "Our Printing Solutions",
     subtitle: "Everything you need for your business and events.",
     items: [
-      { id: "kase", title: "Stamps", desc: "Self-inking and classic stamp production. Fast, sharp results.", image: "/images/stamps.png" },
+      { id: "kase", title: "Professional Stamp Selection", desc: "Company seals, personal company, teacher, pocket, round self-inking and stamper seals. Black, Blue, Red ink options.", image: "/images/stamps.png" },
+      { id: "otel", title: "Hotel & Accommodation Printing", desc: "Registration Forms, Invoices, Housekeeper Reports, Technical Service forms, Safe Receipts and many more custom solutions.", image: "/images/hotel-print.png" },
       { id: "ofset", title: "Offset Printing", desc: "Economical, high-quality offset printing for large runs.", image: "/images/offset.png" },
       { id: "dijital", title: "C4065 Digital Printing", desc: "Digital printing from 80g to 350g+ with the Konica Minolta C4065.", image: "/images/digital-press.png" },
       { id: "brosur", title: "Brochures", desc: "Folded and flat brochures, catalogs and marketing materials.", image: "/images/brochures.png" },
@@ -516,6 +518,10 @@ const en: Dictionary = {
     subtitle: "Quick answers to what you may be wondering.",
     items: [
       {
+        q: "I want to make a seal, what information should I send you?",
+        a: "For Limited Companies and Joint Stock Companies, the company name, address and tax number are sufficient. You can additionally provide phone number, Mersis and trade registration numbers, and email address if desired. For sole proprietorships, your name, surname, address and Turkish ID number (tax office number) are sufficient. Additional information like title, phone number and email can be provided if desired.",
+      },
+      {
         q: "How fast can you deliver urgent print jobs in Alanya?",
         a: "Most digital print jobs are delivered the same day or within 24 hours. Even in peak season, we prioritize your urgent work.",
       },
@@ -530,10 +536,6 @@ const en: Dictionary = {
       {
         q: "Should I choose digital or offset printing?",
         a: "Digital printing suits low-to-medium volume, fast jobs; offset is more economical for very high volumes. We help you pick the best option with free consultation.",
-      },
-      {
-        q: "Do you ship outside Alanya?",
-        a: "Yes, we ship to Antalya and surrounding districts by courier. Message us on WhatsApp for details.",
       },
     ],
   },
@@ -639,7 +641,8 @@ const ru: Dictionary = {
     title: "Наши решения для печати",
     subtitle: "Всё необходимое для вашего бизнеса и мероприятий.",
     items: [
-      { id: "kase", title: "Печати", desc: "Изготовление автоматических и классических печатей. Быстро и чётко.", image: "/images/stamps.png" },
+      { id: "kase", title: "Профессиональные печати", desc: "Корпоративные печати, личные фирменные, учительские, карманные, круглые автоматические и штамповые печати. Выбор цвета чернил: чёрный, синий, красный.", image: "/images/stamps.png" },
+      { id: "otel", title: "Печать для отелей и гостиниц", desc: "Формы регистрации, счета, отчёты персонала, квитанции, расписки и множество других решений для отельных операций.", image: "/images/hotel-print.png" },
       { id: "ofset", title: "Офсетная печать", desc: "Экономичная и качественная офсетная печать больших тиражей.", image: "/images/offset.png" },
       { id: "dijital", title: "Цифровая печать C4065", desc: "Цифровая печать от 80г до 350г+ на Konica Minolta C4065.", image: "/images/digital-press.png" },
       { id: "brosur", title: "Брошюры", desc: "Складные и плоские брошюры, каталоги и рекламные материалы.", image: "/images/brochures.png" },
@@ -738,6 +741,10 @@ const ru: Dictionary = {
     subtitle: "Быстрые ответы на то, что вас интересует.",
     items: [
       {
+        q: "Я хочу сделать печать, какую информацию мне нужно вам отправить?",
+        a: "Для ООО и АО достаточно названия компании, адреса и налогового номера. По желанию можно добавить номер телефона, Mersis и реестровый номер, адрес электронной почты. Для ИП нужны ФИО, адрес и номер паспорта (номер налоговой инспекции). По желанию можно добавить должность, номер телефона и адрес электронной почты.",
+      },
+      {
         q: "Как быстро вы выполняете срочные заказы печати в Аланье?",
         a: "Большинство заказов цифровой печати мы сдаём в тот же день или в течение 24 часов. Даже в высокий сезон срочные заказы в приоритете.",
       },
@@ -752,10 +759,6 @@ const ru: Dictionary = {
       {
         q: "Выбрать цифровую или офсетную печать?",
         a: "Цифровая печать подходит для малых и средних быстрых тиражей; офсет выгоднее для очень больших тиражей. Мы бесплатно поможем выбрать лучший вариант.",
-      },
-      {
-        q: "Доставляете ли вы за пределы Аланьи?",
-        a: "Да, отправляем в Анталью и соседние районы курьером. Напишите нам в WhatsApp для деталей.",
       },
     ],
   },
