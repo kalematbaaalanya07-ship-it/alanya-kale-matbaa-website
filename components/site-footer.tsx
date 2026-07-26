@@ -77,8 +77,20 @@ export function SiteFooter() {
       </div>
 
       <div className="border-t border-primary-foreground/10">
-        <div className="mx-auto max-w-6xl px-4 py-4 text-center text-xs text-primary-foreground/60">
-          © {new Date().getFullYear()} {site.name}. {t.footer.rights}
+        <div className="mx-auto max-w-6xl px-4 py-4">
+          <div className="mb-3 flex flex-col items-center justify-center gap-3 md:flex-row md:justify-between">
+            <div className="text-center text-xs text-primary-foreground/60">
+              © {new Date().getFullYear()} {site.name}. {t.footer.rights}
+            </div>
+            <div className="flex items-center gap-2 rounded-md bg-primary-foreground/5 px-3 py-2">
+              <span className="flex size-5 items-center justify-center rounded-full bg-accent text-xs font-bold text-accent-foreground">
+                ✓
+              </span>
+              <span className="text-xs font-medium text-primary-foreground/80">
+                Maliye Anlaşmalı Resmi Matbaadır
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

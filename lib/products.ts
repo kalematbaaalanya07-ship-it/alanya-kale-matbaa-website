@@ -286,6 +286,363 @@ export const products: Product[] = [
       },
     },
   },
+  {
+    slug: "tesekkur-karti",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tesekkur-karti-3Osp71dC6QLPR0pUY7MP3EZIpVeJXq.jpg",
+    content: {
+      tr: {
+        title: "Teşekkür Kartı Baskı",
+        desc: "Müşteri memnuniyetini artırmanın ve e-ticarette markanızı unutulmaz kılmanın en etkili yolu! Kargoladığınız her siparişin içine ekleyeceğiniz şık ve kurumsal bir teşekkür kartı, sadık müşteriler kazanmanızı sağlar. Kalın 350 gr kaliteli kuşe, yüksek çözünürlüklü canlı dijital baskı kalitesi ve özel selefon kaplama seçenekleriyle markanıza değer katan tasarımlar.",
+        features: ["350 gr kalın kuşe kağıt", "Yüksek çözünürlüklü baskı", "Özel selefon kaplama", "E-ticaret için ideal"],
+      },
+      en: {
+        title: "Thank You Card Printing",
+        desc: "The most effective way to increase customer satisfaction and make your brand unforgettable in e-commerce! A stylish thank you card included in every shipment creates loyal customers. Premium designs with thick 350 gsm coated paper, high-resolution vivid digital printing and optional lamination coating.",
+        features: ["350 gsm thick coated paper", "High-resolution printing", "Optional lamination coating", "Ideal for e-commerce"],
+      },
+      ru: {
+        title: "Печать благодарственных карточек",
+        desc: "Самый эффективный способ повысить удовлетворённость клиентов и сделать вашу марку незабываемой в электронной коммерции! Стильная благодарственная карточка в каждой посылке создаёт лояльных клиентов. Премиум-дизайны на плотной мелованной бумаге 350 г с высокоразрешённой яркой цифровой печатью и опциональной ламинацией.",
+        features: ["Плотная мелованная бумага 350 г", "Высокоразрешённая печать", "Опциональная ламинация", "Идеально для электронной коммерции"],
+      },
+    },
+  },
+  {
+    slug: "dergi-baskisi",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dergi-baskisi-elblrKittjQ9VrqyFiPtzM3DExFWSg.jpg",
+    content: {
+      tr: {
+        title: "Kurumsal & Süreli Dergi Baskısı",
+        desc: "Konica Minolta AccurioPress C4065 dijital baskı teknolojimiz ile az adetli veya yüksek adetli dergi taleplerinizi sıfır hata ile üretiyoruz. 80 gr - 350 gr arası kuşe, 1. hamur veya fantezi kağıt seçenekleri; A4, A5, B5 ve özel boyut imkanları. Tel dikiş, amerikan cilt ve yüksek renk doğruluğu (3600x2400 dpi eşdeğeri) ile profesyonel dergi basımı.",
+        features: ["80-350 gr kağıt seçenekleri", "C4065 dijital teknoloji", "Tel dikiş ve amerikan cilt", "3600x2400 dpi renk doğruluğu"],
+      },
+      en: {
+        title: "Corporate & Periodical Magazine Printing",
+        desc: "Using our Konica Minolta AccurioPress C4065 digital printing technology, we produce magazines from small to large runs with zero errors. Options from 80 gsm to 350 gsm coated, woodfree or specialty papers; A4, A5, B5 and custom sizes. Professional magazine printing with saddle stitching, perfect binding and high color accuracy (equivalent to 3600x2400 dpi).",
+        features: ["80-350 gsm paper options", "C4065 digital technology", "Saddle stitch and perfect binding", "3600x2400 dpi color accuracy"],
+      },
+      ru: {
+        title: "Печать корпоративных и периодических журналов",
+        desc: "Используя нашу цифровую печать Konica Minolta AccurioPress C4065, мы производим журналы от малых до больших тиражей с нулевыми ошибками. Опции от 80 г до 350 г мелованной, офсетной или специальной бумаги; форматы A4, A5, B5 и нестандартные размеры. Профессиональная печать журналов с проволочной скреплением, идеальным переплётом и высокой цветопередачей (эквивалент 3600x2400 dpi).",
+        features: ["Опции бумаги 80-350 г", "Цифровая технология C4065", "Проволочное скрепление и переплёт", "Цветопередача 3600x2400 dpi"],
+      },
+    },
+  },
+  {
+    slug: "katalog-baskisi",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/katalog-baskisi-oPjdPuBBeIRCxFPcy05LDZiRJDr3ac.jpg",
+    content: {
+      tr: {
+        title: "Katalog Baskı Hizmetleri",
+        desc: "Şirketinizin vizyonunu ve ürünlerinizi en üst kalitede sergileyin. C4065 dijital baskı makinemiz sayesinde 130 gr ile 350 gr arasındaki tüm kuşe ve fantezi kağıtlara, A4, A5 veya özel kare ebatlarda üretim yapıyoruz. Selefon ile preste mükemmel sonuç.",
+        features: ["130-350 gr kuşe kağıt", "Özel ebat seçenekleri", "Selefon ve pres uygulaması", "Profesyonel katalog tasarımı"],
+      },
+      en: {
+        title: "Catalog Printing Services",
+        desc: "Showcase your company's vision and products in the highest quality. Thanks to our C4065 digital printing machine, we produce catalogs on all coated and specialty papers between 130 gsm and 350 gsm in A4, A5 or custom square sizes. Perfect results with lamination and pressing.",
+        features: ["130-350 gsm coated paper", "Custom size options", "Lamination and pressing", "Professional catalog design"],
+      },
+      ru: {
+        title: "Услуги печати каталогов",
+        desc: "Представьте видение вашей компании и продукты в наивысшем качестве. Благодаря нашей цифровой печати C4065 мы производим каталоги на всех мелованных и специальных бумаг от 130 г до 350 г в форматах A4, A5 или нестандартных размерах. Идеальный результат с ламинацией и прессованием.",
+        features: ["Мелованная бумага 130-350 г", "Нестандартные размеры", "Ламинация и прессование", "Профессиональный дизайн каталога"],
+      },
+    },
+  },
+  {
+    slug: "folyo-etiket",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/folyo-ozel-kesim-etiket-V2jxA6X3KassgHkFjJ5QnCxZLCY4Xo.jpg",
+    content: {
+      tr: {
+        title: "Folyo Özel Kesim Etiket (Sticker)",
+        desc: "Dijital baskı ve yüksek hassasiyetli optik plotter kesim teknolojisi ile istediğiniz her formda ve boyutta (yuvarlak, oval, özel logonun formunda) folyo etiket üretimi. Şeffaf, opak, mat, parlak, kuşe ve yırtılmaz PP plastik esaslı folyo malzemeler üzerine sudan ve dış etkenlerden etkilenmeyen dayanıklı baskı.",
+        features: ["Dijital baskı teknolojisi", "Özel kesim plotter", "Su ve dış etkiye dayanıklı", "Çeşitli folyo seçenekleri"],
+      },
+      en: {
+        title: "Foil Custom Cut Label (Sticker)",
+        desc: "Using digital printing and high-precision optical plotter cutting technology, we produce foil labels in any shape and size you want (round, oval, in your logo's shape). Durable printing resistant to water and external factors on transparent, opaque, matte, glossy, coated and tear-resistant PP plastic-based foil materials.",
+        features: ["Digital printing technology", "Custom plotter cutting", "Water and weather resistant", "Various foil options"],
+      },
+      ru: {
+        title: "Фольгированная этикетка со специальной высечкой",
+        desc: "Используя цифровую печать и высокоточную оптическую плоттерную технологию резки, мы производим фольгированные этикетки любой формы и размера, которые вам нужны (круг, овал, форма вашего логотипа). Прочная печать, стойкая к воде и внешним факторам, на прозрачной, непрозрачной, матовой, глянцевой, мелованной и разрывостойкой ПП пластиковой фольге.",
+        features: ["Технология цифровой печати", "Специальная высечка плоттером", "Водо- и атмосферостойкая", "Разнообразные фольги"],
+      },
+    },
+  },
+  {
+    slug: "kitap-ayraci",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kitap-ayraci-A1Z3K1MV932Ac97lpxbhb9CfcRjm4U.jpg",
+    content: {
+      tr: {
+        title: "Özel Tasarım Kitap Ayracı",
+        desc: "Promosyon ve kurumsal hediyelerin vazgeçilmezi. AccurioPress C4065 gücüyle 300 gr - 350 gr mat/parlak kuşe ve özel dokulu kağıtlara, standart 5x15 cm veya özel kesim ebatlarında baskı. Çift yönlü renkli baskı, mat/parlak selefon, püskül/ip deliği ve özel oval köşe seçenekleriyle.",
+        features: ["300-350 gr kuşe kağıt", "Standart ve özel ebatlar", "Çift yönlü baskı", "Püskül/ip deliği seçeneği"],
+      },
+      en: {
+        title: "Custom Design Bookmark",
+        desc: "A must-have for promotions and corporate gifts. With the power of AccurioPress C4065, we print on 300-350 gsm matte/gloss coated and specialty papers in standard 5x15 cm or custom-cut sizes. Double-sided color printing, matte/gloss lamination, tassel/string hole and special rounded corner options.",
+        features: ["300-350 gsm coated paper", "Standard and custom sizes", "Double-sided printing", "Tassel/string hole option"],
+      },
+      ru: {
+        title: "Закладка для книги на заказ",
+        desc: "Обязательна для акций и корпоративных подарков. С мощностью AccurioPress C4065 мы печатаем на мелованной бумаге 300-350 г матовой/глянцевой и специальной фактурной бумаге в стандартных размерах 5x15 см или с особой высечкой. Двусторонняя цветная печать, матовая/глянцевая ламинация, кисточка/отверстие для ниточки и закруглённые углы.",
+        features: ["Мелованная бумага 300-350 г", "Стандартные и нестандартные размеры", "Двусторонняя печать", "Опция кисточки/нитки"],
+      },
+    },
+  },
+  {
+    slug: "ozel-imsakiye",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ozel-imsakiye-08T5IDkfT0evElhwLPbla71vUawhac.jpg",
+    content: {
+      tr: {
+        title: "Özel İmsakiye Baskısı",
+        desc: "Ramazan ayına özel, firmanızın logosu ve iletişim bilgileriyle özelleştirilmiş imsakiye üretimi. C4065 makinemizde 170 gr - 350 gr kuşe kağıda, A4, A3 veya özel katlamalı ebatlarda canlı ve net baskı. Yüksek okunabilirlik ve uzun ömürlü kullanım.",
+        features: ["170-350 gr kuşe kağıt", "A4, A3 ve özel ebatlar", "Özelleştirilmiş tasarım", "Yüksek okunabilirlik"],
+      },
+      en: {
+        title: "Custom Ramadan Schedule Printing",
+        desc: "Special Ramadan production personalized with your company logo and contact information. On our C4065 machine, vivid and crisp printing on 170 gsm to 350 gsm coated paper in A4, A3 or custom folded sizes. High legibility and long-lasting use.",
+        features: ["170-350 gsm coated paper", "A4, A3 and custom sizes", "Personalized design", "High legibility"],
+      },
+      ru: {
+        title: "Печать специального графика Рамадана",
+        desc: "Специальное производство на Рамадан, персонализированное логотипом вашей компании и информацией для связи. На нашей машине C4065 яркая и чёткая печать на мелованной бумаге 170-350 г в форматах A4, A3 или нестандартных размерах с фальцовкой. Высокая читаемость и долговечное использование.",
+        features: ["Мелованная бумага 170-350 г", "Форматы A4, A3 и нестандартные", "Персонализированный дизайн", "Высокая читаемость"],
+      },
+    },
+  },
+  {
+    slug: "diplomat-zarf",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/diplomat-zarf-cDlr9pyCrupZ59ygsmVMv8KO4iPAjU.jpg",
+    content: {
+      tr: {
+        title: "Kurumsal Diplomat Zarf Baskısı",
+        desc: "Şirket içi ve dışı yazışmalarınıza kurumsal prestij katın. 110 gr 1. hamur zarflar (pencereli veya penceresiz seçenekleriyle). C4065 dijital altyapımız ile pürüzsüz logonuz ve kurum renkleriniz tam tonunda basılır.",
+        features: ["110 gr 1. hamur zarf", "Pencereli/penceresiz seçenek", "Tam tonlu renk baskısı", "Kurumsal prestij"],
+      },
+      en: {
+        title: "Corporate Diplomatic Envelope Printing",
+        desc: "Add corporate prestige to your internal and external correspondence. 110 gsm woodfree envelopes (with or without window options). With our C4065 digital infrastructure, your logo and corporate colors are printed in perfect tone.",
+        features: ["110 gsm woodfree envelope", "With/without window option", "Perfect tone color printing", "Corporate prestige"],
+      },
+      ru: {
+        title: "Печать корпоративных дипломатических конвертов",
+        desc: "Придайте корпоративный престиж вашей внутренней и внешней корреспонденции. Конверты 110 г офсетной бумаги (с окном или без). С нашей цифровой инфраструктурой C4065 ваш логотип и корпоративные цвета печатаются в идеальном тоне.",
+        features: ["Конверт офсетной бумаги 110 г", "С окном или без", "Печать идеального тона цвета", "Корпоративный престиж"],
+      },
+    },
+  },
+  {
+    slug: "renkli-cikti",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/renkli-cikti-wZenemiQ0Qbb6ag049BaVEJ82Kjzoc.jpg",
+    content: {
+      tr: {
+        title: "Yüksek Kaliteli Renkli Çıktı Hizmeti",
+        desc: "Proje, sunum, grafik ve görsel ağırlıklı dokümanlarınız için C4065 teknolojisiyle hızlı ve yüksek kaliteli renkli çıktı servisi. 80 gr standart kağıttan 350 gr ağır gramajlı kağıtlara kadar A4, A3 ve SRA3 ebatlarında yüksek çözünürlüklü dijital baskı.",
+        features: ["80-350 gr kağıt seçenekleri", "A4, A3, SRA3 ebatları", "Yüksek çözünürlüklü baskı", "Hızlı teslimat"],
+      },
+      en: {
+        title: "High Quality Color Output Service",
+        desc: "Fast and high-quality color output service with C4065 technology for your project, presentation, graphic and visually-intensive documents. High-resolution digital printing in A4, A3 and SRA3 sizes from standard 80 gsm paper to heavy 350 gsm paper.",
+        features: ["80-350 gsm paper options", "A4, A3, SRA3 sizes", "High-resolution printing", "Fast turnaround"],
+      },
+      ru: {
+        title: "Услуга печати высокого качества в цвете",
+        desc: "Быстрая и высокое качество цветная печать с технологией C4065 для ваших проектов, презентаций, графиков и визуально ёмких документов. Высокоразрешённая цифровая печать в форматах A4, A3 и SRA3 на бумаге от стандартной 80 г до тяжелой 350 г.",
+        features: ["Опции бумаги 80-350 г", "Размеры A4, A3, SRA3", "Высокоразрешённая печать", "Быстрое выполнение"],
+      },
+    },
+  },
+  {
+    slug: "sadakat-karti",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sadakat-karti-ba947n3KQIN2Es7GYibpQ4ov4okkHl.jpg",
+    content: {
+      tr: {
+        title: "Müşteri Sadakat Kartı",
+        desc: "Kafe, restoran, kuaför ve perakende mağazaları için tekrar eden satışları artıran sadakat kartları. 300 gr - 350 gr kuşe veya özel kaşelenebilir/yazılabilir dokulu kağıtlara baskı. Mühür basımına uygun yüzey ve özel ebat seçenekleriyle.",
+        features: ["300-350 gr kuşe kağıt", "Mühür basımına uygun yüzey", "Özel ebat seçenekleri", "Tekrar satış artışı"],
+      },
+      en: {
+        title: "Customer Loyalty Card",
+        desc: "Loyalty cards that increase repeat sales for cafes, restaurants, salons and retail stores. Printing on 300-350 gsm coated or special stamp-compatible/writable textured papers. With stamp-friendly surface and custom size options.",
+        features: ["300-350 gsm coated paper", "Stamp-friendly surface", "Custom size options", "Increases repeat sales"],
+      },
+      ru: {
+        title: "Карта лояльности клиента",
+        desc: "Карты лояльности, которые увеличивают повторные продажи для кафе, ресторанов, салонов и розничных магазинов. Печать на мелованной бумаге 300-350 г или специальной штампуемой/пишущей фактурной бумаге. С печатеустойчивой поверхностью и опциями нестандартных размеров.",
+        features: ["Мелованная бумага 300-350 г", "Печатеустойчивая поверхность", "Опции нестандартных размеров", "Повышает повторные продажи"],
+      },
+    },
+  },
+  {
+    slug: "acil-el-ilani",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/acil-el-ilani-iR2Ycq8nkGHr8H9fqj5KpdjEG7MzN8.jpg",
+    content: {
+      tr: {
+        title: "Acil El İlanı & Broşür Baskısı",
+        desc: "Zamanla yarışan kampanya ve tanıtımlarınız için aynı gün teslimat seçeneğiyle acil el ilanı! C4065 dijital hızımız ile 130 gr - 170 gr kuşe kağıda, A5, A4 veya kırım/katlamalı broşür formatlarında yüksek kaliteli ve canlı baskı çözümü.",
+        features: ["Aynı gün teslimat seçeneği", "130-170 gr kuşe kağıt", "A5, A4 ve broşür formatları", "Dijital hız ve kalite"],
+      },
+      en: {
+        title: "Urgent Handout & Brochure Printing",
+        desc: "Urgent handouts with same-day delivery option for your time-sensitive campaigns and promotions! High-quality and vivid printing solution on 130-170 gsm coated paper in A5, A4 or folded brochure formats with the speed of our C4065 digital technology.",
+        features: ["Same-day delivery option", "130-170 gsm coated paper", "A5, A4 and brochure formats", "Digital speed and quality"],
+      },
+      ru: {
+        title: "Срочная печать листовок и брошюр",
+        desc: "Срочные листовки с опцией доставки в тот же день для ваших чувствительных по времени кампаний и акций! Высокое качество и яркое решение печати на мелованной бумаге 130-170 г в форматах A5, A4 или сложенные брошюры со скоростью нашей цифровой технологии C4065.",
+        features: ["Опция доставки в тот же день", "Мелованная бумага 130-170 г", "Форматы A5, A4 и брошюры", "Скорость и качество цифры"],
+      },
+    },
+  },
+  {
+    slug: "dokuman-baskisi",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dokuman-baskisi-SlLcqGehJSfLLhlf0IY7xm653JUxjt.jpg",
+    content: {
+      tr: {
+        title: "Kurumsal Doküman & Rapor Baskısı",
+        desc: "Şirket raporları, eğitim materyalleri, sunum dosyaları ve teknik dokümanlarınız için profesyonel baskı. 80 gr - 160 gr kağıt seçenekleri, A4/A3 ebatları, spiralli, Ciltli veya zımbalı tamamlama imkanları.",
+        features: ["80-160 gr kağıt seçenekleri", "A4/A3 ebatları", "Spiralli/ciltli/zımbalı", "Profesyonel baskı"],
+      },
+      en: {
+        title: "Corporate Document & Report Printing",
+        desc: "Professional printing for your company reports, training materials, presentation files and technical documents. 80-160 gsm paper options, A4/A3 sizes, spiral, binding or stapled finishing options.",
+        features: ["80-160 gsm paper options", "A4/A3 sizes", "Spiral/binding/stapled", "Professional printing"],
+      },
+      ru: {
+        title: "Печать корпоративных документов и отчётов",
+        desc: "Профессиональная печать корпоративных отчётов, учебных материалов, файлов презентаций и технических документов. Опции бумаги 80-160 г, размеры A4/A3, спиральное, клеевое или скобочное скрепление.",
+        features: ["Опции бумаги 80-160 г", "Размеры A4/A3", "Спиральное/клеевое/скобочное", "Профессиональная печать"],
+      },
+    },
+  },
+  {
+    slug: "acil-dugun-davetiyesi",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/acil-dugun-davetiyesi-3905kGMvWVl7I3yQJaUECAph1xChS3.jpg",
+    content: {
+      tr: {
+        title: "Acil Düğün & Etkinlik Davetiyesi",
+        desc: "Özel günlerinizde zaman kaybetmeden şıklığı yakalayın. C4065 baskı altyapımızla 300 gr - 350 gr kuşe kağıtlara acil davetiye baskısı.",
+        features: ["Acil üretim seçeneği", "300-350 gr kuşe kağıt", "Şık tasarım", "Hızlı teslimat"],
+      },
+      en: {
+        title: "Urgent Wedding & Event Invitation",
+        desc: "Capture elegance without wasting time on your special days. Urgent invitation printing on 300-350 gsm coated paper with our C4065 printing infrastructure.",
+        features: ["Urgent production option", "300-350 gsm coated paper", "Elegant design", "Fast delivery"],
+      },
+      ru: {
+        title: "Срочное приглашение на свадьбу и мероприятие",
+        desc: "Поймайте элегантность, не теряя времени в свой особый день. Срочная печать приглашений на мелованной бумаге 300-350 г с нашей инфраструктурой печати C4065.",
+        features: ["Опция срочного производства", "Мелованная бумага 300-350 г", "Элегантный дизайн", "Быстрая доставка"],
+      },
+    },
+  },
+  {
+    slug: "sertifika",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sertifika-3e0gwJdSFod8Q3f4f4DPmRCGbsG69F.jpg",
+    content: {
+      tr: {
+        title: "Sertifika & Katılım Belgesi Baskısı",
+        desc: "Eğitim, seminer ve organizasyonlar için prestijli sertifika baskıları. 130 gr - 170 gr - 300 gr - 350 gr ağır kuşe kağıtlara, kişiselleştirilmiş (değişken verili/isimli) kaliteli renkli dijital baskı.",
+        features: ["130-350 gr kuşe kağıt", "Kişiselleştirilmiş baskı", "Değişken veri seçeneği", "Prestijli sertifika"],
+      },
+      en: {
+        title: "Certificate & Participation Card Printing",
+        desc: "Prestigious certificate printing for education, seminars and events. High-quality color digital printing on 130-350 gsm heavy coated papers, personalized (variable data/named).",
+        features: ["130-350 gsm coated paper", "Personalized printing", "Variable data option", "Prestigious certificate"],
+      },
+      ru: {
+        title: "Печать сертификатов и удостоверений участия",
+        desc: "Престижная печать сертификатов для образования, семинаров и мероприятий. Высокое качество цветной цифровой печати на плотной мелованной бумаге 130-350 г, персонализированная (переменные данные/имена).",
+        features: ["Мелованная бумага 130-350 г", "Персонализированная печать", "Опция переменных данных", "Престижный сертификат"],
+      },
+    },
+  },
+  {
+    slug: "oto-paspas",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/oto-paspas-n3BLEpDC6cvifFQsVnSu8AQqV0wxwb.jpg",
+    content: {
+      tr: {
+        title: "Kağıt Oto Paspas",
+        desc: "Oto yıkama, teknik servis ve valeler için özel üretim. 33x48 cm ebatlarında, 100 gr Kraft kağıda tek yön tek renk yüksek dayanıklı ve emici özel baskı.",
+        features: ["33x48 cm standart ebat", "100 gr Kraft kağıt", "Tek yön tek renk", "Dayanıklı ve emici"],
+      },
+      en: {
+        title: "Paper Car Floor Mat",
+        desc: "Special production for car washes, technical services and valets. In 33x48 cm sizes, single-sided single-color durable and absorbent special printing on 100 gsm kraft paper.",
+        features: ["Standard size 33x48 cm", "100 gsm kraft paper", "Single-sided single-color", "Durable and absorbent"],
+      },
+      ru: {
+        title: "Бумажный коврик для автомобиля",
+        desc: "Специальное производство для автомоек, технических сервисов и валетов. Размеры 33x48 см, односторонняя однокрасочная прочная и впитывающая специальная печать на крафт-бумаге 100 г.",
+        features: ["Стандартный размер 33x48 см", "Крафт-бумага 100 г", "Односторонняя однокрасочная", "Прочная и впитывающая"],
+      },
+    },
+  },
+  {
+    slug: "otokopili-resmi-evrak",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/otokopili-baskilar-ZMyeyQw8gAxaK3KSHFUYgxughKj5jG.jpg",
+    content: {
+      tr: {
+        title: "Otokopili Resmi ve Gayri Resmi Evraklar",
+        desc: "İşletmenizin tüm resmi ve gayri resmi matbu evrak ihtiyaçları: Tahsilat Makbuzu, Tediye Makbuzu, Gider Pusulası, Adisyon, Perakende Satış Fişi, Sevk İrsaliyesi, Fatura, Rent a Car Sözleşmesi, Sipariş Fişi, Teknik Servis Fişi, Hasta Bilgi Formu. 2 nüsha, 3 nüsha otokopili kendinden karbonlu kağıtlar veya standart hamur kağıtlara, istenilen ebatta (A4, A5 vb.), istenilen renk ve numaratör/seri no seçeneğiyle özel üretim.",
+        features: ["2-3 nüsha otokopili", "Kendinden karbon kağıt", "Numaratör/seri no seçeneği", "Resmi evrak çeşitleri"],
+      },
+      en: {
+        title: "Self-Copying Official & Non-Official Documents",
+        desc: "All your business's official and non-official printed document needs: Receipt, Payment Receipt, Expense Report, Bill, Retail Sales Slip, Shipping Receipt, Invoice, Car Rental Agreement, Order Form, Technical Service Form, Patient Information Form. 2-copy or 3-copy self-carbonizing paper or standard paper, custom sizes (A4, A5, etc.), desired colors and numbering/serial number options.",
+        features: ["2-3 copy self-carbonizing", "Self-carbon paper", "Numbering/serial option", "Official document types"],
+      },
+      ru: {
+        title: "Самокопирующиеся официальные и неофициальные документы",
+        desc: "Все потребности вашего бизнеса в официальных и неофициальных печатных документах: Квитанция, Расписка, Отчёт о расходах, Счёт, Розничный чек, Накладная, Счёт-фактура, Договор проката авто, Бланк заказа, Бланк техслужбы, Форма информации о пациенте. 2-копийная или 3-копийная самокопирующаяся бумага или стандартная бумага, нестандартные размеры (A4, A5 и т.д.), желаемые цвета и опции нумерации/сери.",
+        features: ["2-3 копийная самокопир", "Самокопирующаяся бумага", "Опция нумерации/серии", "Типы официальных документов"],
+      },
+    },
+  },
+  {
+    slug: "bilet-baskisi",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bilet-baskisi-wbjwIICap1STTqn5lKrFhSpvmJWWA8.jpg",
+    content: {
+      tr: {
+        title: "Seri Numaralı Etkinlik & Konser Bileti",
+        desc: "Etkinlik, konser, tiyatro, fuar ve organizasyonlarınız için bütçe dostu, yüksek güvenlikli bilet baskıları. C4065 dijital gücüyle 130 gr - 170 gr - 300 gr - 350 gr kuşe kağıtlara, numaratörlü (seri nolu), perforajlı (koçanlı/koparmalı) ve özel tasarım bilet üretimi.",
+        features: ["130-350 gr kuşe kağıt", "Seri numaralı üretim", "Perforajlı/koparmalı seçenek", "Yüksek güvenlik"],
+      },
+      en: {
+        title: "Serial Numbered Event & Concert Ticket",
+        desc: "Budget-friendly, high-security ticket printing for your events, concerts, theater, fairs and organizations. Serial numbered, perforated (tear-off/detachable) and custom designed ticket production on 130-350 gsm coated paper with the power of our C4065 digital technology.",
+        features: ["130-350 gsm coated paper", "Serial numbered production", "Perforated/tear-off option", "High security"],
+      },
+      ru: {
+        title: "Билет на мероприятие и концерт с серийным номером",
+        desc: "Бюджетная, высокозащищённая печать билетов для ваших мероприятий, концертов, театра, ярмарок и организаций. Производство с сери перенумерованием, перфорацией (отрывной/отделяемый) и нестандартный дизайн билетов на мелованной бумаге 130-350 г с мощью нашей цифровой технологии C4065.",
+        features: ["Мелованная бумага 130-350 г", "Производство с сериями", "Опция перфорации/отрыва", "Высокая защита"],
+      },
+    },
+  },
+  {
+    slug: "kupon-baskisi",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kupon-baskisi-6OuDtm2GFlSN77LuREF7OiiksYNNBI.jpg",
+    content: {
+      tr: {
+        title: "İndirim Kuponu & Hediye Çeki Baskısı",
+        desc: "Firmaların satış hacmini artırmak, yeni müşteriler kazanmak ve dönemsel kampanyaları büyütmek için vazgeçilmez pazarlama aracı. C4065 altyapımızla 130 gr - 170 gr - 300 gr - 350 gr kuşe veya özel kağıtlara kişiye özel numara/kod, perforajlı (kolay koparma) ve özel kesim seçenekleriyle kurumsal hediye çeki ve indirim kuponu üretimi.",
+        features: ["130-350 gr kuşe kağıt", "Özel numara/kod seçeneği", "Perforajlı koparma", "Özel kesim seçeneği"],
+      },
+      en: {
+        title: "Discount Coupon & Gift Voucher Printing",
+        desc: "An essential marketing tool for companies to increase sales volume, gain new customers and grow seasonal campaigns. With our C4065 infrastructure, personalized number/code, perforated (easy tear) and custom-cut options for corporate gift vouchers and discount coupons on 130-350 gsm coated or specialty papers.",
+        features: ["130-350 gsm coated paper", "Personalized number/code", "Perforated tear", "Custom cut option"],
+      },
+      ru: {
+        title: "Печать дисконтных купонов и подарочных сертификатов",
+        desc: "Незаменимый маркетинговый инструмент для компаний, желающих увеличить объём продаж, завоевать новых клиентов и увеличить сезонные кампании. С нашей инфраструктурой C4065, персональный номер/код, перфорация (лёгкий отрыв) и опции нестандартной высечки для корпоративных подарочных сертификатов и дисконтных купонов на мелованной или специальной бумаге 130-350 г.",
+        features: ["Мелованная бумага 130-350 г", "Персональный номер/код", "Перфорация с отрывом", "Опция нестандартной высечки"],
+      },
+    },
+  },
 ]
 
 export function getProduct(slug: string) {
