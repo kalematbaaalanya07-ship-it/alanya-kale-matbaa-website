@@ -117,26 +117,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Services preview */}
-      <section className="bg-secondary/50 py-16">
-        <div className="mx-auto max-w-6xl px-4">
-          <SectionHeading tag={t.home.servicesTitle} title={t.services.title} subtitle={t.home.servicesSubtitle} />
-          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {t.services.items.slice(0, 3).map((item) => (
-              <ServiceCard key={item.id} title={item.title} desc={item.desc} image={item.image} />
-            ))}
-          </div>
-          <div className="mt-8 flex justify-center">
-            <Button asChild variant="outline" size="lg">
-              <Link href="/hizmetlerimiz">
-                {t.cta.viewServices}
-                <ArrowRight className="size-4" />
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
       {/* Machine showcase */}
       <section className="mx-auto max-w-6xl px-4 py-16">
         <div className="grid items-center gap-10 lg:grid-cols-2">
