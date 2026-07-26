@@ -67,6 +67,22 @@ export default function AboutPage() {
           })}
         </div>
       </section>
+
+      <section className="bg-accent/5 py-12">
+        <div className="mx-auto max-w-6xl px-4">
+          <div className="rounded-xl border border-accent/20 bg-accent/5 p-6 text-center md:p-8">
+            <div className="flex items-center justify-center gap-3 mb-3">
+              <span className="flex size-8 items-center justify-center rounded-full bg-accent text-sm font-bold text-accent-foreground">
+                ✓
+              </span>
+              <h3 className="font-heading text-lg font-semibold text-foreground">Resmi Nitelikli Matbaa</h3>
+            </div>
+            <p className="text-sm text-muted-foreground">
+              Kale Matbaa, Maliye Anlaşmalı Resmi Matbaadır. Tüm resmi ve gayri resmi doküman basımlarında uluslararası standartlara uygun, güvenilir ve kaliteli hizmet sunmaktadır.
+            </p>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
