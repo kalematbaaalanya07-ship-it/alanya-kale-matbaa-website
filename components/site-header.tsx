@@ -18,7 +18,6 @@ export function SiteHeader() {
   const nav = [
     { href: "/", label: t.nav.home },
     { href: "/hakkimizda", label: t.nav.about },
-    { href: "/hizmetlerimiz", label: t.nav.services },
     { href: "/urunlerimiz", label: t.nav.products },
     { href: "/kase", label: t.kase.tag },
     { href: "/portfoy", label: t.nav.portfolio },
