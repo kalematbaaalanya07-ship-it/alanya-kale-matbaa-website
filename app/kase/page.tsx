@@ -45,11 +45,6 @@ export default function KasePage() {
                 {t.cta.whatsapp}
               </a>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10">
-              <a href={waLink()} target="_blank" rel="noopener noreferrer">
-                {t.cta.getOffer}
-              </a>
-            </Button>
           </div>
         </div>
       </section>

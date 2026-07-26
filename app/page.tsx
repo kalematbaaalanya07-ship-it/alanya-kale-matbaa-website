@@ -20,16 +20,27 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Logo */}
-      <section className="border-b border-border bg-card py-6">
-        <div className="mx-auto flex max-w-6xl items-center justify-center px-4">
-          <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kalematbaalogo-AbWSkSjhTHWJ1LPfuyZtevQ7QDGmWM.jpg"
-            alt="Kale Matbaa Alanya Logo"
-            width={120}
-            height={120}
-            className="h-auto w-28"
-          />
+      {/* Logo and Banner */}
+      <section className="border-b border-border bg-card">
+        <div className="mx-auto flex max-w-6xl items-center px-4 py-6">
+          <div className="flex-shrink-0">
+            <Image
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kalematbaalogo-AbWSkSjhTHWJ1LPfuyZtevQ7QDGmWM.jpg"
+              alt="Kale Matbaa Alanya Logo"
+              width={120}
+              height={120}
+              className="h-auto w-28"
+            />
+          </div>
+          <div className="flex-1 ml-6">
+            <Image
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/anaekranbanner-IJmVeFDFJ6qnV95AYTMeBYXe0QJYk1.jpg"
+              alt="Matbaacılık Tarihi - Printing History Banner"
+              width={800}
+              height={150}
+              className="h-auto w-full object-cover rounded-lg"
+            />
+          </div>
         </div>
       </section>
 

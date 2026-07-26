@@ -417,10 +417,6 @@ const tr: Dictionary = {
       {
         title: "Kalite Kontrol",
         desc: "Her kaşe kalite kontrol sürecinden geçer ve mükemmel baskı sağlandığını doğrularız."
-      },
-      {
-        title: "Teslimat",
-        desc: "Hazır kaşeleri müşteriye teslim ediyoruz. Alanya ve çevresine kargo hizmeti mevcuttur."
       }
     ],
     ctaTitle: "Profesyonel Kaşe Çözümü İçin Bize Ulaşın",
@@ -706,10 +702,6 @@ const en: Dictionary = {
       {
         title: "Quality Control",
         desc: "Every seal goes through quality control and we verify perfect printing is achieved."
-      },
-      {
-        title: "Delivery",
-        desc: "We deliver finished seals to the customer. Courier service is available to Alanya and surrounding areas."
       }
     ],
     ctaTitle: "Contact Us for Professional Seal Solutions",
@@ -795,7 +787,7 @@ const ru: Dictionary = {
       { id: "ofset", title: "Офсетная печать", desc: "Экономичная и качественная офсетная печать больших тиражей.", image: "/images/offset.png" },
       { id: "dijital", title: "Цифровая печать C4065", desc: "Цифровая печать от 80г до 350г+ на Konica Minolta C4065.", image: "/images/digital-press.png" },
       { id: "brosur", title: "Брошюры", desc: "Складные и плоские брошюры, каталоги и рекламные материалы.", image: "/images/brochures.png" },
-      { id: "davetiye", title: "Приглашения", desc: "Элегантная печать приглашений для свадеб и мероприятий.", image: "/images/invitations.png" },
+      { id: "davetiye", title: "Приглашения", desc: "Элегантная печать приглашений для сваде�� и мероприятий.", image: "/images/invitations.png" },
       { id: "kartvizit", title: "Визитки", desc: "Профессиональные визитки на плотном картоне.", image: "/images/business-cards.png" },
     ],
     paperTitle: "Плотность бумаги",
@@ -960,7 +952,7 @@ const ru: Dictionary = {
       },
       {
         title: "Синие чернила",
-        desc: "Цвет, выбранный для современного и профессионального внешнего вида. Широко используется в офисной среде."
+        desc: "Цвет, выбранный для современного и профессионального внешнего вида. Широк�� используется в офисной среде."
       },
       {
         title: "Красные чернила",
@@ -995,10 +987,6 @@ const ru: Dictionary = {
       {
         title: "Контроль качества",
         desc: "Каждая печать проходит контроль качества, и мы проверяем, достигнута ли идеальная печать."
-      },
-      {
-        title: "Доставка",
-        desc: "Мы доставляем готовые печати заказчику. Услуга курьера доступна в Аланью и окрестные районы."
       }
     ],
     ctaTitle: "Свяжитесь с нами для профессиональных решений для печатей",
