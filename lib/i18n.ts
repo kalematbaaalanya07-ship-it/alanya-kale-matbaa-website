@@ -120,6 +120,23 @@ export type Dictionary = {
     soon: string
     items: { title: string; excerpt: string; category: string; date: string }[]
   }
+  kase: {
+    tag: string
+    title: string
+    subtitle: string
+    intro: string
+    typesTitle: string
+    typesDesc: string[]
+    specsTitle: string
+    specs: { title: string; desc: string }[]
+    colorsTitle: string
+    colorsDesc: string
+    colors: { name: string; usage: string; class: string }[]
+    processTitle: string
+    process: { title: string; desc: string }[]
+    ctaTitle: string
+    ctaDesc: string
+  }
   footer: {
     about: string
     quickLinks: string
@@ -342,6 +359,72 @@ const tr: Dictionary = {
         date: "2025",
       },
     ],
+  },
+  kase: {
+    tag: "Profesyonel Kaşe Çeşitleri",
+    title: "Profesyonel Kaşe Çeşitleri ve Baskı Hizmeti",
+    subtitle: "Şirketinizin ve kişisel markanızın resmi onay aracı olan kaşelerde geniş ürün yelpazesi. Kaliteli malzeme, hızlı teslimat, uygun fiyat.",
+    intro: "Kaşe, işletmenin veya kişinin yasal belgelerini tasdik etmek için kullanılan resmi bir araçtır. Alanya Kale Matbaa olarak, tüm kaşe ihtiyaçlarınız için profesyonel ve güvenilir hizmetler sunuyoruz. Standart kaşelerden başlayarak özel tasarımlı kaşelere kadar geniş bir yelpaze oluşturdum.",
+    typesTitle: "Kaşe Çeşitleri",
+    typesDesc: [
+      "Şirket Kaşesi: Limited Şirket ve Anonim Şirketler için kullanılan resmi kaşeler. Şirketin ünvanı, adresi ve vergi numarası ile birlikte kullanılır.",
+      "Şahıs Şirketi Kaşesi: Esnaf, sanatkar ve serbest meslek sahibi olan işletmeleri için tasarlanmış kaşeler.",
+      "Öğretmen Kaşesi: Eğitim kurumlarında kullanılan kaşeler, not defter ve belgelerine imza atarken kullanılır.",
+      "Cep Kaşesi & Yuvarlak Cep Kaşesi: Kolaylık ve mobilite için tasarlanmış kompakt kaşeler. İş ve yaşamın her yerinde pratik kullanım.",
+      "Yuvarlak Otomatik Kaşe: Modern işletmelerin tercih ettiği, mürekkep sistemi sayesinde kolay ve hızlı kullanım sağlayan kaşeler.",
+      "Stampa Kaşe & Logolu Kaşe: Özel tasarım ve markalama ihtiyaçları için, işletmenizin logosu ve özel bilgileri ile hazırlanmış kaşeler."
+    ],
+    specsTitle: "Mürekkep Renk Seçenekleri",
+    specs: [
+      {
+        title: "Siyah Mürekkep",
+        desc: "En yaygın ve resmi karışımda kullanılan mürekkep rengi. Resmi belgeler ve yasal işlemler için tercih edilir."
+      },
+      {
+        title: "Mavi Mürekkep",
+        desc: "Modern ve profesyonel görünüm için seçilen renk. Ofis ortamlarında geniş kullanım alanı bulunan bir seçenek."
+      },
+      {
+        title: "Kırmızı Mürekkep",
+        desc: "Acil, uyarı ve özel durum belgelerine kullanılan renk. İşletmelerin dikkat çeken markası için tercih edilir."
+      }
+    ],
+    colorsTitle: "Kaşe Renkleri ve Mürekkep Seçenekleri",
+    colorsDesc: "Kaşelerınızı maksimum fayda sağlayacak şekilde renk ve mürekkep seçenekleriyle özelleştirebilirsiniz. Her rengin kendine özgü kullanım alanı ve müşteri etkileri vardır.",
+    colors: [
+      { name: "Siyah", usage: "Resmi ve yasal işlemler", class: "border-black bg-black/10" },
+      { name: "Mavi", usage: "Ofis ve kurumsal kullanım", class: "border-blue-500 bg-blue-500/10" },
+      { name: "Kırmızı", usage: "Acil ve uyarı bildirimler", class: "border-red-500 bg-red-500/10" }
+    ],
+    processTitle: "Kaşe Yapımı Süreci",
+    process: [
+      {
+        title: "Bilgi Alınması",
+        desc: "Şirketin veya kişinin tam bilgilerini, ünvanı, adresi ve vergi numarası gibi detayları alıyoruz."
+      },
+      {
+        title: "Tasarım & Onay",
+        desc: "Kaşe tasarımını hazırlıyoruz ve müşterinin onayını alıyoruz. İsteğe göre değişiklikler yapıyoruz."
+      },
+      {
+        title: "Üretim",
+        desc: "En yüksek kalitede malzeme ve teknoloji kullanarak kaşeleri üretiyoruz."
+      },
+      {
+        title: "Mürekkep Doldurma",
+        desc: "Tercih edilen mürekkep rengini kaşeye dolduruyoruz ve test ediyoruz."
+      },
+      {
+        title: "Kalite Kontrol",
+        desc: "Her kaşe kalite kontrol sürecinden geçer ve mükemmel baskı sağlandığını doğrularız."
+      },
+      {
+        title: "Teslimat",
+        desc: "Hazır kaşeleri müşteriye teslim ediyoruz. Alanya ve çevresine kargo hizmeti mevcuttur."
+      }
+    ],
+    ctaTitle: "Profesyonel Kaşe Çözümü İçin Bize Ulaşın",
+    ctaDesc: "Şirketinizin veya kişisel markanızın resmi kaşesi için en uygun çözümü bulmak için WhatsApp üzerinden bize mesaj gönderin. Ücretsiz danışmanlık ve hızlı teslimat garantisi."
   },
   footer: {
     about: "Alanya'da kaşe, ofset ve dijital baskı hizmetleri. Konica Minolta C4065 ile kaliteli baskı, zamanında teslimat.",
@@ -566,6 +649,72 @@ const en: Dictionary = {
       },
     ],
   },
+  kase: {
+    tag: "Professional Stamp Types",
+    title: "Professional Stamp Types and Printing Service",
+    subtitle: "A wide range of stamp products that serve as official approval tools for your company and personal brand. Quality materials, fast delivery, affordable prices.",
+    intro: "A seal (stamp) is an official tool used to authenticate legal documents of a business or individual. As Alanya Kale Matbaa, we provide professional and reliable services for all your stamp needs. We offer a wide range from standard seals to specially designed custom stamps.",
+    typesTitle: "Types of Seals",
+    typesDesc: [
+      "Company Seal: Official seals for Limited Companies and Joint Stock Companies. Used with the company name, address and tax number.",
+      "Personal Company Seal: Designed seals for sole proprietors, craftspeople and self-employed professionals.",
+      "Teacher Seal: Seals used in educational institutions for signing grade books and documents.",
+      "Pocket Seal & Round Pocket Seal: Compact seals designed for convenience and mobility. Practical for use anywhere in business and life.",
+      "Round Self-Inking Seal: The choice of modern businesses; thanks to its ink system, it provides easy and fast use.",
+      "Stamper Seal & Logo Seal: For special design and branding needs, seals prepared with your company logo and special information."
+    ],
+    specsTitle: "Ink Color Options",
+    specs: [
+      {
+        title: "Black Ink",
+        desc: "The most common ink color used in official documents. Preferred for official documents and legal proceedings."
+      },
+      {
+        title: "Blue Ink",
+        desc: "The color chosen for a modern and professional appearance. A widely used option in office environments."
+      },
+      {
+        title: "Red Ink",
+        desc: "The color used on urgent, warning and special occasion documents. Preferred for attention-grabbing branding."
+      }
+    ],
+    colorsTitle: "Seal Colors and Ink Options",
+    colorsDesc: "You can customize your seals with color and ink options to provide maximum benefit. Each color has its own unique use case and customer impact.",
+    colors: [
+      { name: "Black", usage: "Official and legal matters", class: "border-black bg-black/10" },
+      { name: "Blue", usage: "Office and corporate use", class: "border-blue-500 bg-blue-500/10" },
+      { name: "Red", usage: "Urgent and warning notices", class: "border-red-500 bg-red-500/10" }
+    ],
+    processTitle: "Seal Manufacturing Process",
+    process: [
+      {
+        title: "Information Collection",
+        desc: "We gather complete information about the company or individual, including name, address and tax number details."
+      },
+      {
+        title: "Design & Approval",
+        desc: "We prepare the seal design and get customer approval. We make changes as needed."
+      },
+      {
+        title: "Production",
+        desc: "We manufacture seals using the highest quality materials and technology."
+      },
+      {
+        title: "Ink Filling",
+        desc: "We fill the seal with the preferred ink color and test it."
+      },
+      {
+        title: "Quality Control",
+        desc: "Every seal goes through quality control and we verify perfect printing is achieved."
+      },
+      {
+        title: "Delivery",
+        desc: "We deliver finished seals to the customer. Courier service is available to Alanya and surrounding areas."
+      }
+    ],
+    ctaTitle: "Contact Us for Professional Seal Solutions",
+    ctaDesc: "Send us a message via WhatsApp to find the best solution for your company or personal brand seal. Free consultation and fast delivery guaranteed."
+  },
   footer: {
     about: "Stamps, offset and digital printing services in Alanya. Quality printing with the Konica Minolta C4065, delivered on time.",
     quickLinks: "Quick Links",
@@ -788,6 +937,72 @@ const ru: Dictionary = {
         date: "2025",
       },
     ],
+  },
+  kase: {
+    tag: "Профессиональные печати",
+    title: "Профессиональные печати и услуга печати",
+    subtitle: "Широкий ассортимент печатей, служащих официальным инструментом одобрения вашей компании и личного бренда. Качественные материалы, быстрая доставка, приемлемые цены.",
+    intro: "Печать (штамп) — это официальный инструмент, используемый для аутентификации юридических документов компании или физического лица. Как Alanya Kale Matbaa, мы предоставляем профессиональные и надежные услуги для всех ваших потребностей в печатях. Мы предлагаем широкий спектр от стандартных печатей до специально разработанных пользовательских печатей.",
+    typesTitle: "Типы печатей",
+    typesDesc: [
+      "Печать компании: официальные печати для ООО и АО. Используется с названием компании, адресом и налоговым номером.",
+      "Печать индивидуального предпринимателя: разработанные печати для индивидуальных предпринимателей, ремесленников и самозанятых специалистов.",
+      "Печать учителя: печати, используемые в учебных заведениях для подписи классных журналов и документов.",
+      "Карманная печать и круглая карманная печать: компактные печати, предназначенные для удобства и мобильности. Практичны для использования везде в бизнесе и жизни.",
+      "Круглая автоматическая печать: выбор современных предприятий; благодаря системе чернил обеспечивает легкое и быстрое использование.",
+      "Штамповая печать и печать с логотипом: для специальных потребностей в дизайне и брендинге, печати подготовлены с логотипом вашей компании и специальной информацией."
+    ],
+    specsTitle: "Варианты цвета чернил",
+    specs: [
+      {
+        title: "Черные чернила",
+        desc: "Наиболее распространенный цвет чернил, используемый в официальных документах. Предпочтителен для официальных документов и судебных разбирательств."
+      },
+      {
+        title: "Синие чернила",
+        desc: "Цвет, выбранный для современного и профессионального внешнего вида. Широко используется в офисной среде."
+      },
+      {
+        title: "Красные чернила",
+        desc: "Цвет, используемый срочных, предупредительных и специальных документов. Предпочтителен для привлекающего внимания брендинга."
+      }
+    ],
+    colorsTitle: "Цвета печати и варианты чернил",
+    colorsDesc: "Вы можете персонализировать свои печати с цветом и вариантами чернил, чтобы получить максимальную пользу. Каждый цвет имеет свой уникальный вариант использования и влияние на клиентов.",
+    colors: [
+      { name: "Черный", usage: "Официальные и юридические дела", class: "border-black bg-black/10" },
+      { name: "Синий", usage: "Офисное и корпоративное использование", class: "border-blue-500 bg-blue-500/10" },
+      { name: "Красный", usage: "Срочные и предупредительные уведомления", class: "border-red-500 bg-red-500/10" }
+    ],
+    processTitle: "Процесс изготовления печати",
+    process: [
+      {
+        title: "Сбор информации",
+        desc: "Мы собираем полную информацию о компании или физическом лице, включая название, адрес и налоговый номер."
+      },
+      {
+        title: "Дизайн и одобрение",
+        desc: "Мы подготавливаем дизайн печати и получаем одобрение заказчика. При необходимости вносим изменения."
+      },
+      {
+        title: "Производство",
+        desc: "Мы производим печати, используя материалы и технологии высочайшего качества."
+      },
+      {
+        title: "Заполнение чернилами",
+        desc: "Мы заполняем печать выбранным цветом чернил и тестируем ее."
+      },
+      {
+        title: "Контроль качества",
+        desc: "Каждая печать проходит контроль качества, и мы проверяем, достигнута ли идеальная печать."
+      },
+      {
+        title: "Доставка",
+        desc: "Мы доставляем готовые печати заказчику. Услуга курьера доступна в Аланью и окрестные районы."
+      }
+    ],
+    ctaTitle: "Свяжитесь с нами для профессиональных решений для печатей",
+    ctaDesc: "Отправьте нам сообщение через WhatsApp, чтобы найти лучшее решение для печати вашей компании или личного бренда. Бесплатная консультация и гарантированная быстрая доставка."
   },
   footer: {
     about: "Печати, офсетная и цифровая печать в Аланье. Качественная печать на Konica Minolta C4065 точно в срок.",
