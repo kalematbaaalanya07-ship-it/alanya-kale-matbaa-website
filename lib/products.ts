@@ -281,7 +281,7 @@ export const products: Product[] = [
       },
       ru: {
         title: "Печать магнитов",
-        desc: "Качественные магниты на холодильник и промо-магниты овальной, фигурной и стандартной формы.",
+        desc: "Каче��твенные магниты на холодильник и промо-магниты овальной, фигурной и стандартной формы.",
         features: ["Овальные и фигурные", "Стандартные размеры", "Для холодильника и промо", "Яркая цветная печать"],
       },
     },
@@ -313,18 +313,18 @@ export const products: Product[] = [
     content: {
       tr: {
         title: "Kurumsal & Süreli Dergi Baskısı",
-        desc: "Konica Minolta AccurioPress C4065 dijital baskı teknolojimiz ile az adetli veya yüksek adetli dergi taleplerinizi sıfır hata ile üretiyoruz. 80 gr - 350 gr arası kuşe, 1. hamur veya fantezi kağıt seçenekleri; A4, A5, B5 ve özel boyut imkanları. Tel dikiş, amerikan cilt ve yüksek renk doğruluğu (3600x2400 dpi eşdeğeri) ile profesyonel dergi basımı.",
-        features: ["80-350 gr kağıt seçenekleri", "C4065 dijital teknoloji", "Tel dikiş ve amerikan cilt", "3600x2400 dpi renk doğruluğu"],
+        desc: "Konica Minolta AccurioPress C4065 dijital baskı teknolojimiz ile az adetli veya yüksek adetli dergi taleplerinizi sıfır hata ile üretiyoruz. 80 gr - 350 gr arası kağıt seçenekleri; A4, A5, B5 ve özel boyut imkanları. Tel dikiş ve yüksek renk doğruluğu (3600x2400 dpi eşdeğeri) ile profesyonel dergi basımı.",
+        features: ["80-350 gr kağıt seçenekleri", "C4065 dijital teknoloji", "Tel dikiş ve cilt seçenekleri", "3600x2400 dpi renk doğruluğu"],
       },
       en: {
         title: "Corporate & Periodical Magazine Printing",
-        desc: "Using our Konica Minolta AccurioPress C4065 digital printing technology, we produce magazines from small to large runs with zero errors. Options from 80 gsm to 350 gsm coated, woodfree or specialty papers; A4, A5, B5 and custom sizes. Professional magazine printing with saddle stitching, perfect binding and high color accuracy (equivalent to 3600x2400 dpi).",
-        features: ["80-350 gsm paper options", "C4065 digital technology", "Saddle stitch and perfect binding", "3600x2400 dpi color accuracy"],
+        desc: "Using our Konica Minolta AccurioPress C4065 digital printing technology, we produce magazines from small to large runs with zero errors. Options from 80 gsm to 350 gsm coated and woodfree papers; A4, A5, B5 and custom sizes. Professional magazine printing with saddle stitching and high color accuracy (equivalent to 3600x2400 dpi).",
+        features: ["80-350 gsm paper options", "C4065 digital technology", "Saddle stitch and binding options", "3600x2400 dpi color accuracy"],
       },
       ru: {
         title: "Печать корпоративных и периодических журналов",
-        desc: "Используя нашу цифровую печать Konica Minolta AccurioPress C4065, мы производим журналы от малых до больших тиражей с нулевыми ошибками. Опции от 80 г до 350 г мелованной, офсетной или специальной бумаги; форматы A4, A5, B5 и нестандартные размеры. Профессиональная печать журналов с проволочной скреплением, идеальным переплётом и высокой цветопередачей (эквивалент 3600x2400 dpi).",
-        features: ["Опции бумаги 80-350 г", "Цифровая технология C4065", "Проволочное скрепление и переплёт", "Цветопередача 3600x2400 dpi"],
+        desc: "Используя нашу цифровую печать Konica Minolta AccurioPress C4065, мы производим журналы от малых до больших тиражей с нулевыми ошибками. Опции от 80 г до 350 г мелованной и офсетной бумаги; форматы A4, A5, B5 и нестандартные размеры. Профессиональная печать журналов с проволочной скреплением и высокой цветопередачей (эквивалент 3600x2400 dpi).",
+        features: ["Опции бумаги 80-350 г", "Цифровая технология C4065", "Проволочное скрепление и опции переплёта", "Цветопередача 3600x2400 dpi"],
       },
     },
   },
@@ -334,18 +334,18 @@ export const products: Product[] = [
     content: {
       tr: {
         title: "Katalog Baskı Hizmetleri",
-        desc: "Şirketinizin vizyonunu ve ürünlerinizi en üst kalitede sergileyin. C4065 dijital baskı makinemiz sayesinde 130 gr ile 350 gr arasındaki tüm kuşe ve fantezi kağıtlara, A4, A5 veya özel kare ebatlarda üretim yapıyoruz. Selefon ile preste mükemmel sonuç.",
-        features: ["130-350 gr kuşe kağıt", "Özel ebat seçenekleri", "Selefon ve pres uygulaması", "Profesyonel katalog tasarımı"],
+        desc: "Şirketinizin vizyonunu ve ürünlerinizi en üst kalitede sergileyin. C4065 dijital baskı makinemiz sayesinde 130 gr ile 350 gr arasındaki tüm kağıt seçeneklerine, A4, A5 veya özel kare ebatlarda üretim yapıyoruz. Selefon ile preste mükemmel sonuç.",
+        features: ["130-350 gr kağıt seçenekleri", "Özel ebat seçenekleri", "Selefon ve pres uygulaması", "Profesyonel katalog tasarımı"],
       },
       en: {
         title: "Catalog Printing Services",
-        desc: "Showcase your company's vision and products in the highest quality. Thanks to our C4065 digital printing machine, we produce catalogs on all coated and specialty papers between 130 gsm and 350 gsm in A4, A5 or custom square sizes. Perfect results with lamination and pressing.",
-        features: ["130-350 gsm coated paper", "Custom size options", "Lamination and pressing", "Professional catalog design"],
+        desc: "Showcase your company's vision and products in the highest quality. Thanks to our C4065 digital printing machine, we produce catalogs on all paper options between 130 gsm and 350 gsm in A4, A5 or custom square sizes. Perfect results with lamination and pressing.",
+        features: ["130-350 gsm paper options", "Custom size options", "Lamination and pressing", "Professional catalog design"],
       },
       ru: {
         title: "Услуги печати каталогов",
-        desc: "Представьте видение вашей компании и продукты в наивысшем качестве. Благодаря нашей цифровой печати C4065 мы производим каталоги на всех мелованных и специальных бумаг от 130 г до 350 г в форматах A4, A5 или нестандартных размерах. Идеальный результат с ламинацией и прессованием.",
-        features: ["Мелованная бумага 130-350 г", "Нестандартные размеры", "Ламинация и прессование", "Профессиональный дизайн каталога"],
+        desc: "Представьте видение вашей компании и продукты в наивысшем качестве. Благодаря нашей цифровой печати C4065 мы производим каталоги на всех бумагах от 130 г до 350 г в форматах A4, A5 или нестандартных размерах. Идеальный результат с ламинацией и прессованием.",
+        features: ["Бумага 130-350 г", "Нестандартные размеры", "Ламинация и прессование", "Профессиональный дизайн каталога"],
       },
     },
   },

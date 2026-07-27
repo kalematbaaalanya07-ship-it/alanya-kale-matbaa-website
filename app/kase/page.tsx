@@ -88,7 +88,7 @@ export default function KasePage() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="relative aspect-square overflow-hidden rounded-2xl order-2 lg:order-1">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kase-urunleri-4BdAhwTxhnETuqIwwVPdkDgBwDQ1PY.jpg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ka%C5%9Fe2-tuhAHpbeszD9GDtuaffnp1Dv0mCzWf.jpg"
                 alt="Kaşe mürekkep renk seçenekleri"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -174,11 +174,6 @@ export default function KasePage() {
               <a href={waLink()} target="_blank" rel="noopener noreferrer">
                 <Phone className="size-5" />
                 {t.cta.whatsapp}
-              </a>
-            </Button>
-            <Button asChild size="lg" variant="outline" className="border-accent-foreground text-accent-foreground hover:bg-accent-foreground/10">
-              <a href="/iletisim">
-                {t.nav.contact}
               </a>
             </Button>
           </div>
