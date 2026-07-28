@@ -1,6 +1,6 @@
 import type { Lang } from "@/lib/i18n"
 
-export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "acil-kase"
+export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "acil-kase" | "canva-tasarimi"
 
 export interface BlogSection {
   heading: string
@@ -137,7 +137,7 @@ export const blogPosts: BlogPost[] = [
               "Прочные и долговечные материалы",
               "Чистое и чёткое качество оттиска",
               "Корпоративный логотип и несколько вариантов дизайна",
-              "Индивидуальное изготовление для юристов, врачей, нотариусов, бухгалтерий и любого бизнеса",
+              "Индивидуальное изготовление для ��ристов, врачей, нотариусов, бухгалтерий и любого бизнеса",
             ],
           },
           {
@@ -690,7 +690,7 @@ export const blogPosts: BlogPost[] = [
         title: "Срочная печать в Аланье | Доставка в тот же день - Kale Matbaa",
         excerpt:
           "Нужна срочная печать в Аланье? Дизайн за 1 час, печать и доставка за 2-3 часа. Заказ через WhatsApp.",
-        metaTitle: "Срочная печать Алань | Доставка в тот же час - Kale Matbaa",
+        metaTitle: "Срочная ��ечать Алань | Доставка в тот же час - Kale Matbaa",
         metaDescription:
           "Срочная печать в Аланье: дизайн 1 час, печать 2-3 часа. Şekerhane, Mahmutlar, Oba, Konaklı. Заказы через WhatsApp.",
         intro: [
@@ -743,6 +743,152 @@ export const blogPosts: BlogPost[] = [
           },
         ],
         cta: "Нужна срочная печать? Свяжитесь с нами ПРЯМО СЕЙЧАС на WhatsApp: +90 530 930 55 64. Гарантия '1 час дизайн, 3 часа доставка'!",
+      },
+    },
+  },
+  {
+    slug: "canva-tasarimi",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/canvakalematbaa-HrbbKNcaloMy6UIifypmrV0mJFYt6U.jpg",
+    imageAlt: "Canva ile profesyonel iş kartı tasarımı, Alanya Kale Matbaa",
+    date: "2025",
+    content: {
+      tr: {
+        category: "Canva Tasarım",
+        title: "Canva ile Tasarım Yapın, Alanya Kale Matbaa'da Profesyonelce Bastırın",
+        excerpt:
+          "Canva'da hazırladığınız tasarımları profesyonel baskıya dönüştürün. Kartvizit, broşür, davetiye, menü. Alanya Kale Matbaa'da en kaliteli sonuçlar için teknik rehber.",
+        metaTitle: "Canva Tasarımı Baskıya | Kale Matbaa - Alanya",
+        metaDescription:
+          "Canva tasarımınızı profesyonel baskıya nasıl hazırlarsınız? Boyut, bleed, DPI, PDF export. Alanya Kale Matbaa aynı gün teslimat ile hizmet veriyoruz.",
+        intro: [
+          "Canva, herkesin kolayca profesyonel görünümlü tasarımlar hazırlayabildiği harika bir araç. Kartvizit, broşür, davetiye, el ilanı, menü veya sticker… Birçok kişi artık tasarımlarını Canva'da hazırlıyor. Ama ekranda güzel görünen bir tasarımın matbaada da aynı kalitede çıkması için bazı teknik detaylara dikkat etmek gerekiyor.",
+          "Alanya Kale Matbaa olarak müşterilerimizin Canva ile hazırladığı dosyaları profesyonel baskıya dönüştürüyoruz. Dosyanızı hazırladığınız sayfanın Canva bağlantı linkini bize gönderin, biz kontrol edelim, gerekirse düzelterek yüksek kalitede basalım.",
+        ],
+        sections: [
+          {
+            heading: "Canva Tasarımınızı Baskıya Nasıl Hazırlarsınız?",
+            bullets: [
+              "Doğru boyutu seçin: Baskı yapacağınız ürünün net ölçüsünü kullanın (örneğin standart kartvizit 85x55 mm, A5 broşür 148x210 mm). Canva'da 'Özel boyut' seçeneğini kullanın.",
+              "3-4 mm Bleed (taşma payı) ekleyin: Profesyonel kesim için tasarımınızın kenarlarından 3 mm dışarı taşması gerekir. Canva'da Dosya > Görünüm ayarları > Baskı taşmasını göster seçeneğini açın.",
+              "Yüksek çözünürlüklü görseller kullanın: Baskıda net sonuç için görseller en az 300 DPI olmalıdır. İnternetten indirdiğiniz düşük çözünürlüklü fotoğraflar bulanık çıkar.",
+              "PDF Print olarak indirin: Sağ üstteki Paylaş > İndir butonuna tıklayın. Dosya türü olarak PDF Print seçin (PDF Standard değil). Kırpma işaretleri ve taşma payı kutusunu işaretleyin.",
+              "Canva Pro kullanıyorsanız renk profilini CMYK seçin: Ücretsiz hesaplarda RGB çıkar, biz dönüşümünü yapabiliriz.",
+            ],
+          },
+          {
+            heading: "Neden Canva Tasarımınızı Bize Getirmelisiniz?",
+            bullets: [
+              "Canva dosyalarınızı (PDF veya paylaşım linki) kabul ediyoruz",
+              "Ücretsiz tasarım desteği ve revizyon imkânı sunuyoruz",
+              "350 grama kadar kalın kartonlarda canlı renkli baskı",
+              "Mat, parlak selefon, UV lak, kabartma ve özel kesim seçenekleri",
+              "Kartvizit, broşür, davetiye, menü, el ilanı ve daha birçok üründe aynı gün veya çok hızlı teslimat",
+              "35+ yıllık tecrübe ile net, profesyonel sonuç",
+            ],
+          },
+          {
+            heading: "Canva Dosyasını Nasıl Gönderirim?",
+            bullets: [
+              "Canva'da hazırladığınız tasarımı WhatsApp'tan (+90 530 930 55 64) gönderin",
+              "Hemen inceleyelim, size en uygun kağıt ve bitiş önerilerini sunalım",
+              "İsterseniz sıfırdan da tasarım hazırlayabiliriz",
+              "Dosyayı PDF veya Canva paylaşım linki olarak gönderebilirsiniz",
+            ],
+          },
+        ],
+        cta: "Canva'da yaptığınız işi profesyonel baskıya dönüştürmek için hemen WhatsApp'tan iletişime geçin: +90 530 930 55 64. Tasarımınızı ekrandan kâğıda taşıyalım!",
+      },
+      en: {
+        category: "Canva Design",
+        title: "Design with Canva, Professional Printing at Kale Matbaa Alanya",
+        excerpt:
+          "Transform your Canva designs into professional prints. Business cards, brochures, invitations, menus. Technical guide for best results at Kale Matbaa.",
+        metaTitle: "Canva Design to Print | Kale Matbaa - Alanya",
+        metaDescription:
+          "How to prepare Canva designs for professional printing? Sizing, bleed, DPI, PDF export. Kale Matbaa offers same-day delivery in Alanya.",
+        intro: [
+          "Canva is a wonderful tool that lets anyone easily create professionally-designed graphics. Business cards, brochures, invitations, flyers, menus, or stickers. Many people now prepare their designs in Canva. However, for a design that looks good on screen to print with the same quality, you need to pay attention to some technical details.",
+          "At Alanya Kale Matbaa, we transform your Canva designs into professional prints. Send us the Canva link of your design, we'll review it, make corrections if needed, and print it with high quality.",
+        ],
+        sections: [
+          {
+            heading: "How to Prepare Your Canva Design for Printing?",
+            bullets: [
+              "Choose the correct size: Use the exact dimensions of the product you're printing (e.g., standard business card 85x55 mm, A5 brochure 148x210 mm). Use 'Custom size' option in Canva.",
+              "Add 3-4 mm Bleed (safety margin): For professional cutting, your design needs to extend 3 mm beyond the edge. Open File > View settings > Show print bleed in Canva.",
+              "Use high-resolution images: For crisp printing, images must be at least 300 DPI. Low-resolution photos from the internet will appear blurry.",
+              "Download as PDF Print: Click Share > Download button in top right. Select PDF Print as file type (not PDF Standard). Check crop marks and bleed box.",
+              "If using Canva Pro, set color profile to CMYK: Free accounts output RGB, we can convert for you.",
+            ],
+          },
+          {
+            heading: "Why Choose Us for Your Canva Designs?",
+            bullets: [
+              "We accept Canva files (PDF or sharing link)",
+              "Free design support and revision options",
+              "Vibrant color printing on cardstock up to 350g",
+              "Matte, glossy lamination, UV varnish, embossing and custom cutting options",
+              "Same-day or fast delivery for business cards, brochures, invitations, menus, flyers and more",
+              "Professional results with 35+ years of experience",
+            ],
+          },
+          {
+            heading: "How to Send Your Canva File?",
+            bullets: [
+              "Send your Canva design via WhatsApp (+90 530 930 55 64)",
+              "We'll review immediately and suggest the best paper and finishing options",
+              "We can also create designs from scratch if you prefer",
+              "Send as PDF or Canva sharing link",
+            ],
+          },
+        ],
+        cta: "Ready to turn your Canva work into professional prints? Contact us via WhatsApp: +90 530 930 55 64. Transform your design from screen to paper!",
+      },
+      ru: {
+        category: "Дизайн в Canva",
+        title: "Дизайн в Canva, профессиональная печать в Kale Matbaa Алань",
+        excerpt:
+          "Превратите ваши проекты Canva в профессиональные отпечатки. Визитки, брошюры, приглашения, меню. Техническое руководство для лучших результатов.",
+        metaTitle: "Дизайн Canva в печать | Kale Matbaa - Алань",
+        metaDescription:
+          "Как подготовить дизайн Canva к профессиональной печати? Размер, выпуск за обрез, DPI, экспорт PDF. Kale Matbaa доставка в тот же день.",
+        intro: [
+          "Canva - это замечательный инструмент, позволяющий каждому легко создавать профессионально выглядящие дизайны. Визитки, брошюры, приглашения, листовки, меню или стикеры. Многие люди теперь подготавливают свои проекты в Canva. Однако, чтобы дизайн, хороший на экране, напечатался с той же качественностью, нужно обратить внимание на некоторые технические детали.",
+          "В Alanya Kale Matbaa мы превращаем ваши проекты Canva в профессиональные отпечатки. Отправьте нам ссылку на ваш дизайн Canva, мы проверим, при необходимости отредактируем и напечатаем с высоким качеством.",
+        ],
+        sections: [
+          {
+            heading: "Как подготовить дизайн Canva к печати?",
+            bullets: [
+              "Выберите правильный размер: Используйте точные размеры продукта, который вы печатаете (например, стандартная визитка 85x55 мм, брошюра A5 148x210 мм). Используйте опцию 'Пользовательский размер' в Canva.",
+              "Добавьте 3-4 мм выпуска за обрез: Для профессионального обрезания ваш дизайн должен выходить на 3 мм за край. Откройте Файл > Параметры просмотра > Показать выпуск за обрез в Canva.",
+              "Используйте изображения высокого разрешения: Для четкой печати изображения должны быть не менее 300 DPI. Фотографии низкого разрешения из интернета будут выглядеть размытыми.",
+              "Скачайте как PDF для печати: Нажмите Поделиться > Загрузить в верхнем правом углу. Выберите PDF для печати (не PDF Standard). Отметьте метки обрезки и выпуск за обрез.",
+              "Если используете Canva Pro, установите цветовой профиль CMYK: Бесплатные учетные записи выдают RGB, мы можем конвертировать для вас.",
+            ],
+          },
+          {
+            heading: "Почему выбрать нас для ваших дизайнов Canva?",
+            bullets: [
+              "Мы принимаем файлы Canva (PDF или ссылка для общего доступа)",
+              "Бесплатная поддержка дизайна и возможность редакции",
+              "Яркая печать цветом на картоне до 350 г",
+              "Матовые, глянцевые, ламинирование, UV лак, тиснение и опции нестандартного обреза",
+              "Доставка в тот же день или быстрая доставка визиток, брошюр, приглашений, меню, листовок и многого другого",
+              "Профессиональные результаты с опытом более 35 лет",
+            ],
+          },
+          {
+            heading: "Как отправить файл Canva?",
+            bullets: [
+              "Отправьте ваш дизайн Canva через WhatsApp (+90 530 930 55 64)",
+              "Мы проверим сразу же и предложим лучшую бумагу и опции отделки",
+              "Мы также можем создать дизайн с нуля, если вы предпочитаете",
+              "Отправьте как PDF или ссылку для общего доступа Canva",
+            ],
+          },
+        ],
+        cta: "Готовы превратить вашу работу Canva в профессиональные отпечатки? Свяжитесь с нами через WhatsApp: +90 530 930 55 64. Превратите ваш дизайн с экрана на бумагу!",
       },
     },
   },
