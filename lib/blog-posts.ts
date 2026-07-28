@@ -52,7 +52,7 @@ export const blogPosts: BlogPost[] = [
             bullets: [
               "Hızlı üretim (çoğu model aynı gün teslim)",
               "Dayanıklı ve uzun ömürlü malzemeler",
-              "Net ve keskin baskı kalitesi (Konica Minolta)",
+              "Net ve keskin baskı kalitesi",
               "Kurumsal logolu ve çoklu tasarımlar",
               "Avukat, doktor, noter, muhasebe ofisleri ve her türlü işletme için özel üretim",
               "Ücretsiz profesyonel grafik tasarım desteği",
@@ -79,7 +79,6 @@ export const blogPosts: BlogPost[] = [
               "S: Kaşe ne kadar sürede hazır olur? C: Çoğu kaşe türü 2-4 saatte, acil durumlarda 1 saatte hazırdır.",
               "S: Tasarımı ben hazırlayabilir miyim? C: Evet, tasarım gönderin. Yoksa ücretsiz olarak bizim tasarımcılarımız hazırlarız.",
               "S: Hangi mahalleleye hizmet veriyorsunuz? C: Şekerhane (merkezimiz), Mahmutlar, Oba, Cikcilli, Konaklı ve Alanya geneline hizmet veririz.",
-              "S: Kaşe maliyeti ne kadar? C: Kaşe türüne göre değişir. Otomatik kaşeler 150-300 TL, klasik kaşeler 100-250 TL aralığında.",
               "S: Whatsapp'tan anında sipariş verebilir miyim? C: Evet, hemen başlayabiliriz. İletişim bilgilerinizi ve tasarımı gönderin.",
             ],
           },
@@ -578,7 +577,7 @@ export const blogPosts: BlogPost[] = [
           "Alanya'da acil kaşe üretimi: 1 saat tasarım, 2-3 saat basım, aynı gün teslim. Şekerhane Mahmutlar Oba Konaklı. Whatsapp'tan sipariş alıyoruz.",
         intro: [
           "Kaşeniz kırılmış, sekreteriniz tasarımı yanlış yaptırmış, yoksa müşteri toplantısına 1 saat içinde yeni kaşe lazım mı? Alanya Kale Matbaa, acil kaşe ihtiyacınız için hızlı ve güvenilir çözüm ortağınız. Şekerhane, Mahmutlar, Oba, Cikcilli, Konaklı ve tüm Alanya'daki işletmelere acil kaşe hizmeti sunuyoruz.",
-          "Acil durumlarında başvurabilirsiniz: Noterlerin belge onaylama süresi bitmiş, avukatın kaşesi kırılmış, müdürün yeni unvanı için kaşe gerekli, satış ofisinin tescil için acil kaşesi lazım vb. Konica Minolta C4065 ve deneyimli ekibimizle en kısa sürede kaliteli kaşenizi üretip teslim ediyoruz.",
+          "Acil durumlarında başvurabilirsiniz: Noterlerin belge onaylama süresi bitmiş, avukatın kaşesi kırılmış, müdürün yeni unvanı için kaşe gerekli, satış ofisinin tescil için acil kaşesi lazım vb. Deneyimli ekibimizle en kısa sürede kaliteli kaşenizi üretip teslim ediyoruz.",
         ],
         sections: [
           {
@@ -599,7 +598,7 @@ export const blogPosts: BlogPost[] = [
               "2-3 saatte basım ve teslim (Şekerhane'de)",
               "Whatsapp ile anlık iletişim ve sipariş",
               "Gece-gündüz hizmet (acil işlerde 24/7 çalışırız)",
-              "Konica Minolta'nın kalitesi ve dayanıklılığı",
+              "Yüksek kalite ve dayanıklılık",
               "Ücretsiz profesyonel tasarım ve çizimler",
             ],
           },
@@ -610,18 +609,8 @@ export const blogPosts: BlogPost[] = [
               "2. 15-30 dakika içinde tasarımcı sizi arayıp detay alır (logo, unvan, adres vb.)",
               "3. 30-45 dakika içinde mock-up (görüntü) gönderilir. İlgili kişi telefonla onay verir.",
               "4. Onay alınan anda basıma verilir. 1-2 saat içinde kaşe hazır ve çıkıyor.",
-              "5. Teslim: Şekerhane'de teslim (30 dakika içinde) veya kurye ile gönderilir.",
-              "TOTAL SÜREÇ: İlk iletişimden teslimate max 3-4 saat.",
-            ],
-          },
-          {
-            heading: "Acil Kaşe Fiyatlandırması",
-            bullets: [
-              "Acil kaşe fiyatı normal kaşe fiyatından %20-30 daha yüksektir.",
-              "Aciliyet ve tasarım hızının maliyetidir.",
-              "Standart kaşe (100-250 TL) normalde 2-4 saat içindedir.",
-              "Acil kaşe ise aynı anda birden fazla işi bırakmak gerektirir.",
-              "İlk Whatsapp'ta detaylı fiyat listesi gönderilir.",
+              "5. Teslim: Şekerhane'de teslim alabilirsiniz.",
+              "TOTAL SÜREÇ: İlk iletişimden teslimate max 1 saat.",
             ],
           },
           {
@@ -630,7 +619,6 @@ export const blogPosts: BlogPost[] = [
               "S: Gece saat 23:00'te sipariş versem, sabah 07:00'de kaşe hazır mı? C: Evet! Acil durumlarda 24/7 çalışırız. Whatsapp'ta 'ACİL' yazmanız yeterli.",
               "S: Tasarımı 5 dakika içinde hazırlar mısınız? C: Eğer daha önce yaptığınız veya benzeri bir tasarım varsa evet. Yok ise 30-45 dakika gerekir.",
               "S: Kaşe ne zaman bozulur acaba? C: Genel ömür 3-5 yıl. Yoğun kullanımda 1-2 yıl, az kullananlar 5-10 yıl kullanır. Kırılır, mürekkep mekanizması bozulur vb.",
-              "S: Acil kaşe ne maliyetle satılıyor? C: Standart kaşenin fiyatı +%25-30. Orta fiyat 150-250 TL aralığında.",
               "S: Tasarımımız yok, sıfırdan yapabilir misiniz? C: Evet. Adınız, unvanınız, adresinizi söyleyin. 30-45 dakikada mock-up hazırlayıp sunuz.",
               "S: Otomatik mi klasik mi almalıyım? C: Acil işlerde genelde otomatik tercih edilir (daha dayanıklı). Klasik de yaparız.",
             ],
@@ -648,7 +636,7 @@ export const blogPosts: BlogPost[] = [
           "Urgent seal production in Alanya: 1-hour design, 2-3 hours printing, same-day delivery. Şekerhane, Mahmutlar, Oba. WhatsApp orders.",
         intro: [
           "Your seal is broken, your secretary made a design mistake, or you need a new seal for a client meeting in 1 hour? Alanya Kale Matbaa is your fast and reliable partner for urgent seal needs. We serve all of Alanya including Şekerhane, Mahmutlar, Oba, Cikcilli, and Konaklı with emergency seal services.",
-          "You can contact us in urgent situations: notary's seal validation time has passed, lawyer's seal is broken, new company with new titles needs seal urgently, sales offices need urgent registration seal, etc. With our Konica Minolta C4065 and experienced team, we produce and deliver your quality seal in the shortest possible time.",
+          "You can contact us in urgent situations: notary's seal validation time has passed, lawyer's seal is broken, new company with new titles needs seal urgently, sales offices need urgent registration seal, etc. With our experienced team, we produce and deliver your quality seal in the shortest possible time.",
         ],
         sections: [
           {
@@ -669,7 +657,7 @@ export const blogPosts: BlogPost[] = [
               "Printing and delivery in 2-3 hours (Şekerhane)",
               "Instant WhatsApp communication and ordering",
               "24/7 service for urgent jobs",
-              "Konica Minolta quality and durability",
+              "High quality and durability",
               "Free professional design and artwork",
             ],
           },
@@ -680,18 +668,8 @@ export const blogPosts: BlogPost[] = [
               "2. Within 15-30 minutes, designer calls you for details (logo, title, address, etc.)",
               "3. Within 30-45 minutes, mock-up is sent. Authorized person approves by phone.",
               "4. Upon approval, it goes to printing. Seal is ready and out within 1-2 hours.",
-              "5. Delivery: Pickup in Şekerhane (within 30 min) or courier delivery.",
-              "TOTAL PROCESS: Max 3-4 hours from first contact to delivery.",
-            ],
-          },
-          {
-            heading: "Urgent Seal Pricing",
-            bullets: [
-              "Urgent seal pricing is 20-30% higher than standard seal.",
-              "This covers the urgency and design speed costs.",
-              "Standard seals (100-250 TL) are normally within 2-4 hours.",
-              "Urgent seals require stopping multiple jobs at once.",
-              "Detailed price list sent in first WhatsApp.",
+              "5. Delivery: Pickup in Şekerhane.",
+              "TOTAL PROCESS: Max 1 hour from first contact to delivery.",
             ],
           },
           {
@@ -700,7 +678,6 @@ export const blogPosts: BlogPost[] = [
               "Q: If I order at 23:00 at night, is the seal ready by 07:00 in the morning? A: Yes! We work 24/7 for urgent cases. Just write 'URGENT' on WhatsApp.",
               "Q: Can you prepare the design in 5 minutes? A: If you have a previous similar design, yes. Otherwise 30-45 minutes needed.",
               "Q: When do seals break or wear out? A: General lifespan is 3-5 years. Heavy use 1-2 years, light use 5-10 years. Break, ink mechanism fails, etc.",
-              "Q: What's the cost range for urgent seals? A: Standard seal price +25-30%. Mid-range 150-250 TL.",
               "Q: We don't have a design, can you create from scratch? A: Yes. Tell us your name, title, address. We prepare mock-up in 30-45 minutes.",
               "Q: Should I get automatic or classic seal? A: For urgent jobs, automatic is usually preferred (more durable). We do classic too.",
             ],
@@ -718,7 +695,7 @@ export const blogPosts: BlogPost[] = [
           "Срочная печать в Аланье: дизайн 1 час, печать 2-3 часа. Şekerhane, Mahmutlar, Oba, Konaklı. Заказы через WhatsApp.",
         intro: [
           "Ваша печать сломана, секретарь сделала неправильный дизайн, или вам срочно нужна печать на встречу за 1 час? Alanya Kale Matbaa - ваш быстрый и надёжный партнёр для срочных печатей. Мы обслуживаем весь Аланью, включая Şekerhane, Mahmutlar, Oba, Cikcilli и Konaklı.",
-          "Вы можете обратиться к нам в срочных ситуациях: срок действия печати нотариуса истёк, печать юриста сломана, новая компания с новыми названиями нуждается в печати срочно, отделы продаж нуждаются в срочной печати для регистрации и т.д. С помощью нашей Konica Minolta C4065 и опытной команды мы производим и доставляем вашу качественную печать в кратчайший срок.",
+          "Вы можете обратиться к нам в срочных ситуациях: срок действия печати нотариуса истёк, печать юриста сломана, новая компания с новыми названиями нуждается в печати срочно, отделы продаж нуждаются в срочной печати для регистрации и т.д. С помощью опытной команды мы производим и доставляем вашу качественную печать в кратчайший срок.",
         ],
         sections: [
           {
@@ -739,7 +716,7 @@ export const blogPosts: BlogPost[] = [
               "Печать и доставка за 2-3 часа (Şekerhane)",
               "Мгновенная связь через WhatsApp и заказ",
               "Обслуживание 24/7 для срочных заказов",
-              "Качество и прочность Konica Minolta",
+              "Высокое качество и прочность",
               "Бесплатный профессиональный дизайн и оформление",
             ],
           },
@@ -750,18 +727,8 @@ export const blogPosts: BlogPost[] = [
               "2. За 15-30 минут дизайнер позвонит вам для деталей (логотип, должность, адрес и т.д.)",
               "3. За 30-45 минут отправляется макет. Уполномоченное лицо одобряет по телефону.",
               "4. После одобрения переходит в печать. Печать готова за 1-2 часа.",
-              "5. Доставка: Самовывоз в Şekerhane (в течение 30 минут) или курьер.",
-              "ОБЩЕЕ ВРЕМЯ: Макс 3-4 часа от первого контакта до доставки.",
-            ],
-          },
-          {
-            heading: "Цены на срочные печати",
-            bullets: [
-              "Цены на срочные печати на 20-30% выше, чем на стандартные.",
-              "Это охватывает затраты на срочность и скорость дизайна.",
-              "Стандартные печати (100-250 TL) обычно готовятся за 2-4 часа.",
-              "Срочные требуют остановки нескольких работ одновременно.",
-              "Подробный прайс-лист отправляется в первом WhatsApp.",
+              "5. Доставка: Самовывоз в Şekerhane.",
+              "ОБЩЕЕ ВРЕМЯ: Макс 1 час от первого контакта до доставки.",
             ],
           },
           {
@@ -770,7 +737,6 @@ export const blogPosts: BlogPost[] = [
               "В: Если я закажу в 23:00, печать готова в 07:00? О: Да! Мы работаем 24/7 для срочных случаев. Просто напишите 'СРОЧНО' в WhatsApp.",
               "В: Можете подготовить дизайн за 5 минут? О: Если есть предыдущий похожий дизайн - да. Иначе нужно 30-45 минут.",
               "В: Когда печати ломаются или износились? О: Средний срок 3-5 лет. При интенсивном использовании 1-2 года, при лёгком 5-10 лет.",
-              "В: Какая стоимость срочной печати? О: Цена стандартной печати +25-30%. Средний диапазон 150-250 TL.",
               "В: У нас нет дизайна, можете создать с нуля? О: Да. Скажите имя, должность, адрес. Макет за 30-45 минут.",
               "В: Автоматическую или классическую печать выбрать? О: Для срочных - обычно автоматическую (прочнее). Классическую тоже делаем.",
             ],
