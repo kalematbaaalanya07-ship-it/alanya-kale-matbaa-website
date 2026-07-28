@@ -313,8 +313,8 @@ const tr: Dictionary = {
   },
   blog: {
     tag: "Blog",
-    title: "Baskı Rehberi & İpuçları",
-    subtitle: "Matbaa dünyasından faydalı bilgiler ve öneriler.",
+    title: "Alanya Baskı Rehberi & İpuçları",
+    subtitle: "Kaşe, broşür, davetiye, kartvizit üretiminde faydalı bilgiler. Profesyonel tasarım, aynı gün teslim ve en iyi fiyatlandırma için tüm detaylar.",
     readMore: "Devamını Oku",
     soon: "Yakında",
     items: [
@@ -698,7 +698,7 @@ const ru: Dictionary = {
     machineTag: "Технологии",
     machineTitle: "Konica Minolta AccurioPrint C4065",
     machineDesc:
-      "Наш профессиональный цифровой пресс печатает быстро, в ярких цветах и до формата A3. Мы добиваемся безупречного результата даже на плотном картоне 350г и выше.",
+      "Наш профессиональный цифро��ой пресс печатает быстро, в ярких цветах и до формата A3. Мы добиваемся безупречного результата даже на плотном карто��е 350г и выше.",
     machineSpecs: [
       "Высокая скорость печати страниц в минуту",
       "Поддержка формата A3 и большого формата",
@@ -903,7 +903,7 @@ const ru: Dictionary = {
     processTitle: "Процесс изготовления печати",
     process: [
       {
-        title: "Сбор информации",
+        title: "С��ор информации",
         desc: "Мы собираем полную информацию о компании или физическом лице, включая название, адрес и налоговый номер."
       },
       {

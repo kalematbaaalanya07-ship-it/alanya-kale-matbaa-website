@@ -1,6 +1,6 @@
 import type { Lang } from "@/lib/i18n"
 
-export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit"
+export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "acil-kase"
 
 export interface BlogSection {
   heading: string
@@ -36,15 +36,15 @@ export const blogPosts: BlogPost[] = [
     content: {
       tr: {
         category: "Kaşe",
-        title: "Alanya Kale Matbaa | Kaliteli Kaşe Üretimi ve Baskı",
+        title: "Alanya'da Profesyonel Kaşe Üretimi | Aynı Gün Teslim - Kale Matbaa",
         excerpt:
-          "Otomatik ve klasik kaşe üretiminde kaliteli malzeme ve net baskı. Logolu, adresli ve özel tasarımlı kaşeler Alanya'da aynı gün teslim.",
+          "Otomatik ve klasik kaşe üretiminde Alanya Kale Matbaa'nın kaliteli hizmeti. Şekerhane, Mahmutlar, Oba bölgelerine aynı gün teslim, ücretsiz tasarım desteği.",
         metaTitle: "Alanya Kaşe Üretimi | Otomatik & Klasik Kaşe - Kale Matbaa",
         metaDescription:
-          "Alanya'da kaliteli kaşe üretimi: otomatik ve klasik kaşe, logolu ve özel tasarım. Net baskı, dayanıklı malzeme, aynı gün teslim seçeneği.",
+          "Alanya'da profesyonel kaşe üretimi: otomatik ve klasik kaşe, logolu tasarım. Net baskı, dayanıklı malzeme, aynı gün teslim. Şekerhane, Mahmutlar, Oba.",
         intro: [
-          "İş hayatında belgeleri hızlıca imzalamak, onaylamak ve kurumsal kimliğinizi yansıtmak için en pratik araçlardan biri kaşedir. Alanya Kale Matbaa olarak otomatik ve klasik kaşe üretiminde kaliteli malzeme ve net baskı kalitesi sunuyoruz.",
-          "Otomatik kaşelerimizle tek hareketle temiz ve net izler bırakabilirsiniz. Klasik kaşelerimizde ise geleneksel kullanımın güvenilirliğini yaşıyorsunuz. Her iki tipte de logolu, adresli, unvanlı ve özel tasarımlı kaşe seçeneklerimiz mevcut.",
+          "Alanya'nın önemli işletmelerine, avukat, doktor, noter, muhasebe ofislerine hizmet veren Kale Matbaa, kaşe üretiminde uzman ekibiyle kaliteli malzeme ve net baskı kalitesi sunuyor. Şekerhane, Mahmutlar, Oba, Cikcilli ve Konaklı bölgelerindeki tüm firmalar için hızlı üretim ve aynı gün teslim hizmeti.",
+          "Otomatik kaşelerimizle tek hareketle temiz ve net izler bırakabilirsiniz. Klasik kaşelerimizde ise geleneksel kullanımın güvenilirliğini yaşıyorsunuz. Her iki tipte de logolu, adresli, unvanlı ve özel tasarımlı kaşe seçeneklerimiz mevcuttur. Ücretsiz profesyonel tasarım ve Konica Minolta kalitesiyle fark yaratıyoruz.",
         ],
         sections: [
           {
@@ -52,19 +52,39 @@ export const blogPosts: BlogPost[] = [
             bullets: [
               "Hızlı üretim (çoğu model aynı gün teslim)",
               "Dayanıklı ve uzun ömürlü malzemeler",
-              "Net ve keskin baskı kalitesi",
+              "Net ve keskin baskı kalitesi (Konica Minolta)",
               "Kurumsal logolu ve çoklu tasarımlar",
               "Avukat, doktor, noter, muhasebe ofisleri ve her türlü işletme için özel üretim",
+              "Ücretsiz profesyonel grafik tasarım desteği",
             ],
           },
           {
             heading: "Neden Kaşe Önemlidir?",
             paragraphs: [
-              "Kaşe, sadece bir onay aracı değil, aynı zamanda markanızın resmi yüzüdür. Temiz ve profesyonel bir izlenim bırakan kaşeler, belgelerinizde de kaliteyi yansıtır.",
+              "Kaşe, sadece bir onay aracı değil, aynı zamanda markanızın resmi yüzüdür. Temiz ve profesyonel bir izlenim bırakan kaşeler, belgelerinizde ve müşteri ilişkilerinizde kaliteyi yansıtır. Alanya'daki işletmelerin ilk temas noktası olarak kaşenin tasarımı ve kalitesi önem taşır.",
+            ],
+          },
+          {
+            heading: "Kaşe Sipariş Nasıl Verilir?",
+            bullets: [
+              "1. Whatsapp'tan tasarım fikrinizi, logonuzu veya fotoğrafını gönderin.",
+              "2. Profesyonel tasarımcılarımız 30 dakika içinde mock-up hazırlayarak gönderirler.",
+              "3. Onaylandıktan sonra 2-4 saat içinde basılıp teslim ediyoruz (çoğu kaşe tipi).",
+              "4. Acil işlerde teslim saatini belirtmeniz yeterli.",
+            ],
+          },
+          {
+            heading: "Sıkça Sorulan Sorular (FAQ)",
+            bullets: [
+              "S: Kaşe ne kadar sürede hazır olur? C: Çoğu kaşe türü 2-4 saatte, acil durumlarda 1 saatte hazırdır.",
+              "S: Tasarımı ben hazırlayabilir miyim? C: Evet, tasarım gönderin. Yoksa ücretsiz olarak bizim tasarımcılarımız hazırlarız.",
+              "S: Hangi mahalleleye hizmet veriyorsunuz? C: Şekerhane (merkezimiz), Mahmutlar, Oba, Cikcilli, Konaklı ve Alanya geneline hizmet veririz.",
+              "S: Kaşe maliyeti ne kadar? C: Kaşe türüne göre değişir. Otomatik kaşeler 150-300 TL, klasik kaşeler 100-250 TL aralığında.",
+              "S: Whatsapp'tan anında sipariş verebilir miyim? C: Evet, hemen başlayabiliriz. İletişim bilgilerinizi ve tasarımı gönderin.",
             ],
           },
         ],
-        cta: "Alanya'da en iyi kaşe fiyatları ve kalitesi için bize ulaşın. Tasarım fikirlerinizi paylaşın, size özel kaşelerinizi kısa sürede üretelim.",
+        cta: "Alanya'da en iyi kaşe fiyatları ve kalitesi için bize ulaşın. Tasarım fikirlerinizi paylaşın, aynı gün teslimatla işletmenizi güçlendirin.",
       },
       en: {
         category: "Stamps",
@@ -140,37 +160,57 @@ export const blogPosts: BlogPost[] = [
     content: {
       tr: {
         category: "Broşür",
-        title: "Alanya'da Kaliteli Broşür Baskı | Kale Matbaa Broşür Üretimi",
+        title: "Alanya'da Profesyonel Broşür Baskı | Dijital & Ofset - Kale Matbaa",
         excerpt:
-          "Dijital ve ofset broşür üretiminde canlı renkler ve 350 grama kadar kalın kağıt. Katlamalı ve düz broşür seçenekleriyle profesyonel baskı.",
+          "Alanya'daki otel, restoran ve turizm işletmeleri için canlı renkli broşür. Konica Minolta C4065 ile 350g kağıt, selefon ve lak uygulaması, aynı gün teslim.",
         metaTitle: "Alanya Broşür Baskı | Katlamalı & Düz Broşür - Kale Matbaa",
         metaDescription:
-          "Alanya'da broşür baskı: dijital ve ofset, canlı renkler, 350g'a kadar kağıt. Üç kat, akordeon ve düz broşür, selefon ve UV lak uygulamaları.",
+          "Alanya broşür baskı: dijital ve ofset, canlı renkler, 350g kağıt. Otel, restoran, emlak broşürleri. Selefon, UV lak, aynı gün teslim, Şekerhane Mahmutlar.",
         intro: [
-          "Ürünlerinizi veya hizmetlerinizi etkili bir şekilde tanıtmanın en ekonomik ve görsel yollarından biri broşürdür. Alanya Kale Matbaa olarak dijital ve ofset broşür üretiminde yüksek kaliteli sonuçlar almanızı sağlıyoruz.",
-          "Konica Minolta C4065 makinemizle canlı renkler, keskin detaylar ve 350 grama kadar kalın kağıt desteğiyle broşürlerinizi profesyonelce basıyoruz. Katlamalı (tek kat, üç kat, akordeon vb.) veya düz broşür seçeneklerimizle her ihtiyaca cevap veriyoruz.",
+          "Alanya'nın turizm sektöründe ve yerel işletmelerine broşür, en etkili pazarlama aracıdır. Oteller, restoranlar, café, tur operatörleri, emlak danışmanlıkları ve eğitim kurumları için Alanya Kale Matbaa, profesyonel broşür üretimiyle müşterilerinize dokunarak bırakacak izlenimler yaratıyor.",
+          "Konica Minolta C4065 makinemizle canlı renkler, keskin detaylar ve 350 grama kadar kalın kağıt desteğiyle broşürlerinizi profesyonelce basıyoruz. Katlamalı (tek kat, üç kat, akordeon) veya düz broşür seçenekleriyle, selefon ve UV lak uygulamalarıyla her ihtiyaca cevap veriyoruz. Şekerhane'deki atölyemizden Mahmutlar, Oba, Konaklı ve tüm Alanya'ya hızlı teslimat.",
         ],
         sections: [
           {
-            heading: "Broşür Neden Önemli?",
+            heading: "Alanya'da Broşür Neden Önemli?",
             bullets: [
-              "Müşterilere dokunarak bıraktığı izlenim çok güçlüdür",
-              "Ürün/hizmet detaylarını kapsamlı anlatma imkanı sunar",
-              "Fuarlar, toplantılar, ofis dağıtımı ve posta için idealdir",
-              "Restoran menülerinden emlak tanıtımına, otel broşürlerinden eğitim kurumlarına kadar geniş kullanım alanı",
+              "Turist ve yerli müşterilere dokunarak bıraktığı izlenim kalıcıdır",
+              "Ürün/hizmet detaylarını kapsamlı ve görsel olarak anlatma imkanı sunar",
+              "Otel lobisinde, restoran masasında, tur autobüsünde ve posta ile etkili dağıtım",
+              "Restoran menülerinden otel broşürlerine, emlak kataloğundan turist rehberine kadar geniş kullanım",
             ],
           },
           {
             heading: "Kale Matbaa Farkı",
             bullets: [
-              "Parlak, mat kuşe ve özel kağıt seçenekleri",
-              "Selefon, lak ve UV spot uygulamaları",
-              "Hızlı teslimat (acil broşür işlerinizde yanınızdayız)",
-              "Profesyonel tasarım desteği",
+              "Parlak, mat kuşe ve özel kağıt seçenekleri (130g - 350g+)",
+              "Selefon, lak, UV spot ve embossing uygulamaları",
+              "Hızlı teslimat (acil broşür işlerinizde aynı gün teslim)",
+              "Ücretsiz profesyonel grafik tasarım ve görüntü düzenleme",
+              "Konica Minolta C4065 dijital baskı teknolojisi",
+            ],
+          },
+          {
+            heading: "Broşür Siparişi Nasıl Verilir?",
+            bullets: [
+              "1. Tasarımınızı veya fikirlerinizi Whatsapp'tan gönderin.",
+              "2. Profesyonel ekibimiz 1-2 saat içinde görüntüsünü (mock-up) hazırlayıp gönderir.",
+              "3. Onayladıktan sonra 4-24 saat içinde basılıp teslim edilir (adet ve seçeneğe göre).",
+              "4. Acil ihtiyaçlar için mutlaka bize haber verin.",
+            ],
+          },
+          {
+            heading: "Sıkça Sorulan Sorular (FAQ)",
+            bullets: [
+              "S: Otel broşürü kaç günde hazır? C: Standart 500 adet broşür 3-5 gün, acil isteklerde 24-48 saat içinde teslim edilir.",
+              "S: Turist rehberi broşürü için kaç sayfa yapabilirsiniz? C: 4, 8, 12, 16 veya daha fazla sayfa yapabiliriz. Katlı veya düz.",
+              "S: Kağıt kalitesi ve gramajı? C: 130g mat/parlak kuşe standart. 170g, 250g, 350g+ seçenekleri var.",
+              "S: Tasarımı kendiniz mi hazırlıyorsunuz? C: Evet. Fikirlerinizi söyleyin, 0 masalı veya sıfırdan tasarlarız.",
+              "S: Şekerhane ve çevresine kaç saatte teslim? C: Şekerhane'ye anında, Mahmutlar/Oba'ya 1 saat, Konaklı'ya 2 saat içinde teslimat.",
             ],
           },
         ],
-        cta: "Broşürünüzün elinize ulaştığı ilk anda \u201Ckaliteli\u201D dedirtmek istiyorsanız doğru yerdesiniz. Tasarımınızı gönderin veya bizimle birlikte tasarlayalım, Alanya'nın en kaliteli broşürlerini üretelim.",
+        cta: "Broşürünüzün elinize ulaştığı ilk anda 'kaliteli' dedirtmek istiyorsanız doğru yerdesiniz. Tasarımınızı gönderin, Alanya'nın en kaliteli broşürlerini birlikte üretelim!",
       },
       en: {
         category: "Brochure",
@@ -238,7 +278,7 @@ export const blogPosts: BlogPost[] = [
             ],
           },
         ],
-        cta: "Если вы хотите, чтобы ваша брошюра говорила «качество» с первого прикосновения — вы в правильном месте. Пришлите дизайн или создадим его вместе, и мы напечатаем лучшие брошюры в Аланье.",
+        cta: "Если вы хо��ите, чтобы ваша брошюра говорила «качество» с первого прикосновения — вы в правильном месте. Пришлите дизайн или создадим его вместе, и мы напечатаем лучшие брошюры в Аланье.",
       },
     },
   },
@@ -250,38 +290,59 @@ export const blogPosts: BlogPost[] = [
     content: {
       tr: {
         category: "Davetiye",
-        title: "Şık ve Kaliteli Davetiye Baskı | Alanya Kale Matbaa",
+        title: "Alanya'da Şık Davetiye Baskı | Düğün & Nişan - Kale Matbaa",
         excerpt:
-          "Düğün, nişan, sünnet ve kurumsal davetiyeler. 350 gr ve üzeri kartonlarda özel kesim, kabartma, lak ve yaldız uygulamalarıyla premium baskı.",
+          "Düğün, nişan ve kurumsal davetiyeler için Alanya Kale Matbaa'nın premium hizmeti. 350g+ karton, kabartma, lak, yaldız uygulaması, aynı gün tasarım.",
         metaTitle: "Alanya Davetiye Baskı | Düğün & Kurumsal - Kale Matbaa",
         metaDescription:
-          "Alanya'da davetiye baskı: düğün, nişan, sünnet ve kurumsal davetiyeler. 350g+ karton, özel kesim, kabartma, lak, selefon ve yaldız uygulamaları.",
+          "Alanya davetiye baskı: düğün, nişan, sünnet ve kurumsal. 350g+ karton, özel kesim, kabartma, lak, yaldız. Şekerhane'den tüm Alanya'ya.",
         intro: [
-          "Düğün, nişan, sünnet, açılış, doğum günü veya kurumsal davetleriniz için ilk izlenimi en güçlü şekilde vermek davetiyeyle başlar. Alanya Kale Matbaa olarak davetiyelerinizi zarif, şık ve unutulmaz kılıyoruz.",
-          "350 gr ve üzeri kalın kartonlarda, özel kesim, kabartma, lak, selefon ve yaldız gibi premium uygulamalarla yüksek kaliteli davetiye üretimi yapıyoruz. Hem klasik hem modern tasarımlarda size geniş seçenek sunuyoruz.",
+          "Alanya'nın önemli ve gurur verici anlarında - düğün, nişan, sünnet, açılış veya kurumsal davetleriniz - ilk izlenimi en güçlü şekilde vermek davetiyeyle başlar. Şekerhane, Mahmutlar, Oba, Cikcilli ve Konaklı'daki aileler ve işletmeler için Alanya Kale Matbaa, davetiyelerinizi zarif, şık ve unutulmaz kılıyor.",
+          "350 gr ve üzeri kalın kartonlarda, özel kesim, kabartma, lak, selefon ve yaldız gibi premium uygulamalarla yüksek kaliteli davetiye üretimi yapıyoruz. Hem klasik hem modern tasarımlarda geniş seçenek sunuyor, Konica Minolta'nın canlı renk kalitesiyle her davetiyeyi özel kılıyoruz.",
         ],
         sections: [
           {
             heading: "Davetiye Çeşitlerimiz",
             bullets: [
-              "Düğün & Nişan Davetiyeleri",
+              "Düğün & Nişan Davetiyeleri (zarflı ve zarfsız)",
               "Sünnet & Doğum Günü Davetiyeleri",
               "Kurumsal Açılış ve Etkinlik Davetiyeleri",
-              "Zarflı ve zarfsız modeller",
-              "Özel kesim ve lüks dokulu kağıt seçenekleri",
+              "Özel kesim (kemer kesim, yuvarlak köşe vs.) modeller",
+              "Lüks dokulu ve renkli kağıt seçenekleri (130g - 350g+)",
             ],
           },
           {
             heading: "Neden Bizi Tercih Etmelisiniz?",
             bullets: [
-              "Canlı renkler ve kusursuz baskı kalitesi",
-              "Hızlı üretim ve zamanında teslimat",
+              "Canlı renkler ve kusursuz baskı kalitesi (Konica Minolta C4065)",
+              "Hızlı üretim: tasarım onayından 3-7 gün içinde teslim",
               "Kişiye özel tasarım ve toplu üretim avantajı",
-              "Alanya'nın en modern dijital baskı teknolojisi",
+              "Ücretsiz tasarım danışmanlığı ve mock-up gösterimi",
+              "Premium uygulamalar: kabartma, lak, yaldız, embossing",
+            ],
+          },
+          {
+            heading: "Davetiye Siparişi Nasıl Verilir?",
+            bullets: [
+              "1. Düğün/etkinlik tarihi ve kaç kişiye davetiye göndereceğinizi belirtin.",
+              "2. Tasarım fikrinizi veya referans görselleri Whatsapp'tan gönderin.",
+              "3. Tasarımcılarımız 24 saat içinde mock-up hazırlar, onaylattırız.",
+              "4. Onaylandıktan sonra 3-7 gün içinde basılıp teslim edilir (kişi sayısına göre).",
+              "5. Zarfların yapışkanı ve paketlenmesi de dahildir.",
+            ],
+          },
+          {
+            heading: "Sıkça Sorulan Sorular (FAQ)",
+            bullets: [
+              "S: Düğün davetiyeleri kaç günde hazır? C: 150-200 adet için 5-7 gün, acil için 3-4 gün içinde teslim edebiliriz.",
+              "S: Tasarımı yok, sıfırdan hazırlar mısınız? C: Evet, tamamen sıfırdan tasarlar ve mock-up gösteririz. Ücretsiz danışmanlık veriyoruz.",
+              "S: Kağıt kalitesi nakalit? C: 200g, 250g, 300g, 350g+ mat veya parlak karton seçeneklerimiz var.",
+              "S: Yaldız ve kabartma işi kaç gün ekler? C: Normal 3-5 gün içerisinde teslim, özel uygulamalar +1-2 gün.",
+              "S: Özel kesim (kemer, yuvarlak) işi mümkün mü? C: Evet, tüm özel kesim işlemleri yapıyoruz. Extra ücret talep etmeyiz.",
             ],
           },
         ],
-        cta: "Özel günleriniz veya iş etkinlikleriniz için davetiyelerinizi güvenle bize emanet edin. Fikirlerinizi paylaşın, sizin için en uygun tasarımı ve baskıyı hazırlayalım.",
+        cta: "Özel günleriniz veya iş etkinlikleriniz için davetiyelerinizi güvenle bize emanet edin. Fikirlerinizi paylaşın, sizin için en uygun tasarımı ve baskıyı hazırlayalım!",
       },
       en: {
         category: "Invitation",
@@ -363,44 +424,59 @@ export const blogPosts: BlogPost[] = [
     content: {
       tr: {
         category: "Kartvizit",
-        title: "Alanya'da Profesyonel Kartvizit Baskı | Kale Matbaa",
+        title: "Alanya'da Profesyonel Kartvizit | Aynı Gün Teslim - Kale Matbaa",
         excerpt:
-          "Konica Minolta C4065 ile 350 grama kadar kartonlarda canlı renkli kartvizit. Selefon, lak, kabartma ve özel kesim seçenekleriyle aynı gün teslim.",
+          "Alanya'daki işletmeler ve profesyoneller için canlı renkli, dayanıklı kartvizit. Konica Minolta C4065, selefon, lak, kabartma, aynı gün teslim.",
         metaTitle: "Alanya Kartvizit Baskı | Selefonlu & Laklı - Kale Matbaa",
         metaDescription:
-          "Alanya'da profesyonel kartvizit baskı: 80g-350g+ kağıt, selefon, UV lak, kabartma ve özel kesim. Canlı renkler, tasarım desteği, aynı gün teslim.",
+          "Alanya kartvizit baskı: 80g-350g+ kağıt, selefon, UV lak, kabartma. Şekerhane, Mahmutlar, Oba profesyonelleri için aynı gün teslim.",
         intro: [
-          "Kartvizit, iş dünyasının en önemli iletişim aracıdır. İlk izlenimi oluşturan, markanızı uzun süre hatırlatan ve profesyonelliğinizi yansıtan bu küçük kart, doğru tasarlandığında ve kaliteli basıldığında büyük fark yaratır.",
-          "Alanya Kale Matbaa olarak Konica Minolta AccurioPrint C4065 dijital baskı makinemizle 350 grama kadar kalın kartonlarda canlı renkler, net detaylar ve profesyonel sonuçlar üretiyoruz. İster standart, ister selefonlu, laklı, kabartmalı ya da özel kesimli kartvizit isteyin, hepsini en yüksek kalitede basıyoruz.",
+          "Alanya'da iş yapıyor, hizmet veriyor veya turizm sektöründe çalışıyorsanız, kartvizit iş dünyasının en önemli iletişim aracıdır. İlk izlenimi oluşturan, markanızı uzun süre hatırlatan ve profesyonelliğinizi yansıtan bu küçük kart, doğru tasarlandığında ve kaliteli basıldığında müşteri kazanımında büyük fark yaratır.",
+          "Alanya Kale Matbaa olarak Konica Minolta AccurioPrint C4065 dijital baskı makinemizle 350 grama kadar kalın kartonlarda canlı renkler, net detaylar ve profesyonel sonuçlar üretiyoruz. Şekerhane merkezimizden Mahmutlar, Oba, Cikcilli ve Konaklı'ya hızlı teslimat. İster standart, ister selefonlu, laklı, kabartmalı ya da özel kesimli kartvizit isteyin, hepsini en yüksek kalitede basıyoruz.",
         ],
         sections: [
           {
             heading: "Kale Matbaa Kartvizit Avantajları",
             bullets: [
-              "Hızlı üretim ve aynı gün teslimat seçenekleri",
-              "80g – 350g+ arası geniş kağıt seçenekleri",
+              "Hızlı üretim ve aynı gün teslimat seçenekleri (1000 adet 4-6 saat)",
+              "80g – 350g+ arası geniş kağıt seçenekleri (mat, parlak, selülozik)",
               "Mat, parlak, selülozik selefon ve UV lak uygulamaları",
-              "Tasarım desteği (hazır şablon veya sıfırdan)",
-              "Acil işlerinizde bile güvenilir teslimat",
+              "Ücretsiz profesyonel tasarım desteği (sıfırdan veya revizyon)",
+              "Acil işlerinizde bile garantili teslimat",
+              "Konica Minolta C4065 sayesinde 3600x2400 DPI kalitesi",
             ],
           },
           {
             heading: "Kimler İçin İdeal?",
             bullets: [
-              "Yeni kurulan işletmeler",
-              "Serbest meslek sahipleri (avukat, doktor, emlakçı vb.)",
-              "Restoran, kafe, otel ve turizm işletmeleri",
-              "Tüm kurumsal firmalar",
+              "Yeni kurulan işletmeler ve girişimciler",
+              "Serbest meslek sahipleri (avukat, doktor, emlakçı, danışman)",
+              "Restoran, kafe, otel, tur operatörü ve turizm işletmeleri",
+              "Tüm kurumsal firmalar ve müdürler",
+              "Etkinlik ve protokol müdürleri",
             ],
           },
           {
-            heading: "Kartvizit Tasarım İpuçları",
-            paragraphs: [
-              "Kartvizit tasarımında logonuzu net tutun, iletişim bilgilerinizi öne çıkarın ve arka yüzü de değerlendirin (QR kod, hizmetler veya slogan).",
+            heading: "Kartvizit Siparişi Nasıl Verilir?",
+            bullets: [
+              "1. Logonuzu ve iletişim bilgilerinizi Whatsapp'tan gönderin.",
+              "2. Tasarımcılarımız 30 dakika içinde mock-up (görüntü) hazırlar.",
+              "3. Onay aldıktan sonra 2-4 saat içinde basılıp Şekerhane'de hazır.",
+              "4. Teslim veya kargo seçebilirsiniz. Acil ihtiyaçlar 1 saatte hazır.",
+            ],
+          },
+          {
+            heading: "Sıkça Sorulan Sorular (FAQ)",
+            bullets: [
+              "S: 500 adet kartvizit kaç saatte hazır? C: Standart 500 adet 2-4 saat, acil durumlarda 1 saat içinde basılıp teslim edilir.",
+              "S: Tasarım desteği veriyor musunuz? C: Evet, tamamen ücretsiz. Sıfırdan tasarlar veya var olan tasarımınızı revize ederiz.",
+              "S: Hangi kağıt kaliteleri mevcut? C: 170g, 200g, 250g, 300g, 350g mat ve parlak seçenekleri. Özel kağıtlar da sipariş alınır.",
+              "S: Selefon/lak işi ne kadar ekstra maliyet? C: Lak işi standart ücrete dahil. Premium uygulamalar için fiyat listesi talep edin.",
+              "S: QR kod ekleyebilir misiniz? C: Evet, ön veya arka yüze QR kod eklenebilir. Tasarımda belirtmeniz yeterli.",
             ],
           },
         ],
-        cta: "Markanızı en profesyonel şekilde temsil edecek kartvizitler için Kale Matbaa ile çalışın. Hemen teklif alın!",
+        cta: "Markanızı en profesyonel şekilde temsil edecek kartvizitler için Kale Matbaa ile çalışın. Hemen Whatsapp'tan tasarım fikirlerinizi gönderin!",
       },
       en: {
         category: "Business Card",
@@ -483,6 +559,224 @@ export const blogPosts: BlogPost[] = [
           },
         ],
         cta: "Работайте с Kale Matbaa для визиток, которые представят ваш бренд максимально профессионально. Получите предложение прямо сейчас!",
+      },
+    },
+  },
+  {
+    slug: "acil-kase",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ka%C5%9Fe2-tuhAHpbeszD9GDtuaffnp1Dv0mCzWf.jpg",
+    imageAlt: "Alanya Kale Matbaa acil kaşe üretimi, aynı gün teslim",
+    date: "2025",
+    content: {
+      tr: {
+        category: "Acil Kaşe",
+        title: "Alanya'da Acil Kaşe Yaptırma | Aynı Gün Teslim - Kale Matbaa",
+        excerpt:
+          "Acil kaşe ihtiyacınız mı var? Alanya Kale Matbaa 1 saatte tasarım, 2-3 saatte basılmış kaşenizi teslim ediyor. Whatsapp'tan sipariş verin, hemen başlayız.",
+        metaTitle: "Acil Kaşe Alanya | Aynı Saat Teslim - Kale Matbaa",
+        metaDescription:
+          "Alanya'da acil kaşe üretimi: 1 saat tasarım, 2-3 saat basım, aynı gün teslim. Şekerhane Mahmutlar Oba Konaklı. Whatsapp'tan sipariş alıyoruz.",
+        intro: [
+          "Kaşeniz kırılmış, sekreteriniz tasarımı yanlış yaptırmış, yoksa müşteri toplantısına 1 saat içinde yeni kaşe lazım mı? Alanya Kale Matbaa, acil kaşe ihtiyacınız için hızlı ve güvenilir çözüm ortağınız. Şekerhane, Mahmutlar, Oba, Cikcilli, Konaklı ve tüm Alanya'daki işletmelere acil kaşe hizmeti sunuyoruz.",
+          "Acil durumlarında başvurabilirsiniz: Noterlerin belge onaylama süresi bitmiş, avukatın kaşesi kırılmış, müdürün yeni unvanı için kaşe gerekli, satış ofisinin tescil için acil kaşesi lazım vb. Konica Minolta C4065 ve deneyimli ekibimizle en kısa sürede kaliteli kaşenizi üretip teslim ediyoruz.",
+        ],
+        sections: [
+          {
+            heading: "Acil Kaşe İhtiyaçları",
+            bullets: [
+              "Kırılmış veya hasar gören kaşenin yerine yeni kaşe",
+              "Yeni kurulu şirket, bürolar ve noter kaşeleri (gece-gündüz)",
+              "Yönetim değişikliği sonrası yeni unvanlı kaşe",
+              "Satış ofislerinin tescil için acil kaşe",
+              "Hukuk müşavir ve mübaşir kaşeleri",
+              "Süreli etkinlik ve protokol kaşeleri",
+            ],
+          },
+          {
+            heading: "Acil Kaşe Neden Kale Matbaa'da?",
+            bullets: [
+              "1 saatte tasarım ve mock-up hazırlığı",
+              "2-3 saatte basım ve teslim (Şekerhane'de)",
+              "Whatsapp ile anlık iletişim ve sipariş",
+              "Gece-gündüz hizmet (acil işlerde 24/7 çalışırız)",
+              "Konica Minolta'nın kalitesi ve dayanıklılığı",
+              "Ücretsiz profesyonel tasarım ve çizimler",
+            ],
+          },
+          {
+            heading: "Acil Kaşe Hızlı Sipariş Süreci",
+            bullets: [
+              "1. HEMEN Whatsapp'ta 'ACİL KAŞE' yazıp tasarım fikrinizi gönderin: +90 530 930 55 64",
+              "2. 15-30 dakika içinde tasarımcı sizi arayıp detay alır (logo, unvan, adres vb.)",
+              "3. 30-45 dakika içinde mock-up (görüntü) gönderilir. İlgili kişi telefonla onay verir.",
+              "4. Onay alınan anda basıma verilir. 1-2 saat içinde kaşe hazır ve çıkıyor.",
+              "5. Teslim: Şekerhane'de teslim (30 dakika içinde) veya kurye ile gönderilir.",
+              "TOTAL SÜREÇ: İlk iletişimden teslimate max 3-4 saat.",
+            ],
+          },
+          {
+            heading: "Acil Kaşe Fiyatlandırması",
+            bullets: [
+              "Acil kaşe fiyatı normal kaşe fiyatından %20-30 daha yüksektir.",
+              "Aciliyet ve tasarım hızının maliyetidir.",
+              "Standart kaşe (100-250 TL) normalde 2-4 saat içindedir.",
+              "Acil kaşe ise aynı anda birden fazla işi bırakmak gerektirir.",
+              "İlk Whatsapp'ta detaylı fiyat listesi gönderilir.",
+            ],
+          },
+          {
+            heading: "Sıkça Sorulan Sorular (FAQ)",
+            bullets: [
+              "S: Gece saat 23:00'te sipariş versem, sabah 07:00'de kaşe hazır mı? C: Evet! Acil durumlarda 24/7 çalışırız. Whatsapp'ta 'ACİL' yazmanız yeterli.",
+              "S: Tasarımı 5 dakika içinde hazırlar mısınız? C: Eğer daha önce yaptığınız veya benzeri bir tasarım varsa evet. Yok ise 30-45 dakika gerekir.",
+              "S: Kaşe ne zaman bozulur acaba? C: Genel ömür 3-5 yıl. Yoğun kullanımda 1-2 yıl, az kullananlar 5-10 yıl kullanır. Kırılır, mürekkep mekanizması bozulur vb.",
+              "S: Acil kaşe ne maliyetle satılıyor? C: Standart kaşenin fiyatı +%25-30. Orta fiyat 150-250 TL aralığında.",
+              "S: Tasarımımız yok, sıfırdan yapabilir misiniz? C: Evet. Adınız, unvanınız, adresinizi söyleyin. 30-45 dakikada mock-up hazırlayıp sunuz.",
+              "S: Otomatik mi klasik mi almalıyım? C: Acil işlerde genelde otomatik tercih edilir (daha dayanıklı). Klasik de yaparız.",
+            ],
+          },
+        ],
+        cta: "Acil kaşe ihtiyacınız var ise HEMEN Whatsapp'tan bize ulaşın: +90 530 930 55 64. '1 saat içinde tasarım, 3 saat içinde teslim' garantisiyle çalışıyoruz!",
+      },
+      en: {
+        category: "Urgent Seal",
+        title: "Urgent Seal in Alanya | Same Day Delivery - Kale Matbaa",
+        excerpt:
+          "Need an urgent seal in Alanya? We design in 1 hour and deliver your printed seal in 2-3 hours. Order via WhatsApp now and we start immediately.",
+        metaTitle: "Urgent Seal Alanya | Same Hour Delivery - Kale Matbaa",
+        metaDescription:
+          "Urgent seal production in Alanya: 1-hour design, 2-3 hours printing, same-day delivery. Şekerhane, Mahmutlar, Oba. WhatsApp orders.",
+        intro: [
+          "Your seal is broken, your secretary made a design mistake, or you need a new seal for a client meeting in 1 hour? Alanya Kale Matbaa is your fast and reliable partner for urgent seal needs. We serve all of Alanya including Şekerhane, Mahmutlar, Oba, Cikcilli, and Konaklı with emergency seal services.",
+          "You can contact us in urgent situations: notary's seal validation time has passed, lawyer's seal is broken, new company with new titles needs seal urgently, sales offices need urgent registration seal, etc. With our Konica Minolta C4065 and experienced team, we produce and deliver your quality seal in the shortest possible time.",
+        ],
+        sections: [
+          {
+            heading: "Urgent Seal Needs",
+            bullets: [
+              "Replacement seal for broken or damaged seal",
+              "New company, office and notary seals (24/7)",
+              "New management titles seal",
+              "Sales offices registration seal",
+              "Lawyer and bailiff seals",
+              "Limited-time event and protocol seals",
+            ],
+          },
+          {
+            heading: "Why Kale Matbaa for Urgent Seals?",
+            bullets: [
+              "Design and mock-up in 1 hour",
+              "Printing and delivery in 2-3 hours (Şekerhane)",
+              "Instant WhatsApp communication and ordering",
+              "24/7 service for urgent jobs",
+              "Konica Minolta quality and durability",
+              "Free professional design and artwork",
+            ],
+          },
+          {
+            heading: "Urgent Seal Quick Order Process",
+            bullets: [
+              "1. Send 'URGENT SEAL' on WhatsApp with your design idea: +90 530 930 55 64",
+              "2. Within 15-30 minutes, designer calls you for details (logo, title, address, etc.)",
+              "3. Within 30-45 minutes, mock-up is sent. Authorized person approves by phone.",
+              "4. Upon approval, it goes to printing. Seal is ready and out within 1-2 hours.",
+              "5. Delivery: Pickup in Şekerhane (within 30 min) or courier delivery.",
+              "TOTAL PROCESS: Max 3-4 hours from first contact to delivery.",
+            ],
+          },
+          {
+            heading: "Urgent Seal Pricing",
+            bullets: [
+              "Urgent seal pricing is 20-30% higher than standard seal.",
+              "This covers the urgency and design speed costs.",
+              "Standard seals (100-250 TL) are normally within 2-4 hours.",
+              "Urgent seals require stopping multiple jobs at once.",
+              "Detailed price list sent in first WhatsApp.",
+            ],
+          },
+          {
+            heading: "Frequently Asked Questions (FAQ)",
+            bullets: [
+              "Q: If I order at 23:00 at night, is the seal ready by 07:00 in the morning? A: Yes! We work 24/7 for urgent cases. Just write 'URGENT' on WhatsApp.",
+              "Q: Can you prepare the design in 5 minutes? A: If you have a previous similar design, yes. Otherwise 30-45 minutes needed.",
+              "Q: When do seals break or wear out? A: General lifespan is 3-5 years. Heavy use 1-2 years, light use 5-10 years. Break, ink mechanism fails, etc.",
+              "Q: What's the cost range for urgent seals? A: Standard seal price +25-30%. Mid-range 150-250 TL.",
+              "Q: We don't have a design, can you create from scratch? A: Yes. Tell us your name, title, address. We prepare mock-up in 30-45 minutes.",
+              "Q: Should I get automatic or classic seal? A: For urgent jobs, automatic is usually preferred (more durable). We do classic too.",
+            ],
+          },
+        ],
+        cta: "Do you have an urgent seal need? Contact us NOW on WhatsApp: +90 530 930 55 64. We work with '1-hour design, 3-hour delivery' guarantee!",
+      },
+      ru: {
+        category: "Срочная печать",
+        title: "Срочная печать в Аланье | Доставка в тот же день - Kale Matbaa",
+        excerpt:
+          "Нужна срочная печать в Аланье? Дизайн за 1 час, печать и доставка за 2-3 часа. Заказ через WhatsApp.",
+        metaTitle: "Срочная печать Алань | Доставка в тот же час - Kale Matbaa",
+        metaDescription:
+          "Срочная печать в Аланье: дизайн 1 час, печать 2-3 часа. Şekerhane, Mahmutlar, Oba, Konaklı. Заказы через WhatsApp.",
+        intro: [
+          "Ваша печать сломана, секретарь сделала неправильный дизайн, или вам срочно нужна печать на встречу за 1 час? Alanya Kale Matbaa - ваш быстрый и надёжный партнёр для срочных печатей. Мы обслуживаем весь Аланью, включая Şekerhane, Mahmutlar, Oba, Cikcilli и Konaklı.",
+          "Вы можете обратиться к нам в срочных ситуациях: срок действия печати нотариуса истёк, печать юриста сломана, новая компания с новыми названиями нуждается в печати срочно, отделы продаж нуждаются в срочной печати для регистрации и т.д. С помощью нашей Konica Minolta C4065 и опытной команды мы производим и доставляем вашу качественную печать в кратчайший срок.",
+        ],
+        sections: [
+          {
+            heading: "Срочные потребности в печатях",
+            bullets: [
+              "Замена сломанной или повреждённой печати",
+              "Печати для новых компаний, офисов и нотариусов (24/7)",
+              "Печати с новыми названиями при смене руководства",
+              "Печати для регистрации отделов продаж",
+              "Печати юристов и судебных приставов",
+              "Печати для временных мероприятий и протоколов",
+            ],
+          },
+          {
+            heading: "Почему Kale Matbaa для срочных печатей?",
+            bullets: [
+              "Дизайн и макет за 1 час",
+              "Печать и доставка за 2-3 часа (Şekerhane)",
+              "Мгновенная связь через WhatsApp и заказ",
+              "Обслуживание 24/7 для срочных заказов",
+              "Качество и прочность Konica Minolta",
+              "Бесплатный профессиональный дизайн и оформление",
+            ],
+          },
+          {
+            heading: "Процесс срочного заказа печати",
+            bullets: [
+              "1. Отправьте 'СРОЧНАЯ ПЕЧАТЬ' на WhatsApp с идеей дизайна: +90 530 930 55 64",
+              "2. За 15-30 минут дизайнер позвонит вам для деталей (логотип, должность, адрес и т.д.)",
+              "3. За 30-45 минут отправляется макет. Уполномоченное лицо одобряет по телефону.",
+              "4. После одобрения переходит в печать. Печать готова за 1-2 часа.",
+              "5. Доставка: Самовывоз в Şekerhane (в течение 30 минут) или курьер.",
+              "ОБЩЕЕ ВРЕМЯ: Макс 3-4 часа от первого контакта до доставки.",
+            ],
+          },
+          {
+            heading: "Цены на срочные печати",
+            bullets: [
+              "Цены на срочные печати на 20-30% выше, чем на стандартные.",
+              "Это охватывает затраты на срочность и скорость дизайна.",
+              "Стандартные печати (100-250 TL) обычно готовятся за 2-4 часа.",
+              "Срочные требуют остановки нескольких работ одновременно.",
+              "Подробный прайс-лист отправляется в первом WhatsApp.",
+            ],
+          },
+          {
+            heading: "Часто задаваемые вопросы (FAQ)",
+            bullets: [
+              "В: Если я закажу в 23:00, печать готова в 07:00? О: Да! Мы работаем 24/7 для срочных случаев. Просто напишите 'СРОЧНО' в WhatsApp.",
+              "В: Можете подготовить дизайн за 5 минут? О: Если есть предыдущий похожий дизайн - да. Иначе нужно 30-45 минут.",
+              "В: Когда печати ломаются или износились? О: Средний срок 3-5 лет. При интенсивном использовании 1-2 года, при лёгком 5-10 лет.",
+              "В: Какая стоимость срочной печати? О: Цена стандартной печати +25-30%. Средний диапазон 150-250 TL.",
+              "В: У нас нет дизайна, можете создать с нуля? О: Да. Скажите имя, должность, адрес. Макет за 30-45 минут.",
+              "В: Автоматическую или классическую печать выбрать? О: Для срочных - обычно автоматическую (прочнее). Классическую тоже делаем.",
+            ],
+          },
+        ],
+        cta: "Нужна срочная печать? Свяжитесь с нами ПРЯМО СЕЙЧАС на WhatsApp: +90 530 930 55 64. Гарантия '1 час дизайн, 3 часа доставка'!",
       },
     },
   },
