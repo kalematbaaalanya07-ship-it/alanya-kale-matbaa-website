@@ -13,6 +13,7 @@ type PageSeo = {
  * Builds SEO metadata for a route segment with per-page canonical + hreflang.
  * Descriptions/titles are written bilingually (TR primary, EN for tourist reach)
  * because language selection is client-side on a single URL.
+ * Includes: robots directives, Twitter cards, and proper schema hints.
  */
 export function pageMetadata({ path, title, description, keywords, image }: PageSeo): Metadata {
   const url = `${site.url}${path}`
@@ -30,6 +31,13 @@ export function pageMetadata({ path, title, description, keywords, image }: Page
         "x-default": url,
       },
     },
+    robots: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
     openGraph: {
       type: "website",
       locale: "tr_TR",
@@ -39,6 +47,12 @@ export function pageMetadata({ path, title, description, keywords, image }: Page
       title,
       description,
       images: [{ url: image ?? "/images/digital-press.png", width: 1200, height: 900, alt: site.name }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [image ?? "/images/digital-press.png"],
     },
   }
 }

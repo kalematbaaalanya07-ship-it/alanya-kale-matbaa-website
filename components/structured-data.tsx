@@ -110,6 +110,38 @@ export function StructuredData() {
     })),
   }
 
+  const services = [
+    {
+      "@type": "Service",
+      name: "Dijital Baskı",
+      description: "Konica Minolta AccurioPrint C4065 ile yüksek kaliteli dijital baskı hizmeti",
+      provider: { "@id": businessId },
+      areaServed: [{ "@type": "City", name: "Alanya" }],
+      image: `${site.url}/images/digital-press.png`,
+    },
+    {
+      "@type": "Service",
+      name: "Kaşe Basımı",
+      description: "Profesyonel kaşe üretimi - şirket kaşesi, öğretmen kaşesi, cep kaşesi ve daha fazlası",
+      provider: { "@id": businessId },
+      areaServed: [{ "@type": "City", name: "Alanya" }],
+    },
+    {
+      "@type": "Service",
+      name: "Katalog Baskısı",
+      description: "Profesyonel katalog ve broşür baskısı, 80g ila 350g kağıt seçenekleri",
+      provider: { "@id": businessId },
+      areaServed: [{ "@type": "City", name: "Alanya" }],
+    },
+    {
+      "@type": "Service",
+      name: "Menü Baskısı",
+      description: "Restoran ve kafe için özel tasarım ve yüksek kaliteli menü baskısı",
+      provider: { "@id": businessId },
+      areaServed: [{ "@type": "City", name: "Alanya" }],
+    },
+  ]
+
   return (
     <>
       <script
@@ -117,6 +149,13 @@ export function StructuredData() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusiness) }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPage) }} />
+      {services.map((service, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(service) }}
+        />
+      ))}
     </>
   )
 }
