@@ -1,6 +1,6 @@
 import type { Lang } from "@/lib/i18n"
 
-export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "acil-kase" | "canva-tasarimi" | "5-baski-hatasi" | "grafik-trendler-2026"
+export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "acil-kase" | "canva-tasarimi" | "5-baski-hatasi" | "grafik-trendler-2026" | "dukkan-acma-rehberi" | "dijital-vs-ofset"
 
 export interface BlogSection {
   heading: string
@@ -864,7 +864,7 @@ export const blogPosts: BlogPost[] = [
               "Добавьте 3-4 мм выпуска за обрез: Для профессионального обрезания ваш дизайн должен выходить на 3 мм за край. Откройте Файл > Параметры просмотра > Показать выпуск за обрез в Canva.",
               "Используйте изображения высокого разрешения: Для четкой печати изображения должны быть не менее 300 DPI. Фотографии низкого разрешения из интернета будут выглядеть размытыми.",
               "Скачайте как PDF для печати: Нажмите Поделиться > Загрузить в верхнем правом углу. Выберите PDF для печати (не PDF Standard). Отметьте метки обрезки и выпуск за обрез.",
-              "Если используете Canva Pro, установите цвет��вой профиль CMYK: Бесплатные учетные записи выдают RGB, мы можем конвертировать дл�� вас.",
+              "Ес��и используете Canva Pro, установите цвет��вой профиль CMYK: Бесплатные учетные записи выдают RGB, мы можем конвертировать дл�� вас.",
             ],
           },
           {
@@ -888,7 +888,7 @@ export const blogPosts: BlogPost[] = [
             ],
           },
         ],
-        cta: "Готовы превратить вашу работу Canva в профессиональные отпечатки? Свяжитесь с нами через WhatsApp: +90 530 930 55 64. Превратите ваш дизайн с экрана на бумагу!",
+        cta: "Готовы превратить вашу работу Canva в профессиональные отпечатки? Свяжитесь с нами через WhatsApp: +90 530 930 55 64. Превр��тите ваш дизайн с экрана на бумагу!",
       },
     },
   },
@@ -1153,127 +1153,342 @@ export const blogPosts: BlogPost[] = [
         ],
         cta: "2026'da grafik tasarım daha az bağırıyor, daha çok hissettiriyor. İnsan dokunuşu, güçlü tipografi, yumuşak atmosferler ve bilinçli sakinlik öne çıkıyor. Alanya Kale Matbaa olarak bu trendleri hem tasarım hem de baskı tarafında yakından takip ediyoruz. Projelerinizde bu yeni dili kullanmak isterseniz, doğru kâğıt seçiminden özel baskı tekniklerine kadar yanınızdayız. WhatsApp: +90 530 930 55 64",
       },
-      en: {
-        category: "Graphic Design",
-        title: "Graphic Design Trends 2026: How Will the Future Look?",
+    },
+  },
+  {
+    slug: "dukkan-acma-rehberi",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/alanyadukkanacmarehberi-OWtPQNeBIydm1l2wqMyAUqJ7rMi3Rv.jpg",
+    imageAlt: "Alanya'da dükkan açacaklar için baskı ve matbaa rehberi - profesyonel malzemeler",
+    date: "2025",
+    content: {
+      tr: {
+        category: "İşletme Rehberi",
+        title: "Alanya'da Dükkan Açacaklar İçin Baskı ve Matbaa Rehberi: Markanızı İlk Günden Güçlü Başlatın",
         excerpt:
-          "Which colors feel like the future? The most important graphic design trends of 2026 and Pantone's color of the year Cloud Dancer.",
-        metaTitle: "2026 Graphic Design Trends | Kale Matbaa",
+          "Yeni bir dükkan açtığınız zaman ihtiyacınız olan temel baskı malzemeleri nelerdir? Kartvizit, menü, broşür, resmi evrak ve kaşe yapımı. Alanya Kale Matbaa'nın dükkan açış rehberi.",
+        metaTitle: "Dükkan Açma Baskı Rehberi | Alanya Kale Matbaa",
         metaDescription:
-          "2026 graphic design trends: Human + AI hybrid work, strong typography, Hyper-Bloom, cinematic photography, Cloud Dancer color.",
+          "Alanya'da dükkan açarken ihtiyacınız olan baskı malzemeleri ve matbaa ürünleri. Kartvizit, menü, broşür, ofset baskı işleri, kaşe yapımı ve profesyonel başlangıç.",
         intro: [
-          "Which colors feel like the future? And what does a design look like that doesn't need to shout to get attention?",
-          "2026 brings new calmness to graphic design. This calmness combined with character, emotion and clear messaging achieves perfect harmony, especially with Pantone's 2026 Color of the Year, Cloud Dancer.",
+          "Alanya'da yeni bir dükkan açmak heyecan verici ama aynı zamanda yoğun bir süreç. Konum seçimi, dekorasyon, stok, personel derken markanızı müşterilere tanıtacak ve işletmenizi resmileştirecek basılı malzemeler genellikle sonraya kalıyor.",
+          "Oysa profesyonel baskı ve matbaa ürünleri, hem yasal gereklilikleri karşılamanızı sağlar hem de müşteri güvenini artırır. Bu rehberde, Alanya'da dükkan açan her işletmenin ihtiyacı olan baskı ve matbaa malzemelerini, nelere dikkat etmeniz gerektiğini ve işinizi kolaylaştıracak pratik bilgileri bulacaksınız.",
         ],
         sections: [
           {
-            heading: "1 | Human + AI Hybrid Work Style",
+            heading: "1 | Yeni Dükkan Açarken İhtiyacınız Olan Temel Baskı Malzemeleri",
             bullets: [
-              "AI is still very important, but the real leader is human. Designers use generative tools as a creative springboard, then consciously refine and direct the results.",
-              "This collaboration produces original work with technical depth.",
-              "In 2026 AI is used for ideas, variations, sketches and mood research. Designers select, combine and refine results. Final style, message and feeling come entirely from humans.",
-              "After the first wave of excitement, the search for originality and meaning increased. Pure AI images quickly become ordinary.",
+              "Kartvizit: Hâlâ en etkili networking aracı. Kaliteli kâğıt, mat/parlak seçenekler ve profesyonel tasarım, dükkanınızı hatırlanır kılar.",
+              "Menü, fiyat listesi ve katalog: Restoran, kafe, butik veya hizmet işletmeleri için şart. Suya ve lekeye dayanıklı lamine menüler veya dijital baskı kataloglar hem şık hem pratik olur.",
+              "Broşür, el ilanı ve afiş: Açılış kampanyası, indirim veya yeni ürün tanıtımı için. Alanya'da turist yoğun bölgelerde dağıtılacak el ilanları etkili sonuç verir.",
+              "Resmi evrak ve ofset baskı işleri: Fatura, irsaliye, sipariş fişi, makbuz, sevk irsaliyesi. Ofset baskı ile yüksek adetli, ekonomik ve profesyonel görünümlü evraklar hazırlanır.",
+              "Kaşe (mühür) yapımı: Şirket kaşesi, imza kaşesi, tarihli kaşe ve özel metinli kaşeler. Resmi işlemlerde zorunlu olan bu ürünler, hızlı teslimat ve net baskı kalitesiyle hazırlanır.",
             ],
           },
           {
-            heading: "2 | High Expression Typography & Type-Collages",
+            heading: "2 | Tasarımdan Baskıya: Adım Adım Süreci",
             bullets: [
-              "In 2026 typography is no longer just for conveying information; it becomes the image itself, its structure and emotional carrier.",
-              "In a world of increased visual noise, strong typography keeps brands memorable.",
-              "Letters are distorted, cut, layered or freely placed. Different typefaces, sizes and styles are consciously combined.",
-              "Diagonal axes, massive letters and rhythmic repetitions create tension. Experimental and personality-filled typefaces are preferred over ordinary fonts.",
+              "Markanızın kimliğini belirleyin: Logo, renk paleti, yazı tipi ve kurumsal kimlik rehberi hazırlayın. Profesyonel danışmanlık alın.",
+              "Tasarımcı seçimi: Freelancer, tasarım ajanası veya matbaanın tasarım hizmetini kullanabilirsiniz. Alanya Kale Matbaa ücretsiz tasarım desteği sunar.",
+              "Dosya hazırlığı: Baskıya hazır PDF dosya, doğru renk profili (CMYK), taşma payı (bleed) ve güvenlik mesafeleri gereklidir.",
+              "Numune onayı: Basımdan önce numune kontrol ettirerek renk ve baskı kalitesinden emin olun.",
+              "Teslimat: Acil işlerde 24-48 saat içinde teslim edilebilir.",
             ],
           },
           {
-            heading: "3 | Hyper-Bloom – 2026's Soft and Emotional Trend",
+            heading: "3 | Alanya'da Dükkan Açmanız İçin Pratik İpuçları",
             bullets: [
-              "In an era full of screens, stimulus bombardment and perfect AI images, the opposite trend emerges: Hyper-Bloom.",
-              "This style means calmness, emotion and visual softness. In 2026 it becomes one of the important aesthetic movements in graphic design.",
-              "Soft pastel tones like pink, lavender, sky blue, light green and butter yellow are used.",
-              "Soft transitions, depth created with blur effects, enlarged organic forms and cinematic atmosphere characterize Hyper-Bloom.",
-            ],
-          },
-          {
-            heading: "4 | Cinematic Photography",
-            bullets: [
-              "One of the most powerful photography trends of 2026 is the cinematic approach. Photos no longer just need to be beautiful; they should feel like a single frame from a film.",
-              "Focus shifts from technical perfection to atmosphere, mood and storytelling.",
-              "Clear emotional atmosphere, dramatic or very consciously placed light, minimal but powerful composition are required.",
-              "Frames that make viewers ask questions stand out: What's happening here? Who is this person? What's the mood?",
-            ],
-          },
-          {
-            heading: "5 | Pantone 2026 Color of the Year: Cloud Dancer",
-            bullets: [
-              "Pantone introduced 2026 Color of the Year as bringing a touch of calmness and peace to a noisy world.",
-              "Cloud Dancer is a light, airy off-white that feels like floating among clouds.",
-              "Used alone it's calm and elegant; combined with strong colors it makes them shine even more; paired with pastels it achieves perfect harmony.",
-              "It supports minimalism in fashion, interiors and graphic design. It opens space for creativity without distracting.",
+              "Hızlı başlangıç için paket hizmet: Birden fazla ürüne indirim ve tümü birlikte hazırlayabilirsiniz.",
+              "Kaliteli malzeme yatırımı: Ucuz baskı pahalıya patlar. Dayanıklı ve profesyonel görünümlü ürünler müşteri güvenini artırır.",
+              "Stok yönetimi: Çok fazla adet yazdırmamak, düzenli olarak yenilemeleri tercih etmek akıllıca bir yöntemdir.",
+              "Çok dilli malzemeler: Alanya'nın turist nüfusu göz önüne alındığında, İngilizce, Rus, Almanca tercümeleri değerlidir.",
+              "Sosyal medya entegrasyonu: Basılı malzemelere QR kod ve sosyal medya hesaplarınız ekleyin.",
             ],
           },
         ],
-        cta: "In 2026 graphic design says less but feels more. Human touch, strong typography, soft atmospheres and conscious calmness take center stage. At Alanya Kale Matbaa we closely follow these trends in both design and print. If you want to use this new language in your projects, we're with you from choosing the right paper to special printing techniques. WhatsApp: +90 530 930 55 64",
+        cta: "Alanya'da dükkanınızı açmak üzeresiniz? Markanızı ilk günden profesyonel göstermek için hemen iletişime geçin. Tüm baskı ve matbaa ihtiyaçlarınız için ücretsiz danışmanlık alabilirsiniz. WhatsApp: +90 530 930 55 64",
+      },
+      en: {
+        category: "Business Guide",
+        title: "Print and Print Shop Guide for Shop Owners in Alanya: Start Your Brand Strong from Day One",
+        excerpt:
+          "What are the essential printing materials needed when opening a new shop? Business cards, menus, brochures, official documents and seal making. Kale Matbaa's shop opening guide.",
+        metaTitle: "Shop Opening Printing Guide | Alanya Kale Matbaa",
+        metaDescription:
+          "Printing materials and print shop products needed when opening a shop in Alanya. Business cards, menus, brochures, offset printing, seal making and professional start.",
+        intro: [
+          "Opening a new shop in Alanya is exciting but also an intensive process. With location selection, decoration, stock and staff, the printed materials that will introduce your brand to customers are often postponed.",
+          "However, professional printing and print shop products both meet your legal requirements and increase customer confidence. In this guide, you'll find the printing and print shop materials every business opening in Alanya needs, what to pay attention to, and practical information to make your work easier.",
+        ],
+        sections: [
+          {
+            heading: "1 | Essential Printing Materials When Opening a New Shop",
+            bullets: [
+              "Business cards: Still the most effective networking tool. Quality paper, matte/glossy options and professional design make your shop memorable.",
+              "Menu, price list and catalog: Essential for restaurants, cafes, boutiques or service businesses. Water and stain-resistant laminated menus or digital printed catalogs are both elegant and practical.",
+              "Brochures, flyers and posters: For opening campaign, discounts or new product introduction. Distributing flyers in tourist-heavy areas of Alanya is effective.",
+              "Official documents and offset printing: Invoices, receipts, order forms, delivery notes. Offset printing produces high-volume, economical and professional-looking documents.",
+              "Seal (stamp) making: Company seals, signature stamps, dated stamps and custom text stamps. These products required in official procedures are prepared with fast delivery and sharp print quality.",
+            ],
+          },
+          {
+            heading: "2 | From Design to Print: Step by Step Process",
+            bullets: [
+              "Define your brand identity: Prepare logo, color palette, typeface and corporate identity guidelines. Get professional consultation.",
+              "Choose a designer: You can use freelancers, design agencies or the print shop's design service. Alanya Kale Matbaa offers free design support.",
+              "File preparation: Print-ready PDF file, correct color profile (CMYK), bleed and safety margins are required.",
+              "Sample approval: Check the sample before printing to ensure color and print quality.",
+              "Delivery: Urgent jobs can be delivered within 24-48 hours.",
+            ],
+          },
+          {
+            heading: "3 | Practical Tips for Opening a Shop in Alanya",
+            bullets: [
+              "Quick start packages: Multiple products with discounts and all prepared together.",
+              "Quality material investment: Cheap printing is expensive. Durable and professional-looking products increase customer trust.",
+              "Inventory management: It's wise not to print too many copies and prefer regular updates.",
+              "Multilingual materials: Considering Alanya's tourist population, English, Russian, German translations are valuable.",
+              "Social media integration: Add QR codes and your social media accounts to printed materials.",
+            ],
+          },
+        ],
+        cta: "Are you opening a shop in Alanya? Contact us immediately to make your brand look professional from day one. Get free consultation for all your printing and print shop needs. WhatsApp: +90 530 930 55 64",
       },
       ru: {
-        category: "Графический дизайн",
-        title: "Тренды графического дизайна 2026: Как будет выглядеть будущее?",
+        category: "Руководство по бизнесу",
+        title: "Руководство по печати и типографии для владельцев магазинов в Алань: Начните свой бренд сильно с первого дня",
         excerpt:
-          "Какие цвета кажутся будущими? Самые важные тренды графического дизайна 2026 и цвет года Pantone Cloud Dancer.",
-        metaTitle: "Тренды графического дизайна 2026 | Kale Matbaa",
+          "Какие основные печатные материалы необходимы при открытии нового магазина? Визитные карточки, меню, брошюры, официальные документы и изготовление печатей.",
+        metaTitle: "Руководство по печати при открытии магазина | Kale Matbaa",
         metaDescription:
-          "Тренды дизайна 2026: гибридная работа человека + AI, сильная типография, Hyper-Bloom, кинематографическая фотография, цвет Cloud Dancer.",
+          "Печатные материалы и услуги типографии при открытии магазина в Алань. Визитные карточки, меню, брошюры, офсетная печать, изготовление печатей.",
         intro: [
-          "Какие цвета кажутся принадлежащими будущему? И как выглядит дизайн, который не нужно кричать, чтобы привлечь внимание?",
-          "2026 год приносит новое спокойствие в графический дизайн. Это спокойствие, объединённое с характером, эмоцией и чёткими сообщениями, достигает идеальной гармонии, особенно с цветом года Pantone 2026 Cloud Dancer.",
+          "Открыть новый магазин в Алань - это волнующе, но и интенсивный процесс. С выбором места, оформлением, запасами и персоналом печатные материалы, которые представят ваш бренд клиентам, часто отодвигаются на второй план.",
+          "Однако профессиональная печать и услуги типографии не только выполняют ваши юридические требования, но и повышают доверие клиентов. В этом руководстве вы найдёте все материалы печати и услуги типографии, необходимые каждому бизнесу, открывающемуся в Алань, на что обратить внимание и практическую информацию для облегчения вашей работы.",
         ],
         sections: [
           {
-            heading: "1 | Гибридный стиль работы человека + AI",
+            heading: "1 | Основные печатные материалы при открытии нового магазина",
             bullets: [
-              "ИИ по-прежнему очень важен, но реальный лидер - это человек. Дизайнеры используют генеративные инструменты как трамплин для творчества, а затем сознательно совершенствуют и направляют результаты.",
-              "Это сотрудничество создаёт оригинальную работу с технической глубиной.",
-              "В 2026 году ИИ используется для идей, вариаций, эскизов и исследования настроений. Дизайнеры выбирают, комбинируют и уточняют результаты. Финальный стиль, сообщение и чувство полностью исходят от человека.",
-              "После первой волны увлечения возросли поиски оригинальности и смысла. Чистые изо��ражения ИИ быстро становятся обыкновенными.",
+              "Визитные карточки: По-прежнему наиболее эффективный инструмент для контактов. Качественная бумага, матовые/глянцевые варианты и профессиональный дизайн делают ваш магазин запоминающимся.",
+              "Меню, прайс-лист и каталог: Необходимы для ресторанов, кафе, бутиков или сервисных компаний. Устойчивые к влаге и пятнам ламинированные меню или цифровые каталоги одновременно элегантны и практичны.",
+              "Брошюры, листовки и плакаты: Для кампании открытия, скидок или представления новых продуктов. Распространение листовок в многолюдных туристических местах Аланьи дает эффективные результаты.",
+              "Официальные документы и офсетная печать: Счета-фактуры, расписки, заказные формы, накладные. Офсетная печать производит большой объём, экономичные и профессионально выглядящие документы.",
+              "Изготовление печатей (штампов): Корпоративные печати, печати подписи, датированные печати и печати с пользовательским текстом. Эти требуемые в официальных процедурах изделия производятся с быстрой доставкой и четкой печатью.",
             ],
           },
           {
-            heading: "2 | Типография с высокой выразительной силой и тип-коллажи",
+            heading: "2 | От проекта к печати: пошаговый процесс",
             bullets: [
-              "В 2026 типография больше не просто информирует; она становится самим изображением, его структурой и носителем эмоций.",
-              "В мире возросшего визуального шума сильная типография сохраняет бренды в памяти.",
-              "Буквы искажаются, обрезаются, наслаиваются или свободно размещаются. Различные шрифты, размеры и стили сознательно комбинируются.",
-              "Диагональные оси, массивные буквы и ритмичные повторения создают напряжение. Экспериментальные и имеющие индивидуальность шрифты предпочитаются обычным.",
+              "Определите личность вашего бренда: Подготовьте логотип, цветовую палитру, шрифт и руководство по корпоративной идентичности. Получите профессиональную консультацию.",
+              "Выбор дизайнера: Вы можете использовать фрилансеров, дизайн-агентства или услугу дизайна типографии. Alanya Kale Matbaa предлагает бесплатную поддержку дизайна.",
+              "Подготовка файла: Требуется PDF-файл, готовый к печати, правильный цветовой профиль (CMYK), выпуск за обрез и безопасные поля.",
+              "Одобрение образца: Проверьте образец перед печатью, чтобы обеспечить цвет и качество печати.",
+              "Доставка: Срочные заказы можно доставить в течение 24-48 часов.",
             ],
           },
           {
-            heading: "3 | Hyper-Bloom – мягкий и эмоциональный тренд 2026 года",
+            heading: "3 | Практические советы по открытию магазина в Алань",
             bullets: [
-              "В эпоху, полную экранов, бомбардировки стимулами и совершенных изображений ИИ, возникает противоположный тренд: Hyper-Bloom.",
-              "Этот стиль означает спокойствие, эмоцию и визуальную мягкость. В 2026 году это становится одним из важных эстетических движений в графическом дизайне.",
-              "Используются мягкие пастельные тона, такие как розовый, сиреневый, небесно-голубой, светло-зелёный и масляный жёлтый.",
-              "Мягкие переходы, глубина, созданная эффектами размытия, увеличенные органические формы и кинематографическая атмосфера характеризуют Hyper-Bloom.",
-            ],
-          },
-          {
-            heading: "4 | Кинематографическая фотография",
-            bullets: [
-              "Один из самых мощных фотографических трендов 2026 года - это кинематографический подход. Фотографии больше не просто должны быть красивыми; они должны ощущаться как один кадр из фильма.",
-              "Фокус смещается с технического совершенства на атмосферу, настроение и повествование.",
-              "Требуется чёткая эмоциональная атмосфера, драматичное или очень сознательно размещённое освещение, минимальная но мощная композиция.",
-              "Кадры, которые заставляют зрителей задавать вопросы, выделяются: Что здесь происходит? Кто этот человек? Какое настроение?",
-            ],
-          },
-          {
-            heading: "5 | Цвет года Pantone 2026: Cloud Dancer",
-            bullets: [
-              "Pantone представила цвет года 2026 как приносящий прикосновение спокойствия и мира в шумный мир.",
-              "Cloud Dancer - это светлый, воздушный приглушённо-белый, ощущающийся как парящий среди облаков.",
-              "Используемый в одиночку - он спокоен и элегантен; в сочетании с сильными цветами он делает их ещё ярче; в паре с пастелью достигает идеальной гармонии.",
-              "Поддерживает минимализм в моде, интерьерах и графическом дизайне. Открывает пространство для творчества без отвлечения.",
+              "Пакеты быстрого старта: Несколько продуктов со скидками и все подготовлены вместе.",
+              "Инвестиции в качество материалов: Дешёвая печать дорогой обходится. Долговечные и профессионально выглядящие изделия повышают доверие клиентов.",
+              "Управление запасами: Разумно не печатать слишком много экземпляров и предпочитать регулярные обновления.",
+              "Многоязычные материалы: Учитывая туристическое население Аланьи, переводы на английский, русский, немецкий язык ценны.",
+              "Интеграция социальных сетей: Добавьте QR-коды и адреса ваших социальных сетей к печатным материалам.",
             ],
           },
         ],
-        cta: "В 2026 году графический дизайн говорит меньше, но ощущает больше. Человеческое прикосновение, сильная типография, мягкие атмосферы и сознательное спокойствие занимают центральное место. В Alanya Kale Matbaa мы внимательно следим за этими тенденциями как в дизайне, так и в печати. Если вы хотите использовать этот новый язык в своих проектах, мы с вами от выбора правильной бумаги до специальных техник печати. WhatsApp: +90 530 930 55 64",
+        cta: "Вы открываете магазин в Алань? Свяжитесь с нами немедленно, чтобы ваш бренд выглядел профессионально с первого дня. Получите бесплатную консультацию по всем вашим потребностям печати. WhatsApp: +90 530 930 55 64",
+      },
+    },
+  },
+  {
+    slug: "dijital-vs-ofset",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dijitalofset-1a4i8lEYMy62K7WVANy7gL6i9hpkCK.jpg",
+    imageAlt: "Dijital baskı vs Ofset baskı karşılaştırması - tiraj, kalite ve teknoloji",
+    date: "2025",
+    content: {
+      tr: {
+        category: "Baskı Teknolojileri",
+        title: "Dijital Baskı mı Ofset Baskı mı? Projeniz İçin Hangisi Doğru?",
+        excerpt:
+          "Kısa tirajlar için dijital baskı, uzun tirajlar için ofset baskı daha uygun. Nasıl çalışırlar, kalite farkları nelerdir ve hangisini seçmeniz gerektiğini öğrenin.",
+        metaTitle: "Dijital vs Ofset Baskı | Alanya Kale Matbaa",
+        metaDescription:
+          "Dijital baskı ve ofset baskı arasındaki farklar. Kırılma noktası, kalite, tiraj, hız ve maliyet karşılaştırması. Alanya Kale Matbaa'nın rehberi.",
+        intro: [
+          "Baskı yaptırmak istediğinizde hangisini seçeceğinize karar vermek zor olabilir. Dijital baskı mı yoksa ofset baskı mı? Hangisi daha ucuz, daha hızlı, daha kaliteli?",
+          "Cevap: İkisi de doğru, ancak farklı durumlar için. Tirajınız, bütçeniz, zaman sınırınız ve kalite beklentiniz hangisini seçeceğinizi belirler. Alanya Kale Matbaa'nın bu rehberinde tüm detayları bulacaksınız.",
+        ],
+        sections: [
+          {
+            heading: "1 | Hızlı Cevap: Kırılma Noktası",
+            bullets: [
+              "Dijital baskı kısa tirajlarda (500 adedin altı), değişken verili baskılarda ve hızlı teslimatta (24-48 saat) daha avantajlıdır.",
+              "Ofset baskı uzun tirajlarda (1.000 adedin üzeri) üstün kalite ve daha iyi renk doğruluğu sunar.",
+              "Kırılma noktası genellikle 500-1.000 adet arasındadır. 1.000 adetin altında dijital, üzerinde ofset tercih edilir.",
+            ],
+          },
+          {
+            heading: "2 | Dijital Baskı Nasıl Çalışır?",
+            bullets: [
+              "Kalıp olmadan dosyadan doğrudan kâğıya aktarım: Mürekkep püskürtmeli veya lazer teknolojisi kullanılır.",
+              "Kurulum süresi neredeyse sıfırdır: Dosya yüklendikten sonra hemen basıma başlanabilir.",
+              "600-1.200 DPI çözünürlük çoğu pazarlama materyali için yeterlidir: Kartvizit, flyer, broşür kaliteli çıkar.",
+              "Kısa tiraj, kişiselleştirilmiş kartvizit, flyer ve broşürlerde idealdir: Değişken veri baskısında adlar, tarihler, kodlar farklı olabilir.",
+              "Hızlı teslimat: 24-48 saat içinde hazır.",
+            ],
+          },
+          {
+            heading: "3 | Ofset Baskı Nasıl Çalışır?",
+            bullets: [
+              "Kalıptan lastik blanket'e, oradan kâğıya mürekkep aktarır: Litografi teknolojisine dayanır.",
+              "Kurulum daha uzun sürer ancak yüksek tirajlarda üstün detay sağlar: İlk 100-200 adet kalite kontrol amacıyla yapılır.",
+              "2.400-4.800 DPI ile katalog, kitapçık ve yüksek tirajlı işler için tercih edilir: Fotoğraf kalitesi çok yüksek.",
+              "Maliyeti tirajla birlikte düşer: 1.000 adetin üzerinde dijitalden çok daha uygun olur.",
+              "Yüksek tirajlarda renk tutarlılığı mükemmeldir.",
+            ],
+          },
+          {
+            heading: "4 | Kalite Farkları",
+            bullets: [
+              "Ofset baskıda nokta kazancı daha düşüktür: Renkler daha canlı ve uyumlu çıkar.",
+              "Dijital baskı son yıllarda kalite olarak yaklaşmıştır: Ofset kadar canlı renk vermez, ancak çoğu proje için yeterlidir.",
+              "Kısa tirajlarda dijital, uzun tirajlarda ofset daha uygundur: Kalite değil, maliyet-performans oranı belirleyici.",
+              "Fotoğraf baskısında ofset tercih edilir: Ton geçişleri ve derinlik ofsetde daha iyi.",
+            ],
+          },
+          {
+            heading: "5 | Ne Zaman Dijital, Ne Zaman Ofset?",
+            bullets: [
+              "Dijital seçin: 500 adedin altı, hızlı teslimat gerekli (24-48 saat), kişiselleştirme (değişken veri), bütçe sınırlı, test baskısı yapıyorsanız",
+              "Ofset seçin: 1.000 adedin üzeri, maksimum kalite gerekli, fotoğraf ve ton geçişleri önemli, uzun süre stoklayacaksanız, katalog veya dergi basıyorsanız",
+              "Danışmanın baskısını takip et: Alanya Kale Matbaa olarak hem dijital hem ofset baskı imkânımız mevcut.",
+            ],
+          },
+        ],
+        cta: "Baskı projeleriniz için hangisini seçeceğinizden emin değil misiniz? Alanya Kale Matbaa ekibi olarak size yardımcı olmaktan memnuniyet duyarız. Dosyanızı gönderin, tirajınız ve bütçeniz doğrultusunda size en doğru yöntemi önerelim. Ücretsiz danışmanlık alabilirsiniz. WhatsApp: +90 530 930 55 64",
+      },
+      en: {
+        category: "Printing Technologies",
+        title: "Digital Print or Offset Print? Which Is Right for Your Project?",
+        excerpt:
+          "Digital printing is better for short runs, offset for long runs. Learn how they work, quality differences, and which to choose.",
+        metaTitle: "Digital vs Offset Printing | Alanya Kale Matbaa",
+        metaDescription:
+          "Differences between digital and offset printing. Breakeven point, quality, volume, speed and cost comparison. Alanya Kale Matbaa guide.",
+        intro: [
+          "When you want to do printing, it can be difficult to decide which to choose. Digital printing or offset printing? Which is cheaper, faster, better quality?",
+          "The answer is: both are right, but for different situations. Your volume, budget, time constraints and quality expectations determine which you choose. You'll find all the details in Kale Matbaa's guide.",
+        ],
+        sections: [
+          {
+            heading: "1 | Quick Answer: The Breakeven Point",
+            bullets: [
+              "Digital printing is more advantageous for short runs (under 500), variable data printing and fast delivery (24-48 hours).",
+              "Offset printing offers superior quality and better color accuracy for long runs (over 1,000).",
+              "The breakeven point is usually between 500-1,000 copies. Under 1,000 prefer digital, above prefer offset.",
+            ],
+          },
+          {
+            heading: "2 | How Digital Printing Works",
+            bullets: [
+              "Direct transfer from file to paper without plates: Uses inkjet or laser technology.",
+              "Setup time is almost zero: Printing can start immediately after file upload.",
+              "600-1,200 DPI resolution is sufficient for most marketing materials: Business cards, flyers, brochures print with good quality.",
+              "Ideal for short runs, personalized business cards, flyers and brochures: Variable data printing allows different names, dates, codes.",
+              "Fast delivery: Ready within 24-48 hours.",
+            ],
+          },
+          {
+            heading: "3 | How Offset Printing Works",
+            bullets: [
+              "Ink transfers from plate to rubber blanket, then to paper: Based on lithography technology.",
+              "Setup takes longer but provides superior detail for high volumes: First 100-200 copies made for quality control.",
+              "With 2,400-4,800 DPI for catalogs, booklets and high-volume jobs: Photo quality is very high.",
+              "Cost decreases with volume: Much more economical than digital above 1,000 copies.",
+              "Color consistency is perfect in high runs.",
+            ],
+          },
+          {
+            heading: "4 | Quality Differences",
+            bullets: [
+              "Offset printing has lower dot gain: Colors appear more vibrant and harmonious.",
+              "Digital printing has approached offset in quality in recent years: Doesn't give colors as vibrant as offset, but sufficient for most projects.",
+              "Digital is better for short runs, offset for long runs: Cost-performance ratio, not quality, is decisive.",
+              "Offset is preferred for photo printing: Tone transitions and depth are better in offset.",
+            ],
+          },
+          {
+            heading: "5 | When Digital, When Offset?",
+            bullets: [
+              "Choose Digital: Under 500 copies, fast delivery required (24-48 hours), personalization (variable data), limited budget, test printing",
+              "Choose Offset: Over 1,000 copies, maximum quality required, photos and tone transitions important, long-term storage, printing catalogs or magazines",
+              "Follow the expert's recommendation: At Alanya Kale Matbaa, we have both digital and offset printing capabilities.",
+            ],
+          },
+        ],
+        cta: "Unsure which to choose for your printing projects? We at Alanya Kale Matbaa are happy to help. Send your file and we'll recommend the best method for your volume and budget. Get free consultation. WhatsApp: +90 530 930 55 64",
+      },
+      ru: {
+        category: "Технологии печати",
+        title: "Цифровая печать или офсетная печать? Что подходит для вашего проекта?",
+        excerpt:
+          "Цифровая печать лучше для коротких тиражей, офсет для больших. Узнайте, как они работают, различия в качестве и какую выбрать.",
+        metaTitle: "Цифровая vs офсетная печать | Alanya Kale Matbaa",
+        metaDescription:
+          "Различия между цифровой и офсетной печатью. Точка безубыточности, качество, объём, скорость и сравнение стоимости.",
+        intro: [
+          "Когда вы хотите сделать печать, может быть сложно решить, какую выбрать. Цифровая печать или офсетная печать? Какая дешевле, быстрее, качественнее?",
+          "Ответ: обе правильные, но для разных ситуаций. Ваш тираж, бюджет, ограничения по времени и ожидания по качеству определяют, какую вы выберете. Вы найдёте все детали в руководстве Kale Matbaa.",
+        ],
+        sections: [
+          {
+            heading: "1 | Быстрый ответ: Точка безубыточности",
+            bullets: [
+              "Цифровая печать более выгодна для коротких тиражей (менее 500), переменных данных и быстрой доставки (24-48 часов).",
+              "Офсетная печать обеспечивает превосходное качество и лучшую цветопередачу для больших тиражей (более 1000).",
+              "Точка безубыточности обычно составляет 500-1000 копий. Ниже 1000 предпочитайте цифровую, выше предпочитайте офсет.",
+            ],
+          },
+          {
+            heading: "2 | Как работает цифровая печать",
+            bullets: [
+              "Прямая передача с файла на бумагу без пластин: Использует технологию струйной или лазерной печати.",
+              "Время установки почти равно нулю: Печать может начаться сразу после загрузки файла.",
+              "Разрешение 600-1200 DPI достаточно для большинства маркетинговых материалов: Визитные карточки, листовки, брошюры печатаются хорошего качества.",
+              "Идеально подходит для малых тиражей, персонализированных визитных карточек, листовок и брошюр: Переменная печать данных позволяет разные имена, даты, коды.",
+              "Быстрая доставка: готово за 24-48 часов.",
+            ],
+          },
+          {
+            heading: "3 | Как работает офсетная печать",
+            bullets: [
+              "Краска передаётся с пластины на резиновое полотно, затем на бумагу: Основана на технологии литографии.",
+              "Установка занимает больше времени, но обеспечивает превосходные детали для больших объёмов: Первые 100-200 копий сделаны для контроля качества.",
+              "С разрешением 2400-4800 DPI для каталогов, буклетов и массовых работ: Качество фото очень высокое.",
+              "Стоимость уменьшается с увеличением объёма: Гораздо более экономично, чем цифровая выше 1000 копий.",
+              "Согласованность цвета в больших тиражах идеальна.",
+            ],
+          },
+          {
+            heading: "4 | Различия в качестве",
+            bullets: [
+              "Офсетная печать имеет меньший прирост точек: Цвета выглядят более яркими и гармоничными.",
+              "Цифровая печать в последние годы приблизилась к офсету по качеству: Не даёт такие яркие цвета, как офсет, но достаточна для большинства проектов.",
+              "Цифровая лучше для коротких тиражей, офсет для больших: Соотношение стоимость-производительность, а не качество, определяет выбор.",
+              "Офсет предпочтителен для фотопечати: Переходы тонов и глубина лучше в офсете.",
+            ],
+          },
+          {
+            heading: "5 | Когда цифровая, когда офсет?",
+            bullets: [
+              "Выбирайте цифровую: Менее 500 копий, требуется быстрая доставка (24-48 часов), персонализация (переменные данные), ограниченный бюджет, пробная печать",
+              "Выбирайте офсет: Более 1000 копий, требуется максимальное качество, фото и переходы тонов важны, долгосрочное хранение, печать каталогов или журналов",
+              "Следуйте рекомендации эксперта: В Alanya Kale Matbaa у нас есть возможности как цифровой, так и офсетной печати.",
+            ],
+          },
+        ],
+        cta: "Не уверены в выборе для своих печатных проектов? Мы в Alanya Kale Matbaa рады помочь. Отправьте свой файл, и мы рекомендуем лучший способ для вашего объёма и бюджета. Получите бесплатную консультацию. WhatsApp: +90 530 930 55 64",
       },
     },
   },
