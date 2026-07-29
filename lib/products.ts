@@ -281,7 +281,7 @@ export const products: Product[] = [
       },
       ru: {
         title: "Печать магнитов",
-        desc: "Каче��твенные магниты на холодильник и промо-магниты овальной, фигурной и стандартной формы.",
+        desc: "Каче����твенные магниты на холодильник и промо-магниты овальной, фигурной и стандартной формы.",
         features: ["Овальные и фигурные", "Стандартные размеры", "Для холодильника и промо", "Яркая цветная печать"],
       },
     },
@@ -385,7 +385,7 @@ export const products: Product[] = [
         features: ["300-350 gsm coated paper", "Standard and custom sizes", "Double-sided printing", "Tassel/string hole option"],
       },
       ru: {
-        title: "Закладка для книги на заказ",
+        title: "Закладка дл�� книги на заказ",
         desc: "Обязательна для акций и корпоративных подарков. С мощностью AccurioPress C4065 мы печатаем на мелованной бумаге 300-350 г матовой/глянцевой и специальной фактурной бумаге в стандартных размерах 5x15 см или с особой высечкой. Двусторонняя цветная печать, матовая/глянцевая ламинация, кисточка/отверстие для ниточки и закруглённые углы.",
         features: ["Мелованная бумага 300-350 г", "Стандартные и нестандартные размеры", "Двусторонняя печать", "Опция кисточки/нитки"],
       },
@@ -618,7 +618,7 @@ export const products: Product[] = [
       ru: {
         title: "Билет на мероприятие и концерт с серийным номером",
         desc: "Бюджетная, высокозащищённая печать билетов для ваших мероприятий, концертов, театра, ярмарок и организаций. Производство с сери перенумерованием, перфорацией (отрывной/отделяемый) и нестандартный дизайн билетов на мелованной бумаге 130-350 г с мощью нашей цифровой технологии C4065.",
-        features: ["Мелованная бумага 130-350 г", "Производство с сериями", "Опция перфорации/отрыва", "Высокая защита"],
+        features: ["Мелованная бумага 130-350 г", "Пр��изводство с сериями", "Опция перфорации/отрыва", "Высокая защита"],
       },
     },
   },
@@ -640,6 +640,27 @@ export const products: Product[] = [
         title: "Печать дисконтных купонов и подарочных сертификатов",
         desc: "Незаменимый маркетинговый инструмент для компаний, желающих увеличить объём продаж, завоевать новых клиентов и увеличить сезонные кампании. С нашей инфраструктурой C4065, персональный номер/код, перфорация (лёгкий отрыв) и опции нестандартной высечки для корпоративных подарочных сертификатов и дисконтных купонов на мелованной или специальной бумаге 130-350 г.",
         features: ["Мелованная бумага 130-350 г", "Персональный номер/код", "Перфорация с отрывом", "Опция нестандартной высечки"],
+      },
+    },
+  },
+  {
+    slug: "otel-baski-ihtiyaclari",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/otel-baski-ihtiyaclari-rKhmpBhxLCjzGnSmR8UAwnqNQJJU3Y.jpg",
+    content: {
+      tr: {
+        title: "Otel Baskı İhtiyaçları",
+        desc: "Konaklama alanlarının tüm baskı gereksinimlerine profesyonel çözüm. Konuk formları, housekeeper raporları, ön muhasebe belgeleri, çalışan yönetim formları ve daha birçok özel otel baskı ihtiyacı. 2 nüsha, 3 nüsha otokopili kağıtlar ve standart kağıtlarda istenilen boyut ve renkte üretim.",
+        features: ["Konuk ve personel formları", "2-3 nüsha otokopili kağıtlar", "Standart ve özel boyutlar", "Renkli ve siyah-beyaz seçenekleri"],
+      },
+      en: {
+        title: "Hotel Printing Needs",
+        desc: "Professional solutions for all printing requirements of accommodation facilities. Guest forms, housekeeper reports, front desk documents, staff management forms and many more specialized hotel printing needs. Production on 2-copy and 3-copy carbonless papers and standard papers in any desired size and color.",
+        features: ["Guest and staff forms", "2-3 copy carbonless papers", "Standard and custom sizes", "Color and black-white options"],
+      },
+      ru: {
+        title: "Потребности в печати для отелей",
+        desc: "Профессиональные решения для всех требований печати учреждений размещения. Гостевые формы, отчёты уборщиков, документы стойки регистрации, формы управления персоналом и многие другие специализированные потребности печати для отелей. Производство на 2-копийной и 3-копийной безуглеводной бумаге и стандартной бумаге любого размера и цвета.",
+        features: ["Гостевые и кадровые формы", "Бумага 2-3 копии без углерода", "Стандартные и нестандартные размеры", "Цветные и чёрно-белые варианты"],
       },
     },
   },

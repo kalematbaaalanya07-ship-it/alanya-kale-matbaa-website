@@ -1,6 +1,6 @@
 import type { Lang } from "@/lib/i18n"
 
-export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "acil-kase" | "canva-tasarimi"
+export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "acil-kase" | "canva-tasarimi" | "5-baskı-hatası" | "grafik-trendler-2026"
 
 export interface BlogSection {
   heading: string
@@ -126,7 +126,7 @@ export const blogPosts: BlogPost[] = [
         metaDescription:
           "Качественное изготовление печатей в Аланье: автоматические и классические печати, логотип и индивидуальный дизайн. Чёткий оттиск, прочные материалы.",
         intro: [
-          "Одним из самых практичных инструментов для быстрого подписания и заверения документов и отражения вашего корпоративного стиля является печать. В Alanya Kale Matbaa мы предлагаем качественные материалы и чёткое качество оттиска как для автоматических, так и для классических печатей.",
+          "Одним из самых практичных инструментов для быстрого подписания и заверения документов и отражения вашего корпоративного стиля является печать. В Alanya Kale Matbaa мы предлагаем качественные материалы и чёткое качество оттиска как для автоматических, так и д��я классических печатей.",
           "Нашими автоматическими печатями вы оставляете чистые и чёткие оттиски одним движением. Классические печати дарят надёжность традиционного использования. Оба типа доступны с логотипом, адресом, должностью и полностью индивидуальным дизайном.",
         ],
         sections: [
@@ -459,7 +459,7 @@ export const blogPosts: BlogPost[] = [
             heading: "Kartvizit Siparişi Nasıl Verilir?",
             bullets: [
               "1. Logonuzu ve iletişim bilgilerinizi Whatsapp'tan gönderin.",
-              "2. Tasarımcılarımız 30 dakika içinde mock-up (görüntü) hazırlar.",
+              "2. Tasarımcılarım��z 30 dakika içinde mock-up (görüntü) hazırlar.",
               "3. Onay aldıktan sonra 2-4 saat içinde basılıp Şekerhane'de hazır.",
               "4. Teslim veya kargo seçebilirsiniz. Acil ihtiyaçlar 1 saatte hazır.",
             ],
@@ -692,7 +692,7 @@ export const blogPosts: BlogPost[] = [
           "Нужна срочная печать в Аланье? Дизайн за 1 час, печать и доставка за 2-3 часа. Заказ через WhatsApp.",
         metaTitle: "Срочная ��ечать Алань | Доставка в тот же час - Kale Matbaa",
         metaDescription:
-          "Срочная печать в Аланье: дизайн 1 час, печать 2-3 часа. Şekerhane, Mahmutlar, Oba, Konaklı. Заказы через WhatsApp.",
+          "Срочная печать в Аланье: дизайн 1 час, п��чать 2-3 часа. Şekerhane, Mahmutlar, Oba, Konaklı. Заказы через WhatsApp.",
         intro: [
           "Ваша печать сломана, секретарь сделала неправильный дизайн, или вам срочно нужна печать на встречу за 1 час? Alanya Kale Matbaa - ваш быстрый и надёжный партнёр для срочных печатей. Мы обслуживаем весь Аланью, включая Şekerhane, Mahmutlar, Oba, Cikcilli и Konaklı.",
           "Вы можете обратиться к нам в срочных ситуациях: срок действия печати нотариуса истёк, печать юриста сломана, новая компания с новыми названиями нуждается в печати срочно, отделы продаж нуждаются в срочной печати для регистрации и т.д. С помощью опытной команды мы производим и доставляем вашу качественную печать в кратчайший срок.",
@@ -864,7 +864,7 @@ export const blogPosts: BlogPost[] = [
               "Добавьте 3-4 мм выпуска за обрез: Для профессионального обрезания ваш дизайн должен выходить на 3 мм за край. Откройте Файл > Параметры просмотра > Показать выпуск за обрез в Canva.",
               "Используйте изображения высокого разрешения: Для четкой печати изображения должны быть не менее 300 DPI. Фотографии низкого разрешения из интернета будут выглядеть размытыми.",
               "Скачайте как PDF для печати: Нажмите Поделиться > Загрузить в верхнем правом углу. Выберите PDF для печати (не PDF Standard). Отметьте метки обрезки и выпуск за обрез.",
-              "Если используете Canva Pro, установите цветовой профиль CMYK: Бесплатные учетные записи выдают RGB, мы можем конвертировать для вас.",
+              "Если используете Canva Pro, установите цвет��вой профиль CMYK: Бесплатные учетные записи выдают RGB, мы можем конвертировать для вас.",
             ],
           },
           {
@@ -889,6 +889,391 @@ export const blogPosts: BlogPost[] = [
           },
         ],
         cta: "Готовы превратить вашу работу Canva в профессиональные отпечатки? Свяжитесь с нами через WhatsApp: +90 530 930 55 64. Превратите ваш дизайн с экрана на бумагу!",
+      },
+    },
+  },
+  {
+    slug: "5-baskı-hatası",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/5hata-zuOvnkpeIh2iPYNQUxyv2uYa3q3J7v.jpg",
+    imageAlt: "Baskı dosyası hazırlanırken yapılan yaygın 5 hata",
+    date: "2025",
+    content: {
+      tr: {
+        category: "Baskı Veri Hazırlama",
+        title: "Baskı Dosyanız Neden Sorun Çıkarıyor? Ve Nasıl Önlenir? En Yaygın 5 Hata",
+        excerpt:
+          "Baskı verileri hazırlarken en sık yapılan 5 hata ve bunları nasıl kolayca önleyeceğiniz. Alanya Kale Matbaa'nın yıllar içinde gözlemlediği sorunlar.",
+        metaTitle: "Baskı Veri Hazırlama Hataları | Kale Matbaa",
+        metaDescription:
+          "Baskı dosyasında sorun mu var? PDF vs Word, şablon yok saymak, güvenlik mesafesi, taşma payı, sayfa düzeni. 5 yaygın hata ve çözümleri.",
+        intro: [
+          "Baskı verileri, her başarılı baskı projesinin kalbidir. Tasarımınızın keskin, renkleri doğru ve profesyonel görünüp görünmeyeceğini onlar belirler. Alanya Kale Matbaa olarak, yıllardır müşterilerimizle çalışırken en çok karşılaştığımız sorunları sizin için derledik.",
+          "İşte baskı verisi hazırlarken en sık yapılan 5 hata ve bunları nasıl kolayca önleyeceğiniz…",
+        ],
+        sections: [
+          {
+            heading: "1 | Temelleri Atlayınca Her Şey Zorlaşıyor: Baskıya Hazır Dosya Nedir?",
+            bullets: [
+              "Baskı verileri, matbaanın doğrudan üretimde kullanacağı dosyalardır. Layout, görsel, metin ve özel efektler (folyo, lak, kontur kesim…) hepsi buraya girer.",
+              "En güvenli ve profesyonel format ise PDF'dir.",
+              "InDesign, Illustrator veya Scribus gibi programlarda hâlâ açık olan dosyalar, Word, PowerPoint veya Photoshop dosyaları ise sıkça sorun çıkarır: yazılar kayar, renkler bozulur, içerikler kaybolur.",
+              "Alanya Kale Matbaa tavsiyesi: Her zaman baskıya hazır PDF veya vektör dosya kullanın. Şablonlardaki yardımcı çizgileri asla dışa aktarmayın, yoksa basılı ürününüzde görünürler!",
+            ],
+          },
+          {
+            heading: "2 | En Büyük Tuzak: Güncel Şablonları ve Bilgi Formlarını Yok Saymak",
+            bullets: [
+              "Birçok sorun aslında teknik bilgi eksikliğinden değil, şablonların ve bilgi formlarının okunmamasından kaynaklanır.",
+              "Özellikle bayrak, beachflag, kanat klasör veya kağıt torba gibi özel ürünlerde şablonlar sık güncellenir.",
+              "Kontrol listesi: Her sipariş öncesi en güncel şablonu indirin, Bilgi formunu mutlaka okuyun, Format, güvenlik mesafesi ve taşma payı (bleed) değerlerine dikkat edin",
+              "Birkaç dakikalık kontrol, saatlerce düzeltme döngüsünden kurtarır.",
+            ],
+          },
+          {
+            heading: "3 | Küçük Detaylar, Büyük Pişmanlıklar",
+            bullets: [
+              "Flyer, klasör, afiş gibi standart ürünlerde sürekli aynı hataları görüyoruz: Metin ve logolar kenara çok yakın (güvenlik mesafesi yok)",
+              "Taşma payı (bleed) eksik → beyaz kenar çizgileri",
+              "Yazı tipi boyutu çok küçük, Düşük çözünürlük",
+              "Pratik ipucu: PDF'inizi %100 görünümde açın. Orada bulanık görünen her şey baskıda da bulanık çıkacaktır.",
+            ],
+          },
+          {
+            heading: "4 | Cilalama ve Özel Efektlerde Gizli Kurallar",
+            bullets: [
+              "Görsel olarak güzel görünse bile teknik kurallara uyulmazsa üretim mümkün olmayabilir.",
+              "Minimum yazı boyutu ve çizgi kalınlığı gereklidir.",
+              "Güvenlik mesafeleri mutlaka korunmalıdır.",
+              "Altın/gümüş folyo uygulamalarında 1 mm'ye kadar tolerans vardır (folyo elemanlarını CMYK kenarlara yaslamayın)",
+              "3D lak ise çok daha hassas konumlandırılabilir.",
+            ],
+          },
+          {
+            heading: "5 | Çok Sayfalı Ürünlerde Sayfa Düzeni Hatası",
+            bullets: [
+              "Broşür, klasör ve gazete gibi ürünlerde en sık hata sayfaların yanlış sırada veya yanlış şekilde hazırlanmasıdır.",
+              "Broşür/gazete → tek PDF, doğru okuma sırası, kapak ayrıca sayılır",
+              "Basit kıvrımlı klasör → dış + iç veya 4 tek sayfa, kıvrım ölçüleri mutlaka uyumlu",
+              "Zarf → üstte 10 mm basılamayan tutucu kenar, 4+4 yaprak → 10 sayfa = 5 çift taraflı basılmış kağıt",
+            ],
+          },
+        ],
+        cta: "Baskı verilerinizden emin değil misiniz? Alanya Kale Matbaa ekibi olarak size yardımcı olmaktan memnuniyet duyarız. Profesyonel baskı verisi kontrol hizmetimizle dosyanızı inceleyebilir, gerekirse düzeltme önerileri sunabiliriz. Kaliteli baskı, doğru veriyle başlar. WhatsApp: +90 530 930 55 64",
+      },
+      en: {
+        category: "Print Data Preparation",
+        title: "Why Is Your Print File Causing Problems? And How to Prevent It? 5 Common Mistakes",
+        excerpt:
+          "The 5 most common mistakes when preparing print files and how to prevent them easily. Problems observed by Kale Matbaa over the years.",
+        metaTitle: "Print File Mistakes | Kale Matbaa",
+        metaDescription:
+          "Issues with your print file? PDF vs Word, ignoring templates, safety margins, bleed, page layout. 5 common mistakes and solutions.",
+        intro: [
+          "Print data is the heart of every successful print project. It determines whether your design will be sharp, colors correct, and professionally presented. At Alanya Kale Matbaa, we've compiled the most common problems we encounter working with customers over the years.",
+          "Here are the 5 most common mistakes when preparing print files and how to easily prevent them…",
+        ],
+        sections: [
+          {
+            heading: "1 | Skipping the Basics Makes Everything Harder: What Is a Print-Ready File?",
+            bullets: [
+              "Print files are files that the print shop will use directly in production. Layout, images, text, and special effects (foil, varnish, die-cutting…) all go into it.",
+              "The safest and most professional format is PDF.",
+              "Files still open in programs like InDesign, Illustrator or Scribus, or Word, PowerPoint and Photoshop files often cause problems: text shifts, colors distort, content disappears.",
+              "Kale Matbaa advice: Always use print-ready PDF or vector files. Never export helper lines from templates, otherwise they'll appear on your printed product!",
+            ],
+          },
+          {
+            heading: "2 | The Biggest Trap: Ignoring Current Templates and Information Forms",
+            bullets: [
+              "Many problems actually stem not from lack of technical knowledge, but from not reading templates and information forms.",
+              "Especially for special products like flags, beach flags, wing folders or paper bags, templates are updated frequently.",
+              "Checklist: Download the latest template before each order, Always read the information form, Pay attention to format, safety margins and bleed values",
+              "A few minutes of checking saves hours of correction loops.",
+            ],
+          },
+          {
+            heading: "3 | Small Details, Big Regrets",
+            bullets: [
+              "We constantly see the same mistakes in standard products like flyers, folders, and posters: Text and logos too close to edges (no safety margin)",
+              "Missing bleed → white edge lines",
+              "Font size too small, Low resolution",
+              "Practical tip: Open your PDF at 100% view. Everything that looks blurry there will be blurry in print.",
+            ],
+          },
+          {
+            heading: "4 | Hidden Rules in Finishing and Special Effects",
+            bullets: [
+              "Even if visually beautiful, if technical rules aren't followed, production may not be possible.",
+              "Minimum font size and line thickness are required.",
+              "Safety margins must always be maintained.",
+              "Gold/silver foil applications have tolerance up to 1 mm (don't place foil elements tight to CMYK edges)",
+              "3D varnish can be positioned much more precisely.",
+            ],
+          },
+          {
+            heading: "5 | Page Layout Errors in Multi-Page Products",
+            bullets: [
+              "The most common error in products like brochures, folders and newspapers is pages being prepared in wrong order or wrong format.",
+              "Brochure/newspaper → single PDF, correct reading order, cover counts separately",
+              "Simple folded folder → outside + inside or 4 separate pages, fold measurements must be compatible",
+              "Envelope → 10 mm non-printable holder edge at top, 4+4 sheet → 10 pages = 5 double-sided printed sheets",
+            ],
+          },
+        ],
+        cta: "Not sure about your print files? The Alanya Kale Matbaa team is happy to help. With our professional print file review service, we can check your files and provide correction suggestions if needed. Quality printing starts with correct data. WhatsApp: +90 530 930 55 64",
+      },
+      ru: {
+        category: "Подготовка печатных данных",
+        title: "Почему ваш печатный файл вызывает проблемы? И как это предотвратить? 5 распространённых ошибок",
+        excerpt:
+          "5 самых распространённых ошибок при подготовке печатных файлов и как их легко предотвратить. Проблемы, наблюдаемые Kale Matbaa за эти годы.",
+        metaTitle: "Ошибки печатного файла | Kale Matbaa",
+        metaDescription:
+          "Проблемы с вашим печатным файлом? PDF против Word, игнорирование шаблонов, безопасные поля, выпуск за обрез, макет страницы. 5 распространённых ошибок и решения.",
+        intro: [
+          "Печатные данные - это сердце каждого успешного печатного проекта. Они определяют, будет ли ваш дизайн чётким, цвета правильными и профессионально представленными. В Alanya Kale Matbaa мы собрали наиболее распространённые проблемы, с которыми сталкиваемся при работе с клиентами на протяжении многих лет.",
+          "Вот 5 наиболее распространённых ошибок при подготовке печатных файлов и как их легко предотвратить…",
+        ],
+        sections: [
+          {
+            heading: "1 | Пропуск основ затрудняет всё: что такое файл, готовый к печати?",
+            bullets: [
+              "Печатные файлы - это файлы, которые типография будет использовать непосредственно в производстве. Макет, изображения, текст и специальные эффекты (фольга, лак, высечка…) - всё это входит в него.",
+              "Самый безопасный и профессиональный формат - это PDF.",
+              "Файлы, по-прежнему открытые в программах типа InDesign, Illustrator или Scribus, а также файлы Word, PowerPoint и Photoshop часто вызывают проблемы: текст смещается, цвета искажаются, содержимое теряется.",
+              "Совет Kale Matbaa: Всегда используйте PDF или векторные файлы, готовые к печати. Никогда не экспортируйте вспомогательные линии из шаблонов, иначе они появятся на вашем печатном изделии!",
+            ],
+          },
+          {
+            heading: "2 | Самая большая ловушка: игнорирование текущих шаблонов и информационных форм",
+            bullets: [
+              "Многие проблемы на самом деле возникают не из-за недостатка технических знаний, а из-за неуважения к шаблонам и информационным формам.",
+              "Особенно для специальных продуктов, таких как флаги, пляжные флаги, крылатые папки или бумажные пакеты, шаблоны часто обновляются.",
+              "Контрольный список: Загружайте последний шаблон перед каждым заказом, Всегда читайте информационную форму, Обращайте внимание на формат, безопасные поля и значения выпуска за обрез",
+              "Несколько минут проверки спасают часы циклов коррекции.",
+            ],
+          },
+          {
+            heading: "3 | Маленькие детали, большое сожаление",
+            bullets: [
+              "Мы постоянно видим одинаковые ошибки в стандартных продуктах, таких как листовки, папки и плакаты: текст и логотипы слишком близко к краям (отсутствуют безопасные поля)",
+              "Отсутствует выпуск за обрез → белые линии по краям",
+              "Размер шрифта слишком мал, низкое разрешение",
+              "Практический совет: откройте ваш PDF при 100% просмотре. Всё, что выглядит размытым там, будет размытым при печати.",
+            ],
+          },
+          {
+            heading: "4 | Скрытые правила в отделке и специальных эффектах",
+            bullets: [
+              "Даже если визуально выглядит красиво, если не соблюдаются технические правила, производство может быть невозможно.",
+              "Требуются минимальный размер шрифта и толщина линий.",
+              "Безопасные поля всегда должны соблюдаться.",
+              "Приложения золотой/серебряной фольги допускают допуск до 1 мм (не размещайте элементы фольги вплотную к краям CMYK)",
+              "3D-лак может быть расположен намного более точно.",
+            ],
+          },
+          {
+            heading: "5 | Ошибки макета страницы в многостраничных продуктах",
+            bullets: [
+              "Наиболее распространённая ошибка в продуктах, таких как брошюры, папки и газеты, - это страницы, подготовленные в неправильном порядке или неправильном формате.",
+              "Брошюра/газета → один PDF, правильный порядок чтения, обложка считается отдельно",
+              "Простая сложенная папка → снаружи + внутри или 4 отдельные страницы, размеры сгибов должны быть совместимы",
+              "Конверт → 10 мм непечатаемое поле-держатель вверху, 4+4 листа → 10 страниц = 5 двусторонних печатных листов",
+            ],
+          },
+        ],
+        cta: "Не уверены в своих печатных файлах? Команда Alanya Kale Matbaa рада помочь. С нашей профессиональной услугой проверки печатных файлов мы можем проверить ваши файлы и предоставить рекомендации по исправлениям при необходимости. Качественная печать начинается с правильных данных. WhatsApp: +90 530 930 55 64",
+      },
+    },
+  },
+  {
+    slug: "grafik-trendler-2026",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2026trend-UehtsXKBIcTHOGaPiAVhazeYmgYHnl.jpg",
+    imageAlt: "2026 grafik tasarım trendleri - Hyper-Bloom, Cloud Dancer, sinematik fotoğrafçılık",
+    date: "2025",
+    content: {
+      tr: {
+        category: "Grafik Tasarım",
+        title: "Grafik Tasarım Trendleri 2026: Gelecek Nasıl Görünecek?",
+        excerpt:
+          "Hangi renkler geleceğe ait hissettiriyor? 2026'nın en önemli grafik tasarım trendleri ve Pantone'un yılın rengi Cloud Dancer.",
+        metaTitle: "2026 Grafik Tasarım Trendleri | Kale Matbaa",
+        metaDescription:
+          "2026 grafik tasarım trendleri: İnsan + AI hibrit çalışma, güçlü tipografi, Hyper-Bloom, sinematik fotoğrafçılık, Cloud Dancer rengi.",
+        intro: [
+          "Hangi renkler geleceğe ait hissettiriyor? Ve dikkat çekmek için bağırması gerekmeyen bir tasarım nasıl görünür?",
+          "2026, grafik tasarıma yeni bir sakinlik getiriyor. Karakter, duygu ve net mesajlarla birleşen bu sakinlik, özellikle Pantone'un 2026 Yılın Rengi Cloud Dancer ile mükemmel uyum yakalıyor.",
+        ],
+        sections: [
+          {
+            heading: "1 | İnsan + Yapay Zekâ Hibrit Çalışma Biçimi",
+            bullets: [
+              "Yapay zekâ hâlâ çok önemli, ancak asıl lider insan. Tasarımcılar generatif araçları yaratıcı bir sıçrama tahtası olarak kullanıyor, ardından sonuçları bilinçli şekilde rafine edip yönlendiriyor.",
+              "Bu iş birliği, teknik derinlik taşıyan özgün işler ortaya çıkarıyor.",
+              "2026'da yapay zekâ fikir, varyasyon, eskiz ve mood araştırması için kullanılıyor. Tasarımcı sonuçları seçiyor, birleştiriyor ve inceliyor. Final stil, mesaj ve his tamamen insandan geliyor.",
+              "İlk heyecan dalgasından sonra orijinallik ve anlam arayışı arttı. Saf yapay zekâ görselleri hızla sıradanlaşıyor.",
+            ],
+          },
+          {
+            heading: "2 | İfade Gücü Yüksek Tipografi & Tipo-Kolajlar",
+            bullets: [
+              "2026'da tipografi artık sadece bilgi vermek için değil, görselin kendisi, yapısı ve duygu taşıyıcısı oluyor.",
+              "Görsel gürültünün arttığı bir dünyada, güçlü tipografi markaların akılda kalmasını sağlıyor.",
+              "Harfler bozuluyor, kesiliyor, üst üste biniyor veya serbestçe yerleştiriliyor. Farklı yazı tipleri, boyutlar ve stiller bilinçli şekilde birleştiriliyor.",
+              "Eğik eksenler, devasa harfler ve ritmik tekrarlar gerilim yaratıyor. Sıradan fontlar yerine deneysel ve kişilik sahibi yazı tipleri tercih ediliyor.",
+            ],
+          },
+          {
+            heading: "3 | Hyper-Bloom – 2026'nın Yumuşak ve Duygusal Trendi",
+            bullets: [
+              "Ekranlarla, uyaran bombardımanıyla ve kusursuz yapay zekâ görselleriyle dolu bir dönemde, tam tersi bir trend doğuyor: Hyper-Bloom.",
+              "Bu stil sakinlik, duygu ve görsel yumuşaklık demek. 2026'da grafik tasarımın önemli estetik akımlarından biri haline geliyor.",
+              "Pembe, leylak, gökyüzü mavisi, açık yeşil ve tereyağı sarısı gibi yumuşak pastel tonlar kullanılıyor.",
+              "Yumuşak geçişler, blur efektleriyle oluşturulan derinlik, büyütülmüş organik formlar ve sinematik atmosfer Hyper-Bloom'un özellikleridir.",
+            ],
+          },
+          {
+            heading: "4 | Sinematik Fotoğrafçılık",
+            bullets: [
+              "2026'nın en güçlü fotoğraf trendlerinden biri sinematik yaklaşım. Fotoğraflar artık sadece güzel olmak zorunda değil; bir filmin tek karesi gibi hissettirmeli.",
+              "Odak, teknik mükemmellikten çok atmosfer, ruh hali ve hikâyeye kayıyor.",
+              "Net bir duygusal atmosfer, dramatik veya çok bilinçli yerleştirilmiş ışık, az ama güçlü kompozisyon gereklidir.",
+              "Bakınca sorularını sordurtan kareler öne çıkıyor: Burada ne oluyor? Bu kişi kim? Nasıl bir ruh hali var?",
+            ],
+          },
+          {
+            heading: "5 | Pantone 2026 Yılın Rengi: Cloud Dancer",
+            bullets: [
+              "Pantone, 2026 Yılın Rengi'ni gürültülü bir dünyada sakinlik ve huzur dokunuşu sloganıyla tanıttı.",
+              "Cloud Dancer, bulutlarda süzülüyormuş hissi veren hafif, ferah bir kırık beyaz.",
+              "Yalnız başına kullanıldığında sakin ve zarif, güçlü renklerle birleştiğinde onları daha da parlatıyor, pastellerle ise mükemmel uyum sağlıyor.",
+              "Moda, iç mekân ve grafik tasarımda minimalizmi destekliyor. Yaratıcılığa alan açıyor, dikkat dağıtmıyor.",
+            ],
+          },
+        ],
+        cta: "2026'da grafik tasarım daha az bağırıyor, daha çok hissettiriyor. İnsan dokunuşu, güçlü tipografi, yumuşak atmosferler ve bilinçli sakinlik öne çıkıyor. Alanya Kale Matbaa olarak bu trendleri hem tasarım hem de baskı tarafında yakından takip ediyoruz. Projelerinizde bu yeni dili kullanmak isterseniz, doğru kâğıt seçiminden özel baskı tekniklerine kadar yanınızdayız. WhatsApp: +90 530 930 55 64",
+      },
+      en: {
+        category: "Graphic Design",
+        title: "Graphic Design Trends 2026: How Will the Future Look?",
+        excerpt:
+          "Which colors feel like the future? The most important graphic design trends of 2026 and Pantone's color of the year Cloud Dancer.",
+        metaTitle: "2026 Graphic Design Trends | Kale Matbaa",
+        metaDescription:
+          "2026 graphic design trends: Human + AI hybrid work, strong typography, Hyper-Bloom, cinematic photography, Cloud Dancer color.",
+        intro: [
+          "Which colors feel like the future? And what does a design look like that doesn't need to shout to get attention?",
+          "2026 brings new calmness to graphic design. This calmness combined with character, emotion and clear messaging achieves perfect harmony, especially with Pantone's 2026 Color of the Year, Cloud Dancer.",
+        ],
+        sections: [
+          {
+            heading: "1 | Human + AI Hybrid Work Style",
+            bullets: [
+              "AI is still very important, but the real leader is human. Designers use generative tools as a creative springboard, then consciously refine and direct the results.",
+              "This collaboration produces original work with technical depth.",
+              "In 2026 AI is used for ideas, variations, sketches and mood research. Designers select, combine and refine results. Final style, message and feeling come entirely from humans.",
+              "After the first wave of excitement, the search for originality and meaning increased. Pure AI images quickly become ordinary.",
+            ],
+          },
+          {
+            heading: "2 | High Expression Typography & Type-Collages",
+            bullets: [
+              "In 2026 typography is no longer just for conveying information; it becomes the image itself, its structure and emotional carrier.",
+              "In a world of increased visual noise, strong typography keeps brands memorable.",
+              "Letters are distorted, cut, layered or freely placed. Different typefaces, sizes and styles are consciously combined.",
+              "Diagonal axes, massive letters and rhythmic repetitions create tension. Experimental and personality-filled typefaces are preferred over ordinary fonts.",
+            ],
+          },
+          {
+            heading: "3 | Hyper-Bloom – 2026's Soft and Emotional Trend",
+            bullets: [
+              "In an era full of screens, stimulus bombardment and perfect AI images, the opposite trend emerges: Hyper-Bloom.",
+              "This style means calmness, emotion and visual softness. In 2026 it becomes one of the important aesthetic movements in graphic design.",
+              "Soft pastel tones like pink, lavender, sky blue, light green and butter yellow are used.",
+              "Soft transitions, depth created with blur effects, enlarged organic forms and cinematic atmosphere characterize Hyper-Bloom.",
+            ],
+          },
+          {
+            heading: "4 | Cinematic Photography",
+            bullets: [
+              "One of the most powerful photography trends of 2026 is the cinematic approach. Photos no longer just need to be beautiful; they should feel like a single frame from a film.",
+              "Focus shifts from technical perfection to atmosphere, mood and storytelling.",
+              "Clear emotional atmosphere, dramatic or very consciously placed light, minimal but powerful composition are required.",
+              "Frames that make viewers ask questions stand out: What's happening here? Who is this person? What's the mood?",
+            ],
+          },
+          {
+            heading: "5 | Pantone 2026 Color of the Year: Cloud Dancer",
+            bullets: [
+              "Pantone introduced 2026 Color of the Year as bringing a touch of calmness and peace to a noisy world.",
+              "Cloud Dancer is a light, airy off-white that feels like floating among clouds.",
+              "Used alone it's calm and elegant; combined with strong colors it makes them shine even more; paired with pastels it achieves perfect harmony.",
+              "It supports minimalism in fashion, interiors and graphic design. It opens space for creativity without distracting.",
+            ],
+          },
+        ],
+        cta: "In 2026 graphic design says less but feels more. Human touch, strong typography, soft atmospheres and conscious calmness take center stage. At Alanya Kale Matbaa we closely follow these trends in both design and print. If you want to use this new language in your projects, we're with you from choosing the right paper to special printing techniques. WhatsApp: +90 530 930 55 64",
+      },
+      ru: {
+        category: "Графический дизайн",
+        title: "Тренды графического дизайна 2026: Как будет выглядеть будущее?",
+        excerpt:
+          "Какие цвета кажутся будущими? Самые важные тренды графического дизайна 2026 и цвет года Pantone Cloud Dancer.",
+        metaTitle: "Тренды графического дизайна 2026 | Kale Matbaa",
+        metaDescription:
+          "Тренды дизайна 2026: гибридная работа человека + AI, сильная типография, Hyper-Bloom, кинематографическая фотография, цвет Cloud Dancer.",
+        intro: [
+          "Какие цвета кажутся принадлежащими будущему? И как выглядит дизайн, который не нужно кричать, чтобы привлечь внимание?",
+          "2026 год приносит новое спокойствие в графический дизайн. Это спокойствие, объединённое с характером, эмоцией и чёткими сообщениями, достигает идеальной гармонии, особенно с цветом года Pantone 2026 Cloud Dancer.",
+        ],
+        sections: [
+          {
+            heading: "1 | Гибридный стиль работы человека + AI",
+            bullets: [
+              "ИИ по-прежнему очень важен, но реальный лидер - это человек. Дизайнеры используют генеративные инструменты как трамплин для творчества, а затем сознательно совершенствуют и направляют результаты.",
+              "Это сотрудничество создаёт оригинальную работу с технической глубиной.",
+              "В 2026 году ИИ используется для идей, вариаций, эскизов и исследования настроений. Дизайнеры выбирают, комбинируют и уточняют результаты. Финальный стиль, сообщение и чувство полностью исходят от человека.",
+              "После первой волны увлечения возросли поиски оригинальности и смысла. Чистые изображения ИИ быстро становятся обыкновенными.",
+            ],
+          },
+          {
+            heading: "2 | Типография с высокой выразительной силой и тип-коллажи",
+            bullets: [
+              "В 2026 типография больше не просто информирует; она становится самим изображением, его структурой и носителем эмоций.",
+              "В мире возросшего визуального шума сильная типография сохраняет бренды в памяти.",
+              "Буквы искажаются, обрезаются, наслаиваются или свободно размещаются. Различные шрифты, размеры и стили сознательно комбинируются.",
+              "Диагональные оси, массивные буквы и ритмичные повторения создают напряжение. Экспериментальные и имеющие индивидуальность шрифты предпочитаются обычным.",
+            ],
+          },
+          {
+            heading: "3 | Hyper-Bloom – мягкий и эмоциональный тренд 2026 года",
+            bullets: [
+              "В эпоху, полную экранов, бомбардировки стимулами и совершенных изображений ИИ, возникает противоположный тренд: Hyper-Bloom.",
+              "Этот стиль означает спокойствие, эмоцию и визуальную мягкость. В 2026 году это становится одним из важных эстетических движений в графическом дизайне.",
+              "Используются мягкие пастельные тона, такие как розовый, сиреневый, небесно-голубой, светло-зелёный и масляный жёлтый.",
+              "Мягкие переходы, глубина, созданная эффектами размытия, увеличенные органические формы и кинематографическая атмосфера характеризуют Hyper-Bloom.",
+            ],
+          },
+          {
+            heading: "4 | Кинематографическая фотография",
+            bullets: [
+              "Один из самых мощных фотографических трендов 2026 года - это кинематографический подход. Фотографии больше не просто должны быть красивыми; они должны ощущаться как один кадр из фильма.",
+              "Фокус смещается с технического совершенства на атмосферу, настроение и повествование.",
+              "Требуется чёткая эмоциональная атмосфера, драматичное или очень сознательно размещённое освещение, минимальная но мощная композиция.",
+              "Кадры, которые заставляют зрителей задавать вопросы, выделяются: Что здесь происходит? Кто этот человек? Какое настроение?",
+            ],
+          },
+          {
+            heading: "5 | Цвет года Pantone 2026: Cloud Dancer",
+            bullets: [
+              "Pantone представила цвет года 2026 как приносящий прикосновение спокойствия и мира в шумный мир.",
+              "Cloud Dancer - это светлый, воздушный приглушённо-белый, ощущающийся как парящий среди облаков.",
+              "Используемый в одиночку - он спокоен и элегантен; в сочетании с сильными цветами он делает их ещё ярче; в паре с пастелью достигает идеальной гармонии.",
+              "Поддерживает минимализм в моде, интерьерах и графическом дизайне. Открывает пространство для творчества без отвлечения.",
+            ],
+          },
+        ],
+        cta: "В 2026 году графический дизайн говорит меньше, но ощущает больше. Человеческое прикосновение, сильная типография, мягкие атмосферы и сознательное спокойствие занимают центральное место. В Alanya Kale Matbaa мы внимательно следим за этими тенденциями как в дизайне, так и в печати. Если вы хотите использовать этот новый язык в своих проектах, мы с вами от выбора правильной бумаги до специальных техник печати. WhatsApp: +90 530 930 55 64",
       },
     },
   },
