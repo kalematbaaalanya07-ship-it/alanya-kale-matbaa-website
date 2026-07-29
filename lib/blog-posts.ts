@@ -863,7 +863,7 @@ export const blogPosts: BlogPost[] = [
               "Выберите правильный размер: Используйте точные размеры продукта, который вы печатаете (например, стандартная визитка 85x55 мм, брошюра A5 148x210 мм). Используйте опцию 'Пользовательский размер' в Canva.",
               "Добавьте 3-4 мм выпуска за обрез: Для профессионального обрезания ваш дизайн должен выходить на 3 мм за край. Откройте Файл > Параметры просмотра > Показать выпуск за обрез в Canva.",
               "Используйте изображения высокого разрешения: Для четкой печати изображения должны быть не менее 300 DPI. Фотографии низкого разрешения из интернета будут выглядеть размытыми.",
-              "Скачайте как PDF для печати: Нажмите Поделиться > Загрузить в верхнем правом углу. Выберите PDF для печати (не PDF Standard). Отметьте метки обрезки и выпуск за обрез.",
+              "Скачайте как PDF для печати: Нажмите Поделиться > Загрузить в верхнем правом углу. Выберите PDF для печати (не PDF Standard). Отметь��е метки обрезки и выпуск за обрез.",
               "Ес��и используете Canva Pro, установите цвет��вой профиль CMYK: Бесплатные учетные записи выда��т RGB, мы можем конвертировать дл�� вас.",
             ],
           },
@@ -1073,7 +1073,7 @@ export const blogPosts: BlogPost[] = [
             ],
           },
           {
-            heading: "5 | Ошибки макета страницы в многостраничных продуктах",
+            heading: "5 | Ошибки макета страницы в мног��страничных продуктах",
             bullets: [
               "Наиболее распространённая ошибка в продуктах, таких как брошюры, папки и газеты, - это страницы, подготовленные в неправильном порядке или неправильном формате.",
               "Брошюра/газета → один PDF, правильный порядок чтения, обложка считается отдельно",
@@ -1082,7 +1082,7 @@ export const blogPosts: BlogPost[] = [
             ],
           },
         ],
-        cta: "Не уверены в своих печатных файлах? Команда Alanya Kale Matbaa рада помочь. С нашей профессиональной услугой проверки печатных файлов мы можем проверить ваши файлы и предоставить рекомендации по исправлениям при необходимости. Качественная печать начинается с правильных данных. WhatsApp: +90 530 930 55 64",
+        cta: "Не уверены в своих печатных файлах? Команда Alanya Kale Matbaa рада помочь. С нашей профессиональной услугой проверки печатных файлов мы можем проверить ваши файлы и предоставить рекомендации по исправлениям при необходимости. Качественная печать начинается с правил��ных данных. WhatsApp: +90 530 930 55 64",
       },
     },
   },
@@ -1152,6 +1152,128 @@ export const blogPosts: BlogPost[] = [
           },
         ],
         cta: "2026'da grafik tasarım daha az bağırıyor, daha çok hissettiriyor. İnsan dokunuşu, güçlü tipografi, yumuşak atmosferler ve bilinçli sakinlik öne çıkıyor. Alanya Kale Matbaa olarak bu trendleri hem tasarım hem de baskı tarafında yakından takip ediyoruz. Projelerinizde bu yeni dili kullanmak isterseniz, doğru kâğıt seçiminden özel baskı tekniklerine kadar yanınızdayız. WhatsApp: +90 530 930 55 64",
+      },
+      en: {
+        category: "Graphic Design",
+        title: "Graphic Design Trends 2026: How Will the Future Look?",
+        excerpt:
+          "Which colors feel like the future? 2026's most important graphic design trends and Pantone's Color of the Year Cloud Dancer.",
+        metaTitle: "2026 Graphic Design Trends | Kale Matbaa",
+        metaDescription:
+          "2026 graphic design trends: Human + AI hybrid work, powerful typography, Hyper-Bloom, cinematic photography, Cloud Dancer color.",
+        intro: [
+          "Which colors feel like they belong to the future? And what does a design look like that doesn't have to shout to get attention?",
+          "2026 brings a new calm to graphic design. This serenity, combined with character, emotion and clear messaging, achieves perfect harmony especially with Pantone's 2026 Color of the Year: Cloud Dancer.",
+        ],
+        sections: [
+          {
+            heading: "1 | Human + Artificial Intelligence Hybrid Working",
+            bullets: [
+              "Artificial intelligence is still important, but humans are the real leaders. Designers use generative tools as a creative springboard, then consciously refine and direct the results.",
+              "This collaboration produces original work with technical depth.",
+              "In 2026, AI is used for ideas, variations, sketches and mood research. The designer selects, combines and refines the results. The final style, message and feeling are completely human.",
+              "After the initial wave of excitement, the search for originality and meaning has increased. Pure AI images quickly become mundane.",
+            ],
+          },
+          {
+            heading: "2 | Expressive Typography & Typo-Collages",
+            bullets: [
+              "In 2026, typography is no longer just for conveying information; it becomes the visual itself, its structure and emotion carrier.",
+              "In a world of increasing visual noise, powerful typography ensures brands are remembered.",
+              "Letters are distorted, cut, overlapped or placed freely. Different typefaces, sizes and styles are consciously combined.",
+              "Italic axes, massive letters and rhythmic repetition create tension. Experimental and personality-rich typefaces are preferred over ordinary fonts.",
+            ],
+          },
+          {
+            heading: "3 | Hyper-Bloom – 2026's Soft and Emotional Trend",
+            bullets: [
+              "In a period filled with screens, bombardment of stimuli and perfect AI visuals, the exact opposite trend emerges: Hyper-Bloom.",
+              "This style means calm, emotion and visual softness. It becomes one of the important aesthetic movements of graphic design in 2026.",
+              "Soft pastel tones like pink, lavender, sky blue, light green and butter yellow are used.",
+              "Soft transitions, depth created with blur effects, enlarged organic forms and cinematic atmosphere are characteristics of Hyper-Bloom.",
+            ],
+          },
+          {
+            heading: "4 | Cinematic Photography",
+            bullets: [
+              "One of the most powerful photography trends of 2026 is the cinematic approach. Photos no longer just have to be beautiful; they should feel like a single frame from a film.",
+              "Focus shifts from technical perfection to atmosphere, mood and story.",
+              "A clear emotional atmosphere, dramatic or very consciously placed lighting, minimal but powerful composition is required.",
+              "Frames that make you ask questions when you see them stand out: What's happening here? Who is this person? What mood is there?",
+            ],
+          },
+          {
+            heading: "5 | Pantone Color of the Year 2026: Cloud Dancer",
+            bullets: [
+              "Pantone introduced the 2026 Color of the Year with the tagline: a touch of calm and peace in a noisy world.",
+              "Cloud Dancer is a light, airy broken white that gives the feeling of gliding through clouds.",
+              "When used alone, it's calm and elegant; when combined with strong colors, it makes them even more vibrant; with pastels, it achieves perfect harmony.",
+              "It supports minimalism in fashion, interior design and graphic design. It opens space for creativity without distracting.",
+            ],
+          },
+        ],
+        cta: "In 2026, graphic design shouts less and feels more. Human touch, powerful typography, soft atmospheres and conscious calm stand out. At Alanya Kale Matbaa, we closely follow these trends on both the design and printing side. If you want to use this new language in your projects, we're here with you from choosing the right paper to special printing techniques. WhatsApp: +90 530 930 55 64",
+      },
+      ru: {
+        category: "Графический дизайн",
+        title: "Тренды графического дизайна 2026: Как будет выглядеть будущее?",
+        excerpt:
+          "Какие цвета ощущаются как будущее? Самые важные тренды графического дизайна 2026 и цвет года Pantone Cloud Dancer.",
+        metaTitle: "Тренды графического дизайна 2026 | Kale Matbaa",
+        metaDescription:
+          "Тренды графического дизайна 2026: гибридная работа человека и ИИ, мощная типография, Hyper-Bloom, кинематографическая фотография, цвет Cloud Dancer.",
+        intro: [
+          "Какие цвета ощущаются как принадлежащие будущему? И как выглядит дизайн, который не обязательно кричит, чтобы привлечь внимание?",
+          "2026 год приносит новое спокойствие в графический дизайн. Это спокойствие, в сочетании с характером, эмоцией и чётким сообщением, достигает идеальной гармонии, особенно с цветом года Pantone 2026: Cloud Dancer.",
+        ],
+        sections: [
+          {
+            heading: "1 | Гибридная работа человека и искусственного интеллекта",
+            bullets: [
+              "Искусственный интеллект по-прежнему важен, но настоящие лидеры - люди. Дизайнеры используют генеративные инструменты как трамплин для творчества, а затем сознательно совершенствуют и направляют результаты.",
+              "Это сотрудничество создаёт оригинальные произведения с технической глубиной.",
+              "В 2026 году ИИ используется для идей, вариаций, эскизов и исследования настроения. Дизайнер выбирает, комбинирует и совершенствует результаты. Финальный стиль, сообщение и чувство полностью человеческие.",
+              "После первоначального всплеска возбуждения поиск оригинальности и смысла усилился. Чистые изображения ИИ быстро становятся банальными.",
+            ],
+          },
+          {
+            heading: "2 | Выразительная типография и типо-коллажи",
+            bullets: [
+              "В 2026 году типография больше не просто для передачи информации; она становится самим визуалом, его структурой и носителем эмоций.",
+              "В мире возрастающего визуального шума мощная типография обеспечивает запоминаемость брендов.",
+              "Буквы искажаются, вырезаются, перекрываются или размещаются свободно. Сознательно комбинируются разные шрифты, размеры и стили.",
+              "Наклонные оси, массивные буквы и ритмичные повторения создают напряжение. Предпочитаются экспериментальные шрифты с характером вместо обычных шрифтов.",
+            ],
+          },
+          {
+            heading: "3 | Hyper-Bloom – мягкий и эмоциональный тренд 2026",
+            bullets: [
+              "В период, наполненный экранами, бомбардировкой раздражителей и совершенными визуалами ИИ, возникает совершенно противоположный тренд: Hyper-Bloom.",
+              "Этот стиль означает спокойствие, эмоцию и визуальную мягкость. Он становится одним из важных эстетических движений графического дизайна в 2026 году.",
+              "Используются мягкие пастельные тона, такие как розовый, сиреневый, небесно-голубой, светло-зелёный и масляно-жёлтый.",
+              "Мягкие переходы, глубина, созданная с помощью размытия, увеличенные органические формы и кинематографическая атмосфера - характеристики Hyper-Bloom.",
+            ],
+          },
+          {
+            heading: "4 | Кинематографическая фотография",
+            bullets: [
+              "Один из самых мощных трендов фотографии 2026 года - кинематографический подход. Фотографии больше не просто должны быть красивыми; они должны ощущаться как один кадр из фильма.",
+              "Фокус смещается с технического совершенства на атмосферу, настроение и историю.",
+              "Требуется чёткая эмоциональная атмосфера, драматичное или очень сознательно размещённое освещение, минимальная, но мощная композиция.",
+              "Кадры, которые заставляют вас задавать вопросы, когда вы их видите, выделяются: Что здесь происходит? Кто этот человек? Какое настроение?",
+            ],
+          },
+          {
+            heading: "5 | Цвет года Pantone 2026: Cloud Dancer",
+            bullets: [
+              "Pantone представил цвет года 2026 со слоганом: прикосновение спокойствия и мира в шумном мире.",
+              "Cloud Dancer - это лёгкий, воздушный сломанный белый цвет, который создаёт ощущение скольжения сквозь облака.",
+              "Когда используется отдельно, он спокоен и элегантен; в сочетании с сильными цветами он делает их ещё более яркими; с пастелями достигает идеальной гармонии.",
+              "Он поддерживает минимализм в моде, дизайне интерьера и графическом дизайне. Он открывает пространство для творчества без отвлечения.",
+            ],
+          },
+        ],
+        cta: "В 2026 году графический дизайн кричит меньше, но ощущается больше. Человеческое прикосновение, мощная типография, мягкие атмосферы и сознательное спокойствие выделяются. В Alanya Kale Matbaa мы внимательно следим за этими трендами как в дизайне, так и в печати. Если вы хотите использовать этот новый язык в своих проектах, мы рядом с вами, начиная с выбора правильной бумаги и заканчивая специальными техниками печати. WhatsApp: +90 530 930 55 64",
       },
     },
   },
@@ -1255,7 +1377,7 @@ export const blogPosts: BlogPost[] = [
       },
       ru: {
         category: "Руководство по бизнесу",
-        title: "Руководство по печати и типографии для владельцев магазинов в Алань: Начните свой бренд сильно с первого дня",
+        title: "Руководство по печати и типографии для владельцев магазинов в Алань: Начните свой бренд сильно с первог�� дня",
         excerpt:
           "Какие основные печатные материалы необходимы при открытии нового магазина? Визитные карточки, меню, брошюры, официальные документы и изготовление печатей.",
         metaTitle: "Руководство по печати при открытии магазина | Kale Matbaa",
@@ -1608,7 +1730,7 @@ export const blogPosts: BlogPost[] = [
       },
       ru: {
         category: "Подарочные печати",
-        title: "Значимые печатные подарки: Оставьте своим любимым неизгладимое впечатление",
+        title: "Значимые печатные подарки: Ост��вьте своим любимым неизгладимое впечатление",
         excerpt:
           "Обычные подарки забываются, но значимые печати хранятся годами. Личные фото, постеры с цитатами, книги памяти и индивидуальные открытки.",
         metaTitle: "Значимые подарочные печати | Alanya Kale Matbaa",
