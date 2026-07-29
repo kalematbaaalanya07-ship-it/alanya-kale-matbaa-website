@@ -1,6 +1,6 @@
 import type { Lang } from "@/lib/i18n"
 
-export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "acil-kase" | "canva-tasarimi" | "5-baski-hatasi" | "grafik-trendler-2026" | "dukkan-acma-rehberi" | "dijital-vs-ofset"
+export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "acil-kase" | "canva-tasarimi" | "5-baski-hatasi" | "grafik-trendler-2026" | "dukkan-acma-rehberi" | "dijital-vs-ofset" | "anlamli-hediye-baski"
 
 export interface BlogSection {
   heading: string
@@ -126,7 +126,7 @@ export const blogPosts: BlogPost[] = [
         metaDescription:
           "Качественное изготовление печатей в Аланье: автоматические и классические печати, логотип и индивидуальный дизайн. Чёткий оттиск, прочные материалы.",
         intro: [
-          "Одним из самых практичных инструментов для быстрого подписания и заверения документов и отражения вашего корпоративного стиля является печать. В Alanya Kale Matbaa мы предлагаем качественные материалы и чёткое качество оттиска как для автоматических, так и д��я классических печатей.",
+          "Одним из самых практичных инструментов для быстрого подписания и заверения документов и отражения вашего корпоративного стиля является печать. В Alanya Kale Matbaa мы предлагаем качественные материалы и чё��кое качество оттиска как для автоматических, так и д��я классических печатей.",
           "Нашими автоматическими печатями вы оставляете чистые и чёткие оттиски одним движением. Классические печати дарят надёжность традиционного использования. Оба типа доступны с логотипом, адресом, должностью и полностью индивидуальным дизайном.",
         ],
         sections: [
@@ -689,7 +689,7 @@ export const blogPosts: BlogPost[] = [
         category: "Срочная печать",
         title: "Срочная печать в Аланье | Доставка в тот же день - Kale Matbaa",
         excerpt:
-          "Нужна срочная печать в Аланье? Дизайн за 1 час, печать и доставка за 2-3 часа. Заказ через WhatsApp.",
+          "Нужна срочная печать в Аланье? Дизайн за 1 ч��с, печать и доставка за 2-3 часа. Заказ через WhatsApp.",
         metaTitle: "Срочная ��ечать Алань | Доставка в тот же час - Kale Matbaa",
         metaDescription:
           "Срочна�� печать в Аланье: дизайн 1 час, п��чать 2-3 часа. Şekerhane, Mahmutlar, Oba, Konaklı. Заказы через WhatsApp.",
@@ -737,7 +737,7 @@ export const blogPosts: BlogPost[] = [
               "В: Если я закажу в 23:00, печать готова в 07:00? О: Да! Мы работаем 24/7 для срочных случаев. Просто напишите 'СРОЧНО' в WhatsApp.",
               "В: Можете подготовить дизайн за 5 минут? О: Если есть предыдущий похожий дизайн - да. Иначе нужно 30-45 минут.",
               "В: Когда печати ломаются или износились? О: Средний срок 3-5 лет. При интенсивном использовании 1-2 года, при лёгком 5-10 лет.",
-              "В: У нас нет дизайна, можете создать с нуля? О: Да. Скажи��е имя, должность, адрес. Макет за 30-45 минут.",
+              "В: У нас нет дизайна, может�� создать с нуля? О: Да. Скажи��е имя, должность, адрес. Макет за 30-45 минут.",
               "В: Автоматическую или классическую печать выбрать? О: Для срочных - обычно автоматическую (прочнее). Классическую тоже делаем.",
             ],
           },
@@ -864,7 +864,7 @@ export const blogPosts: BlogPost[] = [
               "Добавьте 3-4 мм выпуска за обрез: Для профессионального обрезания ваш дизайн должен выходить на 3 мм за край. Откройте Файл > Параметры просмотра > Показать выпуск за обрез в Canva.",
               "Используйте изображения высокого разрешения: Для четкой печати изображения должны быть не менее 300 DPI. Фотографии низкого разрешения из интернета будут выглядеть размытыми.",
               "Скачайте как PDF для печати: Нажмите Поделиться > Загрузить в верхнем правом углу. Выберите PDF для печати (не PDF Standard). Отметьте метки обрезки и выпуск за обрез.",
-              "Ес��и используете Canva Pro, установите цвет��вой профиль CMYK: Бесплатные учетные записи выдают RGB, мы можем конвертировать дл�� вас.",
+              "Ес��и используете Canva Pro, установите цвет��вой профиль CMYK: Бесплатные учетные записи выда��т RGB, мы можем конвертировать дл�� вас.",
             ],
           },
           {
@@ -1489,6 +1489,176 @@ export const blogPosts: BlogPost[] = [
           },
         ],
         cta: "Не уверены в выборе для своих печатных проектов? Мы в Alanya Kale Matbaa рады помочь. Отправьте свой файл, и мы рекомендуем лучший способ для вашего объёма и бюджета. Получите бесплатную консультацию. WhatsApp: +90 530 930 55 64",
+      },
+    },
+  },
+  {
+    slug: "anlamli-hediye-baski",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hediyekart%C4%B1-rza0dLUy5mVHcu3vlSh9JIBmba3RAg.jpeg",
+    imageAlt: "Anlam yüklü hediye baskıları - kişisel fotoğraf kartı ve tasarım örnekleri",
+    date: "2025",
+    content: {
+      tr: {
+        category: "Hediye Baskıları",
+        title: "Hediye Edilecek Anlam Yüklü Baskılar: Sevdiklerinize Kalıcı Bir Hatıra Bırakın",
+        excerpt:
+          "Günlük hediyeler unutulur, anlam yüklü baskılar ise yıllarca saklanır. Kişisel fotoğraf baskıları, söz posterləri, anı defterleri ve özel tasarım kartlarla sevdiklerinizi etkileyecek hediyeler.",
+        metaTitle: "Anlam Yüklü Hediye Baskıları | Alanya Kale Matbaa",
+        metaDescription:
+          "Hediye için anlam yüklü baskılar: kişisel fotoğraf, söz posterləri, anı defterleri, doğum kartı, takvim. Alanya Kale Matbaa ile sevdiklerinize özel hediye.",
+        intro: [
+          "Günlük hediyeler unutulur, anlam yüklü baskılar ise yıllarca saklanır. Doğum günü, yıl dönümü, mezuniyet, yeni ev, bebek, emeklilik veya sadece 'seni düşünüyorum' demek istediğiniz anlarda; kişisel, duygusal ve dokunulabilir bir baskı, en samimi hediyelerden biridir.",
+          "Alanya Kale Matbaa olarak 35+ yıllık tecrübemizle, sadece baskı değil, anlam taşıyan ürünler üretiyoruz. Konica Minolta AccurioPrint C4065 ile canlı renkler, çeşitli gramajda kartonlar, selefon uygulamaları ile hediyenizi anlamlı kılıyoruz.",
+        ],
+        sections: [
+          {
+            heading: "Neden Anlam Yüklü Baskı Hediye Etmelisiniz?",
+            bullets: [
+              "Kişisel ve unutulmaz – Hazır ürünlerden farklı olarak sizin seçtiğiniz fotoğraf, söz, tarih veya mesajla özel olur.",
+              "Uzun ömürlü – Kaliteli kâğıt ve koruyucu uygulamalar sayesinde yıllarca duvarda, rafta veya çekmecede saklanır.",
+              "Duygusal bağ kurar – 'Bunu senin için özel bastırdım' cümlesi, hediyenin değerini katlar.",
+              "Her bütçeye ve her kişiye uyar – Tek parça özel baskıdan toplu hatıra setlerine kadar esneklik sunar.",
+            ],
+          },
+          {
+            heading: "Hediye İçin En Anlamlı Baskı Fikirleri",
+            bullets: [
+              "Kişiye Özel Fotoğraf Baskıları ve Posterler – En sevdiğiniz anı, büyük ebat poster veya premium fotoğraf baskısı olarak çerçevelemeye hazır hale getirin.",
+              "Alıntı / Söz Posterleri ve Motto Baskıları – Sevdiğiniz bir söz, şiir dizesi veya aile mottosu şık tipografiyle bastırın.",
+              "Anı Defteri, Günlük ve Not Defteri Kapakları – Kişiye özel kapak tasarımı + kalın kapak kartonu + isteğe bağlı iç sayfa baskısı.",
+              "Yıl Dönümü ve Özel Gün Kartları / Davetiyeleri – Saklanacak hatıra kartı olarak tasarlanır, özel kesim ve kalın kartonla üretilir.",
+              "Takvim ve Duvar Takvimleri – Kişisel fotoğraflarla veya anlamlı tarihlerle dolu 12 aylık takvim.",
+              "Bebek / Çocuk Hatıra Setleri – Doğum kartı, ilk yıl fotoğraf serisi, isim baskılı poster veya anı kutusu etiketleri.",
+              "Kurumsal Anlamlı Hediye Baskıları – Çalışanlara teşekkür kartı, motivasyon posteri veya şirket değerlerini taşıyan defter.",
+            ],
+          },
+          {
+            heading: "Sipariş Nasıl Verilir?",
+            bullets: [
+              "WhatsApp'tan fikirlerinizi, fotoğraflarınızı veya metninizi gönderin.",
+              "Tasarımcılarımız kısa sürede mock-up hazırlar.",
+              "Onayınızdan sonra baskıya geçer, kalite kontrolü yaparız.",
+              "Teslim etmeye hazır hale getiririz.",
+            ],
+          },
+          {
+            heading: "Sıkça Sorulan Sorular",
+            bullets: [
+              "Tek parça özel baskı yaptırabilir miyim? – Evet. Anlam yüklü hediyelerde tek veya az adetli üretim çok yaygındır.",
+              "Tasarımım yoksa sıfırdan hazırlıyor musunuz? – Evet, sıfırdan tasarlarız. Canva veya başka programda yaptığınız dosyayı da profesyonel baskıya uygun hale getiririz.",
+              "Ne kadar sürede teslim alırım? – Basit işlerde aynı gün teslim ediyoruz. Acil ihtiyaçlarınızı belirtmeniz yeterli.",
+            ],
+          },
+        ],
+        cta: "Sevdiklerinize sıradan bir hediye yerine, her baktıklarında sizi hatırlatacak anlamlı bir baskı hediye edin. Fikirlerinizi paylaşın, sizin için en özel tasarımı ve baskıyı birlikte hazırlayalım. WhatsApp: +90 530 930 55 64",
+      },
+      en: {
+        category: "Gift Prints",
+        title: "Meaningful Printed Gifts: Leave Your Loved Ones With A Lasting Memory",
+        excerpt:
+          "Everyday gifts are forgotten, but meaningful prints are treasured for years. Personal photos, quote posters, memory books and custom cards that will impress your loved ones.",
+        metaTitle: "Meaningful Gift Prints | Alanya Kale Matbaa",
+        metaDescription:
+          "Meaningful gift prints: personal photos, quote posters, memory books, birth cards, calendars. Give special gifts to your loved ones with Alanya Kale Matbaa.",
+        intro: [
+          "Everyday gifts are forgotten, but meaningful prints are treasured for years. For birthdays, anniversaries, graduations, new homes, babies, retirement or simply to say 'I'm thinking of you'; a personal, emotional and tangible printed piece is one of the most sincere gifts.",
+          "With our 35+ years of experience at Alanya Kale Matbaa, we produce not just prints, but products that carry meaning. With Konica Minolta AccurioPrint C4065 vibrant colors, various weights of cardstock and lamination applications, we make your gift meaningful.",
+        ],
+        sections: [
+          {
+            heading: "Why Give Meaningful Printed Gifts?",
+            bullets: [
+              "Personal and unforgettable – Unlike ready-made products, it becomes special with your chosen photo, quote, date or message.",
+              "Long-lasting – Thanks to quality paper and protective applications, it's kept for years on walls, shelves or drawers.",
+              "Creates emotional connection – The phrase 'I had this specially printed for you' adds value to the gift.",
+              "Fits every budget and every person – From single special prints to bulk memory sets, offering flexibility.",
+            ],
+          },
+          {
+            heading: "Most Meaningful Print Gift Ideas",
+            bullets: [
+              "Personal Photo Prints and Posters – Turn your favorite moment into a large poster or premium print ready for framing.",
+              "Quote / Motto Posters – Print your favorite quote, poem line or family motto in elegant typography.",
+              "Memory Books, Journals and Notebook Covers – Custom cover design + thick cardstock + optional interior page printing.",
+              "Anniversary and Special Day Cards / Invitations – Designed as keepsakes, produced with special cuts and thick cardstock.",
+              "Calendars and Wall Calendars – 12-month calendar filled with personal photos or meaningful dates.",
+              "Baby / Children Memory Sets – Birth cards, first year photo series, name posters or memory box labels.",
+              "Corporate Meaningful Gift Prints – Thank you cards for employees, motivational posters or company value notebooks.",
+            ],
+          },
+          {
+            heading: "How to Order",
+            bullets: [
+              "Send your ideas, photos or text via WhatsApp.",
+              "Our designers prepare a mock-up quickly.",
+              "After your approval, we proceed to printing and quality control.",
+              "We prepare it for delivery.",
+            ],
+          },
+          {
+            heading: "Frequently Asked Questions",
+            bullets: [
+              "Can I get a single custom print? – Yes. Single or small-quantity production is very common for meaningful gifts.",
+              "Do you design from scratch if I don't have a design? – Yes, we design from scratch. We also adapt files you've created in Canva or other programs for professional printing.",
+              "How long does delivery take? – Same-day delivery for simple jobs. Just mention your urgent needs.",
+            ],
+          },
+        ],
+        cta: "Give your loved ones a meaningful print gift that will remind them of you every time they see it, instead of an ordinary gift. Share your ideas and let's create the perfect design and print together for you. WhatsApp: +90 530 930 55 64",
+      },
+      ru: {
+        category: "Подарочные печати",
+        title: "Значимые печатные подарки: Оставьте своим любимым неизгладимое впечатление",
+        excerpt:
+          "Обычные подарки забываются, но значимые печати хранятся годами. Личные фото, постеры с цитатами, книги памяти и индивидуальные открытки.",
+        metaTitle: "Значимые подарочные печати | Alanya Kale Matbaa",
+        metaDescription:
+          "Значимые подарочные печати: личные фото, постеры с цитатами, книги памяти, открытки рождения, календари. Подарите особенные подарки с Alanya Kale Matbaa.",
+        intro: [
+          "Обычные подарки забываются, но значимые печати хранятся годами. На дни рождения, юбилеи, выпускные, новые дома, рождение, пенсию или просто чтобы сказать 'я о тебе думаю'; личный, эмоциональный и осязаемый печатный материал - один из самых искренних подарков.",
+          "С нашим 35-летним опытом в Alanya Kale Matbaa мы производим не просто печать, но изделия, несущие смысл. С помощью Konica Minolta AccurioPrint C4065 яркие цвета, различные веса картона и ламинация делают ваш подарок значимым.",
+        ],
+        sections: [
+          {
+            heading: "Почему дарить значимые печатные подарки?",
+            bullets: [
+              "Личное и незабываемое – В отличие от готовых товаров, оно становится особенным с вашим выбранным фото, цитатой, датой или сообщением.",
+              "Долговечное – Благодаря качественной бумаге и защитным покрытиям хранится годами на стене, полке или в ящике.",
+              "Создаёт эмоциональную связь – Фраза 'я специально это для тебя напечатал' добавляет ценность подарку.",
+              "Подходит для любого бюджета и человека – От единичного специального издания до массовых наборов памяти, предлагая гибкость.",
+            ],
+          },
+          {
+            heading: "Самые значимые идеи подарочных печатей",
+            bullets: [
+              "Персональные фотопечати и постеры – Превратите ваш любимый момент в большой постер или премиум-печать, готовую для обрамления.",
+              "Постеры с цитатами / девизы – Напечатайте вашу любимую цитату, строку стиха или семейный девиз элегантной типографикой.",
+              "Книги памяти, дневники и обложки для записных книжек – Дизайн обложки на заказ + плотный картон + дополнительная печать на внутренних страницах.",
+              "Открытки годовщины и особых дней / приглашения – Разработано как сувенир, производится со специальной вырезкой и толстым картоном.",
+              "Календари и настенные календари – 12-месячный календарь, наполненный личными фото или значимыми датами.",
+              "Наборы памяти для младенцев / детей – Открытки рождения, фотосерии первого года, постеры имен или этикетки коробок памяти.",
+              "Корпоративные значимые подарочные печати – Открытки благодарности для сотрудников, мотивационные постеры или записные книжки ценностей компании.",
+            ],
+          },
+          {
+            heading: "Как заказать",
+            bullets: [
+              "Отправьте свои идеи, фото или текст через WhatsApp.",
+              "Наши дизайнеры быстро подготавливают макет.",
+              "После вашего одобрения переходим к печати и контролю качества.",
+              "Подготавливаем для доставки.",
+            ],
+          },
+          {
+            heading: "Часто задаваемые вопросы",
+            bullets: [
+              "Могу ли я получить одну индивидуальную печать? – Да. Производство в единичном или малом количестве очень распространено для значимых подарков.",
+              "Вы проектируете с нуля, если у меня нет дизайна? – Да, мы проектируем с нуля. Мы также адаптируем файлы, которые вы создали в Canva или других программах для профессиональной печати.",
+              "Как долго осуществляется доставка? – Доставка в тот же день для простых работ. Просто упомяните ваши срочные потребности.",
+            ],
+          },
+        ],
+        cta: "Подарите своим любимым значимый печатный подарок, который будет напоминать им о вас каждый раз, когда они его видят, вместо обычного подарка. Поделитесь своими идеями и давайте вместе создадим идеальный дизайн и печать для вас. WhatsApp: +90 530 930 55 64",
       },
     },
   },
