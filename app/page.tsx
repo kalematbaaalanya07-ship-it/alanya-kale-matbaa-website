@@ -56,6 +56,13 @@ export default function HomePage() {
             sizes="100vw"
             className="object-cover opacity-25"
           />
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dijitalbask%C4%B11-jDXUlRp0aFwGBm1Cx5XapB1nZS1rrD.jpeg"
+            alt="Konica Minolta AccurioPrint Dijital Baskı Makinesi"
+            fill
+            sizes="100vw"
+            className="object-cover opacity-20"
+          />
           <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-primary/60" />
         </div>
         <div className="relative mx-auto flex max-w-6xl flex-col gap-6 px-4 py-20 sm:py-28">
