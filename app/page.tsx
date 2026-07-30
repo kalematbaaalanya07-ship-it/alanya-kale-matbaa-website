@@ -54,7 +54,7 @@ export default function HomePage() {
             fill
             priority
             sizes="100vw"
-            className="object-cover opacity-20"
+            className="object-contain object-center opacity-35"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-primary/60" />
         </div>
