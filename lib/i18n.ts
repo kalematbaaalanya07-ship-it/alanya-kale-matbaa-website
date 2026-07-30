@@ -219,7 +219,7 @@ const tr: Dictionary = {
       { title: "Kurumsal Kaşe Üretimi", category: "Kaşe", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ka%C5%9Fe7-IFUNrNFYzXaYK00m1Y2D3pUInD68Bi.jpeg" },
       { title: "Baskılı Kaşe Çeşitleri", category: "Kaşe", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ka%C5%9Fe5-LuJhLEahjLNruNJlEc9xUUdCCHhrak.jpeg" },
       { title: "Renkli Kaşe Örnekleri", category: "Kaşe", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ka%C5%9Fe2-R0vgC704MsjXeUK7eL21UhKjSzmHDb.jpeg" },
-      { title: "Resmi Evrak Baskısı", category: "Ofset", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/rent1-awmuqClYkNBzDZNDmH9WjRNR4fTFbg.jpeg" },
+      { title: "Rent a Car Sözleşmesi", category: "Ofset", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/rent1-awmuqClYkNBzDZNDmH9WjRNR4fTFbg.jpeg" },
       { title: "Tahsilat Makbuzu Kitapçığı", category: "Ofset", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tahsilat2-FSg1UZXFLRC6cu3OCpyVHI2ndS674g.jpeg" },
     ],
   },
