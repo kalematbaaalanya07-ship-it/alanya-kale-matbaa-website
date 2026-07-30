@@ -49,17 +49,10 @@ export default function HomePage() {
       <section className="relative overflow-hidden bg-primary text-primary-foreground">
         <div className="absolute inset-0">
           <Image
-            src="/images/hero-print.png"
-            alt=""
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover opacity-25"
-          />
-          <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dijitalbask%C4%B11-jDXUlRp0aFwGBm1Cx5XapB1nZS1rrD.jpeg"
             alt="Konica Minolta AccurioPrint Dijital Baskı Makinesi"
             fill
+            priority
             sizes="100vw"
             className="object-cover opacity-20"
           />
