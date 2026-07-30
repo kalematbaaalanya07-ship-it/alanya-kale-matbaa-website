@@ -17,6 +17,7 @@ type PortfolioItem = {
   title: string
   category: string
   image: string
+  video?: string
 }
 
 export type Dictionary = {
@@ -212,12 +213,14 @@ const tr: Dictionary = {
     title: "Çalışmalarımızdan Örnekler",
     subtitle: "Farklı sektörlerden tamamladığımız baskı projeleri.",
     items: [
-      { title: "Kurumsal Kartvizit", category: "Kartvizit", image: "/images/business-cards.png" },
-      { title: "Tanıtım Broşürü", category: "Broşür", image: "/images/brochures.png" },
-      { title: "Düğün Davetiyesi", category: "Davetiye", image: "/images/invitations.png" },
-      { title: "Şirket Kaşesi", category: "Kaşe", image: "/images/stamps.png" },
-      { title: "Katalog Baskısı", category: "Dijital", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/katalogbaskisi-dmDlKDTU9iaETKeBHDAtn5gcd9Ke5Z.jpg" },
-      { title: "Afiş & Poster", category: "Ofset", image: "/images/offset.png" },
+      { title: "Özel Tasarım Kartvizit", category: "Kartvizit", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kart2-8wjyA6bLExi6NPDQyowGrlhxjcRnnr.jpeg" },
+      { title: "Profesyonel Katalog", category: "Katalog", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/katalog1-uLPtlyjmiyfY0nXYkNnlTsaVXGwNS6.jpeg", video: "https://www.youtube.com/embed/k5hxvhUJZRM" },
+      { title: "Dijital Tasarım Katalog", category: "Dijital", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/katalog2-h0DoTxIrVOaaHt6GaYOzwKiCytHbih.jpeg" },
+      { title: "Kurumsal Kaşe Üretimi", category: "Kaşe", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ka%C5%9Fe7-IFUNrNFYzXaYK00m1Y2D3pUInD68Bi.jpeg" },
+      { title: "Baskılı Kaşe Çeşitleri", category: "Kaşe", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ka%C5%9Fe5-LuJhLEahjLNruNJlEc9xUUdCCHhrak.jpeg" },
+      { title: "Renkli Kaşe Örnekleri", category: "Kaşe", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ka%C5%9Fe2-R0vgC704MsjXeUK7eL21UhKjSzmHDb.jpeg" },
+      { title: "Resmi Evrak Baskısı", category: "Ofset", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/rent1-awmuqClYkNBzDZNDmH9WjRNR4fTFbg.jpeg" },
+      { title: "Tahsilat Makbuzu Kitapçığı", category: "Ofset", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tahsilat2-FSg1UZXFLRC6cu3OCpyVHI2ndS674g.jpeg" },
     ],
   },
   contact: {
@@ -475,12 +478,14 @@ const en: Dictionary = {
     title: "Samples of Our Work",
     subtitle: "Printing projects we've completed across different industries.",
     items: [
-      { title: "Corporate Business Cards", category: "Cards", image: "/images/business-cards.png" },
-      { title: "Marketing Brochure", category: "Brochure", image: "/images/brochures.png" },
-      { title: "Wedding Invitation", category: "Invitation", image: "/images/invitations.png" },
-      { title: "Company Stamp", category: "Stamp", image: "/images/stamps.png" },
-      { title: "Catalog Printing", category: "Digital", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/katalogbaskisi-dmDlKDTU9iaETKeBHDAtn5gcd9Ke5Z.jpg" },
-      { title: "Posters & Banners", category: "Offset", image: "/images/offset.png" },
+      { title: "Custom Designed Business Cards", category: "Cards", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kart2-8wjyA6bLExi6NPDQyowGrlhxjcRnnr.jpeg" },
+      { title: "Professional Catalog", category: "Catalog", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/katalog1-uLPtlyjmiyfY0nXYkNnlTsaVXGwNS6.jpeg", video: "https://www.youtube.com/embed/k5hxvhUJZRM" },
+      { title: "Digital Design Catalog", category: "Digital", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/katalog2-h0DoTxIrVOaaHt6GaYOzwKiCytHbih.jpeg" },
+      { title: "Corporate Stamp Production", category: "Stamp", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ka%C5%9Fe7-IFUNrNFYzXaYK00m1Y2D3pUInD68Bi.jpeg" },
+      { title: "Printed Stamp Varieties", category: "Stamp", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ka%C5%9Fe5-LuJhLEahjLNruNJlEc9xUUdCCHhrak.jpeg" },
+      { title: "Colored Stamp Samples", category: "Stamp", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ka%C5%9Fe2-R0vgC704MsjXeUK7eL21UhKjSzmHDb.jpeg" },
+      { title: "Official Document Printing", category: "Offset", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/rent1-awmuqClYkNBzDZNDmH9WjRNR4fTFbg.jpeg" },
+      { title: "Receipt Booklet Printing", category: "Offset", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tahsilat2-FSg1UZXFLRC6cu3OCpyVHI2ndS674g.jpeg" },
     ],
   },
   contact: {
@@ -738,12 +743,14 @@ const ru: Dictionary = {
     title: "Примеры наших работ",
     subtitle: "Проекты печати, выполненные для разных отраслей.",
     items: [
-      { title: "Корпоративные визитки", category: "Визитки", image: "/images/business-cards.png" },
-      { title: "Рекламная брошюра", category: "Брошюра", image: "/images/brochures.png" },
-      { title: "Свадебное приглашение", category: "Приглашение", image: "/images/invitations.png" },
-      { title: "Печать компании", category: "Печать", image: "/images/stamps.png" },
-      { title: "Печать каталога", category: "Цифровая", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/katalogbaskisi-dmDlKDTU9iaETKeBHDAtn5gcd9Ke5Z.jpg" },
-      { title: "Постеры и баннеры", category: "Офсет", image: "/images/offset.png" },
+      { title: "Пользовательские визитки", category: "Визитки", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kart2-8wjyA6bLExi6NPDQyowGrlhxjcRnnr.jpeg" },
+      { title: "Профессиональный каталог", category: "Каталог", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/katalog1-uLPtlyjmiyfY0nXYkNnlTsaVXGwNS6.jpeg", video: "https://www.youtube.com/embed/k5hxvhUJZRM" },
+      { title: "Цифровой дизайн каталога", category: "Цифровая", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/katalog2-h0DoTxIrVOaaHt6GaYOzwKiCytHbih.jpeg" },
+      { title: "Производство корпоративной печати", category: "Печать", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ka%C5%9Fe7-IFUNrNFYzXaYK00m1Y2D3pUInD68Bi.jpeg" },
+      { title: "Разнообразие печатей", category: "Печать", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ka%C5%9Fe5-LuJhLEahjLNruNJlEc9xUUdCCHhrak.jpeg" },
+      { title: "Образцы цветных печатей", category: "Печать", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ka%C5%9Fe2-R0vgC704MsjXeUK7eL21UhKjSzmHDb.jpeg" },
+      { title: "Печать официальных документов", category: "Офсет", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/rent1-awmuqClYkNBzDZNDmH9WjRNR4fTFbg.jpeg" },
+      { title: "Печать квитанционной книжицы", category: "Офсет", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tahsilat2-FSg1UZXFLRC6cu3OCpyVHI2ndS674g.jpeg" },
     ],
   },
   contact: {
@@ -816,7 +823,7 @@ const ru: Dictionary = {
     subtitle: "Быстрые ответы на то, что вас интересует.",
     items: [
       {
-        q: "Я хочу сделать печать, какую информацию мне нужно вам отправить?",
+        q: "Я хочу сделать печать, какую информацию мне нужно вам отправи��ь?",
         a: "Для ООО и АО достаточно названия компании, адреса и налогового номера. По желанию можно добавить номер телефона, Mersis и реестровый номер, адрес электронной почты. Для ИП нужны ФИО, адрес и номер паспорта (номер налоговой инспекции). По желанию можно добавить должность, номер телефона и адрес электронной почты.",
       },
       {
