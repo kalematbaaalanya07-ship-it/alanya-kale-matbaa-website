@@ -92,6 +92,10 @@ export function StructuredData() {
     },
     areaServed: [
       { "@type": "City", name: "Alanya" },
+      { "@type": "City", name: "Mahmutlar" },
+      { "@type": "City", name: "Oba" },
+      { "@type": "City", name: "Cikcilli" },
+      { "@type": "City", name: "Konaklı" },
       { "@type": "AdministrativeArea", name: "Antalya" },
     ],
     openingHoursSpecification: [
@@ -101,7 +105,23 @@ export function StructuredData() {
         opens: "09:00",
         closes: "19:00",
       },
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: "Sunday",
+        opens: "10:00",
+        closes: "17:00",
+      },
     ],
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "Customer Service",
+      telephone: site.phone,
+      email: site.email,
+      areaServed: [
+        { "@type": "City", name: "Alanya" },
+        { "@type": "AdministrativeArea", name: "Antalya" },
+      ],
+    },
     sameAs: [`https://wa.me/${site.whatsapp}`],
     aggregateRating: {
       "@type": "AggregateRating",
@@ -136,6 +156,8 @@ export function StructuredData() {
         { "@type": "City", name: "Alanya" },
         { "@type": "City", name: "Mahmutlar" },
         { "@type": "City", name: "Oba" },
+        { "@type": "City", name: "Cikcilli" },
+        { "@type": "City", name: "Konaklı" },
         { "@type": "AdministrativeArea", name: "Antalya" },
       ],
       image: `${site.url}/images/digital-press.png`,
