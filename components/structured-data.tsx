@@ -114,39 +114,115 @@ export function StructuredData() {
     {
       "@type": "Service",
       name: "Dijital Baskı",
-      description: "Konica Minolta AccurioPrint C4065 ile yüksek kaliteli dijital baskı hizmeti",
+      description: "Konica Minolta AccurioPrint C4065 ile yüksek kaliteli dijital baskı hizmeti. 80g ince kağıttan 350g kalın kartona, A3 boyutuna dek canlı renklerle baskı.",
       provider: { "@id": businessId },
-      areaServed: [{ "@type": "City", name: "Alanya" }],
+      areaServed: [
+        { "@type": "City", name: "Alanya" },
+        { "@type": "City", name: "Mahmutlar" },
+        { "@type": "City", name: "Oba" },
+        { "@type": "AdministrativeArea", name: "Antalya" },
+      ],
       image: `${site.url}/images/digital-press.png`,
+      offers: { "@type": "Offer", priceCurrency: "TRY", price: "Fiyat sorgulatınız", priceValidUntil: "2025-12-31" },
     },
     {
       "@type": "Service",
-      name: "Kaşe Basımı",
-      description: "Profesyonel kaşe üretimi - şirket kaşesi, öğretmen kaşesi, cep kaşesi ve daha fazlası",
+      name: "Acil Kaşe Basımı",
+      description: "Alanya'da acil kaşe üretimi - şirket kaşesi, öğretmen kaşesi, cep kaşesi, kurumsal kaşe. Aynı gün teslim hizmetleri mevcuttur.",
       provider: { "@id": businessId },
-      areaServed: [{ "@type": "City", name: "Alanya" }],
+      areaServed: [
+        { "@type": "City", name: "Alanya" },
+        { "@type": "City", name: "Mahmutlar" },
+        { "@type": "AdministrativeArea", name: "Antalya" },
+      ],
     },
     {
       "@type": "Service",
-      name: "Katalog Baskısı",
-      description: "Profesyonel katalog ve broşür baskısı, 80g ila 350g kağıt seçenekleri",
+      name: "Katalog ve Broşür Baskısı",
+      description: "Profesyonel katalog, broşür ve tanıtım malzemeleri baskısı. Tek renkli ila tam renkli, 80g ince kağıttan 350g kalın kartona. Amerikan Cilt, Embosse, Laklama seçenekleri.",
       provider: { "@id": businessId },
-      areaServed: [{ "@type": "City", name: "Alanya" }],
+      areaServed: [
+        { "@type": "City", name: "Alanya" },
+        { "@type": "City", name: "Antalya" },
+      ],
     },
     {
       "@type": "Service",
       name: "Menü Baskısı",
-      description: "Restoran ve kafe için özel tasarım ve yüksek kaliteli menü baskısı",
+      description: "Restoran, kafe ve otel menüleri için özel tasarım ve yüksek kaliteli baskı. Kurumsal kimlik ve dayanıklı malzeme seçenekleri.",
       provider: { "@id": businessId },
-      areaServed: [{ "@type": "City", name: "Alanya" }],
+      areaServed: [
+        { "@type": "City", name: "Alanya" },
+        { "@type": "City", name: "Konaklı" },
+        { "@type": "AdministrativeArea", name: "Antalya" },
+      ],
+    },
+    {
+      "@type": "Service",
+      name: "Kartvizit Baskısı",
+      description: "Profesyonel kartvizit tasarım ve baskısı. Çeşitli kağıt seçenekleri ve finish (mat, parlak, kumlama) mevcuttur. Ücretsiz tasarım danışmanlığı.",
+      provider: { "@id": businessId },
+      areaServed: [
+        { "@type": "City", name: "Alanya" },
+        { "@type": "AdministrativeArea", name: "Antalya" },
+      ],
+    },
+    {
+      "@type": "Service",
+      name: "Davetiye Baskısı",
+      description: "Düğün, nişan, mezuniyet ve kurumsal davetiye tasarım ve baskısı. Özel baskı teknikleri ve premium kağıt seçenekleri.",
+      provider: { "@id": businessId },
+      areaServed: [
+        { "@type": "City", name: "Alanya" },
+        { "@type": "AdministrativeArea", name: "Antalya" },
+      ],
+    },
+    {
+      "@type": "Service",
+      name: "Ücretsiz Grafik Tasarım",
+      description: "Tüm baskı siparişleriniz için profesyonel grafik tasarım hizmetleri tamamen ücretsizdir. Tasarım danışmanlığı ve revizyon hizmeti dahil.",
+      provider: { "@id": businessId },
+      areaServed: [
+        { "@type": "City", name: "Alanya" },
+      ],
     },
   ]
+
+  const organization = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: site.name,
+    url: site.url,
+    logo: `${site.url}/images/digital-press.png`,
+    description:
+      "Alanya'da 35+ yıllık matbaacılık tecrübesi. Dijital & ofset baskı, kaşe, katalog, broşür, kartvizit ve menü baskı hizmetleri.",
+    foundingDate: "1990",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: site.street,
+      addressLocality: site.city,
+      addressRegion: site.region,
+      postalCode: site.postalCode,
+      addressCountry: site.country,
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "Customer Service",
+      telephone: site.phone,
+      email: site.email,
+    },
+    sameAs: [`https://wa.me/${site.whatsapp}`],
+  }
 
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusiness) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organization) }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPage) }} />
       {services.map((service, i) => (

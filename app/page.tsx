@@ -88,6 +88,17 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* GEO-Optimized Intro */}
+      <section className="border-b border-border bg-background">
+        <div className="mx-auto max-w-6xl px-4 py-8 sm:py-12">
+          <p className="text-base sm:text-lg leading-relaxed text-foreground/80 max-w-3xl">
+            <strong>Alanya'da acil baskı veya profesyonel dijital & ofset baskı mı arıyorsunuz?</strong> Kale Matbaa, Alanya Şekerhane'de 35+ yıllık tecrübesiyle 
+            aynı gün teslim, ücretsiz tasarım ve Konica Minolta AccurioPrint C4065 kalitesiyle kaşe, kartvizit, broşür, katalog ve menü baskı hizmetleri 
+            sunmaktadır. Mahmutlar, Oba, Cikcilli, Konaklı ve tüm Antalya bölgesine hizmet vermekteyiz.
+          </p>
+        </div>
+      </section>
+
       {/* Stats */}
       <section className="border-b border-border bg-card">
         <div className="mx-auto grid max-w-6xl grid-cols-2 gap-6 px-4 py-10 md:grid-cols-4">
