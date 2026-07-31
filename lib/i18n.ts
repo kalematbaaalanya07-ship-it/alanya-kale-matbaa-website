@@ -345,7 +345,7 @@ const tr: Dictionary = {
     tag: "Profesyonel Kaşe Çeşitleri",
     title: "Profesyonel Kaşe Çeşitleri ve Baskı Hizmeti",
     subtitle: "Şirketinizin ve kişisel markanızın resmi onay aracı olan kaşelerde geniş ürün yelpazesi. Kaliteli malzeme, hızlı teslimat, uygun fiyat.",
-    intro: "Kaşe, işletmenin veya kişinin yasal belgelerini tasdik etmek için kullanılan resmi bir araçtır. Alanya Kale Matbaa olarak, tüm kaşe ihtiyaçlarınız için profesyonel ve güvenilir hizmetler sunuyoruz. Standart kaşelerden başlayarak özel tasarımlı kaşelere kadar geniş bir yelpaze oluşturdum.",
+    intro: "Alanya'da acil kaşe mı arıyorsunuz? Kale Matbaa Şekerhane'de 35+ yıllık tecrübesiyle kurumsal kaşe, öğretmen kaşesi, cep kaşesi ve otomatik kaşe baskı hizmetleri sunmaktadır. Aynı gün teslim, ücretsiz tasarım ve profesyonel kalitesiyle Mahmutlar, Oba, Konaklı ve tüm Alanya bölgesine hizmet vermekteyiz.",
     typesTitle: "Kaşe Çeşitleri",
     typesDesc: [
       "Şirket Kaşesi: Limited Şirket ve Anonim Şirketler için kullanılan resmi kaşeler. Şirketin ünvanı, adresi ve vergi numarası ile birlikte kullanılır.",
@@ -610,7 +610,7 @@ const en: Dictionary = {
     tag: "Professional Stamp Types",
     title: "Professional Stamp Types and Printing Service",
     subtitle: "A wide range of stamp products that serve as official approval tools for your company and personal brand. Quality materials, fast delivery, affordable prices.",
-    intro: "A seal (stamp) is an official tool used to authenticate legal documents of a business or individual. As Alanya Kale Matbaa, we provide professional and reliable services for all your stamp needs. We offer a wide range from standard seals to specially designed custom stamps.",
+    intro: "Looking for urgent stamp printing in Alanya? Kale Matbaa in Şekerhane offers corporate seals, teacher stamps, pocket stamps, and automatic stamps with 35+ years of expertise. Same-day delivery, free design, and professional quality serving Mahmutlar, Oba, Konaklı, and all Alanya region.",
     typesTitle: "Types of Seals",
     typesDesc: [
       "Company Seal: Official seals for Limited Companies and Joint Stock Companies. Used with the company name, address and tax number.",
@@ -785,7 +785,7 @@ const ru: Dictionary = {
   },
   freeDesign: {
     tag: "Наше преимущество",
-    title: "Профессиональный графический дизайн",
+    title: "Профессиональный гр��фический дизайн",
     desc: "Не переживайте о дизайне при заказе печати. Наша опытная команда дизайнеров готовит профессиональный дизайн специально для вашего бренда с помощью CorelDRAW и ИИ-инструментов параллельно с вашим заказом. Мы предоставляем файлы, готовые к печати, без компромиссов в качестве и скорости.",
     points: [
       "Профессиональный дизайн визиток, брошюр и меню",
@@ -875,13 +875,13 @@ const ru: Dictionary = {
     tag: "Профессиональные печати",
     title: "Профессиональные печати и услуга печати",
     subtitle: "Широкий ассортимент печатей, служащих официальным инструментом одобрения вашей компании и личного бренда. Качественные материалы, быстрая доставка, приемлемые цены.",
-    intro: "Печать (штамп) — это официальный инструмент, используемый для аутентификации юридических документов компании или физического лица. Как Alanya Kale Matbaa, мы предоставляем профессиональные и надежные услуги для всех ваших потребностей в печатях. Мы предлагаем широкий спектр от стандартных печатей до специально разработанных пользовательских печатей.",
+    intro: "Ищете срочную печать в Аланье? Kale Matbaa в районе Şekerhane предлагает корпоративные печати, штампы учителей, карманные печати и автоматические штампы с опытом более 35 лет. Доставка в тот же день, бесплатный дизайн, профессиональное качество, обслуживая Махмутлар, Оба, Конаклы и весь регион Аланьи.",
     typesTitle: "Типы печатей",
     typesDesc: [
       "Печать компании: официальные печати для ООО и АО. Используется с названием компании, адресом и налоговым номером.",
       "Печать индивидуального предпринимателя: разработанные печати для индивидуальных предпринимателей, ремесленников и самозанятых специалистов.",
       "Печать учителя: печати, используемые в учебных заведениях для подписи классных журналов и документов.",
-      "Карманная печать и круглая карманная печать: компактные печати, предназначенные для удобства и мобильности. Практичны для использования везде в бизнесе и жизни.",
+      "Карманная печать и круглая карманная печать: компактные печати, предназначенные для удобства и мобильности. Практичны д��я использования везде в бизнесе и жизни.",
       "Круглая автоматическая печать: выбор современных предприятий; благодаря системе чернил обеспечивает легкое и быстрое использование.",
       "Штамповая печать и печать с логотипом: для специальных потребностей в дизайне и брендинге, печати подготовлены с логотипом вашей компании и специальной информацией."
     ],
