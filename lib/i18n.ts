@@ -162,7 +162,7 @@ const tr: Dictionary = {
     heroTag: "Alanya'nın Güvenilir Matbaası",
     heroTitle: "Kaliteli Baskı, Zamanında Teslimat",
     heroSubtitle:
-      "Kaşe, ofset ve dijital baskıda uzman ekibimizle işletmenizin tüm baskı ihtiyaçlarını profesyonelce karşılıyoruz.",
+      "Ofset ve dijital baskıda uzman ekibimizle işletmenizin tüm baskı ihtiyaçlarını profesyonelce karşılıyoruz.\nKartvizit, kaşe, broşür, magnet, davetiye, etiket, sticker, antetli kâğıt, diplomat zarf, cepli dosya, bloknot, el ilanı, menü, poster, otokopili form ve resmi evrak yazıları…\nHepsi tek adreste, kaliteli ve hızlı çözümlerle.\nİhtiyacınız olan her baskı ürünü için buradayız.",
     features: [
       { title: "Yüksek Hızlı Dijital Baskı", desc: "Konica Minolta AccurioPrint C4065 ile hızlı ve net baskı." },
       { title: "Kalın Kağıt Desteği", desc: "350g ve üzeri kartonlarda kusursuz baskı kalitesi." },
@@ -851,7 +851,7 @@ const ru: Dictionary = {
         a: "Большинство заказов цифро��ой печати мы сдаём в тот же день или в течение 24 часов. Даже в высокий сезон срочные заказы в приоритете.",
       },
       {
-        q: "У меня нет файла дизайна, вы поможете?",
+        q: "У меня нет ф��йла дизайна, вы поможете?",
         a: "Конечно. Благодаря бесплатному профессиональному дизайну мы подготовим для вас визитки, брошюры, меню и приглашения.",
       },
       {
