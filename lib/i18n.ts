@@ -335,7 +335,7 @@ const tr: Dictionary = {
     ],
   },
   blog: {
-    tag: "Blog",
+    tag: "Baskı Rehberi",
     title: "Alanya Baskı Rehberi & İpuçları",
     subtitle: "Kaşe, broşür, davetiye, kartvizit üretiminde faydalı bilgiler. Profesyonel tasarım, aynı gün teslim ve en iyi fiyatlandırma için tüm detaylar.",
     readMore: "Devamını Oku",
