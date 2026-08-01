@@ -69,6 +69,12 @@ export function StructuredData() {
     "@id": businessId,
     name: site.name,
     image: `${site.url}/images/digital-press.png`,
+    logo: {
+      "@type": "ImageObject",
+      url: `${site.url}/images/kale-matbaa-logo.png`,
+      width: 1200,
+      height: 1200,
+    },
     url: site.url,
     telephone: site.phone,
     email: site.email,
