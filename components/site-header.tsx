@@ -19,7 +19,7 @@ export function SiteHeader() {
     { href: "/", label: t.nav.home },
     { href: "/hakkimizda", label: t.nav.about },
     { href: "/urunlerimiz", label: t.nav.products },
-    { href: "/kase", label: t.kase.tag },
+    { href: "/hizmetlerimiz", label: t.nav.services },
     { href: "/portfoy", label: t.nav.portfolio },
     { href: "/blog", label: t.blog.tag },
     { href: "/iletisim", label: t.nav.contact },
