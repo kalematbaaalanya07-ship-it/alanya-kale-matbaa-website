@@ -1,6 +1,6 @@
 import type { Lang } from "@/lib/i18n"
 
-export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "acil-kase" | "canva-tasarimi" | "5-baski-hatasi" | "grafik-trendler-2026" | "dukkan-acma-rehberi" | "dijital-vs-ofset" | "anlamli-hediye-baski"
+export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "acil-kase" | "canva-tasarimi" | "5-baski-hatasi" | "grafik-trendler-2026" | "dukkan-acma-rehberi" | "dijital-vs-ofset" | "anlamli-hediye-baski" | "kartvizit-hizmet" | "brosur-hizmet" | "menus-hizmet" | "dijital-baski-hizmet" | "ofset-baski-hizmet" | "etiket-hizmet" | "afis-hizmet" | "el-ilani-hizmet"
 
 export interface BlogSection {
   heading: string
@@ -863,8 +863,8 @@ export const blogPosts: BlogPost[] = [
               "Выберите правильный размер: Используйте точные размеры продукта, который вы печатаете (например, стандартная визитка 85x55 мм, брошюра A5 148x210 мм). Используйте опцию 'Пользовательский размер' в Canva.",
               "Добавьте 3-4 мм выпуска за обрез: Для профессионального обрезания ваш дизайн должен выходить на 3 мм за край. Откройте Файл > Параметры просмотра > Показать выпуск за обрез в Canva.",
               "Используйте изображения высокого разрешения: Для четкой печати изображения должны быть не менее 300 DPI. Фотографии низкого разрешения из интернета будут выглядеть размытыми.",
-              "Скачайте как PDF для печати: Нажмите Поделиться > Загрузить в верхнем правом углу. Выберите PDF для печати (не PDF Standard). Отметь��е метки обрезки и выпуск за обрез.",
-              "Ес��и используете Canva Pro, установите цвет��вой профиль CMYK: Бесплатные учетные записи выда��т RGB, мы можем конвертировать дл�� вас.",
+              "Скачайте как PDF для печати: Нажмите Поделиться > Загрузить в верхнем правом углу. Выберите PDF для печати (не PDF Standard). Отметь����е метки обрезки и выпуск за обрез.",
+              "Ес��и используете Canva Pro, установите цвет��вой профиль CMYK: Бесплат��ые учетные записи выда��т RGB, мы можем конвертировать дл�� вас.",
             ],
           },
           {
@@ -1073,7 +1073,7 @@ export const blogPosts: BlogPost[] = [
             ],
           },
           {
-            heading: "5 | Ошибки макета страницы в мног��страничных продуктах",
+            heading: "5 | Ошибки макета страницы в мн��г��страничных продуктах",
             bullets: [
               "Наиболее распространённая ошибка в продуктах, таких как брошюры, папки и газеты, - это страницы, подготовленные в неправильном порядке или неправильном формате.",
               "Брошюра/газета → один PDF, правильный порядок чтения, обложка считается отдельно",
@@ -1231,7 +1231,7 @@ export const blogPosts: BlogPost[] = [
             heading: "1 | Гибридная работа человека и искусственного интеллекта",
             bullets: [
               "Искусственный интеллект по-прежнему важен, но настоящие лидеры - люди. Дизайнеры используют генеративные инструменты как трамплин для творчества, а затем сознательно совершенствуют и направляют результаты.",
-              "Это сотрудничество создаёт оригинальные произведения с технической глубиной.",
+              "Это сотрудничество создаёт оригинальные произведения с технич��ской глубиной.",
               "В 2026 году ИИ используется для идей, вариаций, эскизов и исследования настроения. Дизайнер выбирает, комбинирует и совершенствует результаты. Финальный стиль, сообщение и чувство полностью человеческие.",
               "После первоначального всплеска возбуждения поиск оригинальности и смысла усилился. Чистые изображения ИИ быстро становятся банальными.",
             ],
@@ -1783,6 +1783,160 @@ export const blogPosts: BlogPost[] = [
         cta: "Подарите своим любимым значимый печатный подарок, который будет напоминать им о вас каждый раз, когда они его видят, вместо обычного подарка. Поделитесь своими идеями и давайте вместе создадим идеальный дизайн и печать для вас. WhatsApp: +90 530 930 55 64",
       },
     },
+  },
+  {
+    slug: "kartvizit-hizmet",
+    image: "/images/business-cards.png",
+    imageAlt: "Profesyonel kartvizit tasarım ve baskısı",
+    date: "2025",
+    content: {
+      tr: {
+        category: "Kartvizit",
+        title: "Profesyonel Kartvizit Tasarım ve Baskısı",
+        excerpt: "Profesyonel kartvizit tasarım ve baskı hizmetimizle işinizi en iyi şekilde temsil edin.",
+        metaTitle: "Profesyonel Kartvizit Tasarım ve Baskısı",
+        metaDescription: "Profesyonel kartvizit tasarım ve baskısı hizmetleri. Dijital ve ofset baskı seçenekleriyle yüksek kaliteli kartvizitler.",
+        intro: [
+          "Profesyonel kartvizit tasarım ve baskı hizmetimizle işinizi en iyi şekilde temsil edin. Alanya'da dijital ve ofset baskı seçenekleriyle yüksek kaliteli, keskin ve dayanıklı kartvizitler üretiyoruz."
+        ],
+        sections: [
+          {
+            heading: "Hizmetlerimiz",
+            bullets: [
+              "Aynı gün teslim imkânı sayesinde acil ihtiyaçlarınızı karşılıyoruz",
+              "Kurumsal kimliğinize uygun özel tasarımlar",
+              "Mat veya parlak kuşe kâğıt seçenekleri",
+              "UV lak ve kabartma gibi ekstra uygulamalar",
+              "Az adetten yüksek adete kadar her ihtiyaca uygun çözümler"
+            ]
+          }
+        ],
+        cta: "Kartvizitinizi unutulmaz kılmak için bize ulaşın."
+      },
+      en: {
+        category: "Business Cards",
+        title: "Professional Business Card Design and Printing",
+        excerpt: "Professional business card design and printing services to represent your business best.",
+        metaTitle: "Professional Business Card Design and Printing",
+        metaDescription: "Professional business card design and printing services with digital and offset printing options.",
+        intro: [
+          "Professional business card design and printing services to represent your business best. We produce high-quality, sharp and durable business cards with digital and offset printing options in Alanya."
+        ],
+        sections: [
+          {
+            heading: "Our Services",
+            bullets: [
+              "Same-day delivery option for urgent needs",
+              "Custom designs tailored to your corporate identity",
+              "Matte or glossy coated paper options",
+              "Extra applications like UV varnish and embossing",
+              "Solutions for any quantity from small to large orders"
+            ]
+          }
+        ],
+        cta: "Contact us to make your business cards unforgettable."
+      },
+      ru: {
+        category: "Визитные карточки",
+        title: "Профессиональный дизайн и печать визиток",
+        excerpt: "Профессиональный дизайн и печать визиток для представления вашего бизнеса.",
+        metaTitle: "Профессиональный дизайн и печать визиток",
+        metaDescription: "Услуги профессионального дизайна и печати визиток с цифровой и офсетной печатью.",
+        intro: [
+          "Профессиональный дизайн и печать визиток для представления вашего бизнеса. Мы производим высококачественные, чёткие и долговечные визитки с цифровой и офсетной печатью в Аланье."
+        ],
+        sections: [
+          {
+            heading: "Наши услуги",
+            bullets: [
+              "Возможность доставки в тот же день для срочных заказов",
+              "Дизайн, адаптированный к вашему корпоративному стилю",
+              "Матовая и глянцевая мелованная бумага",
+              "Дополнительные услуги: УФ-лак и тиснение",
+              "Решения для любого количества от малых до крупных заказов"
+            ]
+          }
+        ],
+        cta: "Свяжитесь с нами, чтобы сделать ваши визитки незабываемыми."
+      }
+    }
+  },
+  {
+    slug: "brosur-hizmet",
+    image: "/images/brochures.png",
+    imageAlt: "Etkili broşür tasarımı ve baskısı",
+    date: "2025",
+    content: {
+      tr: {
+        category: "Broşür",
+        title: "Etkili Broşür Tasarımı ve Baskısı",
+        excerpt: "Etkili broşür tasarımı ve baskısı ile ürün veya hizmetlerinizi profesyonelce tanıtın.",
+        metaTitle: "Etkili Broşür Tasarımı ve Baskısı",
+        metaDescription: "Broşür tasarımı ve baskı hizmetleri. Tek kırımlı, üç kırımlı ve çok sayfalı broşürler.",
+        intro: [
+          "Etkili broşür tasarımı ve baskısı ile ürün veya hizmetlerinizi profesyonelce tanıtın. Tek kırımlı, üç kırımlı ve çok sayfalı broşür seçenekleriyle her bütçeye ve amaca uygun çözümler üretiyoruz."
+        ],
+        sections: [
+          {
+            heading: "Hizmetlerimiz",
+            bullets: [
+              "Canlı renkler, net görseller ve dikkat çekici metinlerle mesajınızı güçlü şekilde iletiriz",
+              "Yüksek kaliteli kuşe kâğıt",
+              "Ofset/dijital baskı alternatifleri",
+              "Küçük tirajlardan büyük tirajlara mükemmel sonuç",
+              "Profesyonel tasarım desteği"
+            ]
+          }
+        ],
+        cta: "Broşürünüzle müşterilerinizi etkilemek için bize ulaşın."
+      },
+      en: {
+        category: "Brochure",
+        title: "Effective Brochure Design and Printing",
+        excerpt: "Effective brochure design and printing to professionally promote your products or services.",
+        metaTitle: "Effective Brochure Design and Printing",
+        metaDescription: "Brochure design and printing services. Single-fold, tri-fold and multi-page brochure options.",
+        intro: [
+          "Effective brochure design and printing to professionally promote your products or services. We produce solutions tailored to every budget and purpose with single-fold, tri-fold and multi-page brochure options."
+        ],
+        sections: [
+          {
+            heading: "Our Services",
+            bullets: [
+              "Vivid colors, sharp images and compelling text to deliver your message powerfully",
+              "High-quality coated paper",
+              "Offset/digital printing alternatives",
+              "Perfect results from small to large print runs",
+              "Professional design support"
+            ]
+          }
+        ],
+        cta: "Contact us to impress your customers with your brochure."
+      },
+      ru: {
+        category: "Брошюра",
+        title: "Эффективный дизайн и печать брошюр",
+        excerpt: "Эффективный дизайн и печать брошюр для профессионального продвижения ваших товаров.",
+        metaTitle: "Эффективный дизайн и печать брошюр",
+        metaDescription: "Услуги дизайна и печати брошюр. Варианты с одним сгибом, тройным сгибом и многостраничные брошюры.",
+        intro: [
+          "Эффективный дизайн и печать брошюр для профессионального продвижения ваших товаров или услуг. Мы производим решения, адаптированные к любому бюджету и целям, с вариантами однусторонних, трёхкратных и многостраничных брошюр."
+        ],
+        sections: [
+          {
+            heading: "Наши услуги",
+            bullets: [
+              "Яркие цвета, чёткие изображения и убедительный текст",
+              "Высокое качество мелованной бумаги",
+              "Цифровая и офсетная печать",
+              "Идеальные результаты от малых до крупных тиражей",
+              "Профессиональная поддержка по дизайну"
+            ]
+          }
+        ],
+        cta: "Свяжитесь с нами, чтобы впечатлить своих клиентов брошюрой."
+      }
+    }
   },
 ]
 
