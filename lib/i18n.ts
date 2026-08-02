@@ -447,7 +447,7 @@ const en: Dictionary = {
     heroTag: "Alanya's Trusted Print Shop",
     heroTitle: "Quality Printing, Delivered on Time",
     heroSubtitle:
-      "From stamps to offset and digital printing, our expert team handles all of your business's printing needs professionally.",
+      "Did you come to Turkey from abroad and want affordable printing and custom stamps before returning home? Looking for urgent printing or professional digital & offset printing in Alanya? Kale Matbaa, with over 35 years of experience in Alanya Şekerhane, offers same-day delivery, free design and Konica Minolta AccurioPrint C4065 quality for stamps, business cards, brochures, catalogs and menus. We serve Mahmutlar, Oba, Cikcilli, Konaklı and the entire Antalya region.",
     features: [
       { title: "High-Speed Digital Printing", desc: "Fast, crisp prints with the Konica Minolta AccurioPrint C4065." },
       { title: "Thick Paper Support", desc: "Flawless print quality on 350g+ cardstock." },
@@ -712,7 +712,7 @@ const ru: Dictionary = {
     heroTag: "Надёжная типография Аланьи",
     heroTitle: "Качественная печать точно в срок",
     heroSubtitle:
-      "От печатей до офсетной и цифровой печати — наша команда профессионально решает все задачи печати для вашего бизнеса.",
+      "Приехали в Турцию из-за границы и хотите сделать печать и штампы по выгодной цене перед возвращением домой? Ищете срочную печать или профессиональную цифровую и офсетную печать в Аланье? Kale Matbaa с более чем 35-летним опытом в Аланье Шекерхане предлагает доставку в тот же день, бесплатный дизайн и качество Konica Minolta AccurioPrint C4065: штампы, визитки, брошюры, каталоги и меню. Мы обслуживаем Махмутлар, Оба, Джикджилли, Конаклы и весь регион Антальи.",
     features: [
       { title: "Высокоскоростная цифровая печать", desc: "Быстрая и чёткая печать на Konica Minolta AccurioPrint C4065." },
       { title: "Печать на плотной бумаге", desc: "Безупречное качество на картоне 350г и выше." },
@@ -848,7 +848,7 @@ const ru: Dictionary = {
       },
       {
         q: "Как быстро вы выполняете срочные заказы печати в Аланье?",
-        a: "Большинство заказов цифро��ой печати мы сдаём в тот же день или в течение 24 часов. Даже в высокий сезон срочные заказы в приоритете.",
+        a: "Большинство заказов цифро��ой печати мы сдаём в тот же день или в течение 24 часов. Даже в высокий сезон срочные заказ�� в приоритете.",
       },
       {
         q: "У меня нет ф��йла дизайна, вы поможете?",
@@ -943,7 +943,7 @@ const ru: Dictionary = {
       },
       {
         title: "Заполнение чернилами",
-        desc: "Мы заполняем печать выбранным цветом чернил и тестируем ее."
+        desc: "Мы заполняем печать выбранным цветом чернил и тес��ируем ее."
       },
       {
         title: "Контроль качества",
