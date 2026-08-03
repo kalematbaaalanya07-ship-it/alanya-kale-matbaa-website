@@ -1,5 +1,6 @@
 'use client'
 
+import { use } from 'react'
 import Image from 'next/image'
 import { useLanguage } from '@/components/language-provider'
 import { Button } from '@/components/ui/button'
@@ -14,7 +15,7 @@ const SERVICES_DATA = {
     title: 'Profesyonel Kartvizit Tasarım ve Baskısı',
     subtitle: 'Alanya\'da acil kartvizit baskısı. Aynı gün teslim, ücretsiz tasarım, en iyi kalite.',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kart2-8wjyA6bLExi6NPDQyowGrlhxjcRnnr.jpeg',
-    intro: 'Profesyonel ve dikkat çekici kartvizitler, işletmenizin kimliğini güçlendirir. Kale Matbaa\'da kartvizit baskısında kalite, hız ve uygun fiyat garantisi sunuyoruz. Standart boyutlardan özel ebatlara, mat kağıttan metalik efektli kağıtlara kadar tüm seçenekler mevcut. Dijital ve ofset baskıda adet ve bütçenize en uygun çözümü ücretsiz danışmanlıkla sunuyoruz.',
+    intro: 'Profesyonel kartvizit tasarım ve baskı hizmetimizle işinizi en iyi şekilde temsil edin. Alanya\'da dijital ve ofset baskı seçenekleriyle yüksek kaliteli, keskin ve dayanıklı kartvizitler üretiyoruz. Aynı gün teslim imkânı sayesinde acil ihtiyaçlarınızı da karşılıyoruz. Kurumsal kimliğinize uygun özel tasarımlar, mat veya parlak kuşe kâğıt, UV lak ve kabartma gibi ekstra uygulamalarla kartvizitinizi unutulmaz kılıyoruz. Az adetten yüksek adete kadar her ihtiyaca uygun çözümler sunuyoruz.',
     sections: [
       {
         title: 'Kartvizit Baskısı Türleri',
@@ -75,7 +76,7 @@ const SERVICES_DATA = {
     title: 'Kurumsal Broşür Tasarım ve Baskısı Hizmetleri',
     subtitle: 'Alanya\'da profesyonel broşür baskısı. Amerikan cilt, tel zımba ve spiral cilt seçenekleri. Aynı gün dizayn, kaliteli sonuç.',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/restoran%20bro%C5%9F%C3%BCr%C3%BC-BxbrDaVG02Is29VWZm3JuUCqlmMlW4.jpeg',
-    intro: 'Broşürler işletmenizin ürün ve hizmetlerini tanıtmanın en etkili yoludur. Kale Matbaa\'da profesyonel broşür baskısında dijital ve ofset baskı teknolojileriyle kaliteli sonuçlar sunuyoruz. Restoranlar, oteller, turizm şirketleri, kültür ve sanat kuruluşları - tüm sektörlerden müşterilerimize hizmet verdik. Tasarım ekibimiz markanıza uygun, dikkat çekici broşürler hazırlıyor.',
+    intro: 'Etkili broşür tasarımı ve baskısı ile ürün veya hizmetlerinizi profesyonelce tanıtın. Tek kırımlı, üç kırımlı ve çok sayfalı broşür seçenekleriyle her bütçeye ve amaca uygun çözümler üretiyoruz. Canlı renkler, net görseller ve dikkat çekici metinlerle mesajınızı güçlü şekilde iletiriz. Yüksek kaliteli kuşe kâğıt ve ofset/dijital baskı alternatifleriyle hem küçük hem büyük tirajlarda mükemmel sonuç alırsınız.',
     sections: [
       {
         title: 'Broşür Baskısı Hizmetleri',
@@ -136,7 +137,7 @@ const SERVICES_DATA = {
     title: 'Restoran Menü Tasarım ve Profesyonel Baskısı',
     subtitle: 'Alanya\'da profesyonel menü baskısı. Suya dayanıklı, parlak ve mat seçenekleri. Acil teslim garantisi.',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/el%20ilan%C4%B1%20bask%C4%B1s%C4%B1-Lc9UFMK1571wFbHSBw7osqiJs4Bl3m.jpeg',
-    intro: 'Restoran ve kafelerin menüleri, işletmenin markası kadar önemlidir. Yüksek kaliteli, tasarımı güzel, dayanıklı ve temiz menüler, müşteri memnuniyetini arttırır. Kale Matbaa\'da yaz sezonunda açık hava restoranlarındaki yoğun kullanıma dayanıklı, profesyonel menü baskısı yapıyoruz. Su geçirmez plastik, mat kağıt, parlak kağıt ve hatta laminalı seçenekler sunuyoruz.',
+    intro: 'Restaurant menü tasarımı ve baskısı hizmetimizle menünüzü hem şık hem kullanışlı hale getiriyoruz. Laminatlı, ciltli, spiral veya standart menü seçenekleriyle uzun ömürlü ve hijyenik çözümler sunuyoruz. Özel tasarım, fotoğraflı sayfalar ve markanıza uygun renklerle müşterilerinizin ilgisini çeken profesyonel menüler hazırlıyoruz. Hızlı üretim ve uygun fiyat avantajıyla restoranınızın imajını güçlendirin.',
     sections: [
       {
         title: 'Menü Baskısı Seçenekleri',
@@ -197,7 +198,7 @@ const SERVICES_DATA = {
     title: 'Dijital Baskı Hizmetleri - Acil İşler İçin İdeal',
     subtitle: 'Alanya\'da dijital baskı. Konica Minolta C4065 ile aynı gün teslim, kaliteli sonuç. Küçük ve orta adetler için ekonomik.',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/katalog2-h0DoTxIrVOaaHt6GaYOzwKiCytHbih.jpeg',
-    intro: 'Dijital baskı, acil işler, küçük adetler ve renkli tasarımlar için en ideal çözümdür. Kale Matbaa\'da Konica Minolta AccurioPrint C4065 makinesini kullanarak, yüksek hızda, canlı renklerde ve muhteşem kalitede dijital baskı yapıyoruz. A3+ boyutuna kadar, 80g ince kağıttan 350g kalın kartona kadar çeşitli malzemelere baskı yapabiliyoruz. Tasarım sunuyor, renk uyumlaştırması yapıyor ve baskı öncesi dijital prova sağlıyoruz.',
+    intro: 'Hızlı dijital baskı çözümlerimizle az adetten yüksek adete kadar her türlü ihtiyacınızı karşılıyoruz. Renkli ve siyah-beyaz baskı seçenekleriyle kartvizit, broşür, afiş, etiket ve daha birçok ürünü kısa sürede teslim ediyoruz. Kaliteli sonuç, uygun maliyet ve esnek üretim imkânı sayesinde hem bireysel hem kurumsal müşterilerimize pratik çözümler sağlıyoruz. Acil işlerinizde güvenilir adresiniziz.',
     sections: [
       {
         title: 'Dijital Baskı Teknolojimiz',
@@ -258,7 +259,7 @@ const SERVICES_DATA = {
     title: 'Ofset Baskı - Yüksek Adetler İçin Ekonomik Çözüm',
     subtitle: 'Alanya\'da profesyonel ofset baskı. 500+ adetten en uygun fiyat. Yüksek kalite, geniş ürün yelpazesi.',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tahsilat2-FSg1UZXFLRC6cu3OCpyVHI2ndS674g.jpeg',
-    intro: 'Ofset baskı, yüksek adetler için en ekonomik ve kaliteli çözümdür. Kale Matbaa\'da profesyonel ofset baskısında 500+ adetten başlayan siparişleri işliyoruz. Çalışmalarımız renk doğruluğu, kalite tutarlılığı ve uygun fiyat açısından garantilidir. Broşürler, kataloglar, defterler, bloknot ve kurumsal belgelerin ofset baskısında deneyimli ekibimiz sizin hizmetinizde.',
+    intro: 'Yüksek adetli işlerinizde ekonomik ve kaliteli ofset baskı hizmeti sunuyoruz. 500 adetten itibaren maliyet avantajı sağlayan ofset baskı ile mükemmel renk doğruluğu ve tutarlılık elde edersiniz. Broşür, katalog, afiş, el ilanı ve ambalaj gibi birçok üründe üstün baskı kalitesi sunuyoruz. Profesyonel ekipmanlarımız ve tecrübeli ekibimizle büyük tirajlarda bile aynı kaliteyi garanti ediyoruz.',
     sections: [
       {
         title: 'Ofset Baskı Teknolojimiz',
@@ -380,7 +381,7 @@ const SERVICES_DATA = {
     title: 'Ürün Etiketleri ve Paket Tasarımı - Markanızı Öne Çıkarın',
     subtitle: 'Alanya\'da etiket baskısı. Ürün etiketleri, paket etiketleri, barkodlu etiketler. Kaliteli tasarım, hızlı teslim.',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kart2-8wjyA6bLExi6NPDQyowGrlhxjcRnnr.jpeg',
-    intro: 'Etiketler, ürünlerinizin kimliğini ve markanızı müşterilere tanıtmanın en etkili yoludur. Kale Matbaa\'da dijital ve ofset baskı teknolojileriyle profesyonel etiketler üretiyoruz. Standart baskıdan barkod ve QR kodlu etiketlere, özel şekillerde kesimli etiketlere kadar geniş yelpazede seçenekler sunuyoruz. Gıda ürünleri, kozmetik, tekstil ve tüm endüstriyel ürünler için etiket baskısı yapıyoruz.',
+    intro: 'Ürün etiketleri ve paket tasarımı hizmetimizle markanızı öne çıkarın. Barkodlu, kendinden yapışkanlı, gıda, kozmetik ve tekstil etiketleri üretiyoruz. Su geçirmez, yırtılmaz ve yüksek kaliteli malzemelerle uzun ömürlü etiketler hazırlıyoruz. Özel boyut, şekil ve baskı seçenekleriyle ürünlerinize profesyonel bir görünüm kazandırıyoruz. Hem küçük hem büyük adetlerde hızlı ve ekonomik çözümler sunuyoruz.',
     sections: [
       {
         title: 'Etiket Türleri ve Tasarımları',
@@ -441,7 +442,7 @@ const SERVICES_DATA = {
     title: 'Etkinlik ve Reklam Afiş Tasarımı - Dikkat Çeken İçerik',
     subtitle: 'Alanya\'da profesyonel afiş baskısı. Etkinlik, kültür, reklam afiş ve davetiyeler. Kaliteli tasarım, hızlı baskı.',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/el%20ilan%C4%B1%20bask%C4%B1s%C4%B1-Lc9UFMK1571wFbHSBw7osqiJs4Bl3m.jpeg',
-    intro: 'Afiş, etkinliklerinizi ve reklamlarınızı geniş kitleye duyuran en etkili araçtır. Kale Matbaa\'da dijital ve ofset baskı teknolojileriyle profesyonel afiş üretiyoruz. Konserler, tiyatro, sinema, toplantılar, kuruluş duyuruları ve ticari reklamlar için çeşitli boyutlarda afiş baskısı yapıyoruz. Tasarım ekibimiz dikkat çeken, yaratıcı ve etkili tasarımlar hazırlıyor.',
+    intro: 'Etkinlik ve reklam afiş tasarımı ile mesajınızı geniş kitlelere ulaştırın. A3, A2, A1 ve özel boyutlarda dikkat çekici afişler basıyoruz. Canlı renkler, yüksek çözünürlük ve dayanıklı malzeme seçenekleriyle hem iç hem dış mekân kullanımına uygun afişler üretiyoruz. Hızlı üretim ve uygun fiyatlarla kampanya, etkinlik ve tanıtım afişlerinizi en kısa sürede teslim ediyoruz.',
     sections: [
       {
         title: 'Afiş Baskı Boyutları ve Türleri',
@@ -502,7 +503,7 @@ const SERVICES_DATA = {
     title: 'El İlanı ve Gözat Tasarım Baskısı - Etkin Tanıtım',
     subtitle: 'Alanya\'da el ilanı baskısı. Açıklamaca, menü el ilanları, duyuru ve promosyon ilanları. Hızlı ve ekonomik.',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hamam%20bro%C5%9F%C3%BCr%C3%BC-vYoJT1YUCLnZT5UVQHV6pUv98Q6MHL.jpeg',
-    intro: 'El ilanları, hedef kitleye doğrudan ulaşan ve ekonomik bir tanıtım aracıdır. Kale Matbaa\'da dijital ve ofset baskı teknolojileriyle binlerce el ilanı hızla üretiyoruz. Restoran menü el ilanları, kuaför hizmetleri, otomotiv satışları ve tüm ticari amaçlar için el ilanları baskısı yapıyoruz. Tasarım ekibimiz çekici ve etkili el ilanları tasarımlar.',
+    intro: 'El ilanı ve gözat tasarım baskısı hizmetimizle promosyon, duyuru ve menü ihtiyaçlarınızı karşılıyoruz. Hızlı ve ekonomik çözümlerle yüksek etkili el ilanları üretiyoruz. Renkli baskı, kaliteli kâğıt ve profesyonel tasarım desteğiyle mesajınızı net ve çekici şekilde iletiriz. Az adetten yüksek adete kadar her siparişte aynı özeni gösteriyor, kısa sürede teslimat sağlıyoruz.',
     sections: [
       {
         title: 'El İlanı Baskı Türleri',
@@ -560,9 +561,10 @@ const SERVICES_DATA = {
   }
 }
 
-export default function ServicePage({ params }: { params: { service: string } }) {
+export default function ServicePage({ params }: { params: Promise<{ service: string }> }) {
+  const { service } = use(params)
   const { t } = useLanguage()
-  const serviceKey = params.service as keyof typeof SERVICES_DATA
+  const serviceKey = service as keyof typeof SERVICES_DATA
   const data = SERVICES_DATA[serviceKey]
 
   if (!data) {
@@ -686,7 +688,7 @@ export default function ServicePage({ params }: { params: { service: string } })
                 <summary className="flex cursor-pointer items-center justify-between font-semibold text-foreground">
                   {item.q}
                   <span className="ml-4 text-muted-foreground group-open:rotate-180 transition-transform">
-                    ▼
+                    ��
                   </span>
                 </summary>
                 <p className="mt-4 text-muted-foreground leading-relaxed">{item.a}</p>

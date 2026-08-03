@@ -365,7 +365,7 @@ const tr: Dictionary = {
     tag: "Profesyonel Kaşe Çeşitleri",
     title: "Profesyonel Kaşe Çeşitleri ve Baskı Hizmeti",
     subtitle: "Şirketinizin ve kişisel markanızın resmi onay aracı olan kaşelerde geniş ürün yelpazesi. Kaliteli malzeme, hızlı teslimat, uygun fiyat.",
-    intro: "Alanya'da acil kaşe mı arıyorsunuz? Kale Matbaa Şekerhane'de 35+ yıllık tecrübesiyle kurumsal kaşe, öğretmen kaşesi, cep kaşesi ve otomatik kaşe baskı hizmetleri sunmaktadır. Aynı gün teslim, ücretsiz tasarım ve profesyonel kalitesiyle Mahmutlar, Oba, Konaklı ve tüm Alanya bölgesine hizmet vermekteyiz.",
+    intro: "Profesyonel Kaşe Yapımı ve Baskı Hizmeti\n\nKaşe, işletmenin veya kişinin yasal belgelerini tasdik etmek için kullanılan resmi bir araçtır. Alanya Kale Matbaa olarak, tüm kaşe ihtiyaçlarınız için profesyonel ve güvenilir hizmetler sunuyoruz. Standart kaşelerden başlayarak özel tasarımlı kaşelere kadar geniş bir ürün yelpazesi oluşturdum.\n\nŞirketinizin ve kişisel markanızın resmi onay aracı olan kaşelerde geniş ürün yelpazesi. Kaliteli malzeme, hızlı teslimat, uygun fiyat. Profesyonel kaşe çeşitleriyle şirketinizi en iyi şekilde temsil edin.",
     typesTitle: "Kaşe Çeşitleri",
     typesDesc: [
       "Şirket Kaşesi: Limited Şirket ve Anonim Şirketler için kullanılan resmi kaşeler. Şirketin ünvanı, adresi ve vergi numarası ile birlikte kullanılır.",
@@ -840,11 +840,11 @@ const ru: Dictionary = {
   faq: {
     tag: "Вопросы",
     title: "Часто задаваемые вопросы",
-    subtitle: "Быстрые ответы на то, что вас интересует.",
+    subtitle: "Быстрые ответы на то, ч��о вас интересует.",
     items: [
       {
         q: "Я хочу сделать печать, какую информацию мне нужно вам отправи��ь?",
-        a: "Для ООО и АО достаточно названия компании, адреса и налогового номера. По желанию можно добавить номер телефона, Mersis и реестровый номер, адрес электронной почты. Для ИП нужны ФИО, адрес и номер паспорта (номер налоговой инспекции). По желанию можно добавить должность, номер телефона и адрес электронной почты.",
+        a: "Для О��О и АО достаточно названия компании, адреса и налогового номера. По желанию можно добавить номер телефона, Mersis и реестровый номер, адрес электронной почты. Для ИП нужны ФИО, адрес и номер паспорта (номер налоговой инспекции). По желанию можно добавить должность, номер телефона и адрес электронной почты.",
       },
       {
         q: "Как быстро вы выполняете срочные заказы печати в Аланье?",
