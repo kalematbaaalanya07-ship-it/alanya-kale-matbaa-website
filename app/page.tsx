@@ -96,20 +96,6 @@ export default function HomePage() {
             aynı gün teslim, ücretsiz tasarım ve Konica Minolta AccurioPrint C4065 kalitesiyle kaşe, kartvizit, broşür, katalog ve menü baskı hizmetleri 
             sunmaktadır. Mahmutlar, Oba, Cikcilli, Konaklı ve tüm Antalya bölgesine hizmet vermekteyiz.
           </p>
-          <div className="mt-6 flex flex-wrap gap-4">
-            <Button asChild variant="outline" size="sm">
-              <Link href="/kase">
-                Profesyonel Kaşe Basımı
-                <ArrowRight className="size-4" />
-              </Link>
-            </Button>
-            <Button asChild variant="outline" size="sm">
-              <Link href="/hizmetlerimiz">
-                Tüm Hizmetler
-                <ArrowRight className="size-4" />
-              </Link>
-            </Button>
-          </div>
         </div>
       </section>
 
@@ -140,6 +126,20 @@ export default function HomePage() {
               </div>
             )
           })}
+        </div>
+        <div className="mt-8 flex flex-wrap gap-4 justify-end">
+          <Button asChild size="lg" className="bg-orange-500 text-white hover:bg-orange-600">
+            <Link href="/kase">
+              Profesyonel Kaşe Basımı
+              <ArrowRight className="size-4" />
+            </Link>
+          </Button>
+          <Button asChild size="lg" variant="outline">
+            <Link href="/hizmetlerimiz">
+              Tüm Hizmetler
+              <ArrowRight className="size-4" />
+            </Link>
+          </Button>
         </div>
       </section>
 
