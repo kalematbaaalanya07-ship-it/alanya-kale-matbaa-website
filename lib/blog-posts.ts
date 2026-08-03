@@ -687,7 +687,7 @@ export const blogPosts: BlogPost[] = [
       },
       ru: {
         category: "Срочная печать",
-        title: "Срочная печать в Аланье | Доставка в тот же день - Kale Matbaa",
+        title: "Сроч��ая печать в Аланье | Доставка в тот же день - Kale Matbaa",
         excerpt:
           "Нужна срочная печать в Аланье? Дизайн за 1 ч��с, печать и доставка за 2-3 часа. Заказ через WhatsApp.",
         metaTitle: "Срочная ��ечать Алань | Доставка в тот же час - Kale Matbaa",
@@ -870,7 +870,7 @@ export const blogPosts: BlogPost[] = [
           {
             heading: "Почему выбрать нас для ваших дизайнов Canva?",
             bullets: [
-              "Мы принимаем файлы Canva (PDF или ссылка для общего доступа)",
+              "Мы принимаем файлы Canva (PDF или с��ылка для общего доступа)",
               "Бесплатная поддержка дизайна и возможность редакции",
               "Яркая печать цветом на картоне до 350 г",
               "Матовые, глянцевые, ламинирование, UV лак, тиснение и опции нестандартного обреза",
@@ -1049,7 +1049,7 @@ export const blogPosts: BlogPost[] = [
             bullets: [
               "Многие проблемы на самом деле возникают не из-за недостатка технических знаний, а из-за неуважения к шаблонам и информационным формам.",
               "Особенно для специальных продуктов, таких как флаги, пляжные флаги, крылатые папки или бумажные пакеты, шаблоны часто обновляются.",
-              "Контрольный список: Загружайте последний шаблон перед каждым заказом, Всегда читайте информационную форму, Обращайте внимание на формат, безопасные поля и значения выпуска за обрез",
+              "Контрольный список: Загружайте последний шаблон перед каждым заказом, Всегда читайте информационную фо��му, Обращайте внимание на формат, безопасные поля и значения выпуска за обрез",
               "Несколько минут проверки спасают часы циклов коррекции.",
             ],
           },
@@ -1394,7 +1394,7 @@ export const blogPosts: BlogPost[] = [
               "Визитные карточки: По-прежнему наиболее эффективный инструмент для контактов. Качественная бумага, матовые/глянцевые варианты и профессиональный дизайн делают ваш магазин запоминающимся.",
               "Меню, прайс-лист и каталог: Необходимы для ресторанов, кафе, бутиков или сервисных компаний. Устойчивые к влаге и пятнам ламинированные меню или цифровые каталоги одновременно элегантны и практичны.",
               "Брошюры, листовки и плакаты: Для кампании открытия, скидок или представления новых продуктов. Распространение листовок в многолюдных туристических местах Аланьи дает эффективные результаты.",
-              "Официальные документы и офсетная печать: Счета-фактуры, расписки, заказные формы, накладные. Офсетная печать производит большой объём, экономичные и профессионально выглядящие документы.",
+              "Официальные документы и офсетная печать: Счета-��актуры, расписки, заказные формы, накладные. Офсетная печать производит большой объём, экономичные и профессионально выглядящие документы.",
               "Изготовление печатей (штампов): Корпоративные печати, печати подписи, датированные печати и печати с пользовательским текстом. Эти требуемые в официальных процедурах изделия производятся с быстрой доставкой и четкой печатью.",
             ],
           },
@@ -1738,7 +1738,7 @@ export const blogPosts: BlogPost[] = [
           "Значимые подарочные печати: личные фото, постеры с цитатами, книги памяти, открытки рождения, календари. Подарите особенные подарки с Alanya Kale Matbaa.",
         intro: [
           "Обычные подарки забываются, но значимые печати хранятся годами. На дни рождения, юбилеи, выпускные, новые дома, рождение, пенсию или просто чтобы сказать 'я о тебе думаю'; личный, эмоциональный и осязаемый печатный материал - один из самых искренних подарков.",
-          "С нашим 35-летним опытом в Alanya Kale Matbaa мы производим не просто печать, но изделия, несущие смысл. С помощью Konica Minolta AccurioPrint C4065 яркие цвета, различные веса картона и ламинация делают ваш подарок значимым.",
+          "С нашим 35-летним ��пытом в Alanya Kale Matbaa мы производим не просто печать, но изделия, несущие смысл. С помощью Konica Minolta AccurioPrint C4065 яркие цвета, различные веса картона и ламинация делают ваш подарок значимым.",
         ],
         sections: [
           {
@@ -1935,6 +1935,234 @@ export const blogPosts: BlogPost[] = [
           }
         ],
         cta: "Свяжитесь с нами, чтобы впечатлить своих клиентов брошюрой."
+      }
+    }
+  },
+  {
+    slug: "menus-hizmet",
+    image: "/images/menus.png",
+    imageAlt: "Restaurant menü tasarımı ve baskısı",
+    date: "2025",
+    content: {
+      tr: {
+        category: "Menü",
+        title: "Restaurant Menü Tasarımı ve Baskısı",
+        excerpt: "Profesyonel menü tasarımı ve baskısı hizmetimizle restoranınızı öne çıkarın.",
+        metaTitle: "Restaurant Menü Tasarımı ve Baskısı",
+        metaDescription: "Menü baskı hizmetleri. Laminatlı, ciltli, spiral ve standart menü seçenekleri.",
+        intro: ["Restaurant menü tasarımı ve baskısı hizmetimizle restoranınızı öne çıkarın. Laminatlı, ciltli, spiral ve standart menü seçenekleriyle profesyonel çözümler sunuyoruz."],
+        sections: [{heading: "Hizmetlerimiz", bullets: ["Özel tasarım", "Markanıza uygun renkler", "Uzun ömürlü malzeme", "Hızlı üretim", "Restoranınızın imajını güçlendirin"]}],
+        cta: "Menünüzü profesyonelleştirmek için bize ulaşın."
+      },
+      en: {
+        category: "Menu",
+        title: "Restaurant Menu Design and Printing",
+        excerpt: "Professional menu design and printing to enhance your restaurant.",
+        metaTitle: "Restaurant Menu Design and Printing",
+        metaDescription: "Menu printing services. Laminated, bound, spiral and standard menu options.",
+        intro: ["Professional menu design and printing to enhance your restaurant. We offer professional solutions with laminated, bound, spiral and standard menu options."],
+        sections: [{heading: "Our Services", bullets: ["Custom design", "Colors matching your brand", "Durable material", "Fast production", "Enhance your restaurant's image"]}],
+        cta: "Contact us to make your menu professional."
+      },
+      ru: {
+        category: "Меню",
+        title: "Дизайн и печать меню ресторана",
+        excerpt: "Профессиональный дизайн и печать меню для вашего ресторана.",
+        metaTitle: "Дизайн и печать меню ресторана",
+        metaDescription: "Услуги печати меню. Ламинированные, переплётные, спиральные и стандартные варианты.",
+        intro: ["Профессиональный дизайн и печать меню для вашего ресторана. Мы предлагаем профессиональные решения с ламинированными, переплётными, спиральными и стандартными вариантами меню."],
+        sections: [{heading: "Наши услуги", bullets: ["Дизайн", "Цвета по вашему бренду", "Прочный материал", "Быстрое производство", "Улучшьте имидж вашего ресторана"]}],
+        cta: "Свяжитесь с нами для профессионального меню."
+      }
+    }
+  },
+  {
+    slug: "dijital-baski-hizmet",
+    image: "/images/digital-printing.png",
+    imageAlt: "Hızlı dijital baskı çözümleri",
+    date: "2025",
+    content: {
+      tr: {
+        category: "Dijital Baskı",
+        title: "Hızlı Dijital Baskı Çözümleri",
+        excerpt: "Hızlı dijital baskı çözümlerimizle az adetten yüksek adete kadar her ihtiyacınızı karşılıyoruz.",
+        metaTitle: "Hızlı Dijital Baskı Çözümleri",
+        metaDescription: "Dijital baskı hizmetleri. Renkli ve siyah-beyaz baskı.",
+        intro: ["Hızlı dijital baskı çözümlerimizle az adetten yüksek adete kadar her ihtiyacınızı karşılıyoruz. Renkli ve siyah-beyaz baskı seçenekleriyle kısa sürede teslim ediyoruz."],
+        sections: [{heading: "Hizmetlerimiz", bullets: ["Kaliteli sonuç", "Uygun maliyet", "Esnek üretim", "Pratik çözümler", "Acil işlerinizde güvenilir adres"]}],
+        cta: "Acil baskı işleriniz için bize ulaşın."
+      },
+      en: {
+        category: "Digital Printing",
+        title: "Fast Digital Printing Solutions",
+        excerpt: "Fast digital printing solutions for all your printing needs.",
+        metaTitle: "Fast Digital Printing Solutions",
+        metaDescription: "Digital printing services. Color and black & white printing.",
+        intro: ["Fast digital printing solutions for all your printing needs from small to large quantities. We deliver with color and black & white printing options."],
+        sections: [{heading: "Our Services", bullets: ["Quality results", "Affordable costs", "Flexible production", "Practical solutions", "Reliable for urgent jobs"]}],
+        cta: "Contact us for your urgent printing needs."
+      },
+      ru: {
+        category: "Цифровая печать",
+        title: "Быстрые решения цифровой печати",
+        excerpt: "Быстрые решения цифровой печати для всех ваших потребностей.",
+        metaTitle: "Быстрые решения цифровой печати",
+        metaDescription: "Услуги цифровой печати. Цветная и чёрно-белая печать.",
+        intro: ["Быстрые решения цифровой печати для всех ваших потребностей от малых до крупных объёмов. Мы доставляем с цветной и чёрно-белой печатью."],
+        sections: [{heading: "Наши услуги", bullets: ["Качественные результаты", "Доступная стоимость", "Гибкое производство", "Практические решения", "Надежно для срочных работ"]}],
+        cta: "Свяжитесь с нами для ваших срочных потребностей."
+      }
+    }
+  },
+  {
+    slug: "ofset-baski-hizmet",
+    image: "/images/offset-printing.png",
+    imageAlt: "Yüksek adetli ofset baskı",
+    date: "2025",
+    content: {
+      tr: {
+        category: "Ofset Baskı",
+        title: "Yüksek Adetler İçin Ekonomik Ofset Baskı",
+        excerpt: "Yüksek adetli işlerinizde ekonomik ofset baskı hizmeti sunuyoruz.",
+        metaTitle: "Yüksek Adetler İçin Ekonomik Ofset Baskı",
+        metaDescription: "Ofset baskı hizmetleri. 500 adetten itibaren maliyet avantajı.",
+        intro: ["Yüksek adetli işlerinizde ekonomik ofset baskı hizmeti sunuyoruz. 500 adetten itibaren maliyet avantajı sağlayan ofset baskı."],
+        sections: [{heading: "Hizmetlerimiz", bullets: ["Broşür, katalog, afiş", "Üstün kalite", "Profesyonel ekipmanlar", "Tecrübeli ekip", "Büyük tirajlarda garantili"]}],
+        cta: "Ofset baskı siparişleriniz için bize ulaşın."
+      },
+      en: {
+        category: "Offset Printing",
+        title: "Economical Offset Printing for High Quantities",
+        excerpt: "Economical offset printing service for your high-volume jobs.",
+        metaTitle: "Economical Offset Printing for High Quantities",
+        metaDescription: "Offset printing services. Cost advantages from 500 copies.",
+        intro: ["Economical offset printing service for your high-volume jobs. With offset printing starting from 500 copies."],
+        sections: [{heading: "Our Services", bullets: ["Brochures, catalogs, posters", "Superior quality", "Professional equipment", "Experienced team", "Guaranteed for large runs"]}],
+        cta: "Contact us for your offset printing orders."
+      },
+      ru: {
+        category: "Офсетная печать",
+        title: "Экономичная офсетная печать для больших объёмов",
+        excerpt: "Экономичная офсетная печать для ваших крупных заказов.",
+        metaTitle: "Экономичная офсетная печать для больших объёмов",
+        metaDescription: "Услуги офсетной печати. Экономия от 500 копий.",
+        intro: ["Экономичная офсетная печать для ваших крупных заказов. Офсетная печать начиная с 500 копий."],
+        sections: [{heading: "Наши услуги", bullets: ["Брошюры, каталоги, плакаты", "Отличное качество", "Профессиональное оборудование", "Опытная команда", "Гарантировано для больших тиражей"]}],
+        cta: "Свяжитесь с нами для ваших заказов офсетной печати."
+      }
+    }
+  },
+  {
+    slug: "etiket-hizmet",
+    image: "/images/labels.png",
+    imageAlt: "Ürün etiketleri ve paket tasarımı",
+    date: "2025",
+    content: {
+      tr: {
+        category: "Etiket",
+        title: "Ürün Etiketleri ve Paket Tasarımı",
+        excerpt: "Ürün etiketleri ve paket tasarımı hizmetimizle markanızı öne çıkarın.",
+        metaTitle: "Ürün Etiketleri ve Paket Tasarımı",
+        metaDescription: "Etiket baskı hizmetleri. Barkodlu, kendinden yapışkanlı etiketler.",
+        intro: ["Ürün etiketleri ve paket tasarımı hizmetimizle markanızı öne çıkarın. Barkodlu, kendinden yapışkanlı etiketler üretiyoruz."],
+        sections: [{heading: "Hizmetlerimiz", bullets: ["Su geçirmez malzemeler", "Yüksek kaliteli", "Özel boyut ve şekil", "Profesyonel görünüm", "Hızlı ve ekonomik"]}],
+        cta: "Etiket siparişleriniz için bize ulaşın."
+      },
+      en: {
+        category: "Labels",
+        title: "Product Labels and Package Design",
+        excerpt: "Stand out with our product label and package design services.",
+        metaTitle: "Product Labels and Package Design",
+        metaDescription: "Label printing services. Barcode and self-adhesive labels.",
+        intro: ["Stand out with our product label and package design services. We produce barcode and self-adhesive labels."],
+        sections: [{heading: "Our Services", bullets: ["Waterproof materials", "High-quality", "Custom size and shape", "Professional look", "Fast and economical"]}],
+        cta: "Contact us for your label orders."
+      },
+      ru: {
+        category: "Этикетки",
+        title: "Этикетки и дизайн упаковки продукта",
+        excerpt: "Выделитесь с помощью наших услуг по дизайну этикеток.",
+        metaTitle: "Этикетки и дизайн упаковки продукта",
+        metaDescription: "Услуги печати этикеток. Этикетки с штрих-кодом и самоклеящиеся.",
+        intro: ["Выделитесь с помощью наших услуг по дизайну этикеток. Мы производим этикетки с штрих-кодом и самоклеящиеся этикетки."],
+        sections: [{heading: "Наши услуги", bullets: ["Водонепроницаемые материалы", "Высокое качество", "Индивидуальный размер и форма", "Профессиональный вид", "Быстро и экономично"]}],
+        cta: "Свяжитесь с нами для ваших заказов этикеток."
+      }
+    }
+  },
+  {
+    slug: "afis-hizmet",
+    image: "/images/posters.png",
+    imageAlt: "Etkinlik ve reklam afiş tasarımı",
+    date: "2025",
+    content: {
+      tr: {
+        category: "Afiş",
+        title: "Etkinlik ve Reklam Afiş Tasarımı",
+        excerpt: "Etkinlik ve reklam afiş tasarımı ile mesajınızı geniş kitlelere ulaştırın.",
+        metaTitle: "Etkinlik ve Reklam Afiş Tasarımı",
+        metaDescription: "Afiş baskı hizmetleri. A3, A2, A1 ve özel boyutlarda afiş.",
+        intro: ["Etkinlik ve reklam afiş tasarımı ile mesajınızı geniş kitlelere ulaştırın. A3, A2, A1 boyutlarda afişler basıyoruz."],
+        sections: [{heading: "Hizmetlerimiz", bullets: ["Canlı renkler", "Yüksek çözünürlük", "Dayanıklı malzeme", "İç ve dış mekan", "Hızlı üretim"]}],
+        cta: "Afiş siparişleriniz için bize ulaşın."
+      },
+      en: {
+        category: "Poster",
+        title: "Event and Advertisement Poster Design",
+        excerpt: "Reach a wide audience with our event and advertisement poster design.",
+        metaTitle: "Event and Advertisement Poster Design",
+        metaDescription: "Poster printing services. Posters in A3, A2, A1 sizes.",
+        intro: ["Reach a wide audience with our event and advertisement poster design. We print posters in A3, A2, A1 sizes."],
+        sections: [{heading: "Our Services", bullets: ["Vivid colors", "High resolution", "Durable materials", "Indoor and outdoor", "Fast production"]}],
+        cta: "Contact us for your poster orders."
+      },
+      ru: {
+        category: "Плакат",
+        title: "Дизайн плакатов для событий и реклам",
+        excerpt: "Достигайте широкой аудитории с помощью нашего дизайна плакатов.",
+        metaTitle: "Дизайн плакатов для событий и реклам",
+        metaDescription: "Услуги печати плакатов. Плакаты A3, A2, A1 размеров.",
+        intro: ["Достигайте широкой аудитории с помощью нашего дизайна плакатов. Мы печатаем плакаты A3, A2, A1 размеров."],
+        sections: [{heading: "Наши услуги", bullets: ["Яркие цвета", "Высокое разрешение", "Прочные материалы", "Внутри и снаружи", "Быстрое производство"]}],
+        cta: "Свяжитесь с нами для ваших заказов плакатов."
+      }
+    }
+  },
+  {
+    slug: "el-ilani-hizmet",
+    image: "/images/flyers.png",
+    imageAlt: "El İlanı и gözat tasarım baskısı",
+    date: "2025",
+    content: {
+      tr: {
+        category: "El İlanı",
+        title: "El İlanı ve Gözat Tasarım Baskısı",
+        excerpt: "El ilanı tasarım baskısı hizmetimizle promosyon ve duyuruları etkili şekilde iletiyoruz.",
+        metaTitle: "El İlanı ve Gözat Tasarım Baskısı",
+        metaDescription: "El ilanı baskı hizmetleri. A5, A6, A4 boyutlarda el ilanları.",
+        intro: ["El ilanı tasarım baskısı hizmetimizle promosyon ve duyuruları etkili şekilde iletiyoruz. A5, A6, A4 boyutlarda hızlı çözümler sunuyoruz."],
+        sections: [{heading: "Hizmetlerimiz", bullets: ["Renkli baskı", "Kaliteli kâğıt", "Profesyonel tasarım", "Az ve çok adet", "Hızlı teslimat"]}],
+        cta: "El ilanı siparişleriniz için bize ulaşın."
+      },
+      en: {
+        category: "Flyer",
+        title: "Flyer and Leaflet Design Printing",
+        excerpt: "Communicate promotions and announcements effectively with our flyer design printing.",
+        metaTitle: "Flyer and Leaflet Design Printing",
+        metaDescription: "Flyer printing services. Flyers in A5, A6, A4 sizes.",
+        intro: ["Communicate promotions and announcements effectively with our flyer design printing. We offer fast solutions in A5, A6, A4 sizes."],
+        sections: [{heading: "Our Services", bullets: ["Color printing", "Quality paper", "Professional design", "Small and large quantities", "Fast delivery"]}],
+        cta: "Contact us for your flyer orders."
+      },
+      ru: {
+        category: "Листовка",
+        title: "Дизайн и печать листовок и буклетов",
+        excerpt: "Эффективно коммуницируйте с помощью нашей печати листовок.",
+        metaTitle: "Дизайн и печать листовок и буклетов",
+        metaDescription: "Услуги печати листовок. Листовки A5, A6, A4 размеров.",
+        intro: ["Эффективно коммуницируйте с помощью нашей печати листовок. Мы предлагаем быстрые решения A5, A6, A4 размеров."],
+        sections: [{heading: "Наши услуги", bullets: ["Цветная печать", "Качественная бумага", "Профессиональный дизайн", "Малые и крупные объёмы", "Быстрая доставка"]}],
+        cta: "Свяжитесь с нами для ваших заказов листовок."
       }
     }
   },
