@@ -3,71 +3,7 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { LanguageSwitcher } from '@/components/language-switcher';
 
-const services = [
-  {
-    id: 'kartvizit-baski-alanya',
-    tag: 'Kartvizit Baskısı',
-    title: 'Profesyonel Kartvizit Tasarım ve Baskısı',
-    subtitle: 'Alanya\'da yüksek kaliteli kartvizit baskısı. Dijital ve ofset baskı, aynı gün teslim.',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kart2-8wjyA6bLExi6NPDQyowGrlhxjcRnnr.jpeg',
-  },
-  {
-    id: 'brosur-baski-alanya',
-    tag: 'Broşür Baskısı',
-    title: 'Etkili Broşür Tasarımı ve Baskısı',
-    subtitle: 'Profesyonel broşür tasarımı. Tek kırım, 3 kırım, cepli dosya broşürleri.',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/restoran%20bro%C5%9F%C3%BCr%C3%BC-BxbrDaVG02Is29VWZm3JuUCqlmMlW4.jpeg',
-  },
-  {
-    id: 'menus-baski-alanya',
-    tag: 'Menü Tasarımı',
-    title: 'Restaurant Menü Tasarımı ve Baskısı',
-    subtitle: 'Özel menü tasarımları. Laminate, cepli, standart menü seçenekleri.',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/el%20ilan%C4%B1%20bask%C4%B1s%C4%B1-Lc9UFMK1571wFbHSBw7osqiJs4Bl3m.jpeg',
-  },
-  {
-    id: 'dijital-baski-alanya',
-    tag: 'Dijital Baskı',
-    title: 'Hızlı Dijital Baskı Çözümleri',
-    subtitle: 'Az adetten çok adata kadar. Renkli ve siyah-beyaz baskı hizmetleri.',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/katalog2-h0DoTxIrVOaaHt6GaYOzwKiCytHbih.jpeg',
-  },
-  {
-    id: 'ofset-baski-alanya',
-    tag: 'Ofset Baskı',
-    title: 'Yüksek Adetler İçin Ofset Baskı',
-    subtitle: '500+ adetten ekonomik fiyat. Mükemmel renk doğruluğu ve tutarlılığı.',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tahsilat2-FSg1UZXFLRC6cu3OCpyVHI2ndS674g.jpeg',
-  },
-  {
-    id: 'kase-yapimi-alanya',
-    tag: 'Kaşe Yapımı',
-    title: 'Profesyonel Kaşe Tasarım ve Baskısı',
-    subtitle: 'Kurumsal, öğretmen, cep ve otomatik kaşeler. Ücretsiz tasarım.',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ka%C5%9Fe7-IFUNrNFYzXaYK00m1Y2D3pUInD68Bi.jpeg',
-  },
-  {
-    id: 'etiket-baski-alanya',
-    tag: 'Etiket Baskısı',
-    title: 'Ürün Etiketleri ve Paket Tasarımı',
-    subtitle: 'Barkodlu etiketler, kendinden yapışkanlı etiketler. Gıda, kozmetik, tekstil.',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Deri%20%C3%BCr%C3%BCn%20sertifikas%C4%B1-QtxeEvwVWg1wP8M8n16kFsryCrjl2L.jpeg',
-  },
-  {
-    id: 'afis-baski-alanya',
-    tag: 'Afiş Baskısı',
-    title: 'Etkinlik ve Reklam Afiş Tasarımı',
-    subtitle: 'Dikkat çeken afiş tasarımları. A3, A2, A1 ve özel boyutlar.',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/otel%20anket%20formu-T6ikkxaMRJ2X6cOIDRgvSkjtt8XG9b.jpeg',
-  },
-  {
-    id: 'el-ilani-baski-alanya',
-    tag: 'El İlanı Baskısı',
-    title: 'El İlanı ve Gözat Tasarım Baskısı',
-    subtitle: 'Menü, promosyon, duyuru el ilanları. Hızlı ve ekonomik çözümler.',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hamam%20bro%C5%9F%C3%BCr%C3%BC-vYoJT1YUCLnZT5UVQHV6pUv98Q6MHL.jpeg',
-  },
-];
+const services = [];
 
 export default function HizmetlerimizPage() {
   const language = 'tr';
