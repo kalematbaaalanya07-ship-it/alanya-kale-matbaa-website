@@ -84,6 +84,23 @@ export default function HomePage() {
                 {t.cta.whatsapp}
               </a>
             </Button>
+            <Button asChild size="lg" className="bg-orange-500 text-white hover:bg-orange-600">
+              <Link href="/kase">
+                Profesyonel Kaşe Basımı
+                <ArrowRight className="size-4" />
+              </Link>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10"
+            >
+              <Link href="/hizmetlerimiz">
+                Tüm Hizmetler
+                <ArrowRight className="size-4" />
+              </Link>
+            </Button>
           </div>
         </div>
       </section>
@@ -126,20 +143,6 @@ export default function HomePage() {
               </div>
             )
           })}
-        </div>
-        <div className="mt-8 flex flex-wrap gap-4 justify-end">
-          <Button asChild size="lg" className="bg-orange-500 text-white hover:bg-orange-600">
-            <Link href="/kase">
-              Profesyonel Kaşe Basımı
-              <ArrowRight className="size-4" />
-            </Link>
-          </Button>
-          <Button asChild size="lg" variant="outline">
-            <Link href="/hizmetlerimiz">
-              Tüm Hizmetler
-              <ArrowRight className="size-4" />
-            </Link>
-          </Button>
         </div>
       </section>
 
