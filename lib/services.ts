@@ -787,7 +787,7 @@ Hemen teklif alın, yazışmalarınızı profesyonel hale getirin.`,
     title: 'Alanya\'da Yüksek Kaliteli Renkli Çıktı',
     metaTitle: 'Alanya\'da Yüksek Kaliteli Renkli Çıktı | A4, A3, SRA3',
     subtitle: 'Proje, sunum, grafik ve görsel ağırlıklı dokümanlarınız için yüksek kaliteli renkli çıktı servisi sunuyoruz.',
-    image: '/images/services/dokuman-baskisi26.jpg',
+    image: '/images/services/renkli-cikti26.jpg',
     content: `Proje, sunum, grafik ve görsel ağırlıklı dokümanlarınız için C4065 teknolojisiyle hızlı ve yüksek kaliteli renkli çıktı servisi sunuyoruz. 80 gr standart kâğıttan 350 gr ağır gramajlı kâğıtlara kadar A4, A3 ve SRA3 ebatlarında yüksek çözünürlüklü dijital baskı yapıyoruz.
 
 ## Avantajlar
