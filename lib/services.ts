@@ -523,7 +523,7 @@ Hemen teklif alın, markanızı her adımda taşıyın.`,
     title: 'Alanya\'da Küp Bloknot Baskı',
     metaTitle: 'Alanya\'da Küp Bloknot Baskı | 77x77 mm Masaüstü',
     subtitle: 'Masaüstü kullanım için en pratik ve şık not alma araçlarından biri küp bloknottur.',
-    image: '/images/services/bloknot26.jpg',
+    image: '/images/services/kupbloknot26.jpg',
     content: `Masaüstü kullanım için en pratik ve şık not alma araçlarından biri küp bloknottur. Alanya Kale Matbaa olarak 77x77 mm standart ebatta, 250-800 yapraklı, parlak selefonlu masaüstü küp bloknot üretimi yapıyoruz.
 
 Küp bloknot, hem ofis hem de otel resepsiyonu, restoran kasası veya toplantı masası için idealdir. Küçük alanı sayesinde masada yer kaplamaz, yaprakları kolay kopar ve markanızı her notta hatırlatır.
@@ -555,7 +555,7 @@ Hemen teklif alın.`,
     title: 'Alanya\'da Promosyon Magnet Baskı',
     metaTitle: 'Alanya\'da Buzdolabı Magnet Baskı | Promosyon & Hediyelik',
     subtitle: 'Buzdolabı magneti, hem dekoratif hem de etkili bir promosyon ürünüdür.',
-    image: '/images/services/kase26.jpeg',
+    image: '/images/services/magnet26.jpg',
     content: `Buzdolabı magneti, hem dekoratif hem de etkili bir promosyon ürünüdür. Alanya Kale Matbaa olarak oval, özel kesim ve standart ebatlarda kaliteli buzdolabı ve promosyon magnetleri üretiyoruz.
 
 Magnet, müşterinizin her gün gördüğü bir üründür. Kaliteli basılmış bir magnet, markanızı sürekli hatırlatır ve uzun süre saklanır.
@@ -586,7 +586,7 @@ Hemen teklif alın.`,
     title: 'Alanya\'da Teşekkür Kartı Baskı',
     metaTitle: 'Alanya\'da Teşekkür Kartı Baskı | 350 gr Selefonlu',
     subtitle: 'E-ticaret yapan veya paket gönderen işletmeler için teşekkür kartı, müşteri sadakatini artırmanın en etkili ve düşük maliyetli yollarından biridir.',
-    image: '/images/services/kalınkartvizit26.jpg',
+    image: '/images/services/tesekkur-karti26.jpg',
     content: `E-ticaret yapan veya paket gönderen işletmeler için teşekkür kartı, müşteri sadakatini artırmanın en etkili ve düşük maliyetli yollarından biridir. Alanya Kale Matbaa olarak 350 gr kalın kuşe kâğıt üzerine yüksek çözünürlüklü, selefonlu teşekkür kartı baskısı yapıyoruz.
 
 Kargoladığınız her siparişin içine ekleyeceğiniz şık bir teşekkür kartı, müşterinize değer verdiğinizi gösterir ve sizi rakiplerinizden ayırır.
@@ -615,7 +615,7 @@ Hemen teklif alın, her pakete marka değeri katın.`,
     title: 'Alanya\'da Kurumsal Dergi Baskısı',
     metaTitle: 'Alanya\'da Kurumsal & Süreli Dergi Baskısı | Az Adet Dijital',
     subtitle: 'Şirket dergisi, otel dergisi, katalog dergi veya süreli yayın basmak istiyorsanız doğru adrestesiniz.',
-    image: '/images/services/katalog26.jpeg',
+    image: '/images/services/dergi26.jpeg',
     content: `Şirket dergisi, otel dergisi, katalog dergi veya süreli yayın basmak istiyorsanız doğru adrestesiniz. Alanya Kale Matbaa olarak Konica Minolta AccurioPress C4065 dijital baskı teknolojimiz ile az adetli veya yüksek adetli dergi taleplerinizi sıfır hata ile üretiyoruz.
 
 80 gr\'dan 350 gr\'a kadar kağıt seçenekleri, A4, A5, B5 ve özel boyut imkânları sunuyoruz. Tel dikiş ve yüksek renk doğruluğu ile profesyonel dergi basımı gerçekleştiriyoruz.
@@ -702,7 +702,7 @@ Hemen teklif alın.`,
     title: 'Alanya\'da Özel Tasarım Kitap Ayracı',
     metaTitle: 'Alanya\'da Kitap Ayracı Baskı | 300-350 gr Kuşe',
     subtitle: 'Promosyon ve kurumsal hediyelerin vazgeçilmezi kitap ayracını Alanya Kale Matbaa\'da bastırabilirsiniz.',
-    image: '/images/services/bloknot26.jpg',
+    image: '/images/services/kitapayraci26.jpg',
     content: `Promosyon ve kurumsal hediyelerin vazgeçilmezi kitap ayracını Alanya Kale Matbaa\'da bastırabilirsiniz. AccurioPress C4065 gücüyle 300-350 gr mat/parlak kuşe ve özel dokulu kâğıtlara, standart 5x15 cm veya özel kesim ebatlarında baskı yapıyoruz.
 
 Çift yönlü renkli baskı, mat/parlak selefon, püskül/ip deliği ve özel oval köşe seçenekleri sunuyoruz.
@@ -814,7 +814,7 @@ Hemen dosyanızı gönderin, çıktınızı alalım.`,
     title: 'Alanya\'da Müşteri Sadakat Kartı Baskısı',
     metaTitle: 'Alanya\'da Sadakat Kartı Baskı | Kafe & Restoran',
     subtitle: 'Kafe, restoran, kuaför ve perakende mağazaları için tekrar eden satışları artıran sadakat kartları basıyoruz.',
-    image: '/images/services/kalınkartvizit26.jpg',
+    image: '/images/services/sadakat-karti26.jpg',
     content: `Kafe, restoran, kuaför ve perakende mağazaları için tekrar eden satışları artıran sadakat kartları basıyoruz. 300-350 gr kuşe veya özel kaşelenebilir/yazılabilir dokulu kâğıtlara baskı yapıyoruz. Mühür basımına uygun yüzey ve özel ebat seçenekleri sunuyoruz.
 
 ## Özellikler
@@ -922,7 +922,7 @@ Hemen iletişime geçin, özel gününüzü yetiştirin.`,
     title: 'Alanya\'da Otokopili Resmi ve Gayri Resmi Evraklar',
     metaTitle: 'Alanya\'da Otokopili Evrak Baskısı | Fatura, Makbuz, Adisyon',
     subtitle: 'Tahsilat makbuzu, adisyon, fatura, rent a car sözleşmesi gibi resmi ve gayri resmi evraklar için 2-3 nüsha otokopili üretim yapıyoruz.',
-    image: '/images/services/antetli26.jpg',
+    image: '/images/services/otokopili-baskilar26.jpg',
     content: `Alanya\'da faaliyet gösteren işletmelerin en temel ihtiyaçlarından biri, düzenli ve profesyonel matbu evraklardır. Tahsilat makbuzu, tediye makbuzu, gider pusulası, adisyon, perakende satış fişi, sevk irsaliyesi, fatura, rent a car sözleşmesi, sipariş fişi, teknik servis fişi ve hasta bilgi formu gibi resmi ve gayri resmi evraklar, işletmenizin günlük işleyişinin vazgeçilmez parçalarıdır.
 
 Alanya Kale Matbaa olarak bu evrakları 2 nüsha veya 3 nüsha otokopili (kendinden karbonlu) kâğıtlara, istediğiniz ebat, renk ve numaratör/seri no seçenekleriyle özel olarak üretiyoruz.
@@ -961,7 +961,7 @@ Hemen teklif almak için iletişime geçin.`,
     title: 'Alanya\'da Otel Baskı İhtiyaçları',
     metaTitle: 'Alanya Otel Baskı İhtiyaçları | Konuk Formu, Housekeeper Raporu',
     subtitle: 'Konuk kayıt formlarından housekeeper raporlarına, ön muhasebe belgelerinden personel formlarına kadar tüm otel baskı ihtiyaçlarınızı karşılıyoruz.',
-    image: '/images/services/antetli26.jpg',
+    image: '/images/services/otelbaskilari26.jpg',
     content: `Alanya\'da konaklama sektörü yoğun ve dinamik bir yapıya sahiptir. Oteller, pansiyonlar ve tatil köyleri her gün onlarca farklı belge ve form kullanır. Konuk kayıt formlarından housekeeper raporlarına, ön muhasebe belgelerinden personel yönetim formlarına kadar birçok matbu evraka ihtiyaç duyulur. Alanya Kale Matbaa olarak otellerin tüm baskı ihtiyaçlarına profesyonel ve hızlı çözümler sunuyoruz.
 
 ## Hangi Otel Formlarını Basıyoruz?
@@ -1035,7 +1035,7 @@ Tasarımınız hazırsa dosyanızı gönderin, isim listesini iletin, hızlıca 
     title: 'Alanya\'da Kağıt Oto Paspas Baskısı',
     metaTitle: 'Alanya Kağıt Oto Paspas | Oto Yıkama & Vale Paspası',
     subtitle: 'Oto yıkama, teknik servis, vale hizmeti ve oto galerileri için özel üretilen kağıt oto paspaslar, araç içini koruyan pratik ve ekonomik bir çözümdür.',
-    image: '/images/services/afis26.jpg',
+    image: '/images/services/otopaspas26.jpg',
     content: `Oto yıkama, teknik servis, vale hizmeti ve oto galerileri için özel üretilen kağıt oto paspaslar, araç içini koruyan pratik ve ekonomik bir çözümdür. Alanya Kale Matbaa olarak 33x48 cm ebatlarında, 100 gr Kraft kâğıda tek yön tek renk, yüksek dayanıklı ve emici özellikli oto paspas baskısı yapıyoruz.
 
 Kraft kâğıt, hem dayanıklı hem de emici yapısı sayesinde ayakkabıdan gelen su, çamur ve kiri tutar. Araç zeminini korur ve müşteriye özen gösterildiğini hissettirir. Üzerine işletme logosu ve iletişim bilgileri basılarak aynı zamanda reklam amaçlı da kullanılır.
@@ -1064,7 +1064,7 @@ Hızlı üretim ve uygun fiyat avantajı sunuyoruz.`,
     title: 'Alanya\'da Seri Numaralı Etkinlik & Konser Bileti',
     metaTitle: 'Alanya Etkinlik Bileti Baskı | Seri Numaralı Konser Bileti',
     subtitle: 'Etkinlik, konser, tiyatro, fuar ve organizasyonlarınız için güvenli ve profesyonel bilet baskısı yapıyoruz.',
-    image: '/images/services/afis26.jpg',
+    image: '/images/services/konserbilet26.jpg',
     content: `Etkinlik, konser, tiyatro, fuar, festival ve organizasyonlarınız için güvenli ve profesyonel bilet baskısı yapıyoruz. Alanya Kale Matbaa olarak C4065 dijital baskı gücüyle 130 gr\'dan 350 gr\'a kadar kuşe kâğıtlara, seri numaralı (numaratörlü), perforajlı (koçanlı / koparmalı) ve özel tasarım bilet üretimi gerçekleştiriyoruz.
 
 Seri numaralı biletler, sahte bilet riskini azaltır ve giriş kontrolünü kolaylaştırır. Perforaj sayesinde bilet kolayca koparılabilir, bir kısmı katılımcıda kalırken diğer kısmı organizasyonda kalır.
