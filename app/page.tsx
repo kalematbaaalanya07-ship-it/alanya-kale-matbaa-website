@@ -12,6 +12,7 @@ import { FaqSection } from "@/components/faq-section"
 import { BlogSection } from "@/components/blog-section"
 import { useLanguage } from "@/components/language-provider"
 import { waLink } from "@/lib/site"
+import { HeroSlider } from "@/components/hero-slider"
 
 const FEATURE_ICONS = [Zap, Layers, Clock]
 
@@ -20,27 +21,20 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Logo and Banner */}
+      {/* Logo and Slider */}
       <section className="border-b border-border bg-card">
-        <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-6">
+        <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-4">
           <div className="flex-shrink-0">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kalematbaalogo-AbWSkSjhTHWJ1LPfuyZtevQ7QDGmWM.jpg"
+              src="/images/kale-matbaa-logo.png"
               alt="Kale Matbaa Alanya Logo"
               width={120}
               height={120}
-              className="h-auto w-16 sm:w-20 lg:w-28"
+              className="h-auto w-20 sm:w-24 lg:w-28"
             />
           </div>
-          <div className="flex-1">
-            <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/anaekranbanner-IJmVeFDFJ6qnV95AYTMeBYXe0QJYk1.jpg"
-              alt="Matbaacılık Tarihi - Printing History Banner"
-              width={800}
-              height={150}
-              className="h-auto w-full object-cover rounded-lg"
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 700px"
-            />
+          <div className="flex-1 overflow-hidden rounded-lg">
+            <HeroSlider />
           </div>
         </div>
       </section>
