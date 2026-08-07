@@ -21,31 +21,24 @@ const SLIDES: Record<string, Slide[]> = {
     { image: "/images/slides/davetiyeslide.jpg", href: "/hizmetlerimiz/davetiye-baski", alt: "Davetiye Baskısı Alanya" },
   ],
   en: [
-    { image: "/images/slides/stampslide.jpg", href: "/kase?lang=en", alt: "Professional Stamp Printing Alanya" },
-    { image: "/images/slides/broshureslide.jpg", href: "/hizmetlerimiz/brosur-baski?lang=en", alt: "Brochure Printing Alanya" },
-    { image: "/images/slides/catalogslide.jpg", href: "/hizmetlerimiz/katalog-baski?lang=en", alt: "Catalog Printing Alanya" },
-    { image: "/images/slides/businescardslide.jpg", href: "/hizmetlerimiz/kartvizit-baski?lang=en", alt: "Business Card Printing Alanya" },
-    { image: "/images/slides/invitationslide.jpg", href: "/hizmetlerimiz/davetiye-baski?lang=en", alt: "Invitation Card Printing Alanya" },
+    { image: "/images/slides/kaseslide.jpg", href: "/kase", alt: "Professional Stamp Printing Alanya" },
+    { image: "/images/slides/brosurslide.jpg", href: "/hizmetlerimiz/brosur-baski", alt: "Brochure Printing Alanya" },
+    { image: "/images/slides/katalogslide.jpg", href: "/hizmetlerimiz/katalog-baski", alt: "Catalog Printing Alanya" },
+    { image: "/images/slides/kartvizitslide.jpg", href: "/hizmetlerimiz/kartvizit-baski", alt: "Business Card Printing Alanya" },
+    { image: "/images/slides/davetiyeslide.jpg", href: "/hizmetlerimiz/davetiye-baski", alt: "Invitation Card Printing Alanya" },
   ],
   ru: [
-    { image: "/images/slides/rkaseslide.jpg", href: "/kase?lang=ru", alt: "Профессиональная Печать Штампов Аланья" },
-    { image: "/images/slides/rbrosurslide.jpg", href: "/hizmetlerimiz/brosur-baski?lang=ru", alt: "Печать Брошюр Аланья" },
-    { image: "/images/slides/rkatalogslide.jpg", href: "/hizmetlerimiz/katalog-baski?lang=ru", alt: "Печать Каталогов Аланья" },
-    { image: "/images/slides/rkartvizitslide.jpg", href: "/hizmetlerimiz/kartvizit-baski?lang=ru", alt: "Печать Визиток Аланья" },
-    { image: "/images/slides/rdavetiyeslide.jpg", href: "/hizmetlerimiz/davetiye-baski?lang=ru", alt: "Печать Приглашений Аланья" },
+    { image: "/images/slides/kaseslide.jpg", href: "/kase", alt: "Профессиональная Печать Штампов Аланья" },
+    { image: "/images/slides/brosurslide.jpg", href: "/hizmetlerimiz/brosur-baski", alt: "Печать Брошюр Аланья" },
+    { image: "/images/slides/katalogslide.jpg", href: "/hizmetlerimiz/katalog-baski", alt: "Печать Каталогов Аланья" },
+    { image: "/images/slides/kartvizitslide.jpg", href: "/hizmetlerimiz/kartvizit-baski", alt: "Печать Визиток Аланья" },
+    { image: "/images/slides/davetiyeslide.jpg", href: "/hizmetlerimiz/davetiye-baski", alt: "Печать Приглашений Аланья" },
   ],
-}
-
-const CTA_LABEL: Record<string, string> = {
-  tr: "HEMEN İNCELE",
-  en: "VIEW NOW",
-  ru: "СМОТРЕТЬ",
 }
 
 export function HeroSlider() {
   const { lang } = useLanguage()
   const slides = SLIDES[lang] ?? SLIDES.tr
-  const ctaLabel = CTA_LABEL[lang] ?? CTA_LABEL.tr
 
   const [current, setCurrent] = useState(0)
   const [paused, setPaused] = useState(false)
@@ -59,7 +52,7 @@ export function HeroSlider() {
 
   useEffect(() => {
     if (paused) return
-    const id = setInterval(next, 3000)
+    const id = setInterval(next, 3500)
     return () => clearInterval(id)
   }, [next, paused])
 
@@ -70,11 +63,17 @@ export function HeroSlider() {
       onMouseLeave={() => setPaused(false)}
     >
       {/* Slides */}
-      <div className="relative w-full" style={{ aspectRatio: "1440/400" }}>
+      <div
+        className="relative w-full"
+        style={{ aspectRatio: "16/5" }}
+      >
         {slides.map((slide, i) => (
-          <div
+          <Link
             key={slide.image}
-            className="absolute inset-0 transition-opacity duration-700"
+            href={slide.href}
+            tabIndex={i === current ? 0 : -1}
+            aria-hidden={i !== current}
+            className="absolute inset-0 block transition-opacity duration-700 focus:outline-none"
             style={{ opacity: i === current ? 1 : 0, pointerEvents: i === current ? "auto" : "none" }}
           >
             <Image
@@ -85,37 +84,28 @@ export function HeroSlider() {
               sizes="100vw"
               className="object-cover object-center"
             />
-            {/* CTA button */}
-            <div className="absolute bottom-6 left-1/2 -translate-x-1/2">
-              <Link
-                href={slide.href}
-                className="inline-flex items-center rounded-full bg-white/90 px-6 py-2.5 text-sm font-bold tracking-wide text-gray-900 shadow-lg transition hover:bg-white hover:scale-105 active:scale-95"
-              >
-                {ctaLabel}
-              </Link>
-            </div>
-          </div>
+          </Link>
         ))}
       </div>
 
       {/* Prev arrow */}
       <button
         type="button"
-        onClick={prev}
+        onClick={(e) => { e.preventDefault(); prev() }}
         aria-label="Önceki slayt"
-        className="absolute left-3 top-1/2 -translate-y-1/2 flex size-10 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60"
+        className="absolute left-3 top-1/2 -translate-y-1/2 flex size-9 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60"
       >
-        <ChevronLeft className="size-6" />
+        <ChevronLeft className="size-5" />
       </button>
 
       {/* Next arrow */}
       <button
         type="button"
-        onClick={next}
+        onClick={(e) => { e.preventDefault(); next() }}
         aria-label="Sonraki slayt"
-        className="absolute right-3 top-1/2 -translate-y-1/2 flex size-10 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60"
+        className="absolute right-3 top-1/2 -translate-y-1/2 flex size-9 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60"
       >
-        <ChevronRight className="size-6" />
+        <ChevronRight className="size-5" />
       </button>
 
       {/* Dots */}

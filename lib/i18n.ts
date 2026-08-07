@@ -21,7 +21,7 @@ type PortfolioItem = {
 }
 
 export type Dictionary = {
-  nav: { home: string; about: string; services: string; products: string; portfolio: string; contact: string }
+  nav: { home: string; about: string; services: string; products: string; portfolio: string; contact: string; searchPlaceholder: string }
   cta: { quote: string; call: string; whatsapp: string; viewServices: string; contactUs: string; getOffer: string }
   home: {
     heroTag: string
@@ -57,6 +57,24 @@ export type Dictionary = {
     paperTitle: string
     paperSubtitle: string
     paperWeights: { weight: string; use: string }[]
+    // hizmetlerimiz page UI
+    pageTitle: string
+    pageSubtitle: string
+    viewDetails: string
+    ctaTitle: string
+    ctaSubtitle: string
+    ctaWhatsapp: string
+    // detail page UI
+    detailContact: string
+    detailContactDesc: string
+    detailWhatsapp: string
+    detailCall: string
+    detailFaqTitle: string
+    detailBack: string
+    detailOthers: string
+    detailReady: string
+    detailReadyDesc: string
+    detailGetQuote: string
   }
   portfolio: {
     tag: string
@@ -149,7 +167,7 @@ export type Dictionary = {
 }
 
 const tr: Dictionary = {
-  nav: { home: "Ana Sayfa", about: "Hakkımızda", services: "Hizmetlerimiz", products: "Ürünlerimiz", portfolio: "Portföy", contact: "İletişim" },
+  nav: { home: "Ana Sayfa", about: "Hakkımızda", services: "Hizmetlerimiz", products: "Ürünlerimiz", portfolio: "Portföy", contact: "İletişim", searchPlaceholder: "Ne bastırmak istiyorsunuz?" },
   cta: {
     quote: "Hızlı Teklif Al",
     call: "Hemen Ara",
@@ -423,6 +441,31 @@ const tr: Dictionary = {
     ctaTitle: "Profesyonel Kaşe Çözümü İçin Bize Ulaşın",
     ctaDesc: "Şirketinizin veya kişisel markanızın resmi kaşesi için en uygun çözümü bulmak için WhatsApp üzerinden bize mesaj gönderin. Ücretsiz danışmanlık ve hızlı teslimat garantisi."
   },
+  services: {
+    tag: "Baskı Hizmetleri",
+    title: "Hizmetlerimiz",
+    subtitle: "Alanya'da profesyonel baskı hizmetleri. Kurumsal kimliğinizden pazarlama materyallerinize kadar, her ihtiyacınız için kaliteli çözümler sunuyoruz.",
+    items: [],
+    paperTitle: "Kağıt Seçenekleri",
+    paperSubtitle: "Kaliteli baskı için doğru kağıt",
+    paperWeights: [],
+    pageTitle: "Hizmetlerimiz",
+    pageSubtitle: "Alanya'da profesyonel baskı hizmetleri. Kurumsal kimliğinizden pazarlama materyallerinize kadar, her ihtiyacınız için kaliteli çözümler sunuyoruz.",
+    viewDetails: "Detayları Gör",
+    ctaTitle: "Aradığınız Hizmet Burada",
+    ctaSubtitle: "Hangi hizmet hakkında merak ettiğiniz varsa, bize yazın. Profesyonel ekibimiz size en uygun çözümü sunmak için hazır.",
+    ctaWhatsapp: "WhatsApp ile Yazın",
+    detailContact: "Hızlı İletişim",
+    detailContactDesc: "Hizmet hakkında detaylı bilgi ve fiyat teklifi almak için bizimle iletişime geçin.",
+    detailWhatsapp: "WhatsApp ile Yazın",
+    detailCall: "Hemen Ara",
+    detailFaqTitle: "Sıkça Sorulan Sorular",
+    detailBack: "Tüm Hizmetler",
+    detailOthers: "Diğer Hizmetlerimiz",
+    detailReady: "Başlamaya Hazır mısınız?",
+    detailReadyDesc: "hizmeti için teklif almak veya daha fazla bilgi edinmek için bize ulaşın.",
+    detailGetQuote: "Hemen Teklif İste",
+  },
   footer: {
     about: "Alanya'da kaşe, ofset ve dijital baskı hizmetleri. Konica Minolta C4065 ile kaliteli baskı, zamanında teslimat.",
     quickLinks: "Hızlı Bağlantılar",
@@ -434,7 +477,7 @@ const tr: Dictionary = {
 }
 
 const en: Dictionary = {
-  nav: { home: "Home", about: "About", services: "Services", products: "Products", portfolio: "Portfolio", contact: "Contact" },
+  nav: { home: "Home", about: "About", services: "Services", products: "Products", portfolio: "Portfolio", contact: "Contact", searchPlaceholder: "What would you like to print?" },
   cta: {
     quote: "Get a Quick Quote",
     call: "Call Now",
@@ -688,6 +731,31 @@ const en: Dictionary = {
     ctaTitle: "Contact Us for Professional Seal Solutions",
     ctaDesc: "Send us a message via WhatsApp to find the best solution for your company or personal brand seal. Free consultation and fast delivery guaranteed."
   },
+  services: {
+    tag: "Print Services",
+    title: "Our Services",
+    subtitle: "Professional printing services in Alanya. Quality solutions for every need — from corporate identity to marketing materials.",
+    items: [],
+    paperTitle: "Paper Options",
+    paperSubtitle: "The right paper for quality printing",
+    paperWeights: [],
+    pageTitle: "Our Services",
+    pageSubtitle: "Professional printing services in Alanya. Quality solutions for every need — from corporate identity to marketing materials.",
+    viewDetails: "View Details",
+    ctaTitle: "The Service You're Looking For Is Here",
+    ctaSubtitle: "If you have any questions about a service, message us. Our professional team is ready to offer you the best solution.",
+    ctaWhatsapp: "Message on WhatsApp",
+    detailContact: "Quick Contact",
+    detailContactDesc: "Get in touch with us for detailed information and a price quote for this service.",
+    detailWhatsapp: "Message on WhatsApp",
+    detailCall: "Call Now",
+    detailFaqTitle: "Frequently Asked Questions",
+    detailBack: "All Services",
+    detailOthers: "Other Services",
+    detailReady: "Ready to Get Started?",
+    detailReadyDesc: "contact us for a quote or more information about",
+    detailGetQuote: "Get a Quote Now",
+  },
   footer: {
     about: "Stamps, offset and digital printing services in Alanya. Quality printing with the Konica Minolta C4065, delivered on time.",
     quickLinks: "Quick Links",
@@ -699,7 +767,7 @@ const en: Dictionary = {
 }
 
 const ru: Dictionary = {
-  nav: { home: "Главная", about: "О нас", services: "Услуги", products: "Продукция", portfolio: "Портфолио", contact: "Контакты" },
+  nav: { home: "Главная", about: "О нас", services: "Услуги", products: "Продукция", portfolio: "Портфолио", contact: "Контакты", searchPlaceholder: "Что вы хотите напечатать?" },
   cta: {
     quote: "Быстрый расчёт",
     call: "Позвонить",
@@ -833,7 +901,7 @@ const ru: Dictionary = {
       {
         name: "Сергей Иванов",
         role: "Турагентство",
-        text: "Подготовили и напечатали брошюры для морских туров на 3 языках. Качество и скорость превосходные, очень рекомендую.",
+        text: "Подготовили и напечатали брошюры для морских туров на 3 языках. Качеств�� и скорость превосходные, очень рекомендую.",
       },
     ],
   },
@@ -925,7 +993,7 @@ const ru: Dictionary = {
     colors: [
       { name: "Черный", usage: "Официальные и юридические дела", class: "border-black bg-black/10" },
       { name: "Синий", usage: "Офисное и корпоративное использование", class: "border-blue-500 bg-blue-500/10" },
-      { name: "Красный", usage: "Срочные и предупредительные уведомления", class: "border-red-500 bg-red-500/10" }
+      { name: "��расный", usage: "Срочные и предупредительные уведомления", class: "border-red-500 bg-red-500/10" }
     ],
     processTitle: "Процесс изготовления печати",
     process: [

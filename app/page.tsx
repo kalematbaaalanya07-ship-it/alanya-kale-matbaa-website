@@ -21,22 +21,9 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Logo and Slider */}
-      <section className="border-b border-border bg-card">
-        <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-4">
-          <div className="flex-shrink-0">
-            <Image
-              src="/images/kale-matbaa-logo.png"
-              alt="Kale Matbaa Alanya Logo"
-              width={120}
-              height={120}
-              className="h-auto w-20 sm:w-24 lg:w-28"
-            />
-          </div>
-          <div className="flex-1 overflow-hidden rounded-lg">
-            <HeroSlider />
-          </div>
-        </div>
+      {/* Full-width Slider */}
+      <section className="w-full overflow-hidden border-b border-border">
+        <HeroSlider />
       </section>
 
       {/* Hero */}
