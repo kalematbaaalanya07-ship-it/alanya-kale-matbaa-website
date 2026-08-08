@@ -1,3 +1,5 @@
+import { serviceTranslations } from './services-translations';
+
 export interface Service {
   id: string;
   slug: string;
@@ -584,7 +586,7 @@ Hemen teklif alın.`,
     slug: 'tesekkur-karti',
     tag: 'Teşekkür Kartı',
     title: 'Alanya\'da Teşekkür Kartı Baskı',
-    metaTitle: 'Alanya\'da Teşekkür Kartı Baskı | 350 gr Selefonlu',
+    metaTitle: 'Alanya\'da Teşekkür Kart�� Baskı | 350 gr Selefonlu',
     subtitle: 'E-ticaret yapan veya paket gönderen işletmeler için teşekkür kartı, müşteri sadakatini artırmanın en etkili ve düşük maliyetli yollarından biridir.',
     image: '/images/services/tesekkur-karti26.jpg',
     content: `E-ticaret yapan veya paket gönderen işletmeler için teşekkür kartı, müşteri sadakatini artırmanın en etkili ve düşük maliyetli yollarından biridir. Alanya Kale Matbaa olarak 350 gr kalın kuşe kâğıt üzerine yüksek çözünürlüklü, selefonlu teşekkür kartı baskısı yapıyoruz.
@@ -1094,4 +1096,23 @@ export function getServiceBySlug(slug: string): Service | undefined {
 
 export function getAllServices(): Service[] {
   return services;
+}
+
+import { serviceTranslations } from './services-translations';
+
+export function localizeService(service: Service, locale: string): Service {
+  if (locale === 'tr') return service;
+  const translation = serviceTranslations[service.slug]?.[locale as 'en' | 'ru'];
+  if (!translation) return service;
+  return { ...service, ...translation };
+}
+
+export function getAllServicesLocalized(locale: string): Service[] {
+  return services.map(service => localizeService(service, locale));
+}
+
+export function getServiceBySlugLocalized(slug: string, locale: string): Service | undefined {
+  const service = getServiceBySlug(slug);
+  if (!service) return undefined;
+  return localizeService(service, locale);
 }
