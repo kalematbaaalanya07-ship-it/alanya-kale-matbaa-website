@@ -686,7 +686,7 @@ export const blogPosts: BlogPost[] = [
       },
       ru: {
         category: "Срочная печать",
-        title: "Сроч������ая печать в Аланье | Доставка в тот же день - Kale Matbaa",
+        title: "Сроч������ая печать в Аланье | Доставка в т��т же день - Kale Matbaa",
         excerpt:
           "Нужна срочная печать в Аланье? Дизайн за 1 ч��с, печать и доставка за 2-3 часа. Заказ через WhatsApp.",
         metaTitle: "Срочная ��ечать Алань | Доставка в тот же час - Kale Matbaa",
@@ -862,8 +862,8 @@ export const blogPosts: BlogPost[] = [
               "Выберите правильный размер: Используйте точные размеры продукта, который вы печатаете (например, стандартная визитка 85x55 мм, брошюра A5 148x210 мм). Используйте опцию 'Пользовательский размер' в Canva.",
               "Добавьте 3-4 мм выпуска за обрез: Для профессионального обрезания ваш дизайн должен выходить на 3 мм за край. Откройте Файл > Параметры просмотра > Показать выпуск за обрез в Canva.",
               "Используйте изображения высокого разрешения: Для четкой печати изображения должны быть не менее 300 DPI. Фотографии низкого разрешения из интернета будут выглядеть размытыми.",
-              "Скачайте как PDF для п��ча��и: Нажмите Поделиться > Загрузить в верхнем правом углу. Выберите PDF для печати (не PDF Standard). Отметь����е метки обре��ки и выпуск за обрез.",
-              "Ес��и используете Canva Pro, установите цвет��вой профиль CMYK: Бесплат��ые учетные записи выда��т RGB, мы можем конвертировать дл�� вас.",
+              "Скачайте как PDF для п��ча��и: Нажмите Поделиться > Загруз��ть в верхнем правом углу. Выберите PDF для печати (не PDF Standard). Отметь����е метки обре��ки и выпуск за обрез.",
+              "��с��и используете Canva Pro, установите цвет��вой профиль CMYK: Бесплат��ые учетные записи выда��т RGB, мы можем конвертировать дл�� вас.",
             ],
           },
           {
@@ -1049,7 +1049,7 @@ export const blogPosts: BlogPost[] = [
               "Многие проблемы на самом деле возникают не из-за недостатка технических знаний, а из-за неуважения к шаблонам и информационным формам.",
               "Особенно для специальных продуктов, таких как флаги, пляжные флаги, крылатые папки или бумажные пакеты, шаблоны часто обновляются.",
               "Контрольный список: Загружайте последний шаблон перед каждым заказом, Всегда читайте информационную фо��му, Обращайте внимание на формат, безопасные поля и значения выпуска за обрез",
-              "Несколько минут проверки спасают часы циклов коррекции.",
+              "Несколько минут проверки спасают часы циклов ��оррекции.",
             ],
           },
           {
@@ -1143,7 +1143,7 @@ export const blogPosts: BlogPost[] = [
           {
             heading: "5 | Pantone 2026 Yılın Rengi: Cloud Dancer",
             bullets: [
-              "Pantone, 2026 Yılın Rengi'ni gürültülü bir dünyada sakinlik ve huzur dokunuşu sloganıyla tanıttı.",
+              "Pantone, 2026 Yılın Rengi'ni gürültül�� bir dünyada sakinlik ve huzur dokunuşu sloganıyla tanıttı.",
               "Cloud Dancer, bulutlarda süzülüyormuş hissi veren hafif, ferah bir kırık beyaz.",
               "Yalnız başına kullanıldığında sakin ve zarif, güçlü renklerle birleştiğinde onları daha da parlatıyor, pastellerle ise mükemmel uyum sağlıyor.",
               "Moda, iç mekân ve grafik tasarımda minimalizmi destekliyor. Yaratıcılığa alan açıyor, dikkat dağıtmıyor.",
@@ -1557,7 +1557,7 @@ export const blogPosts: BlogPost[] = [
           "Цифровая печать лучше для коротких тиражей, офсет для больших. Узнайте, как они работают, различия в качестве и какую выбр��ть.",
         metaTitle: "Цифровая vs офсетная печать | Alanya Kale Matbaa",
         metaDescription:
-          "Различия между цифровой и офсетной печатью. Точка безубыточности, качество, объём, скорость и сравнение стоимости.",
+          "Различия между цифровой и офсетной печатью. Точка ��езубыточности, качество, объём, скорость и сравнение стоимости.",
         intro: [
           "Когда вы хотите сделать печать, может быть сложно решить, какую выбрать. Цифровая печать или офсетная печать? Какая дешевле, быстрее, качественнее?",
           "Ответ: обе правильные, но для разных ситуаций. Ваш тираж, бюджет, ограничения по времени и ожидания по качеству определяют, какую вы выберете. Вы найдёте все детали в руководстве Kale Matbaa.",
@@ -1585,7 +1585,7 @@ export const blogPosts: BlogPost[] = [
             heading: "3 | Как работает офсетная печать",
             bullets: [
               "Краска передаётся с пластины на резиновое полотно, затем на бумагу: Основана на технологии литографии.",
-              "Установка занимает больше времени, но обеспечивает превосходные детали для больших объёмов: Первые 100-200 к��пий сделаны для контроля качества.",
+              "Установка занимает больше времени, но обеспечивает превосходные детали для больших объёмов: Первые 100-200 к��пий сделаны для конт��оля качества.",
               "С разрешением 2400-4800 DPI для каталогов, буклетов и массовых работ: Качество фото очень высокое.",
               "Стоимость уменьшается с увеличением объёма: Гораздо более экономично, чем цифровая выше 1000 копий.",
               "Согласованность цвета в больших тиражах идеальна.",
@@ -1951,7 +1951,7 @@ export const blogPosts: BlogPost[] = [
         metaDescription: "Menü baskı hizmetleri. Laminatlı, ciltli, spiral ve standart menü seçenekleri.",
         intro: ["Restaurant menü tasarımı ve baskısı hizmetimizle restoranınızı öne çıkarın. Laminatlı, ciltli, spiral ve standart menü seçenekleriyle profesyonel çözümler sunuyoruz."],
         sections: [{heading: "Hizmetlerimiz", bullets: ["Özel tasarım", "Markanıza uygun renkler", "Uzun ömürlü malzeme", "Hızlı üretim", "Restoranınızın imajını güçlendirin"]}],
-        cta: "Menünüzü profesyonelleştirmek için bize ulaşın."
+        cta: "Menünüzü profesyonelleştirmek için bize ulaş��n."
       },
       en: {
         category: "Menu",
@@ -2124,44 +2124,6 @@ export const blogPosts: BlogPost[] = [
         intro: ["Достигайте широкой аудитории с помощью нашего дизайна плакатов. Мы печатаем плакаты A3, A2, A1 размеров."],
         sections: [{heading: "Наши услуги", bullets: ["Яркие цвета", "Высокое разрешение", "Прочные материалы", "Внутри и снаружи", "Быстрое производство"]}],
         cta: "Свяжитесь с нами для ваших заказов плакатов."
-      }
-    }
-  },
-  {
-    slug: "el-ilani-hizmet",
-    image: "/images/flyers.png",
-    imageAlt: "El İlanı и gözat tasarım baskısı",
-    date: "2025",
-    content: {
-      tr: {
-        category: "El İlanı",
-        title: "El İlanı ve Gözat Tasarım Baskısı",
-        excerpt: "El ilanı tasarım baskısı hizmetimizle promosyon ve duyuruları etkili şekilde iletiyoruz.",
-        metaTitle: "El İlanı ve Gözat Tasarım Baskısı",
-        metaDescription: "El ilanı baskı hizmetleri. A5, A6, A4 boyutlarda el ilanları.",
-        intro: ["El ilanı tasarım baskısı hizmetimizle promosyon ve duyuruları etkili şekilde iletiyoruz. A5, A6, A4 boyutlarda hızlı çözümler sunuyoruz."],
-        sections: [{heading: "Hizmetlerimiz", bullets: ["Renkli baskı", "Kaliteli kâğıt", "Profesyonel tasarım", "Az ve çok adet", "Hızlı teslimat"]}],
-        cta: "El ilanı siparişleriniz için bize ulaşın."
-      },
-      en: {
-        category: "Flyer",
-        title: "Flyer and Leaflet Design Printing",
-        excerpt: "Communicate promotions and announcements effectively with our flyer design printing.",
-        metaTitle: "Flyer and Leaflet Design Printing",
-        metaDescription: "Flyer printing services. Flyers in A5, A6, A4 sizes.",
-        intro: ["Communicate promotions and announcements effectively with our flyer design printing. We offer fast solutions in A5, A6, A4 sizes."],
-        sections: [{heading: "Our Services", bullets: ["Color printing", "Quality paper", "Professional design", "Small and large quantities", "Fast delivery"]}],
-        cta: "Contact us for your flyer orders."
-      },
-      ru: {
-        category: "Листовка",
-        title: "Дизайн и печать листовок и буклетов",
-        excerpt: "Эффективно коммуницируйте с помощью нашей печати листовок.",
-        metaTitle: "Дизайн и печать листовок и буклетов",
-        metaDescription: "Услуги печати листовок. Листовки A5, A6, A4 размеров.",
-        intro: ["Эффективно коммуницируйте с помощью нашей печати листовок. Мы предлагаем быстрые решения A5, A6, A4 размеров."],
-        sections: [{heading: "Наши услуги", bullets: ["Цветная печать", "Качественная бумага", "Профессиональный дизайн", "Малые и крупные объёмы", "Быстрая доставка"]}],
-        cta: "Свяжитесь с нами для ваш��х заказов листовок."
       }
     }
   },
