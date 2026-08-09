@@ -3,6 +3,9 @@
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion"
 import { SectionHeading } from "@/components/section-heading"
 import { useLanguage } from "@/components/language-provider"
+import { Button } from "@/components/ui/button"
+import { MessageCircle } from "lucide-react"
+import { waLink } from "@/lib/site"
 
 export function FaqSection() {
   const { t } = useLanguage()
@@ -24,6 +27,15 @@ export function FaqSection() {
               </AccordionItem>
             ))}
           </Accordion>
+        </div>
+        <div className="mt-8 flex flex-col items-center gap-3 text-center">
+          <h3 className="font-heading text-xl font-bold text-foreground">{t.faq.ctaTitle}</h3>
+          <Button asChild className="bg-accent text-accent-foreground hover:bg-accent/90">
+            <a href={waLink(t.faq.ctaTitle)} target="_blank" rel="noopener noreferrer">
+              <MessageCircle className="size-4" />
+              {t.faq.ctaButton}
+            </a>
+          </Button>
         </div>
       </div>
     </section>

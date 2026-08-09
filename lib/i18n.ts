@@ -136,6 +136,8 @@ export type Dictionary = {
     title: string
     subtitle: string
     items: { q: string; a: string }[]
+    ctaTitle: string
+    ctaButton: string
   }
   blog: {
     tag: string
@@ -340,30 +342,17 @@ const tr: Dictionary = {
   },
   faq: {
     tag: "S.S.S.",
-    title: "Sıkça Sorulan Sorular",
-    subtitle: "Aklınıza takılanlar için hızlı yanıtlar.",
+    title: "Sıkça Sorulan Sorular (SSS)",
+    subtitle: "Alanya ve çevresindeki matbaa, baskı ve teslimat süreçlerimiz hakkında merak edilenler.",
     items: [
-      {
-        q: "Kaşe yaptırmak istiyorum hangi bilgileri size göndermeliyim?",
-        a: "Limited Şirket ve Anonim Şirketlerde şirket ünvanı, adres ve vergi numarası yeterlidir. İsteğe göre telefon numarası, mersis ve ticaret sicil numaraları, mail adresi gibi bilgiler eklenebilir. Şahıs şirketinde isim soysim, adres ve T.C. kimlik numarası (vergi dairesi numarası) yeterlidir. İsteğe göre ünvan, telefon numarası, mail adresi eklenebilir.",
-      },
-      {
-        q: "Alanya'da acil baskı işlerini ne kadar sürede teslim ediyorsunuz?",
-        a: "Dijital baskı işlerinin çoğunu aynı gün veya 24 saat içinde teslim ediyoruz. Yoğun sezonda bile acil işleriniz için önceliklendirme yapıyoruz.",
-      },
-      {
-        q: "Tasarım dosyam yok, yardımcı olur musunuz?",
-        a: "Elbette. Ücretsiz profesyonel grafik tasarım hizmetimizle kartvizit, broşür, menü ve davetiye tasarımlarınızı sizin için hazırlıyoruz.",
-      },
-      {
-        q: "Konica Minolta C4065 ile hangi kağıtlara baskı yapılıyor?",
-        a: "80g ince kağıttan 350g ve üzeri kalın kartona kadar, A3 boyutuna dek canlı renklerle baskı yapabiliyoruz.",
-      },
-      {
-        q: "Dijital baskı mı ofset baskı mı seçmeliyim?",
-        a: "Düşük ve orta adetli, hızlı işler için dijital baskı; çok yüksek adetli işler için ofset baskı daha ekonomiktir. Size en uygun seçeneği ücretsiz danışmanlıkla belirliyoruz.",
-      },
+      { q: "Alanya’nın hangi semt ve mahallelerine matbaa ve baskı hizmeti veriyorsunuz?", a: "Kale Matbaa olarak Alanya genelindeki tüm işletmelere profesyonel baskı çözümleri sunuyoruz. Başlıca hizmet verdiğimiz bölgeler: Merkez: Saray Mahallesi, Çarşı, Güller Pınarı, Kadıpaşa, Kızlar Pınarı, Sugözü, Şekerhane, Fığla. Doğu Bölgesi: Oba, Tosmur, Kestel, Mahmutlar, Kargıcak, Demirtaş. Batı Bölgesi: Büyühasbahçe, Küçükhasbahçe, Konaklı, Payallar, Türkler, Avsallar, Okurcalar." },
+      { q: "Siparişlerimizi nasıl teslim alabiliriz? Teslimat yapıyor musunuz?", a: "Siparişlerinizi merkez matbaamızdan doğrudan teslim alabilirsiniz. Ayrıca iş durumumuza ve güzergahımıza bağlı olarak yakın çevredeki işletmeler için adrese teslimat imkanı sağlayabiliyoruz. Yakın çevremiz dışında kalan veya acil teslimat isteyen müşterilerimiz için özel kurye veya şehir içi sevk seçenekleri sunmaktayız." },
+      { q: "Mahmutlar, Oba, Konaklı veya Avsallar gibi mahallelerden verilen siparişler nasıl ulaştırılıyor?", a: "Oba, Mahmutlar, Konaklı ve Avsallar gibi mahallelerdeki müşterilerimiz siparişlerini matbaamızdan aldırabilir veya talep doğrultusunda adrese kurye / sevk seçeneğini tercih edebilirler. Güzergahımız üzerindeki yakın teslimatlar için imkan dahilinde yardımcı olmaya çalışıyoruz." },
+      { q: "Kargıcak, Demirtaş veya Okurcalar’daki işletmeler için online sipariş ve tasarım süreci nasıl işliyor?", a: "kalematbaa.com veya WhatsApp hattımız üzerinden tüm detayları dijital ortamda netleştirip baskı sürecini başlatabilirsiniz. Baskısı tamamlanan ürünlerinizi matbaamızdan teslim alabilir ya da size uygun bir kurye/sevk yöntemiyle adresinize yönlendirebiliriz." },
+      { q: "Alanya Sanayi, Fığla, Kadıpaşa ve Saray Mahallesi’ndeki işletmelere teslimat kolaylığınız var mı?", a: "Merkezi konumumuz sayesinde Sanayi, Fığla, Kadıpaşa ve Saray Mahallesi gibi yakın çevremizde yer alan işletmelere iş yoğunluğumuza göre elden teslimat konusunda destek olmaya çalışıyoruz. Dilerseniz basımı biten işlerinizi matbaamızdan da anında teslim alabilirsiniz." },
     ],
+    ctaTitle: "Başka bir sorunuz mu var?",
+    ctaButton: "WhatsApp’tan bize ulaşın",
   },
   blog: {
     tag: "Baskı Rehberi",
@@ -637,8 +626,8 @@ const en: Dictionary = {
   },
   faq: {
     tag: "FAQ",
-    title: "Frequently Asked Questions",
-    subtitle: "Quick answers to what you may be wondering.",
+    title: "Frequently Asked Questions (FAQ)",
+    subtitle: "Everything you need to know about our printing services and delivery options in Alanya.",
     items: [
       {
         q: "I want to make a seal, what information should I send you?",
@@ -656,11 +645,12 @@ const en: Dictionary = {
         q: "What papers can you print on with the Konica Minolta C4065?",
         a: "We print in vibrant colors on everything from 80g light paper to 350g+ thick cardstock, up to A3 size.",
       },
-      {
-        q: "Should I choose digital or offset printing?",
-        a: "Digital printing suits low-to-medium volume, fast jobs; offset is more economical for very high volumes. We help you pick the best option with free consultation.",
-      },
+      { q: "Which districts and areas in Alanya do you provide printing services for?", a: "At Kale Matbaa, we provide professional printing services across all regions of Alanya, including Central Alanya (Saray, Çarşı, Kadıpaşa), Eastern areas (Oba, Tosmur, Kestel, Mahmutlar, Kargıcak, Demirtaş), and Western areas (Konaklı, Payallar, Avsallar, Okurcalar)." },
+      { q: "How can I receive my order? Do you offer local delivery?", a: "You can pick up your completed orders directly from our main print shop in central Alanya. Depending on our daily route and workload, we may offer local delivery to nearby businesses. For urgent orders or farther locations, courier and local transport dispatch options are available." },
+      { q: "How do online orders and design approvals work for international businesses in Alanya?", a: "You can easily submit your designs and order details via kalematbaa.com or our WhatsApp hotline. Once your design is approved digitally, we proceed to printing. You can then collect your items or request a local courier dispatch." },
     ],
+    ctaTitle: "Have another question?",
+    ctaButton: "Contact us on WhatsApp",
   },
   blog: {
     tag: "Blog",
@@ -934,8 +924,8 @@ const ru: Dictionary = {
   },
   faq: {
     tag: "Вопросы",
-    title: "Часто задаваемые вопросы",
-    subtitle: "Быстрые ответы на то, что вас интересует.",
+    title: "Часто задаваемые вопросы (FAQ)",
+    subtitle: "Все, что вам нужно знать о типографии Kale Matbaa и доставке в Аланье.",
     items: [
       {
         q: "Я хочу сделать печать, какую информацию мне нужно вам отправить?",
@@ -953,11 +943,12 @@ const ru: Dictionary = {
         q: "На какой бумаге можно печатать на Konica Minolta C4065?",
         a: "Печатаем яркими цветами на всём — от лёгкой бумаги 80г до плотного картона 350г и выше, вплоть до формата A3.",
       },
-      {
-        q: "Выбрать цифровую или офсетную печать?",
-        a: "Цифровая печать подходит для малых и средних быстрых тиражей; офсет выгоднее для очень больших тиражей. Мы бесплатно поможем выбрать лучший вариант.",
-      },
+      { q: "В каких районах Аланьи вы предоставляете полиграфические услуги?", a: "Типография Kale Matbaa обслуживает все районы Аланьи, включая центр (Saray, Çarşı, Kadıpaşa), восточные районы (Oba, Tosmur, Kestel, Mahmutlar, Kargıcak, Demirtaş) и западные районы (Konaklı, Payallar, Avsallar, Okurcalar)." },
+      { q: "Как я могу получить свой заказ? Есть ли доставка?", a: "Вы можете забрать готовый заказ непосредственно из нашей типографии в центре Аланьи. В зависимости от загруженности и нашего маршрута, мы можем осуществить доставку в ближайшие заведения. Для срочных заказов или удаленных районов доступны варианты курьерской доставки." },
+      { q: "Как оформить онлайн-заказ и согласовать дизайн?", a: "Вы можете отправить макеты и детали заказа через сайт kalematbaa.com или WhatsApp. После цифрового утверждения дизайна мы запускаем печать. Готовую продукцию можно забрать лично или оформить доставку курьером." },
     ],
+    ctaTitle: "У вас есть другой вопрос?",
+    ctaButton: "Свяжитесь с нами в WhatsApp",
   },
   blog: {
     tag: "Блог",
@@ -1051,7 +1042,7 @@ const ru: Dictionary = {
   services: {
     tag: "Полиграфические услуги",
     title: "Наши услуги",
-    subtitle: "Профессиональные полиграфические услуги в Аланье. Качественные решения для любых задач — от корпоративного стиля до маркетинговых материалов.",
+    subtitle: "Профессиональные полиграфические услуги в Аланье. Качественные решения для любых задач — от корпоративного стиля до м��ркетинговых материалов.",
     items: [],
     paperTitle: "Варианты бума��и",
     paperSubtitle: "Правильная бумага для качественной печати",
