@@ -21,18 +21,18 @@ const SLIDES: Record<string, Slide[]> = {
     { image: "/images/slides/davetiyeslide.jpg", href: "/hizmetlerimiz/davetiye-baski", alt: "Davetiye Baskısı Alanya" },
   ],
   en: [
-    { image: "/images/slides/kaseslide.jpg", href: "/kase", alt: "Professional Stamp Printing Alanya" },
-    { image: "/images/slides/brosurslide.jpg", href: "/hizmetlerimiz/brosur-baski", alt: "Brochure Printing Alanya" },
-    { image: "/images/slides/katalogslide.jpg", href: "/hizmetlerimiz/katalog-baski", alt: "Catalog Printing Alanya" },
-    { image: "/images/slides/kartvizitslide.jpg", href: "/hizmetlerimiz/kartvizit-baski", alt: "Business Card Printing Alanya" },
-    { image: "/images/slides/davetiyeslide.jpg", href: "/hizmetlerimiz/davetiye-baski", alt: "Invitation Card Printing Alanya" },
+    { image: "/images/slides/stampslide.jpg", href: "/kase", alt: "Professional Stamp Printing Alanya" },
+    { image: "/images/slides/broshureslide.jpg", href: "/hizmetlerimiz/brosur-baski", alt: "Brochure Printing Alanya" },
+    { image: "/images/slides/catalogslide.jpg", href: "/hizmetlerimiz/katalog-baski", alt: "Catalog Printing Alanya" },
+    { image: "/images/slides/businescardslide.jpg", href: "/hizmetlerimiz/kartvizit-baski", alt: "Business Card Printing Alanya" },
+    { image: "/images/slides/invitationslide.jpg", href: "/hizmetlerimiz/davetiye-baski", alt: "Invitation Card Printing Alanya" },
   ],
   ru: [
-    { image: "/images/slides/kaseslide.jpg", href: "/kase", alt: "Профессиональная Печать Штампов Аланья" },
-    { image: "/images/slides/brosurslide.jpg", href: "/hizmetlerimiz/brosur-baski", alt: "Печать Брошюр Аланья" },
-    { image: "/images/slides/katalogslide.jpg", href: "/hizmetlerimiz/katalog-baski", alt: "Печать Каталогов Аланья" },
-    { image: "/images/slides/kartvizitslide.jpg", href: "/hizmetlerimiz/kartvizit-baski", alt: "Печать Визиток Аланья" },
-    { image: "/images/slides/davetiyeslide.jpg", href: "/hizmetlerimiz/davetiye-baski", alt: "Печать Приглашений Аланья" },
+    { image: "/images/slides/rkaseslide.jpg", href: "/kase", alt: "Профессиональная Печать Штампов Аланья" },
+    { image: "/images/slides/rbrosurslide.jpg", href: "/hizmetlerimiz/brosur-baski", alt: "Печать Брошюр Аланья" },
+    { image: "/images/slides/rkatalogslide.jpg", href: "/hizmetlerimiz/katalog-baski", alt: "Печать Каталогов Аланья" },
+    { image: "/images/slides/rkartvizitslide.jpg", href: "/hizmetlerimiz/kartvizit-baski", alt: "Печать Визиток Аланья" },
+    { image: "/images/slides/rdavetiyeslide.jpg", href: "/hizmetlerimiz/davetiye-baski", alt: "Печать Приглашений Аланья" },
   ],
 }
 
