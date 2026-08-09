@@ -211,7 +211,7 @@ export function SiteHeader() {
               <ArrowRight className="size-4" />
             </Link>
             <Link
-              href="#teklif"
+              href="/#teklif"
               onClick={() => setOpen(false)}
               className="mt-1 flex items-center justify-between gap-2 rounded-md bg-accent px-3 py-3 text-sm font-semibold text-accent-foreground"
             >
