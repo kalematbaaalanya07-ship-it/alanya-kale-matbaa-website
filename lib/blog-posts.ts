@@ -1,6 +1,6 @@
 import type { Lang } from "@/lib/i18n"
 
-export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "acil-kase" | "canva-tasarimi" | "5-baski-hatasi" | "grafik-trendler-2026" | "dukkan-acma-rehberi" | "dijital-vs-ofset" | "anlamli-hediye-baski" | "kartvizit-hizmet" | "brosur-hizmet" | "menus-hizmet" | "dijital-baski-hizmet" | "ofset-baski-hizmet" | "etiket-hizmet" | "afis-hizmet" | "el-ilani-hizmet"
+export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "acil-kase" | "canva-tasarimi" | "5-baski-hatasi" | "grafik-trendler-2026" | "dukkan-acma-rehberi" | "dijital-vs-ofset" | "anlamli-hediye-baski" | "kartvizit-hizmet" | "brosur-hizmet" | "menus-hizmet" | "dijital-baski-hizmet" | "ofset-baski-hizmet" | "etiket-hizmet" | "afis-hizmet" | "el-ilani-hizmet" | "alanya-menu-tasarimi-2026"
 
 export interface BlogSection {
   heading: string
@@ -686,7 +686,7 @@ export const blogPosts: BlogPost[] = [
       },
       ru: {
         category: "Срочная печать",
-        title: "Сроч������ая печать в Аланье | Доставка в т��т же день - Kale Matbaa",
+        title: "Сроч������ая печать в Аланье | Доставка в т����т же день - Kale Matbaa",
         excerpt:
           "Нужна срочная печать в Аланье? Дизайн за 1 ч��с, печать и доставка за 2-3 часа. Заказ через WhatsApp.",
         metaTitle: "Срочная ��ечать Алань | Доставка в тот же час - Kale Matbaa",
@@ -862,7 +862,7 @@ export const blogPosts: BlogPost[] = [
               "Выберите правильный размер: Используйте точные размеры продукта, который вы печатаете (например, стандартная визитка 85x55 мм, брошюра A5 148x210 мм). Используйте опцию 'Пользовательский размер' в Canva.",
               "Добавьте 3-4 мм выпуска за обрез: Для профессионального обрезания ваш дизайн должен выходить на 3 мм за край. Откройте Файл > Параметры просмотра > Показать выпуск за обрез в Canva.",
               "Используйте изображения высокого разрешения: Для четкой печати изображения должны быть не менее 300 DPI. Фотографии низкого разрешения из интернета будут выглядеть размытыми.",
-              "Скачайте как PDF для п��ча��и: Нажмите Поделиться > Загруз��ть в верхнем правом углу. Выберите PDF для печати (не PDF Standard). Отметь����е метки обре��ки и выпуск за обрез.",
+              "Скачайте как PDF для п��ча��и: Нажмите Поделиться > Загр��з��ть в верхнем правом углу. Выберите PDF для печати (не PDF Standard). Отметь����е метки обре��ки и выпуск за обрез.",
               "��с��и используете Canva Pro, установите цвет��вой профиль CMYK: Бесплат��ые учетные записи выда��т RGB, мы можем конвертировать дл�� вас.",
             ],
           },
@@ -1048,8 +1048,8 @@ export const blogPosts: BlogPost[] = [
             bullets: [
               "Многие проблемы на самом деле возникают не из-за недостатка технических знаний, а из-за неуважения к шаблонам и информационным формам.",
               "Особенно для специальных продуктов, таких как флаги, пляжные флаги, крылатые папки или бумажные пакеты, шаблоны часто обновляются.",
-              "Контрольный список: Загружайте последний шаблон перед каждым заказом, Всегда читайте информационную фо��му, Обращайте внимание на формат, безопасные поля и значения выпуска за обрез",
-              "Несколько минут проверки спасают часы циклов ��оррекции.",
+              "Контрольный список: Загружайте последний шаблон перед каждым заказом, Всегда читайте информационную фо��му, Обращайт�� внимание на формат, безопасные поля и значения выпуска за обрез",
+              "Несколько минут проверки спасают ч��сы циклов ��оррекции.",
             ],
           },
           {
@@ -1143,7 +1143,7 @@ export const blogPosts: BlogPost[] = [
           {
             heading: "5 | Pantone 2026 Yılın Rengi: Cloud Dancer",
             bullets: [
-              "Pantone, 2026 Yılın Rengi'ni gürültül�� bir dünyada sakinlik ve huzur dokunuşu sloganıyla tanıttı.",
+              "Pantone, 2026 Yıl��n Rengi'ni gürültül�� bir dünyada sakinlik ve huzur dokunuşu sloganıyla tanıttı.",
               "Cloud Dancer, bulutlarda süzülüyormuş hissi veren hafif, ferah bir kırık beyaz.",
               "Yalnız başına kullanıldığında sakin ve zarif, güçlü renklerle birleştiğinde onları daha da parlatıyor, pastellerle ise mükemmel uyum sağlıyor.",
               "Moda, iç mekân ve grafik tasarımda minimalizmi destekliyor. Yaratıcılığa alan açıyor, dikkat dağıtmıyor.",
@@ -1230,7 +1230,7 @@ export const blogPosts: BlogPost[] = [
             heading: "1 | Гибридная работа человека и искусственного интеллекта",
             bullets: [
               "Искусственный интеллект по-прежнему важен, но настоящие лидеры - люди. Дизайнеры используют генеративные инструменты как трамплин для творчества, а затем сознат��льно совершенствуют и направляют результаты.",
-              "Это сотрудничество создаёт оригинальные произведения с технич��ской глубиной.",
+              "Это сотрудничество создаёт оригинальные произведения с технич��ско�� глубиной.",
               "В 2026 году ИИ используется для идей, вариаций, эскизов и исследования настроения. Дизайнер выбирает, комбинирует и совершенствует результаты. Финальный стиль, сообщение и чувство полностью человеческие.",
               "После первоначального всплеска возбуждения поиск оригинальности и смысла усилился. Чистые изображения ИИ быстро становятся банальными.",
             ],
@@ -1585,7 +1585,7 @@ export const blogPosts: BlogPost[] = [
             heading: "3 | Как работает офсетная печать",
             bullets: [
               "Краска передаётся с пластины на резиновое полотно, затем на бумагу: Основана на технологии литографии.",
-              "Установка занимает больше времени, но обеспечивает превосходные детали для больших объёмов: Первые 100-200 к��пий сделаны для конт��оля качества.",
+              "Установка занимает больше времени, но обеспечивает превосходные детали для больших объёмов: Первые 100-200 к��пий сде��аны для конт��оля качества.",
               "С разрешением 2400-4800 DPI для каталогов, буклетов и массовых работ: Качество фото очень высокое.",
               "Стоимость уменьшается с увеличением объёма: Гораздо более экономично, чем цифровая выше 1000 копий.",
               "Согласованность цвета в больших тиражах идеальна.",
@@ -1734,7 +1734,7 @@ export const blogPosts: BlogPost[] = [
           "Обычные подарки забываются, но значимые печати хранятся годами. Личные фото, постеры с цитатами, книги памяти и индивидуальные открытки.",
         metaTitle: "Значимые подарочные печати | Alanya Kale Matbaa",
         metaDescription:
-          "Значимые подарочные печати: личные фото, постеры с цитатами, книги памяти, открытки рождения, календари. Подарите особенные подарки с Alanya Kale Matbaa.",
+          "Значимые подароч��ые печати: личные фото, постеры с цитатами, книги памяти, открытки рождения, календари. Подарите особенные подарки с Alanya Kale Matbaa.",
         intro: [
           "Обычные подарки забываются, но значимые печати хранятся годами. На дни рождения, юбилеи, выпускные, новые дома, рождение, пенсию или просто чтобы сказать 'я о тебе думаю'; личный, эмоциональный и осязаемый печатный материал - один из самых искренних подарков.",
           "С нашим 35-летним ��пытом в Alanya Kale Matbaa мы производим не просто печать, но изделия, несущие смысл. С помощью Konica Minolta AccurioPrint C4065 яркие цвета, различные веса картона и ламинация делают ваш подарок значимым.",
@@ -1773,7 +1773,7 @@ export const blogPosts: BlogPost[] = [
           {
             heading: "Часто задаваемые вопросы",
             bullets: [
-              "Могу ли я получить одну индивидуальную печать? – Да. Производство в единичном или малом количестве очень распространено для значимых подарков.",
+              "Могу ли я получить одну индивидуальную печать? – Да. Производство в единичном или малом количестве очень распространено для значим��х подарков.",
               "Вы проектируете с нуля, если у меня нет дизайна? – Да, мы проектируем с нуля. Мы также адаптируем файлы, которые вы создали в Canva или других программах для профессиональной печати.",
               "Как долго осуществляется доставка? – Доставка в тот же день для простых работ. Просто упомяните ваши срочные потребности.",
             ],
@@ -2086,6 +2086,68 @@ export const blogPosts: BlogPost[] = [
         intro: ["Выделитесь с помощью наших услуг по дизайну этикеток. Мы производим этикетки с штрих-кодом и самоклеящиеся этикетки."],
         sections: [{heading: "Наши услуги", bullets: ["Водонепроницаемые материалы", "Высокое качество", "Индивидуальный размер и форма", "Профессиональный вид", "Быстро и экономично"]}],
         cta: "Свяжитесь с нами для ваших заказов этикеток."
+      }
+    }
+  },
+  {
+    slug: "alanya-menu-tasarimi-2026",
+    image: "/placeholder.svg?height=900&width=1600",
+    imageAlt: "Alanya restoran ve kafeleri için profesyonel menü tasarımı ve baskısı",
+    date: "2026",
+    content: {
+      tr: {
+        category: "Menü Tasarımı",
+        title: "Alanya’da Restoran veya Kafe Açacaklar İçin Menü Tasarımı Rehberi 2026",
+        excerpt: "Alanya’da restoran veya kafe açacaklar için çok dilli, okunabilir ve satış odaklı menü tasarımı rehberi.",
+        metaTitle: "Alanya Menü Tasarımı Rehberi 2026 | Kale Matbaa",
+        metaDescription: "Alanya restoran ve kafeleri için 2026 menü tasarımı, kağıt, baskı, dil ve teslimat rehberi.",
+        intro: ["Alanya’da bir restoran veya kafe açıyorsanız menünüz yalnızca yemek listesi değildir; müşterinin masaya oturduğu anda markanızın ilk ve en güçlü tanıtımıdır. Turizm şehrimizde yerli, Rus, Alman, İngiliz ve diğer yabancı misafirler için menü tasarımı hem satış hem de profesyonellik açısından kritiktir."],
+        sections: [
+          { heading: "1. Alanya’da Menü Tasarımının Önemi", paragraphs: ["Damlataş/Kleopatra, Alanya Kalesi, Mahmutlar, Oba ve Konaklı gibi turistik bölgelerde müşteriler menüyü 5–8 saniye içinde tarar. Kötü tasarım fiyat algısını yükseltebilir veya siparişi düşürebilir; iyi tasarım ise önerilen ürünler ve görsellerle ortalama sepeti %15–25 artırabilir."] },
+          { heading: "2. 2026 Menü Tasarımında Olmazsa Olmazlar", bullets: ["En az üç dil: Türkçe, İngilizce ve Rusça; isteğe bağlı Almanca", "Kalın ve net başlıklar, en az 10–11 punto açıklamalar ve yeterli satır aralığı", "Fiyatların net, sağa hizalı veya kalın gösterilmesi", "Açık-koyu zemin arasında güçlü kontrast", "Her ürün yerine 6–8 kaliteli, tutarlı ışıkta ürün fotoğrafı veya minimal ikon"] },
+          { heading: "3. Boyut ve Format Önerileri", bullets: ["Kafe ve kahvaltı: A4 tek sayfa veya katlamalı format", "Restoran: A4 çift yön veya A3", "Fine dining: sert kapaklı kitapçık", "Beach club ve bar: su geçirmez lamineli menü", "Take-away ve kurye: küçük katlamalı veya A5 format", "2026 trendi: hafif, kaliteli kağıt ve iyi selefon kombinasyonu"] },
+          { heading: "4. Kağıt ve Baskı Seçimi", paragraphs: ["130–170–200–300–350 gr kuşe veya mat kuşe idealdir. Mat selefon, laminasyon ve lüks işletmeler için soft-touch kaplama tercih edilebilir. Sezon ortasında hızlı güncelleme için 10–100 adet dijital baskıyla başlamak pratiktir."] },
+          { heading: "5. Sık Yapılan Hatalar", bullets: ["Her ürünün yanına fotoğraf koyarak menüyü kalabalıklaştırmak", "Fiyatları çok küçük yazmak", "Sadece Türkçe menü hazırlamak", "Düşük çözünürlüklü fotoğraflar kullanmak", "Menüyü şablon oluşturmadan her seferinde sıfırdan tasarlatmak"] },
+          { heading: "6. Adım Adım Menü Hazırlama Süreci", bullets: ["Ürün listesini ve fiyatları netleştirin", "Kategorileri belirleyin: başlangıçlar, ana yemekler, içecekler, tatlılar", "Öne çıkarmak istediğiniz 4–6 ürünü seçin", "Dil çevirilerini profesyonel yaptırın", "Tasarım ve baskı firmasıyla çalışın", "Dijital prova alın, onaylayın ve baskıya geçin"] },
+          { heading: "7. Alanya’da Profesyonel Menü Tasarımı ve Baskı", paragraphs: ["Alanya Kale Matbaa olarak CorelDRAW ve yapay zeka destekli grafik tasarım, çok dilli menü yerleşimi, Konica Minolta AccurioPrint C4065 ile yüksek kaliteli dijital baskı, farklı gramajlarda kağıt ve selefon seçenekleri sunuyoruz. Aynı gün veya 24 saat içinde teslim ve düşük adetten yüksek adete esnek üretim sağlıyoruz."] }
+        ],
+        cta: "Menünüzü hem güzel hem de satış odaklı hale getirmek için ürün listenizi ve fotoğraflarınızı WhatsApp’tan göndermeniz yeterli."
+      },
+      en: {
+        category: "Menu Design",
+        title: "Menu Design Guide 2026 for Those Opening a Restaurant or Cafe in Alanya",
+        excerpt: "A practical, multilingual and sales-oriented menu design guide for restaurants and cafes in Alanya.",
+        metaTitle: "Alanya Menu Design Guide 2026 | Kale Matbaa",
+        metaDescription: "2026 guide to menu design, paper, printing, languages and delivery for Alanya restaurants and cafes.",
+        intro: ["If you are opening a restaurant or cafe in Alanya, your menu is more than a list of food: it is your brand’s first and strongest introduction when a customer sits down. In this tourism city, menu design is critical for both sales and professionalism."] ,
+        sections: [
+          { heading: "1. The Importance of Menu Design in Alanya", paragraphs: ["In tourist-heavy areas such as Damlataş/Kleopatra, Alanya Castle, Mahmutlar, Oba and Konaklı, customers scan menus in 5–8 seconds. Poor design can create a high-price perception or reduce orders, while good design can increase the average basket by 15–25% through recommended products and visuals."] },
+          { heading: "2. Must-Haves in 2026 Menu Design", bullets: ["At least three languages: Turkish, English and Russian; German optionally", "Bold, clear headings, descriptions of 10–11 pt or larger and sufficient line spacing", "Clearly visible, right-aligned or bold prices", "Strong contrast between background and text", "6–8 high-quality, consistently lit product photos instead of a photo for every item"] },
+          { heading: "3. Size and Format Recommendations", bullets: ["Cafe and breakfast: A4 single page or folded format", "Restaurant: A4 double-sided or A3", "Fine dining: hardcover booklet", "Beach club and bar: waterproof laminated menu", "Take-away and delivery: small folded or A5 format", "2026 trend: light, quality paper with good lamination"] },
+          { heading: "4. Paper and Printing Selection", paragraphs: ["130–170–200–300–350 gsm coated or matte coated paper is ideal. Matte lamination and soft-touch coating can add durability and a premium feel. Starting with 10–100 digital copies makes seasonal updates fast and practical."] },
+          { heading: "5. Common Mistakes", bullets: ["Overcrowding the menu with a photo beside every product", "Writing prices too small", "Preparing only a Turkish menu", "Using low-resolution photos", "Redesigning from scratch each time instead of creating a template"] },
+          { heading: "6. Step-by-Step Menu Preparation Process", bullets: ["Finalize products and prices", "Set categories such as starters, main courses, drinks and desserts", "Choose 4–6 products to highlight", "Have translations done professionally", "Work with a design and printing company", "Approve a digital proof and proceed to printing"] },
+          { heading: "7. Professional Menu Design and Printing in Alanya", paragraphs: ["Alanya Kale Matbaa offers CorelDRAW and AI-supported graphic design, multilingual menu layout, high-quality digital printing with Konica Minolta AccurioPrint C4065, multiple paper weights, lamination, same-day or 24-hour delivery, and flexible production quantities."] }
+        ],
+        cta: "To make your menu beautiful and sales-oriented, simply send your product list and photos via WhatsApp."
+      },
+      ru: {
+        category: "Дизайн меню",
+        title: "Руководство по дизайну меню 2026 для тех, кто открывает ресторан или кафе в Аланье",
+        excerpt: "Практичное руководство по многоязычному и продающему дизайну меню для заведений в Аланье.",
+        metaTitle: "Руководство по дизайну меню в Аланье 2026 | Kale Matbaa",
+        metaDescription: "Дизайн, бумага, печать, языки и доставка меню для ресторанов и кафе в Аланье в 2026 году.",
+        intro: ["Если вы открываете ресторан или кафе в Аланье, меню — это не просто список блюд, а первое и самое сильное представление вашего бренда. В туристическом городе дизайн меню критически важен и для продаж, и для профессионального имиджа."] ,
+        sections: [
+          { heading: "1. Важность дизайна меню в Аланье", paragraphs: ["В туристических районах Дамлаташ/Клеопатра, у Аланийской крепости, в Махмутларе, Оба и Конаклы гости просматривают меню за 5–8 секунд. Хороший дизайн с рекомендованными блюдами и визуалами может увеличить средний чек на 15–25%."] },
+          { heading: "2. Обязательные элементы дизайна меню в 2026 году", bullets: ["Минимум три языка: турецкий, английский и русский; немецкий по желанию", "Четкие жирные заголовки, описания 10–11 pt или крупнее", "Хорошо заметные цены, выровненные по правому краю или выделенные жирным", "Важный контраст фона и текста", "6–8 качественных фотографий вместо фото каждого блюда"] },
+          { heading: "3. Рекомендации по размеру и формату", bullets: ["Кафе и завтраки: односторонний A4 или складной формат", "Ресторан: двусторонний A4 или A3", "Fine dining: твердая обложка-книжка", "Beach club и бар: водостойкое ламинированное меню", "Take-away и доставка: компактный складной или A5", "Тренд 2026: легкая качественная бумага и хорошая ламинация"] },
+          { heading: "4. Выбор бумаги и печати", paragraphs: ["Идеальны мелованная или матовая бумага плотностью 130–170–200–300–350 г/м². Матовая ламинация и soft-touch добавляют прочность и премиальный вид. Цифровая печать тиражом 10–100 экземпляров удобна для сезонных обновлений."] },
+          { heading: "5. Частые ошибки", bullets: ["Перегружать меню фотографией каждого блюда", "Писать цены слишком мелко", "Делать только турецкое меню", "Использовать фотографии низкого разрешения", "Каждый раз проектировать меню с нуля вместо создания шаблона"] },
+          { heading: "6. Пошаговый процесс подготовки меню", bullets: ["Уточнить список блюд и цены", "Определить категории: закуски, основные блюда, напитки, десерты", "Выбрать 4–6 блюд для выделения", "Заказать профессиональный перевод", "Работать с дизайнером и типографией", "Утвердить цифровую пробу и перейти к печати"] },
+          { heading: "7. Профессиональный дизайн и печать меню в Аланье", paragraphs: ["Alanya Kale Matbaa предлагает графический дизайн с CorelDRAW и поддержкой ИИ, многоязычную верстку, цифровую печать на Konica Minolta AccurioPrint C4065, бумагу разных плотностей, ламинацию, доставку в тот же день или в течение 24 часов и гибкое производство."] }
+        ],
+        cta: "Чтобы сделать меню красивым и продающим, просто пришлите список блюд и фотографии в WhatsApp."
       }
     }
   },
