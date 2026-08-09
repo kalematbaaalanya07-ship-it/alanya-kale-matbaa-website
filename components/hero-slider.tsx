@@ -93,7 +93,7 @@ export function HeroSlider() {
         type="button"
         onClick={(e) => { e.preventDefault(); prev() }}
         aria-label="Önceki slayt"
-        className="absolute left-[14%] top-1/2 z-10 flex size-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60 md:left-[19%]"
+        className="absolute left-[14%] top-1/2 z-10 flex size-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60 md:left-[23%]"
       >
         <ChevronLeft className="size-5" />
       </button>
@@ -103,7 +103,7 @@ export function HeroSlider() {
         type="button"
         onClick={(e) => { e.preventDefault(); next() }}
         aria-label="Sonraki slayt"
-        className="absolute right-[14%] top-1/2 z-10 flex size-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60 md:right-[19%]"
+        className="absolute right-[14%] top-1/2 z-10 flex size-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60 md:right-[23%]"
       >
         <ChevronRight className="size-5" />
       </button>
