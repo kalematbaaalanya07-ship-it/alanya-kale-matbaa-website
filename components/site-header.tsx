@@ -133,7 +133,7 @@ export function SiteHeader() {
             </Link>
           </Button>
           <LanguageSwitcher />
-          <Button asChild size="sm" className="hidden bg-brand-magenta text-brand-magenta-foreground hover:bg-brand-magenta/90 sm:inline-flex">
+          <Button asChild size="sm" className="hidden bg-orange-500 text-white hover:bg-orange-600 sm:inline-flex">
             <Link href="/kase">
               {t.cta.professionalStamp}
               <ArrowRight className="size-4" />
@@ -202,6 +202,22 @@ export function SiteHeader() {
               <Phone className="size-4" />
               {site.phoneDisplay}
             </a>
+            <Link
+              href="/kase"
+              onClick={() => setOpen(false)}
+              className="mt-1 flex items-center justify-between gap-2 rounded-md bg-orange-500 px-3 py-3 text-sm font-semibold text-white"
+            >
+              {t.cta.professionalStamp}
+              <ArrowRight className="size-4" />
+            </Link>
+            <Link
+              href="#teklif"
+              onClick={() => setOpen(false)}
+              className="mt-1 flex items-center justify-between gap-2 rounded-md bg-accent px-3 py-3 text-sm font-semibold text-accent-foreground"
+            >
+              {t.cta.quote}
+              <ArrowRight className="size-4" />
+            </Link>
           </div>
         </nav>
       )}
