@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { usePathname, useRouter } from "next/navigation"
-import { Menu, X, Phone, Search } from "lucide-react"
+import { Menu, X, Phone, Search, ArrowRight } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/components/language-provider"
@@ -126,13 +126,18 @@ export function SiteHeader() {
         </button>
 
         <div className="ml-auto flex items-center gap-2">
-          <LanguageSwitcher />
           <Button asChild size="sm" className="hidden bg-accent text-accent-foreground hover:bg-accent/90 sm:inline-flex">
-            <a href={waLink()} target="_blank" rel="noopener noreferrer">
-              <Phone className="size-4" />
-              <span className="hidden md:inline">{site.phoneDisplay}</span>
-              <span className="md:hidden">{t.cta.whatsapp}</span>
-            </a>
+            <Link href="#teklif">
+              {t.cta.quote}
+              <ArrowRight className="size-4" />
+            </Link>
+          </Button>
+          <LanguageSwitcher />
+          <Button asChild size="sm" className="hidden bg-brand-magenta text-brand-magenta-foreground hover:bg-brand-magenta/90 sm:inline-flex">
+            <Link href="/kase">
+              Profesyonel Kaşe Baskımı
+              <ArrowRight className="size-4" />
+            </Link>
           </Button>
           <button
             type="button"
