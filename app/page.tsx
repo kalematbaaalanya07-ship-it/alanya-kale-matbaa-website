@@ -41,12 +41,6 @@ export default function HomePage() {
                   {t.cta.whatsapp}
                 </a>
               </Button>
-              <Button asChild size="sm" className="bg-brand-magenta text-brand-magenta-foreground hover:bg-brand-magenta/90">
-                <Link href="/#teklif">
-                  {t.cta.getOffer}
-                  <ArrowRight className="size-4" />
-                </Link>
-              </Button>
               <Button asChild size="sm" variant="outline">
                 <Link href="/hizmetlerimiz">
                   {t.cta.viewServices}
