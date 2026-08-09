@@ -3,7 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ArrowLeft, MessageCircle, Check } from 'lucide-react'
-import { getServiceBySlug, getAllServices } from '@/lib/services'
+import { getServiceBySlug, getAllServices, getServiceBySlugLocalized, getAllServicesLocalized } from '@/lib/services'
+import type { Lang } from '@/lib/i18n'
 import { notFound } from 'next/navigation'
 
 const waLink = (text: string = '') =>
@@ -36,17 +37,26 @@ export async function generateMetadata({
 
 export default async function ServiceDetailPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>
+  searchParams: Promise<{ lang?: string }>
 }) {
   const { slug } = await params
-  const service = getServiceBySlug(slug)
+  const { lang: requestedLang } = await searchParams
+  const lang: Lang = requestedLang === 'en' || requestedLang === 'ru' ? requestedLang : 'tr'
+  const service = getServiceBySlugLocalized(slug, lang)
 
   if (!service) {
     notFound()
   }
 
-  const otherServices = getAllServices().filter((s) => s.id !== service.id).slice(0, 3)
+  const otherServices = getAllServicesLocalized(lang).filter((s) => s.id !== service.id).slice(0, 3)
+  const ui = lang === 'tr'
+    ? { back: 'Tüm Hizmetler', contact: 'Hızlı İletişim', contactDesc: 'Hizmet hakkında detaylı bilgi ve fiyat teklifi almak için bizimle iletişime geçin.', whatsapp: 'WhatsApp ile Yazın', call: 'Hemen Ara', faq: 'Sıkça Sorulan Sorular', others: 'Diğer Hizmetlerimiz', ready: 'Başlamaya Hazır mısınız?', readyDesc: 'için teklif almak veya daha fazla bilgi edinmek için bize ulaşın.', quote: 'Hemen Teklif İste' }
+    : lang === 'ru'
+      ? { back: 'Все услуги', contact: 'Быстрая связь', contactDesc: 'Свяжитесь с нами, чтобы получить подробную информацию и расчет стоимости этой услуги.', whatsapp: 'Написать в WhatsApp', call: 'Позвонить', faq: 'Часто задаваемые вопросы', others: 'Другие наши услуги', ready: 'Готовы начать?', readyDesc: 'свяжитесь с нами, чтобы получить расчет стоимости или узнать больше о', quote: 'Получить расчет стоимости' }
+      : { back: 'All Services', contact: 'Quick Contact', contactDesc: 'Get in touch with us for detailed information and a price quote for this service.', whatsapp: 'Message on WhatsApp', call: 'Call Now', faq: 'Frequently Asked Questions', others: 'Other Services', ready: 'Ready to Get Started?', readyDesc: 'contact us for a quote or more information about', quote: 'Get a Quote Now' }
 
   return (
     <main className="min-h-screen">
@@ -58,7 +68,7 @@ export default async function ServiceDetailPage({
             className="inline-flex items-center gap-2 text-sm text-foreground/70 hover:text-foreground transition-colors"
           >
             <ArrowLeft className="size-4" />
-            Tüm Hizmetler
+            {ui.back}
           </Link>
         </div>
       </div>
@@ -134,11 +144,9 @@ export default async function ServiceDetailPage({
               <div className="sticky top-4 rounded-xl border border-border bg-card p-6 space-y-6">
                 <div>
                   <h3 className="font-heading text-lg font-bold text-foreground mb-2">
-                    Hızlı İletişim
+                    {ui.contact}
                   </h3>
-                  <p className="text-sm text-foreground/70">
-                    Hizmet hakkında detaylı bilgi ve fiyat teklifi almak için bizimle iletişime geçin.
-                  </p>
+                  <p className="text-sm text-foreground/70">{ui.contactDesc}</p>
                 </div>
 
                 <div className="space-y-3">
@@ -153,20 +161,18 @@ export default async function ServiceDetailPage({
                       rel="noopener noreferrer"
                     >
                       <MessageCircle className="size-4" />
-                      WhatsApp ile Yazın
+                      {ui.whatsapp}
                     </a>
                   </Button>
                   <Button asChild variant="outline" size="lg" className="w-full">
                     <a href="tel:+905324982684">
-                      Hemen Ara
+{ui.call}
                     </a>
                   </Button>
                 </div>
 
                 <div className="border-t border-border pt-6">
-                  <h4 className="font-heading font-bold text-foreground mb-4">
-                    Sıkça Sorulan Sorular
-                  </h4>
+                  <h4 className="font-heading font-bold text-foreground mb-4">{ui.faq}</h4>
                   <div className="space-y-4">
                     {service.faqs.map((faq, idx) => (
                       <div key={idx}>
@@ -190,9 +196,7 @@ export default async function ServiceDetailPage({
       {otherServices.length > 0 && (
         <section className="bg-background py-20 border-b border-border">
           <div className="mx-auto max-w-6xl px-4">
-            <h2 className="font-heading text-3xl font-bold text-foreground mb-12 text-balance">
-              Diğer Hizmetlerimiz
-            </h2>
+            <h2 className="font-heading text-3xl font-bold text-foreground mb-12 text-balance">{ui.others}</h2>
             <div className="grid gap-6 md:grid-cols-3">
               {otherServices.map((relatedService) => (
                 <Link
@@ -229,12 +233,8 @@ export default async function ServiceDetailPage({
       {/* Final CTA */}
       <section className="bg-accent py-16">
         <div className="mx-auto max-w-6xl px-4 text-center">
-          <h2 className="font-heading text-3xl font-bold text-accent-foreground md:text-4xl text-balance">
-            Başlamaya Hazır mısınız?
-          </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-accent-foreground/90">
-            {service.title} için teklif almak veya daha fazla bilgi edinmek için bize ulaşın.
-          </p>
+          <h2 className="font-heading text-3xl font-bold text-accent-foreground md:text-4xl text-balance">{ui.ready}</h2>
+          <p className="mx-auto mt-4 max-w-2xl text-accent-foreground/90">{service.title} {ui.readyDesc}</p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Button
               asChild
@@ -247,7 +247,7 @@ export default async function ServiceDetailPage({
                 rel="noopener noreferrer"
               >
                 <MessageCircle className="size-4" />
-                Hemen Teklif İste
+                {ui.quote}
               </a>
             </Button>
           </div>

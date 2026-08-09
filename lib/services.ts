@@ -1098,8 +1098,6 @@ export function getAllServices(): Service[] {
   return services;
 }
 
-import { serviceTranslations } from './services-translations';
-
 export function localizeService(service: Service, locale: string): Service {
   if (locale === 'tr') return service;
   const translation = serviceTranslations[service.slug]?.[locale as 'en' | 'ru'];
