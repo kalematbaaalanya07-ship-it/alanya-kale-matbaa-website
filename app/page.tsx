@@ -148,7 +148,7 @@ export default function HomePage() {
       <TestimonialsSection />
 
       {/* Quote form */}
-      <section id="teklif" className="bg-secondary/50 py-16">
+      <section id="teklif" className="scroll-mt-24 bg-secondary/50 py-16">
         <div className="mx-auto grid max-w-6xl items-start gap-10 px-4 lg:grid-cols-2">
           <div className="flex flex-col gap-4 lg:pt-4">
             <SectionHeading tag={t.cta.quote} title={t.home.quoteTitle} subtitle={t.home.quoteSubtitle} align="left" />
