@@ -42,7 +42,7 @@ export default function HomePage() {
                 </a>
               </Button>
               <Button asChild size="sm" className="bg-brand-magenta text-brand-magenta-foreground hover:bg-brand-magenta/90">
-                <Link href="/kase">
+                <Link href="/#teklif">
                   {t.cta.getOffer}
                   <ArrowRight className="size-4" />
                 </Link>
