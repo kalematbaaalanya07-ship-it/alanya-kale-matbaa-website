@@ -222,7 +222,7 @@ Alanya\'da özellikle yabancı müşterilerle çalışanlar için İngilizce, Ru
 
 ## Sipariş ve Teslimat
 
-Tasarımınız hazırsa genellikle 1 iş günü içinde teslim edebiliyoruz. Tasarım yoksa, mevcut logonuz ve bilgilerinizle sade ve etkili kartvizit tasarımları hazırlıyoruz. Minimum adet 100\'den başlar, büyük adetlerde birim fiyat düşer.
+Ekspres işlerde tasarımınız hazırsa genellikle 1 iş günü içinde teslim edebiliyoruz. Tasarım yoksa, mevcut logonuz ve bilgilerinizle sade ve etkili kartvizit tasarımları hazırlıyoruz. Minimum adet 100\'den başlar, büyük adetlerde birim fiyat düşer.
 
 Kartvizitinizi bastırırken sadece fiyata bakmayın. Elinize aldığınızda "bu kaliteli bir firma" dedirtecek bir ürün tercih edin. Çünkü kartvizit, sizin adınıza konuşur.
 
@@ -234,7 +234,7 @@ Alanya Kale Matbaa farkıyla profesyonel kartvizitlerinizi hemen sipariş edin. 
       },
       {
         question: 'Kabartma ne kadar ek süre ekler?',
-        answer: 'Genellikle +1 gün.'
+        answer: 'Genellikle +7 iş günü.'
       },
       {
         question: 'Aynı gün teslimat mümkün mü?',
