@@ -27,6 +27,8 @@ export type Dictionary = {
     heroTag: string
     heroTitle: string
     heroSubtitle: string
+    introTitle: string
+    introDesc: string
     features: { title: string; desc: string }[]
     servicesTitle: string
     servicesSubtitle: string
@@ -179,6 +181,8 @@ const tr: Dictionary = {
   home: {
     heroTag: "Alanya'nın Güvenilir Matbaası",
     heroTitle: "Kaliteli Baskı, Zamanında Teslimat",
+    introTitle: "Alanya’da Hızlı ve Profesyonel Baskı",
+    introDesc: "Kaşe, kartvizit, broşür, menü, davetiye, ofset ve dijital copy baskı ihtiyaçlarınız için profesyonel çözümler sunuyoruz.",
     heroSubtitle:
       "Ofset ve dijital baskıda uzman ekibimizle işletmenizin tüm baskı ihtiyaçlarını profesyonelce karşılıyoruz.\nKartvizit, kaşe, broşür, magnet, davetiye, etiket, sticker, antetli kâğıt, diplomat zarf, cepli dosya, bloknot, el ilanı, menü, poster, otokopili form ve resmi evrak yazıları…\nHepsi tek adreste, kaliteli ve hızlı çözümlerle.\nİhtiyacınız olan her baskı ürünü için buradayız.",
     features: [
@@ -489,6 +493,8 @@ const en: Dictionary = {
   home: {
     heroTag: "Alanya's Trusted Print Shop",
     heroTitle: "Quality Printing, Delivered on Time",
+    introTitle: "Fast, Professional Printing in Alanya",
+    introDesc: "We provide professional solutions for stamps, business cards, brochures, menus, invitations, offset and digital copy printing.",
     heroSubtitle:
       "Did you come to Turkey from abroad and want affordable printing and custom stamps before returning home? Looking for urgent printing or professional digital & offset printing in Alanya? Kale Matbaa, with over 35 years of experience in Alanya Şekerhane, offers same-day delivery, free design and Konica Minolta AccurioPrint C4065 quality for stamps, business cards, brochures, catalogs and menus. We serve Mahmutlar, Oba, Cikcilli, Konaklı and the entire Antalya region.",
     features: [
@@ -778,7 +784,9 @@ const ru: Dictionary = {
   },
   home: {
     heroTag: "Надёжная типография Аланьи",
-    heroTitle: "Качественная печать точно в срок",
+    heroTitle: "Быстрая и профессиональная печать в Аланье",
+    introTitle: "Быстрая и профессиональная печать в Аланье",
+    introDesc: "Профессиональные решения для печати штампов, визиток, брошюр, меню, приглашений, офсетной и цифровой печати.",
     heroSubtitle:
       "Приехали в Турцию из-за границы и хотите сделать печать и штампы по выгодной цене перед возвращением домой? Ищете срочную печать или профессиональную цифровую и офсетную печать в Аланье? Kale Matbaa с более чем 35-летним опытом в Аланье Шекерхане предлагает доставку в тот же день, бесплатный дизайн и качество Konica Minolta AccurioPrint C4065: штампы, визитки, брошюры, каталоги и меню. Мы обслуживаем Махмутлар, Оба, Джикджилли, Конаклы и весь регион Антальи.",
     features: [
@@ -847,7 +855,7 @@ const ru: Dictionary = {
     subtitle: "Мы здесь, чтобы ответить на ваши вопросы и запросы.",
     infoTitle: "Контактная информация",
     hoursLabel: "Часы работы",
-    hours: "Понедельник - С��ббота: 09:00 - 19:00",
+    hours: "Понедельник - С����ббота: 09:00 - 19:00",
     addressLabel: "Адрес",
     phoneLabel: "Телефон",
     emailLabel: "Эл. почта",
@@ -963,7 +971,7 @@ const ru: Dictionary = {
     tag: "Профессиональные печати",
     title: "Профессиональные печати и услуга печати",
     subtitle: "Широкий ассортимент печатей, служащих официальным инструментом одобрения вашей компании и личного бренда. Качественные материалы, быстрая доставка, приемлемые цены.",
-    intro: "Ищете срочную печать в Аланье? Kale Matbaa в районе Şekerhane предлагает корпоративные печати, штампы учителей, карманные печати и автоматические штампы с опытом более 35 лет. Доставка в тот же день, бесплатный дизайн, профессиональное качество, обслуживая Махмутлар, Оба, Конаклы и весь регион Аланьи.",
+    intro: "Ищете срочную печать в Аланье? Kale Matbaa в районе Şekerhane предлагает корпоративные печати, штампы учителей, карманные печати и автоматические штампы с опытом более 35 лет. Доставка в тот же день, бесплатный дизайн, профессиональное качество, обслуживая Махмутлар, Оба, Конаклы и весь рег��он Аланьи.",
     typesTitle: "Типы печатей",
     typesDesc: [
       "Печать компании: официальные печати для ООО и АО. Используется с названием компании, адресом и налоговым номером.",
