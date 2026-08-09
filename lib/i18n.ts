@@ -29,6 +29,10 @@ export type Dictionary = {
     heroSubtitle: string
     introTitle: string
     introDesc: string
+    processLabels: string[]
+    urgentTitle: string
+    urgentSubtitle: string
+    urgentDesc: string
     features: { title: string; desc: string }[]
     servicesTitle: string
     servicesSubtitle: string
@@ -183,6 +187,10 @@ const tr: Dictionary = {
     heroTitle: "Kaliteli Baskı, Zamanında Teslimat",
     introTitle: "Alanya’da Hızlı ve Profesyonel Baskı",
     introDesc: "Kaşe, kartvizit, broşür, menü, davetiye, ofset ve dijital copy baskı ihtiyaçlarınız için profesyonel çözümler sunuyoruz.",
+    processLabels: ["Tasarım", "Dijital Prova", "Onay", "Baskı", "Teslimat"],
+    urgentTitle: "ACİL BASKINIZ MI VAR?",
+    urgentSubtitle: "Bugün Teslim Edelim!",
+    urgentDesc: "Bize ulaşın, çözümünü birlikte bulalım.",
     heroSubtitle:
       "Ofset ve dijital baskıda uzman ekibimizle işletmenizin tüm baskı ihtiyaçlarını profesyonelce karşılıyoruz.\nKartvizit, kaşe, broşür, magnet, davetiye, etiket, sticker, antetli kâğıt, diplomat zarf, cepli dosya, bloknot, el ilanı, menü, poster, otokopili form ve resmi evrak yazıları…\nHepsi tek adreste, kaliteli ve hızlı çözümlerle.\nİhtiyacınız olan her baskı ürünü için buradayız.",
     features: [
@@ -495,6 +503,10 @@ const en: Dictionary = {
     heroTitle: "Quality Printing, Delivered on Time",
     introTitle: "Fast, Professional Printing in Alanya",
     introDesc: "We provide professional solutions for stamps, business cards, brochures, menus, invitations, offset and digital copy printing.",
+    processLabels: ["Design", "Digital Proof", "Approval", "Printing", "Delivery"],
+    urgentTitle: "NEED A RUSH PRINT?",
+    urgentSubtitle: "Delivered Today!",
+    urgentDesc: "Contact us and let’s find the right solution together.",
     heroSubtitle:
       "Did you come to Turkey from abroad and want affordable printing and custom stamps before returning home? Looking for urgent printing or professional digital & offset printing in Alanya? Kale Matbaa, with over 35 years of experience in Alanya Şekerhane, offers same-day delivery, free design and Konica Minolta AccurioPrint C4065 quality for stamps, business cards, brochures, catalogs and menus. We serve Mahmutlar, Oba, Cikcilli, Konaklı and the entire Antalya region.",
     features: [
@@ -787,6 +799,10 @@ const ru: Dictionary = {
     heroTitle: "Быстрая и профессиональная печать в Аланье",
     introTitle: "Быстрая и профессиональная печать в Аланье",
     introDesc: "Профессиональные решения для печати штампов, визиток, брошюр, меню, приглашений, офсетной и цифровой печати.",
+    processLabels: ["Дизайн", "Цифровая проба", "Согласование", "Печать", "Доставка"],
+    urgentTitle: "НУЖНА СРОЧНАЯ ПЕЧАТЬ?",
+    urgentSubtitle: "Доставим сегодня!",
+    urgentDesc: "Свяжитесь с нами, и мы вместе найдём решение.",
     heroSubtitle:
       "Приехали в Турцию из-за границы и хотите сделать печать и штампы по выгодной цене перед возвращением домой? Ищете срочную печать или профессиональную цифровую и офсетную печать в Аланье? Kale Matbaa с более чем 35-летним опытом в Аланье Шекерхане предлагает доставку в тот же день, бесплатный дизайн и качество Konica Minolta AccurioPrint C4065: штампы, визитки, брошюры, каталоги и меню. Мы обслуживаем Махмутлар, Оба, Джикджилли, Конаклы и весь регион Антальи.",
     features: [
@@ -970,7 +986,7 @@ const ru: Dictionary = {
   kase: {
     tag: "Профессиональные печати",
     title: "Профессиональные печати и услуга печати",
-    subtitle: "Широкий ассортимент печатей, служащих официальным инструментом одобрения вашей компании и личного бренда. Качественные материалы, быстрая доставка, приемлемые цены.",
+    subtitle: "Широкий а��сортимент печатей, служащих официальным инструментом одобрения вашей компании и личного бренда. Качественные материалы, быстрая доставка, приемлемые цены.",
     intro: "Ищете срочную печать в Аланье? Kale Matbaa в районе Şekerhane предлагает корпоративные печати, штампы учителей, карманные печати и автоматические штампы с опытом более 35 лет. Доставка в тот же день, бесплатный дизайн, профессиональное качество, обслуживая Махмутлар, Оба, Конаклы и весь рег��он Аланьи.",
     typesTitle: "Типы печатей",
     typesDesc: [
