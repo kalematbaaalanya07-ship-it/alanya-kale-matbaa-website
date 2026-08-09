@@ -22,7 +22,7 @@ type PortfolioItem = {
 
 export type Dictionary = {
   nav: { home: string; about: string; services: string; products: string; portfolio: string; contact: string; searchPlaceholder: string }
-  cta: { quote: string; call: string; whatsapp: string; viewServices: string; contactUs: string; getOffer: string }
+  cta: { quote: string; call: string; whatsapp: string; viewServices: string; contactUs: string; getOffer: string; professionalStamp: string }
   home: {
     heroTag: string
     heroTitle: string
@@ -181,6 +181,7 @@ const tr: Dictionary = {
     viewServices: "Hizmetleri İncele",
     contactUs: "Bize Ulaşın",
     getOffer: "Teklif Al",
+    professionalStamp: "Profesyonel Kaşe Basımı",
   },
   home: {
     heroTag: "Alanya'nın Güvenilir Matbaası",
@@ -497,6 +498,7 @@ const en: Dictionary = {
     viewServices: "View Services",
     contactUs: "Contact Us",
     getOffer: "Get Offer",
+    professionalStamp: "Professional Stamp Printing",
   },
   home: {
     heroTag: "Alanya's Trusted Print Shop",
@@ -793,6 +795,7 @@ const ru: Dictionary = {
     viewServices: "Смотреть услуги",
     contactUs: "Связаться с нами",
     getOffer: "Получить расчёт",
+    professionalStamp: "Профессиональная печать штампов",
   },
   home: {
     heroTag: "Надёжная типография Аланьи",
@@ -1054,7 +1057,7 @@ const ru: Dictionary = {
     paperSubtitle: "Правильная бумага для качественной печати",
     paperWeights: [],
     pageTitle: "Наши услуги",
-    pageSubtitle: "Профессиональные полиграфические услуги в Аланье. Качественные решения для любых задач — от корпоративного стиля до ��аркетинговых материалов.",
+    pageSubtitle: "Профессиональные полиграфические услуги в Аланье. Качественные решения для любых задач — от корпоративного стиля до ��арк��тинговых материалов.",
     viewDetails: "Подробнее",
     ctaTitle: "Услуга, которую вы искали, здесь",
     ctaSubtitle: "Если у вас есть вопросы об услуге, напишите нам. Наша профессиональная команда готова предложить вам лучшее решение.",
