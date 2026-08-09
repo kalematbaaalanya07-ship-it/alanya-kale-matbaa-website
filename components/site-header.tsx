@@ -127,7 +127,7 @@ export function SiteHeader() {
 
         <div className="ml-auto flex items-center gap-2">
           <Button asChild size="sm" className="hidden bg-accent text-accent-foreground hover:bg-accent/90 sm:inline-flex">
-            <Link href="#teklif">
+            <Link href="/#teklif">
               {t.cta.quote}
               <ArrowRight className="size-4" />
             </Link>
