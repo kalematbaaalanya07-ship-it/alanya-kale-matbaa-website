@@ -4,42 +4,16 @@ import { site } from "@/lib/site"
 // Kept in Turkish (primary market language) for maximum local search relevance.
 
 const faq = [
-  {
-    q: "Alanya'da acil baskı işlerini ne kadar sürede teslim ediyorsunuz?",
-    a: "Dijital baskı işlerinin çoğunu aynı gün veya 24 saat içinde teslim ediyoruz. Yoğun turist sezonunda (Haziran-Eylül) bile acil işleriniz için önceliklendirme yapıyoruz. Kaşe basımı genellikle 2-3 gün, ofset baskı ise adet ve tasarım karmaşıklığına göre 3-7 gün sürer. Acil işler için WhatsApp'tan hemen teklif alabilirsiniz.",
-  },
-  {
-    q: "Tasarım dosyam yok, yardımcı olur musunuz?",
-    a: "Elbette, tamamen ücretsiz. Profesyonel grafik tasarım ekibimiz kartvizit, broşür, menü, davetiye, katalog ve tüm baskı ürünlerinin tasarımını sizin için hazırlıyoruz. Fikrinizi, marka rengini ve tercihlerini bize anlatsanız, 2-3 revizyon içinde mükemmel tasarımı ortaya çıkarıyoruz.",
-  },
-  {
-    q: "Konica Minolta AccurioPrint C4065 ile hangi kağıtlara baskı yapılıyor?",
-    a: "80g ince matt kağıttan 350g ve üzeri kalın kraflı kartona kadar, A3+ boyutuna dek (320x450mm) canlı renklerle baskı yapabiliyoruz. Parlak, mat ve strukturlu kağıt seçenekleri mevcuttur. Özel kağıtlar için (uydu, aydınger vs.) danışmanlık yapabiliriz.",
-  },
-  {
-    q: "Dijital baskı mı ofset baskı mı seçmeliyim?",
-    a: "Dijital baskı: 1-500 adet arası, acil işler, kişiselleştirme için ideal. Ofset baskı: 500+ adet, bütçe dostu, yüksek kalite için tercih edilir. Kartvizit, broşür, katalog gibi ürünlerde dijital hızlıdır. Menü, davetiye gibi karmaşık tasarımlarda ofset daha güzel sonuç verir. Size en uygun seçeneği ücretsiz danışmanlıkla belirliyoruz.",
-  },
-  {
-    q: "Alanya dışına gönderim yapıyor musunuz?",
-    a: "Evet, Mahmutlar, Oba, Cikcilli, Konaklı gibi tüm Alanya çevre mahallelere ve Antalya bölgesine kargo ile gönderim yapıyoruz. Ayrıca Türkiye'nin diğer şehirlerine de PostPack, Aras veya MNG kargo ile göndeririz. Detaylar ve fiyatlar için WhatsApp'tan bize yazabilirsiniz.",
-  },
-  {
-    q: "Kaşe çeşitleri nelerdir ve hangileri acil yapılabilir?",
-    a: "Kurumsal kaşe, öğretmen kaşesi, cep kaşesi, lastikli kaşe, otomatik kaşe olmak üzere birçok seçenekte acil baskı yapabiliyoruz. Çoğu standart kaşe aynı gün basılabilir. Özel tasarım kaşeler 2-3 gün sürebilir. Kaşe baskı fiyatları adete, malzemeye ve tasarım karmaşıklığına göre değişir.",
-  },
-  {
-    q: "Alanya'da katalog baskı kaç günde teslim olur?",
-    a: "Standart katalog baskıları 5-7 gün içinde teslim edilir (tasarım onayından sonra). Acil katalog işleri 3-4 günde yapabiliyoruz. Tasarım, hazırlık, baskı, laminasyon (opsiyonel), cilt ve kontrol işlemleri dahil. Çok acil ise WhatsApp'tan iletişim kurarak özel tarife talep edebilirsiniz.",
-  },
-  {
-    q: "Broşür baskısında hangi cilt seçenekleri var?",
-    a: "Amerikan cilt (perfect binding), sadece baskı (yapışkanlı), tel zımba, spiral cilt gibi seçenekler sunuyoruz. Kâğıt türü de (mat, parlak, kumlama) tercih edilebilir. Renkli, tek renkli, çift taraflı baskı hepsi mümkün. Fiyat ve teslim süresine göre en uygun cilt türünü önerebiliriz.",
-  },
-  {
-    q: "Menü baskısında malzeme dayanıklılığı nasıl?",
-    a: "Restoranlar, kafeler ve otellerin yoğun kullanımına dayanıklı, suya ve yağa dirençli kağıt ve laminasyon seçenekleri sunuyoruz. Özellikle yaz mevsiminde turist alanlarındaki restoranlar için su geçirmez plastik menü de basabiliriz. Kaliteyi test ettikten sonra tam doyumlu dönersiniz.",
-  },
+  { q: "Kaşe yaptırmak istiyorum hangi bilgileri size göndermeliyim?", a: "Limited Şirket ve Anonim Şirketlerde şirket ünvanı, adres ve vergi numarası yeterlidir. İsteğe göre telefon numarası, MERSİS numarası, ticaret sicil numarası veya mail adresi gibi bilgiler eklenebilir. Şahıs şirketinde isim-soyisim, adres ve T.C. kimlik numarası (veya vergi dairesi numarası) yeterlidir." },
+  { q: "Alanya'da acil baskı işlerini ne kadar sürede teslim ediyorsunuz?", a: "Dijital baskı işlerinin çoğunu aynı gün veya 24 saat içinde teslim ediyoruz. Yoğun sezonda bile acil işleriniz için önceliklendirme yapıyoruz." },
+  { q: "Tasarım dosyam yok, yardımcı olur musunuz?", a: "Elbette. Profesyonel grafik tasarım hizmetimizle kartvizit, broşür, menü ve davetiye tasarımlarınızı sizin için hazırlıyoruz." },
+  { q: "Konica Minolta C4065 ile hangi kağıtlara baskı yapılıyor?", a: "80g ince kağıttan 350g ve üzeri kalın kartona kadar, A3+ boyutuna dek canlı renklerle yüksek kaliteli baskı yapabiliyoruz." },
+  { q: "Dijital baskı mı ofset baskı mı seçmeliyim?", a: "Düşük ve orta adetli, hızlı işler için dijital baskı; çok yüksek adetli işler için ofset baskı daha ekonomiktir. Size en uygun seçeneği ücretsiz danışmanlıkla birlikte belirliyoruz." },
+  { q: "Alanya’nın hangi semt ve mahallelerine matbaa ve baskı hizmeti veriyorsunuz?", a: "Kale Matbaa olarak Alanya genelindeki tüm işletmelere profesyonel baskı çözümleri sunuyoruz. Başlıca hizmet verdiğimiz bölgeler: Saray, Çarşı, Güller Pınarı, Kadıpaşa, Kızlar Pınarı, Sugözü, Şekerhane, Fığla, Oba, Tosmur, Kestel, Mahmutlar, Kargıcak, Demirtaş, Konaklı, Payallar, Türkler, Avsallar ve Okurcalar." },
+  { q: "Siparişlerimizi nasıl teslim alabiliriz? Teslimat yapıyor musunuz?", a: "Siparişlerinizi merkez matbaamızdan doğrudan teslim alabilirsiniz. Yakın çevrede adrese teslimat, diğer bölgelerde özel kurye veya şehir içi sevk seçenekleri sunuyoruz." },
+  { q: "Mahmutlar, Oba, Konaklı veya Avsallar gibi mahallelerden verilen siparişler nasıl ulaştırılıyor?", a: "Müşterilerimiz siparişlerini matbaamızdan aldırabilir veya talep doğrultusunda adrese kurye/sevk seçeneğini tercih edebilirler." },
+  { q: "Kargıcak, Demirtaş veya Okurcalar’daki işletmeler için online sipariş ve tasarım süreci nasıl işliyor?", a: "kalematbaa.com veya WhatsApp hattımız üzerinden detayları dijital ortamda netleştirip baskı sürecini başlatabilirsiniz." },
+  { q: "Alanya Sanayi, Fığla, Kadıpaşa ve Saray Mahallesi’ndeki işletmelere teslimat kolaylığınız var mı?", a: "Sanayi, Fığla, Kadıpaşa ve Saray Mahallesi gibi yakın çevredeki işletmelere iş yoğunluğumuza göre elden teslimat konusunda destek oluyoruz." },
 ]
 
 const reviews = [
