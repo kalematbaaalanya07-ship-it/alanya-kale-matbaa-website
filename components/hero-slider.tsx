@@ -65,7 +65,7 @@ export function HeroSlider() {
       {/* Slides */}
       <div
         className="relative w-full"
-        style={{ aspectRatio: "16/5" }}
+        style={{ aspectRatio: "16/2.5" }}
       >
         {slides.map((slide, i) => (
           <Link
