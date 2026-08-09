@@ -134,8 +134,8 @@ export function SiteHeader() {
           </Button>
           <LanguageSwitcher />
           <Button asChild size="sm" className="hidden bg-brand-magenta text-brand-magenta-foreground hover:bg-brand-magenta/90 sm:inline-flex">
-            <Link href="/kase">
-              Profesyonel Kaşe Baskımı
+            <Link href="https://kalematbaa.com/kase">
+              Profesyonel Kaşe Basımı
               <ArrowRight className="size-4" />
             </Link>
           </Button>
