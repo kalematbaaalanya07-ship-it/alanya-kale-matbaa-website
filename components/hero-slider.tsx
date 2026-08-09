@@ -58,7 +58,7 @@ export function HeroSlider() {
 
   return (
     <div
-      className="relative w-full overflow-hidden bg-black"
+      className="relative w-full overflow-hidden bg-background"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >

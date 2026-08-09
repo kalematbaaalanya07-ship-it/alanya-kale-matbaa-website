@@ -155,7 +155,7 @@ export function SiteHeader() {
 
       {/* Desktop nav */}
       <div className="hidden border-t border-border lg:block">
-        <nav className="mx-auto flex max-w-6xl items-center px-4">
+        <nav className="mx-auto flex max-w-6xl items-center justify-center px-4">
           {nav.map((item) => (
             <Link
               key={item.href}
