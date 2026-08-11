@@ -1,6 +1,7 @@
 "use client"
 
 import { createContext, useContext, useEffect, useState } from "react"
+import { useRouter } from "next/navigation"
 import { dictionaries, type Dictionary, type Lang } from "@/lib/i18n"
 
 type LanguageContextValue = {
@@ -15,6 +16,7 @@ const STORAGE_KEY = "akm-lang"
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [lang, setLangState] = useState<Lang>("tr")
+  const router = useRouter()
 
   useEffect(() => {
     if (typeof window === "undefined") return
@@ -42,6 +44,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       if (next === "tr") url.searchParams.delete("lang")
       else url.searchParams.set("lang", next)
       window.history.replaceState({}, "", url)
+      router.refresh()
     }
   }
 
