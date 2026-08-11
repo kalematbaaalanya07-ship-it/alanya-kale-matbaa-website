@@ -62,10 +62,10 @@ export function HeroSlider() {
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
-      {/* Slides */}
-      <div
-        className="relative aspect-[16/5] w-full md:aspect-[16/2.5]"
-      >
+      {/* Slides — from sm up the container ratio equals the artwork's (3630x984),
+          so it fills edge to edge. On mobile the box is taller than the artwork;
+          the artwork stays uncropped and a blurred copy fills the band. */}
+      <div className="relative aspect-[16/7] w-full overflow-hidden sm:aspect-[3630/984]">
         {slides.map((slide, i) => (
           <Link
             key={slide.image}
@@ -75,13 +75,22 @@ export function HeroSlider() {
             className="absolute inset-0 block transition-opacity duration-700 focus:outline-none"
             style={{ opacity: i === current ? 1 : 0, pointerEvents: i === current ? "auto" : "none" }}
           >
+            {/* Blurred fill for the letterbox bands on mobile only. */}
+            <Image
+              src={slide.image}
+              alt=""
+              aria-hidden="true"
+              fill
+              sizes="100vw"
+              className="scale-150 object-cover blur-xl sm:hidden"
+            />
             <Image
               src={slide.image}
               alt={slide.alt}
               fill
               priority={i === 0}
               sizes="100vw"
-              className="object-contain object-center"
+              className="object-contain object-center sm:object-cover"
             />
           </Link>
         ))}
@@ -92,7 +101,7 @@ export function HeroSlider() {
         type="button"
         onClick={(e) => { e.preventDefault(); prev() }}
         aria-label="Önceki slayt"
-        className="absolute left-[3%] top-1/2 z-10 flex size-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60 md:left-[23%]"
+        className="absolute left-2 top-1/2 z-10 flex size-8 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60 sm:left-4 sm:size-10 md:left-6"
       >
         <ChevronLeft className="size-5" />
       </button>
@@ -102,7 +111,7 @@ export function HeroSlider() {
         type="button"
         onClick={(e) => { e.preventDefault(); next() }}
         aria-label="Sonraki slayt"
-        className="absolute right-[3%] top-1/2 z-10 flex size-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60 md:right-[23%]"
+        className="absolute right-2 top-1/2 z-10 flex size-8 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60 sm:right-4 sm:size-10 md:right-6"
       >
         <ChevronRight className="size-5" />
       </button>
