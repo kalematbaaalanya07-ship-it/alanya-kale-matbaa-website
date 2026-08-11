@@ -1,6 +1,6 @@
 import type { Lang } from "@/lib/i18n"
 
-export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "acil-kase" | "canva-tasarimi" | "5-baski-hatasi" | "grafik-trendler-2026" | "dukkan-acma-rehberi" | "dijital-vs-ofset" | "anlamli-hediye-baski" | "kartvizit-hizmet" | "brosur-hizmet" | "menus-hizmet" | "dijital-baski-hizmet" | "ofset-baski-hizmet" | "etiket-hizmet" | "afis-hizmet" | "el-ilani-hizmet" | "alanya-menu-tasarimi-2026"
+export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "acil-kase" | "canva-tasarimi" | "5-baski-hatasi" | "grafik-trendler-2026" | "dukkan-acma-rehberi" | "dijital-vs-ofset" | "anlamli-hediye-baski" | "kartvizit-hizmet" | "brosur-hizmet" | "menus-hizmet" | "dijital-baski-hizmet" | "ofset-baski-hizmet" | "etiket-hizmet" | "afis-hizmet" | "el-ilani-hizmet" | "alanya-menu-tasarimi-2026" | "tekne-turu-brosur-2026"
 
 export interface BlogSection {
   heading: string
@@ -126,7 +126,7 @@ export const blogPosts: BlogPost[] = [
         metaDescription:
           "Качественное изготовление печатей в Аланье: автоматические и классические печати, логотип и индивидуальный дизайн. Чёткий оттиск, прочные материалы.",
         intro: [
-          "Одним из самых практичных инструментов для быстрого подписания и завере��ия документов и отражения вашего корпоративного стиля является печать. В Alanya Kale Matbaa мы предлагаем качественные материалы и чё��кое качество оттиска как для автоматических, так и д��я классических печатей.",
+          "Одним из самых практичных инструментов для быстрого подписания и завере����ия документов и отражения вашего корпоративного стиля является печать. В Alanya Kale Matbaa мы предлагаем качественные материалы и чё��кое качество оттиска как для автоматических, так и д��я классических печатей.",
           "Нашими автоматическими печатями вы оставляете чистые и чёткие оттиски одним движением. Классические печати дарят надёжность традиционного использования. Оба типа доступны с логотипом, адресом, должностью и полностью индивидуальным дизайном.",
         ],
         sections: [
@@ -735,7 +735,7 @@ export const blogPosts: BlogPost[] = [
             bullets: [
               "В: Если я закажу в 23:00, печать готова в 07:00? О: Да! Мы работаем 24/7 для срочных случаев. Просто напишите 'СРОЧНО' в WhatsApp.",
               "В: Можете подготовить дизайн за 5 минут? О: Если есть предыдущий похожий дизайн - да. Иначе нужно 30-45 минут.",
-              "В: Когда печати ломаются или износились? О: Средний срок 3-5 лет. При интенсивном использовании 1-2 года, при лёгком 5-10 лет.",
+              "В: Когда печати ломаются или износились? О: Средни�� срок 3-5 лет. При интенсивном использовании 1-2 года, при лёгком 5-10 лет.",
               "В: У нас нет дизайна, может�� создать с нуля? О: Да. Скажи��е имя, должность, адрес. Макет за 30-45 минут.",
               "В: Автоматическую или классическую печать выбрать? О: Для срочных - обычно автоматическую (прочнее). Классическую тоже делаем.",
             ],
@@ -771,7 +771,7 @@ export const blogPosts: BlogPost[] = [
               "3-4 mm Bleed (taşma payı) ekleyin: Profesyonel kesim için tasarımınızın kenarlarından 3 mm dışarı taşması gerekir. Canva'da Dosya > Görünüm ayarları > Baskı taşmasını göster seçeneğini açın.",
               "Yüksek çözünürlüklü görseller kullanın: Baskıda net sonuç için görseller en az 300 DPI olmalıdır. İnternetten indirdiğiniz düşük çözünürlüklü fotoğraflar bulanık çıkar.",
               "PDF Print olarak indirin: Sağ üstteki Paylaş > İndir butonuna tıklayın. Dosya türü olarak PDF Print seçin (PDF Standard değil). Kırpma işaretleri ve taşma payı kutusunu işaretleyin.",
-              "Canva Pro kullanıyorsanız renk profilini CMYK seçin: Ücretsiz hesaplarda RGB çıkar, biz dönüşümünü yapabiliriz.",
+              "Canva Pro kullanıyorsanız renk profilini CMYK seçin: Ücretsiz hesaplarda RGB çıkar, biz dönüşüm��nü yapabiliriz.",
             ],
           },
           {
@@ -862,7 +862,7 @@ export const blogPosts: BlogPost[] = [
               "Выберите правильный размер: Используйте точные размеры продукта, который вы печатаете (например, стандартная визитка 85x55 мм, брошюра A5 148x210 мм). Используйте опцию 'Пользовательский размер' в Canva.",
               "Добавьте 3-4 мм выпуска за обрез: Для профессионального обрезания ваш дизайн должен выходить на 3 мм за край. Откройте Файл > Параметры просмотра > Показать выпуск за обрез в Canva.",
               "Используйте изображения высокого разрешения: Для четкой печати изображения должны быть не менее 300 DPI. Фотографии низкого разрешения из интернета будут выглядеть размытыми.",
-              "Скачайте как PDF для п��ча��и: Нажм��те Поделиться > Загр��з��ть в верхнем правом углу. Выберите PDF для печати (не PDF Standard). Отметь����е метки обре����и и выпуск за обрез.",
+              "Скачайте как PDF для п��ча��и: На��м��те Поделиться > Загр��з��ть в верхнем правом углу. Выберите PDF для печати (не PDF Standard). Отметь����е метки обре������и и выпуск за обрез.",
               "��с��и используете Canva Pro, установите цвет��вой профиль CMYK: Бесплат��ые учетные записи выда��т RGB, мы можем конвертировать дл�� вас.",
             ],
           },
@@ -1574,7 +1574,7 @@ export const blogPosts: BlogPost[] = [
           {
             heading: "2 | Как работает цифровая печать",
             bullets: [
-              "Прямая передача с файла на бумагу без п��астин: Использует технологию струйной или лазерной печати.",
+              "Прямая передача с файла на б��магу без п��астин: Использует технологию струйной или лазерной печати.",
               "Время установки почти равно нулю: Печать может начаться сразу после загрузки файла.",
               "Разрешение 600-1200 DPI достаточно для большинства маркетинговых материалов: Визитные карточки, листовки, брошюры печатаются хорошего качества.",
               "Идеально подходит для малых тиражей, персонализированных визитных карточек, листовок и брошюр: Переменная печать данных позволяет разные имена, даты, коды.",
@@ -1585,7 +1585,7 @@ export const blogPosts: BlogPost[] = [
             heading: "3 | Как работает офсетная печать",
             bullets: [
               "Краска передаётся с пластины на резиновое полотно, затем на бумагу: Основана на технологии литографии.",
-              "Установка занимает больше времени, но обеспечивает превосходные детали для больших о��ъёмов: Первые 100-200 к��пий сде��аны для конт��оля качества.",
+              "Установка занимает больше времени, но обеспечивает превосходные детали ��ля больших о��ъёмов: Первые 100-200 к��пий сде��аны для конт��оля качества.",
               "С разрешением 2400-4800 DPI для каталогов, буклетов и массовых работ: Качество фото очень высокое.",
               "Стоимость уменьшается с увеличением объёма: Гораздо более экономично, чем цифровая выше 1000 копий.",
               "Согласованность цвета в больших тиражах идеальна.",
@@ -2139,7 +2139,7 @@ export const blogPosts: BlogPost[] = [
         metaDescription: "Дизайн, бумага, печать, языки и доставка меню для ресторанов и кафе в Аланье в 2026 году.",
         intro: ["Если вы открываете ресторан или кафе в Аланье, меню — это не просто список блюд, а первое и самое сильное представление вашего бренда. В туристическом городе дизайн меню критически важен и для продаж, и для профессионального имиджа."] ,
         sections: [
-          { heading: "1. Важность дизайна меню в Аланье", paragraphs: ["В туристических районах Дамлаташ/Клеопатра, у Аланийской крепости, в Махмутларе, Оба и Конаклы гости просматривают меню за 5��8 секунд. Хороший дизайн с рекомендованными блюдами и визуалами может увеличить средний чек на 15–25%."] },
+          { heading: "1. Важность дизайна меню в Аланье", paragraphs: ["В туристических районах Дамлаташ/Клеопатра, у Аланийской крепости, в Махмутларе, Оба и Конаклы гости просматри��ают меню за 5��8 секунд. Хороший дизайн с рекомендованными блюдами и визуалами может увеличить средний чек на 15–25%."] },
           { heading: "2. Обязательные элементы дизайна меню в 2026 году", bullets: ["Минимум три языка: турецкий, английский и русский; немецкий по желанию", "Четкие жирные заголовки, описания 10–11 pt или крупнее", "Хорошо заметные цены, выровненные по правому краю или выделенные жирным", "Важный контраст фона и текста", "6–8 качественных фотографий вместо фото каждого блюда"] },
           { heading: "3. Рекомендации по размеру и формату", bullets: ["Кафе и завтраки: односторонний A4 или складной формат", "Ресторан: двусторонний A4 или A3", "Fine dining: твердая обложка-книжка", "Beach club и бар: водостойкое ламинированное меню", "Take-away и доставка: компактный складной или A5", "Тренд 2026: легкая качественная бумага и хорошая ламинация"] },
           { heading: "4. Выбор бумаги и печати", paragraphs: ["Идеальны мелованная или матовая бумага плотностью 130–170–200–300–350 г/м². Матовая ламинация и soft-touch добавляют прочность и премиальный вид. Цифровая печать тиражом 10–100 экземпляров удобна для сезонных обновлений."] },
@@ -2148,6 +2148,71 @@ export const blogPosts: BlogPost[] = [
           { heading: "7. Профессиональный дизайн и печать меню в Аланье", paragraphs: ["Alanya Kale Matbaa предлагает графический дизайн с CorelDRAW и поддержкой ИИ, многоязычную верстку, цифровую печать на Konica Minolta AccurioPrint C4065, бумагу разных плотностей, ламинацию, доставку в тот же день или в течение 24 часов и гибкое производство."] }
         ],
         cta: "Чтобы сделать меню красивым и продающим, просто пришлите список блюд и фотографии в WhatsApp."
+      }
+    }
+  },
+  {
+    slug: "tekne-turu-brosur-2026",
+    image: "/images/tekne-turu-brosur-2026.jpg",
+    imageAlt: "Alanya tekne turu ve turizm işletmeleri için çok dilli broşür tasarımı",
+    date: "2026",
+    content: {
+      tr: {
+        category: "Broşür",
+        title: "Tekne Turu ve Turizm İşletmeleri İçin Etkili Broşür Nasıl Hazırlanır?",
+        excerpt: "Alanya'da tekne turu, günlük tur veya yat kiralama işletmesi için 2026 sezonuna özel, satış odaklı broşür hazırlama rehberi.",
+        metaTitle: "Tekne Turu Broşürü Nasıl Hazırlanır? 2026 Rehberi | Kale Matbaa",
+        metaDescription: "Alanya'da tekne turu ve turizm işletmeleri için çok dilli, satış odaklı broşür tasarımı, kağıt, format ve baskı rehberi.",
+        intro: ["Alanya'da tekne turu, günlük tur, yat kiralama veya turizm işletmesi yönetiyorsanız, broşürünüz en önemli satış araçlarınızdan biridir. Özellikle Kleopatra, İskele, Mahmutlar ve Keykubat bölgelerinde müşteriler genellikle hızlı karar verir. İyi hazırlanmış bir broşür, turunuza olan ilgiyi artırır ve rezervasyon oranını yükseltir.", "Bu yazıda 2026 sezonu için Alanya'daki tekne turu ve turizm işletmelerine özel, pratik ve satış odaklı broşür hazırlama rehberini bulacaksınız."],
+        sections: [
+          { heading: "1. Neden Profesyonel Broşür Önemli?", bullets: ["Turistler genellikle 5-10 saniye içinde karar verir", "Kaliteli broşür güven verir, ucuz görünen broşür ise \"ucuz tur\" algısı yaratır", "Çok dilli broşür (Türkçe + İngilizce + Rusça) yabancı müşteri potansiyelini ciddi oranda artırır", "Sezon başında ve sezon ortasında dağıtılacak broşürler doğrudan rezervasyon getirir"] },
+          { heading: "2. Etkili Broşürde Olması Gerekenler", bullets: ["Net ve çekici başlık/slogan: \"Alanya'nın En Güzel Koyları – Günlük Tekne Turu\"", "Yüksek çözünürlüklü, profesyonel çekilmiş en az 4-6 fotoğraf (tekne, koylar, yemekler, insanlar, aktivite anları)", "Tur programı (saat saat)", "Dahil olan hizmetler (yemek, içecek, ekipman vb.)", "Net ve okunabilir fiyatlar", "Kalkış noktası, iletişim bilgileri, WhatsApp ve Instagram hesabı"] },
+          { heading: "3. Dil Seçimi", paragraphs: ["Alanya için en verimli kombinasyon Türkçe + İngilizce + Rusça'dır. Üç dili tek broşürde akıllıca yerleştirmek mümkündür."] },
+          { heading: "4. Boyut ve Format Önerileri", bullets: ["A4 Katlamalı (2 veya 3 kırımlı): en popüler ve ekonomik seçenek, dağıtımı kolaydır", "Tek sayfa A4 / A5: basit ve hızlı okunan turlar için uygundur", "Lüks kitapçık (4-8 sayfa): VIP ve private yacht turları için tercih edilir", "Kağıt: 150-170 gr parlak/mat kuşe (standart) veya 200-250 gr kuşe + selefon (premium)"] },
+          { heading: "5. Tasarımda Dikkat Edilmesi Gerekenler", bullets: ["Renkler markanızla uyumlu olsun (mavi-turkuaz tonları deniz teması için uygundur)", "Yazılar okunabilir olsun, fotoğraf üzerine yazı koyarken kontrastı kontrol edin", "QR kod ekleyin (WhatsApp, Instagram veya rezervasyon sayfasına yönlendirsin)", "Fiyatları net yazın, \"başlayan fiyatlar\" ifadesini kullanabilirsiniz", "Gereksiz metinlerden kaçının; az yazı + güçlü görsel daha etkilidir"] },
+          { heading: "6. Sık Yapılan Hatalar", bullets: ["Düşük kaliteli, bulanık fotoğraflar kullanmak", "Sadece Türkçe broşür hazırlamak", "Fiyatları çok küçük yazmak veya hiç yazmamak", "Broşürü aşırı kalabalık doldurmak", "İletişim bilgilerini (WhatsApp numarası) unutmak", "Aynı broşürü yıllarca değiştirmeden kullanmak"] },
+          { heading: "7. Adım Adım Broşür Hazırlama Süreci", bullets: ["Tur programını ve fiyatları netleştirin", "En iyi fotoğrafları seçin (yüksek çözünürlüklü)", "Metinleri 3 dilde hazırlayın", "Tasarım ve baskı firmasıyla çalışın", "Dijital prova alın ve onaylayın", "Baskıya geçin ve dağıtıma başlayın"] },
+          { heading: "8. Alanya'da Profesyonel Broşür Tasarımı ve Baskı", paragraphs: ["Alanya Kale Matbaa olarak tekne turu ve turizm işletmelerine özel broşür çözümleri sunuyoruz: ücretsiz profesyonel grafik tasarım, 3 dilli (TR-EN-RU) yerleşim, Konica Minolta AccurioPrint C4065 ile yüksek kaliteli baskı, parlak/mat kuşe + selefon seçenekleri, aynı gün veya 24 saat içinde teslim ve düşük adetten yüksek adete esnek üretim."] }
+        ],
+        cta: "Tekne turu veya turizm işletmeniz için broşür tasarımına başlamak için fotoğraflarınızı ve tur bilgilerinizi WhatsApp'tan bize gönderin."
+      },
+      en: {
+        category: "Brochure",
+        title: "How to Prepare an Effective Brochure for Boat Tours and Tourism Businesses",
+        excerpt: "A practical, sales-oriented brochure preparation guide for boat tour and tourism businesses in Alanya for the 2026 season.",
+        metaTitle: "How to Prepare a Boat Tour Brochure? 2026 Guide | Kale Matbaa",
+        metaDescription: "A multilingual, sales-oriented brochure design, paper, format and printing guide for boat tour and tourism businesses in Alanya.",
+        intro: ["If you operate a boat tour, daily tour, yacht charter, or tourism business in Alanya, your brochure is one of your most important sales tools. Especially in the Kleopatra, İskele, Mahmutlar, and Keykubat areas, customers usually make decisions quickly. A well-prepared brochure increases interest in your tour and boosts reservation rates.", "In this article, you will find a practical and sales-oriented brochure preparation guide specifically for boat tour and tourism businesses in Alanya for the 2026 season."],
+        sections: [
+          { heading: "1. Why is a Professional Brochure Important?", bullets: ["Tourists usually decide within 5–10 seconds", "A high-quality brochure builds trust, while a cheap-looking brochure creates the perception of a \"cheap tour\"", "Multilingual brochures (Turkish + English + Russian) significantly increase potential among foreign customers", "Brochures distributed at the beginning and middle of the season bring direct reservations"] },
+          { heading: "2. What an Effective Brochure Should Include", bullets: ["Clear and attractive title/slogan: \"Alanya's Most Beautiful Bays – Daily Boat Tour\"", "At least 4–6 high-resolution, professionally taken photos (boat, bays, food, people, activity moments)", "Tour program (hour by hour)", "Included services (meals, drinks, equipment, etc.)", "Clear and readable prices", "Departure point, contact information, WhatsApp and Instagram accounts"] },
+          { heading: "3. Language Choice", paragraphs: ["The most effective combination for Alanya is Turkish + English + Russian. It is possible to place all three languages smartly on a single brochure."] },
+          { heading: "4. Size and Format Recommendations", bullets: ["A4 Folded (2 or 3 folds): the most popular and economical option, easy to distribute", "Single-page A4 / A5: suitable for simple and quick-to-read tours", "Luxury booklet (4–8 pages): preferred for VIP and private yacht tours", "Paper: 150–170 gsm glossy/matte coated (standard) or 200–250 gsm coated + lamination (premium)"] },
+          { heading: "5. Design Considerations", bullets: ["Colors should match your brand (blue-turquoise tones are very suitable for a sea theme)", "Text must be readable; check contrast when placing text over background photos", "Add a QR code (directing to WhatsApp, Instagram, or a reservation page)", "Write prices clearly; you can use the phrase \"starting from\"", "Avoid unnecessary text. Less text + strong visuals are more effective"] },
+          { heading: "6. Common Mistakes", bullets: ["Using low-quality, blurry photos", "Preparing the brochure only in Turkish", "Writing prices too small or not writing them at all", "Overcrowding the brochure", "Forgetting contact information (WhatsApp number)", "Using the same brochure for years without updating"] },
+          { heading: "7. Step-by-Step Brochure Preparation Process", bullets: ["Clarify the tour program and prices", "Select the best photos (high resolution)", "Prepare the texts in 3 languages", "Work with a design and printing company", "Receive a digital proof and approve it", "Proceed to printing and start distribution"] },
+          { heading: "8. Professional Brochure Design and Printing in Alanya", paragraphs: ["As Alanya Kale Matbaa, we offer special brochure solutions for boat tour and tourism businesses: free professional graphic design, 3-language (TR-EN-RU) layout, high-quality printing with Konica Minolta AccurioPrint C4065, glossy/matte coated + lamination options, same-day or 24-hour delivery, and flexible production from low to high quantities."] }
+        ],
+        cta: "To start designing a brochure for your boat tour or tourism business, send us your photos and tour details via WhatsApp."
+      },
+      ru: {
+        category: "Брошюра",
+        title: "Как подготовить эффективную брошюру для лодочных туров и туристических компаний",
+        excerpt: "Практическое, ориентированное на продажи руководство по подготовке брошюр для лодочных туров и туристических компаний в Аланье на сезон 2026 года.",
+        metaTitle: "Как подготовить брошюру для лодочного тура? Руководство 2026 | Kale Matbaa",
+        metaDescription: "Многоязычное, ориентированное на продажи руководство по дизайну, бумаге, формату и печати брошюр для лодочных туров в Аланье.",
+        intro: ["Если вы управляете лодочным туром, ежедневным туром, арендой яхт или туристическим бизнесом в Аланье, ваша брошюра — один из самых важных инструментов продаж. Особенно в районах Клеопатра, Искеле, Махмутлар и Кейкубат клиенты обычно принимают решения быстро. Хорошо подготовленная брошюра повышает интерес к вашему туру и увеличивает количество бронирований.", "В этой статье вы найдёте практическое и ориентированное на продажи руководство по подготовке брошюр специально для лодочных туров и туристических компаний в Аланье на сезон 2026 года."],
+        sections: [
+          { heading: "1. Почему важна профессиональная брошюра?", bullets: ["Туристы обычно принимают решение за 5–10 секунд", "Качественная брошюра вызывает доверие, а дешёвая на вид создаёт ощущение «дешёвого тура»", "Многоязычные брошюры (турецкий + английский + русский) значительно увеличивают потенциал среди иностранных клиентов", "Брошюры, раздаваемые в начале и середине сезона, приносят прямые бронирования"] },
+          { heading: "2. Что должно быть в эффективной брошюре", bullets: ["Чёткий и привлекательный заголовок/слоган: «Самые красивые бухты Аланьи — ежедневный лодочный тур»", "Минимум 4–6 качественных фотографий высокого разрешения (лодка/яхта, бухты, еда, люди, моменты активностей)", "Программа тура (по часам)", "Включённые услуги (еда, напитки, оборудование и т.д.)", "Чёткие и читаемые цены", "Место отправления, контактная информация, WhatsApp и Instagram"] },
+          { heading: "3. Выбор языка", paragraphs: ["Самая эффективная комбинация для Аланьи — турецкий + английский + русский. Все три языка можно грамотно разместить на одной брошюре."] },
+          { heading: "4. Рекомендации по формату и размеру", bullets: ["A4 со складкой (2 или 3 сгиба): самый популярный и экономичный вариант, удобно раздавать", "Одностраничный A4 / A5: подходит для простых и быстро читаемых туров", "Люксовый буклет (4–8 страниц): предпочтительнее для VIP и частных яхтенных туров", "Бумага: 150–170 г/м² глянцевая/матовая мелованная (стандарт) или 200–250 г/м² мелованная + ламинация (премиум)"] },
+          { heading: "5. На что обратить внимание при дизайне", bullets: ["Цвета должны соответствовать вашему бренду (сине-бирюзовые тона отлично подходят для морской тематики)", "Текст должен быть читаемым; проверяйте контраст при размещении текста поверх фото", "Добавьте QR-код (ведущий на WhatsApp, Instagram или страницу бронирования)", "Пишите цены чётко; можно использовать формулировку «цены от»", "Избегайте лишнего текста. Меньше текста + сильные визуалы работают лучше"] },
+          { heading: "6. Частые ошибки", bullets: ["Использование некачественных, размытых фотографий", "Подготовка брошюры только на турецком языке", "Слишком мелкий шрифт цен или их отсутствие", "Перегруженность брошюры", "Забытые контактные данные (номер WhatsApp)", "Использование одной и той же брошюры годами без обновления"] },
+          { heading: "7. Пошаговый процесс подготовки брошюры", bullets: ["Уточните программу тура и цены", "Выберите лучшие фотографии (высокое разрешение)", "Подготовьте тексты на 3 языках", "Работайте с дизайн- и полиграфической компанией", "Получите цифровую пробу и утвердите её", "Переходите к печати и начинайте распространение"] },
+          { heading: "8. Профессиональный дизайн и печать брошюр в Аланье", paragraphs: ["Мы, Alanya Kale Matbaa, предлагаем специальные решения по брошюрам для лодочных туров и туристических компаний: бесплатный профессиональный графический дизайн, вёрстка на 3 языках (TR-EN-RU), высококачественная печать на Konica Minolta AccurioPrint C4065, варианты глянцевой/матовой мелованной бумаги + ламинация, доставка в тот же день или в течение 24 часов и гибкое производство от малых до больших тиражей."] }
+        ],
+        cta: "Чтобы начать разработку брошюры для вашего лодочного тура или туристического бизнеса, отправьте нам ваши фотографии и информацию о туре через WhatsApp."
       }
     }
   },
