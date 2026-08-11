@@ -77,7 +77,7 @@ Contact us now to get a quote and see samples. At Alanya Kale Matbaa, we're read
 
 ## Кто выбирает нас?
 
-Отели, рестораны, туристические компании, агентства недвижимости, бухгалтерские и юридические конторы, строительные фирмы и предприниматели… Короче говоря, любой вид бизнеса, работающего в Аланье. Мы предлагаем преимущества быстрого производства и доступных цен, особенно для сезонных предприятий.
+Отели, рестораны, туристические компании, агентства недвижимости, бухгалтерские и юридические конторы, строительные фирмы и предприниматели… Короче говоря, любой вид бизнеса, работающего в Аланье. Мы предлагаем преимущества быстрого производ��тва и доступных цен, особенно для сезонных предприятий.
 
 Процесс заказа печати очень прост. Отправьте нам логотип и текст через WhatsApp, мы предложим размер и модель, а после вашего подтверждения начнём производство. Время производства после утверждения дизайна обычно составляет 1 рабочий день.
 
@@ -96,47 +96,49 @@ Contact us now to get a quote and see samples. At Alanya Kale Matbaa, we're read
       title: 'Professional Brochure Printing in Alanya',
       metaTitle: 'Professional Brochure Printing in Alanya | Vivid Colors & Premium Quality',
       subtitle: 'One of the most effective ways to promote your business in Alanya is a quality brochure.',
-      content: `One of the most effective ways to promote your business in Alanya is a quality brochure. In this city with heavy tourist traffic and high competition, a well-designed and well-printed flyer or brochure is a powerful marketing tool that brings in customers. At Alanya Kale Matbaa, we produce professional brochures with paper options up to 350 gsm, vivid colors, and various folding options.
+      content: `Professional Brochure Printing in Alanya
 
-A brochure isn't just for providing information — it's used to convey the feel of your brand. With matte or glossy lamination, special folding, thick paper, and high-resolution printing, whoever holds it should think "this company is quality." That's exactly our goal.
+One of the most effective ways to promote your business in Alanya is a high-quality brochure. In this city with heavy tourist traffic and high competition, a well-designed and properly printed flyer or brochure is a powerful marketing tool that brings in customers. At Alanya Kale Matbaa, we produce professional brochure printing with paper options up to 350 gsm, vibrant colors, and various folding options.
 
-## Why Does a Quality Brochure Matter?
+A brochure is not only for providing information — it is also used to make people feel your brand. With matte or glossy lamination, special folds, thick paper, and high-resolution printing, the person who holds it should think: “This company is high quality.” That is exactly what we aim for.
 
-In Alanya, hotels, restaurants, boat tours, spa centers, real estate offices, and tour companies especially use brochures. A cheap, faded brochure can harm your brand. Vivid, saturated colors and thick paper elevate the perception of professionalism.
+Why Quality Brochures Matter
+
+In Alanya, hotels, restaurants, boat tours, spa centers, real estate offices, and tour companies especially use brochures. A cheap brochure with dull colors can damage your brand. Vibrant, saturated colors and thick paper raise the perception of professionalism.
 
 Thanks to our Konica Minolta AccurioPress C4065 digital printing press:
-- Vivid and saturated colors
+- Vibrant and saturated colors
 - High resolution
 - Paper up to 350 gsm
 - Various folding options (single fold, double fold, Z-fold, accordion, etc.)
-- Same quality for small and large quantities
+- The same quality for both small and large quantities
 
-Thanks to digital printing technology, you get results close to offset quality even for low-quantity orders. We also offer same-day or next-day delivery for urgent needs.
+With digital printing technology, even small-quantity orders deliver results close to offset quality. We also offer same-day or next-day delivery for urgent needs.
 
-## Paper and Finish Options
+Paper and Finish Options
 
 - 130 gsm, 170 gsm, 200 gsm, 300 gsm, and 350 gsm coated paper
 - Matte or glossy lamination
 - Special cutting and rounded corner options
 
-If you don't have a design, we can help. With your existing logo and text, we can prepare simple, effective brochure designs suited to Alanya.
+If you don’t have a design, we can help. Using your existing logo and texts, we can prepare clean, effective brochure designs suitable for Alanya.
 
-## Who Is It Ideal For?
+Who Is It Ideal For?
 
 - Boat tour and transfer companies
-- Restaurants and cafés
+- Restaurant and café businesses
 - Hotels and guesthouses
 - Real estate offices
 - Beauty centers and spas
 - Event and organization companies
 
-We can print your brochure multilingually in Turkish, English, Russian, or German. You can use this to your advantage as a tourism city.
+We can print your brochure in multiple languages: Turkish, English, Russian, or German. This way you can take advantage of being a tourism city.
 
-The order process is simple: send us your design or request design support, let's choose the paper and folding together, and after approval we move to printing. We offer economical solutions even for small quantities.
+The ordering process is simple: Send us your design or request design support, let’s choose the paper and folding options together, and after approval we start printing. We offer economical solutions even for small quantities.
 
-When getting brochures printed in Alanya, don't just look at price — also consider paper quality, color saturation, and delivery speed. Because whoever holds it will remember your brand through that brochure.
+When having brochures printed in Alanya, look not only at the price but also at paper quality, color saturation, and delivery speed. Because the person who holds it will remember your brand through that brochure.
 
-Get a quote now, see samples, and get brochures that promote your business in the best way.`,
+Get a quote right away, see the samples, and have brochures that present your business in the best possible way.`,
       faqs: [
         { question: 'What is the minimum quantity?', answer: 'We start from 50 pieces thanks to digital printing.' },
         { question: 'Is same-day delivery possible?', answer: 'Usually yes for urgent orders.' },
@@ -148,47 +150,49 @@ Get a quote now, see samples, and get brochures that promote your business in th
       title: 'Профессиональная печать брошюр в Аланье',
       metaTitle: 'Профессиональная печать брошюр в Аланье | Яркие цвета и премиум-качество',
       subtitle: 'Один из самых эффективных способов продвижения вашего бизнеса в Аланье — качественная брошюра.',
-      content: `Один из самых эффективных способов продвижения вашего бизнеса в Аланье — качественная брошюра. В этом городе с высоким туристическим потоком и конкуренцией правильно спроектированная и напечатанная листовка или брошюра — это мощный маркетинговый инструмент, привлекающий клиентов. В Alanya Kale Matbaa мы изготавливаем профессиональные брошюры на бумаге плотностью до 350 г/м², с яркими цветами и различными вариантами фальцовки.
+      content: `Профессиональная печать брошюр в Аланье
 
-Брошюра служит не только для информирования, но и для передачи ощущения бренда. С матовой или глянцевой ламинацией, специальной фальцовкой, плотной бумагой и печатью высокого разрешения тот, кто её держит, должен подумать: «эта компания качественная». Именно к этому мы стремимся.
+Один из самых эффективных способов продвигать свой бизнес в Аланье — качественная брошюра. В городе с большим потоком туристов и высокой конкуренцией хорошо спроектированный и правильно напечатанный флаер или брошюра становится мощным маркетинговым инструментом, который привлекает клиентов. В Alanya Kale Matbaa мы выполняем профессиональную печать брошюр на бумаге плотностью до 350 г/м², с яркими цветами и различными вариантами фальцовки.
 
-## Почему важна качественная брошюра?
+Брошюра нужна не только для передачи информации — она также должна передавать ощущение вашего бренда. Матовая или глянцевая ламинация, специальная фальцовка, плотная бумага и высокое разрешение печати — всё это должно заставить человека, взявшего брошюру в руки, подумать: «Эта компания качественная». Именно к этому мы и стремимся.
 
-В Аланье брошюры особенно активно используют отели, рестораны, компании морских экскурсий, спа-центры, агентства недвижимости и туристические компании. Дешёвая брошюра с бледными цветами может повредить вашему бренду. Яркие насыщенные цвета и плотная бумага, напротив, повышают восприятие профессионализма.
+Почему важна качественная брошюра
+
+В Аланье брошюры особенно активно используют отели, рестораны, лодочные туры, спа-центры, агентства недвижимости и туристические компании. Дешёвая брошюра с блёклыми цветами может навредить вашему бренду. Яркие, насыщенные цвета и плотная бумага повышают восприятие профессионализма.
 
 Благодаря нашей цифровой печатной машине Konica Minolta AccurioPress C4065:
 - Яркие и насыщенные цвета
 - Высокое разрешение
 - Бумага плотностью до 350 г/м²
-- Различные варианты фальцовки (одинарный, двойной, Z-фальц, гармошка и т.д.)
-- Одинаковое качество при малых и больших тиражах
+- Различные варианты фальцовки (одинарный сгиб, двойной сгиб, Z-фальцовка, гармошка и др.)
+- Одинаковое качество как при малых, так и при больших тиражах
 
-Благодаря цифровой печати вы получаете результат, близкий к офсетному качеству, даже при небольших тиражах. Также предлагаем доставку в тот же или на следующий день для срочных заказов.
+Цифровая технология печати позволяет даже при небольших тиражах получать результат, близкий к офсетному качеству. Также мы предлагаем доставку в тот же или на следующий день при срочных заказах.
 
-## Варианты бумаги и покрытия
+Варианты бумаги и отделки
 
-- Мелованная бумага 130, 170, 200, 300 и 350 г/м²
+- Мелованная бумага 130 г/м², 170 г/м², 200 г/м², 300 г/м² и 350 г/м²
 - Матовая или глянцевая ламинация
-- Специальная резка и скруглённые углы
+- Специальная вырубка и варианты со скруглёнными углами
 
-Если у вас нет готового дизайна, мы поможем. С вашим логотипом и текстом мы можем подготовить простой и эффективный дизайн брошюры, подходящий для Аланьи.
+Если у вас нет готового дизайна — мы поможем. На основе вашего логотипа и текстов мы можем подготовить чистые, эффективные и подходящие для Аланьи макеты брошюр.
 
-## Для кого это идеально?
+Для кого это идеально?
 
-- Компании морских экскурсий и трансферов
+- Компании лодочных туров и трансфера
 - Рестораны и кафе
-- Отели и гостевые дома
+- Отели и пансионы
 - Агентства недвижимости
-- Салоны красоты и спа
-- Организаторы мероприятий
+- Центры красоты и спа
+- Компании по организации мероприятий
 
-Мы можем напечатать вашу брошюру на нескольких языках — турецком, английском, русском или немецком. Используйте это как преимущество туристического города.
+Мы можем печатать вашу брошюру на нескольких языках: турецком, английском, русском или немецком. Так вы сможете использовать преимущество туристического города.
 
-Процесс заказа прост: отправьте нам свой дизайн или запросите помощь в разработке, вместе выберем бумагу и тип фальцовки, после утверждения переходим к печати. Предлагаем экономичные решения даже для небольших тиражей.
+Процесс заказа прост: пришлите свой дизайн или запросите помощь в разработке, вместе выберем бумагу и вариант фальцовки, после утверждения запускаем печать. Мы предлагаем экономичные решения даже при небольших тиражах.
 
-При заказе брошюр в Аланье обращайте внимание не только на цену, но и на качество бумаги, насыщенность цвета и скорость доставки. Ведь тот, кто держит брошюру в руках, запомнит ваш бренд именно по ней.
+Когда заказываете печать брошюр в Аланье, смотрите не только на цену, но и на качество бумаги, насыщенность цвета и скорость доставки. Потому что человек, взявший брошюру в руки, будет помнить ваш бренд именно по ней.
 
-Получите расчёт стоимости прямо сейчас, посмотрите образцы и получите брошюры, которые наилучшим образом представят ваш бизнес.`,
+Запросите предложение прямо сейчас, посмотрите образцы и получите брошюры, которые наилучшим образом представят ваш бизнес.`,
       faqs: [
         { question: 'Какой минимальный тираж?', answer: 'Благодаря цифровой печати начинаем от 50 штук.' },
         { question: 'Возможна ли доставка в тот же день?', answer: 'Для срочных заказов — в большинстве случаев да.' },
@@ -260,7 +264,7 @@ Ordering is very easy. Send your sample or requests via WhatsApp, and we'll offe
 
 ## Срочная потребность в приглашениях
 
-Ситуация, часто встречающаяся в Аланье: необходимость напечатать приглашения в последний момент. Благодаря нашей цифровой печатной инфраструктуре C4065 мы предлагаем быстрое решение для срочных заказов приглашений. Если ваш дизайн готов, возможна доставка в тот же или на следующий день.
+Ситуация, часто встречающаяся в Аланье: необходимость напечатать приглашения в последний момент. Благодаря нашей цифровой печатной инфраструктуре C4065 мы предлагаем быстрое решение для срочных заказов приглашений. Если ваш дизайн готов, возможна доставк�� в тот же или на следующий день.
 
 ## Поддержка в дизайне
 
@@ -358,7 +362,7 @@ Order your professional business cards now with the Alanya Kale Matbaa differenc
 - Управляющие отелей и ресторанов
 - Консультанты по недвижимости
 - Туристические и трансферные компании
-- Свободные специалисты — врачи, юристы, бухгалтеры
+- Свободны�� специалисты — врачи, юристы, бухгалтеры
 - Салоны красоты и спа
 - Строительные и ремонтные компании
 
@@ -534,7 +538,7 @@ Get a quote now, see samples, and bring your tables together with your brand. Yo
 
 ## Дизайн и области применения
 
-Меню ресторана, список блюд дня, предложения напитков, QR-код для перехода на цифровое меню, аккаунты в социальных сетях или поздравления с особыми праздниками… Всё это можно напечатать на плейсмате. Многоязычный дизайн (турецкий + английский/русский) даёт большое преимущество особенно в Аланье.
+Меню ресторана, список блюд дня, предложения напитков, QR-код для перехода на цифровое меню, аккаунты в социальных сетях и��и поздравления с особыми праздниками… Всё это можно напечатать на плейсмате. Многоязычный дизайн (турецкий + английский/русский) даёт большое преимущество особенно в Аланье.
 
 Наш процесс заказа прост. Отправьте нам свой дизайн или запросите помощь в разработке с вашим логотипом и текстом. После утверждения мы быстро переходим к печати. Мы предлагаем одинаковое качество от малых до больших тиражей.
 
@@ -612,7 +616,7 @@ Get a quote now and make your corporate correspondence professional.`,
 
 Получите расчёт стоимости прямо сейчас и сделайте вашу корпоративную переписку профессиональной.`,
       faqs: [
-        { question: 'Будут ли проблемы при печати на принтере?', answer: 'Бумага 90 г/м² первого сорта подходит для принтеров и копировальных аппаратов.' },
+        { question: 'Будут ли проблемы при печат�� на принтере?', answer: 'Бумага 90 г/м² первого сорта подходит для принтеров и копировальных аппаратов.' },
         { question: 'Минимальное количество?', answer: 'Начинаем от 50 штук.' },
         { question: 'Возможно ли срочное производство?', answer: 'Да.' },
       ],
@@ -714,9 +718,9 @@ Get a quote now.`,
       title: 'Печать презентационных папок с карманами в Аланье',
       metaTitle: 'Печать папок с карманами в Аланье | Ламинированные, лакированные, тиснёные',
       subtitle: 'Папка с карманами, которую вы используете в корпоративных презентациях, файлах с предложениями и на встречах с клиентами — показатель вашего профессионализма.',
-      content: `Папка с карманами, которую вы используете в корпоративных презентациях, файлах с предложениями и на встречах с клиентами, — показатель вашего профессионализма. В Alanya Kale Matbaa мы изготавливаем ламинированные, лакированные и тиснёные презентационные папки с карманами.
+      content: `Папка с карманами, которую вы используете в корпоративных презентациях, файлах с предложениями и на встречах с клиентами, — показатель вашего профессионализма. В Alanya Kale Matbaa мы изготавливаем ламинир��ванные, лакированные и тиснёные презентационные папки с карманами.
 
-Папка с карманами защищает документы, которые вы в неё вкладываете, а также рекламирует вашу компанию. Качественная папка с карманами посылает клиенту сообщение: «эта компания серьёзно относится к своей работе».
+Папка с карманами защищает документы, которые вы в неё в��ладываете, а также рекламирует вашу компанию. Качественная папка с карманами посылает клиенту сообщение: «эта компания серьёзно относится к своей работе».
 
 ## Характеристики
 
@@ -942,7 +946,7 @@ Get a quote now.`,
       title: 'Печать промо-магнитов в Аланье',
       metaTitle: 'Печать магнитов на холодильник в Аланье | Промо и подарки',
       subtitle: 'Магнит на холодильник — это одновременно декоративный и эффективный промо-продукт.',
-      content: `Магнит на холодильник — это одновременно декоративный и эффективный промо-продукт. В Alanya Kale Matbaa мы производим качественные магниты на холодильник и промо-магниты овальной, индивидуальной и стандартной формы.
+      content: `Магнит на холодильник — это однов��еменно декоративный и эффективный промо-продукт. В Alanya Kale Matbaa мы производим качественные магниты на холодильник и промо-магниты овальной, индивидуальной и стандартной формы.
 
 Магнит — это продукт, который ваш клиент видит каждый день. Качественно напечатанный магнит постоянно напоминает о вашем бренде и хранится долгое время.
 
@@ -954,7 +958,7 @@ Get a quote now.`,
 - Сильный магнит
 - Прочная поверхность
 
-Мы достигаем высокого разрешения с цифровой печатью C4065. Особенно предпочитают рестораны, отели, магазины подарков и event-компании.
+Мы достигаем высокого разрешения с цифро��ой печатью C4065. Особенно предпочитают рестораны, отели, магазины подарков и event-компании.
 
 Отправьте свой дизайн, и мы предложим наилучший размер и вариант резки.
 
@@ -1420,7 +1424,7 @@ Get a quote now, increase customer loyalty.`,
       title: 'Печать карт лояльности клиентов в Аланье',
       metaTitle: 'Печать карт лояльности в Аланье | Кафе и рестораны',
       subtitle: 'Мы печатаем карты лояльности для кафе, ресторанов, парикмахерских и розничных магазинов, увеличивающие повторные продажи.',
-      content: `Мы печатаем карты лояльности для кафе, ресторанов, парикмахерских и розничных магазинов, увеличивающие повторные продажи. Мы печатаем на мелованной бумаге 300-350 г/м² или на специальной текстурированной бумаге, подходящей для штампов/записей. Предлагаем поверхности, подходящие для нанесения печатей, и варианты индивидуального размера.
+      content: `Мы печатаем карты лояль��ости для кафе, ресторанов, парикмахерских и розничных магазинов, увеличивающие повторные продажи. Мы печатаем на мелованной бумаге 300-350 г/м² или на специальной текстурированной бумаге, подходящей для штампов/записей. Предлагаем поверхности, подходящие для нанесения печатей, и варианты индивидуального размера.
 
 ## Характеристики
 
