@@ -90,7 +90,7 @@ export function HeroSlider() {
               fill
               priority={i === 0}
               sizes="100vw"
-              className="scale-75 object-contain object-center"
+              className="scale-[90%] object-contain object-center"
             />
           </Link>
         ))}
