@@ -62,9 +62,10 @@ export function HeroSlider() {
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
-      {/* Slides — the compact container keeps the hero 25% shorter while preserving the wide artwork.
-          On mobile the artwork stays uncropped and a blurred copy fills the surrounding band. */}
-      <div className="relative aspect-[64/21] w-full overflow-hidden sm:aspect-[605/123]">
+      {/* Slides — from sm up the container ratio equals the artwork's (3630x984),
+          so it fills edge to edge. On mobile the box is taller than the artwork;
+          the artwork stays uncropped and a blurred copy fills the band. */}
+      <div className="relative aspect-[16/7] w-full overflow-hidden sm:aspect-[3630/984]">
         {slides.map((slide, i) => (
           <Link
             key={slide.image}
