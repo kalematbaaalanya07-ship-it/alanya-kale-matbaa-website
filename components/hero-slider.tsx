@@ -52,7 +52,7 @@ export function HeroSlider() {
 
   useEffect(() => {
     if (paused) return
-    const id = setInterval(next, 3500)
+    const id = setInterval(next, 5000)
     return () => clearInterval(id)
   }, [next, paused])
 
