@@ -63,7 +63,7 @@ export default function HomePage() {
           </div>
           <div className="relative min-h-[320px] overflow-hidden sm:min-h-[440px] lg:min-h-[560px]">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dijitalbask%C4%B11-Cd7L7DCvoRhZFUjIAgSuwb8yLEMReS.jpeg"
+              src="/images/digital-press-home.webp"
               alt="Konica Minolta AccurioPrint C4065 dijital baskı makinesi"
               fill
               priority
