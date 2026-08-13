@@ -42,10 +42,10 @@ export function StructuredData() {
     "@type": ["LocalBusiness", "PrintShop", "ProfessionalService"],
     "@id": businessId,
     name: site.name,
-    image: `${site.url}/images/digital-press.png`,
+    image: `${site.url}/images/digital-press.webp`,
     logo: {
       "@type": "ImageObject",
-      url: `${site.url}/images/kale-matbaa-logo.png`,
+      url: `${site.url}/images/kale-matbaa-logo.webp`,
       width: 1200,
       height: 1200,
     },
@@ -140,7 +140,7 @@ export function StructuredData() {
         { "@type": "City", name: "Konaklı" },
         { "@type": "AdministrativeArea", name: "Antalya" },
       ],
-      image: `${site.url}/images/digital-press.png`,
+      image: `${site.url}/images/digital-press.webp`,
       offers: { "@type": "Offer", priceCurrency: "TRY", price: "Fiyat sorgulatınız", priceValidUntil: "2025-12-31" },
     },
     {
@@ -211,7 +211,7 @@ export function StructuredData() {
     "@type": "Organization",
     name: site.name,
     url: site.url,
-    logo: `${site.url}/images/digital-press.png`,
+    logo: `${site.url}/images/digital-press.webp`,
     description:
       "Alanya'da 35+ yıllık matbaacılık tecrübesi. Dijital & ofset baskı, kaşe, katalog, broşür, kartvizit ve menü baskı hizmetleri.",
     foundingDate: "1990",

@@ -30,7 +30,7 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     slug: "kase",
-    image: "/images/stamps.png",
+    image: "/images/stamps.webp",
     imageAlt: "Alanya Kale Matbaa otomatik ve klasik kaşe üretimi",
     date: "2025",
     content: {
@@ -153,7 +153,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "brosur",
-    image: "/images/brochures.png",
+    image: "/images/brochures.webp",
     imageAlt: "Alanya Kale Matbaa dijital ve ofset broşür baskısı",
     date: "2025",
     content: {
@@ -283,7 +283,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "davetiye",
-    image: "/images/invitations.png",
+    image: "/images/invitations.webp",
     imageAlt: "Alanya Kale Matbaa şık davetiye baskısı",
     date: "2025",
     content: {
@@ -416,7 +416,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "kartvizit",
-    image: "/images/business-cards.png",
+    image: "/images/business-cards.webp",
     imageAlt: "Alanya Kale Matbaa profesyonel kartvizit baskısı",
     date: "2025",
     content: {
@@ -562,7 +562,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "acil-kase",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ka%C5%9Fe2-tuhAHpbeszD9GDtuaffnp1Dv0mCzWf.jpg",
+    image: "/images/remote-webp/remote-29.webp",
     imageAlt: "Alanya Kale Matbaa acil kaşe üretimi, aynı gün teslim",
     date: "2025",
     content: {
@@ -747,7 +747,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "canva-tasarimi",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/canvakalematbaa-HrbbKNcaloMy6UIifypmrV0mJFYt6U.jpg",
+    image: "/images/remote-webp/remote-30.webp",
     imageAlt: "Canva ile profesyonel iş kartı tasarımı, Alanya Kale Matbaa",
     date: "2025",
     content: {
@@ -893,7 +893,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "5-baski-hatasi",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/5hata-zuOvnkpeIh2iPYNQUxyv2uYa3q3J7v.jpg",
+    image: "/images/remote-webp/remote-31.webp",
     imageAlt: "Baskı dosyası hazırlanırken yapılan yaygın 5 hata",
     date: "2025",
     content: {
@@ -1087,7 +1087,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "grafik-trendler-2026",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2026trend-UehtsXKBIcTHOGaPiAVhazeYmgYHnl.jpg",
+    image: "/images/remote-webp/remote-32.webp",
     imageAlt: "2026 grafik tasarım trendleri - Hyper-Bloom, Cloud Dancer, sinematik fotoğrafçılık",
     date: "2025",
     content: {
@@ -1278,7 +1278,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "dukkan-acma-rehberi",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/alanyadukkanacmarehberi-OWtPQNeBIydm1l2wqMyAUqJ7rMi3Rv.jpg",
+    image: "/images/remote-webp/remote-33.webp",
     imageAlt: "Alanya'da dükkan açacaklar için baskı ve matbaa rehberi - profesyonel malzemeler",
     date: "2025",
     content: {
@@ -1424,7 +1424,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "dijital-vs-ofset",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dijitalofset-1a4i8lEYMy62K7WVANy7gL6i9hpkCK.jpg",
+    image: "/images/remote-webp/remote-34.webp",
     imageAlt: "Dijital baskı vs Ofset baskı karşılaştırması - tiraj, kalite ve teknoloji",
     date: "2025",
     content: {
@@ -1615,7 +1615,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "anlamli-hediye-baski",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hediyekart%C4%B1-rza0dLUy5mVHcu3vlSh9JIBmba3RAg.jpeg",
+    image: "/images/remote-webp/remote-35.webp",
     imageAlt: "Anlam yüklü hediye baskıları - kişisel fotoğraf kartı ve tasarım örnekleri",
     date: "2025",
     content: {
@@ -1785,7 +1785,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "kartvizit-hizmet",
-    image: "/images/business-cards.png",
+    image: "/images/business-cards.webp",
     imageAlt: "Profesyonel kartvizit tasarım ve baskısı",
     date: "2025",
     content: {
@@ -1862,7 +1862,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "brosur-hizmet",
-    image: "/images/brochures.png",
+    image: "/images/brochures.webp",
     imageAlt: "Etkili broşür tasarımı ve baskısı",
     date: "2025",
     content: {
@@ -1939,7 +1939,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "menus-hizmet",
-    image: "/images/amerikan-servis.png",
+    image: "/images/amerikan-servis.webp",
     imageAlt: "Restaurant menü tasarımı ve baskısı",
     date: "2025",
     content: {
@@ -1977,7 +1977,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "dijital-baski-hizmet",
-    image: "/images/digital-press.png",
+    image: "/images/digital-press.webp",
     imageAlt: "Hızlı dijital baskı çözümleri",
     date: "2025",
     content: {
@@ -2015,7 +2015,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ofset-baski-hizmet",
-    image: "/images/offset.png",
+    image: "/images/offset.webp",
     imageAlt: "Yüksek adetli ofset baskı",
     date: "2025",
     content: {
@@ -2053,7 +2053,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "etiket-hizmet",
-    image: "/images/etiket.png",
+    image: "/images/etiket.webp",
     imageAlt: "Ürün etiketleri ve paket tasarımı",
     date: "2025",
     content: {
@@ -2091,7 +2091,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "alanya-menu-tasarimi-2026",
-    image: "/images/menu-guide-2026.jpg",
+    image: "/images/menu-guide-2026.webp",
     imageAlt: "Alanya restoran ve kafeleri için profesyonel menü tasarımı ve baskısı",
     date: "2026",
     content: {
@@ -2153,7 +2153,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "tekne-turu-brosur-2026",
-    image: "/images/tekne-turu-brosur-2026.jpg",
+    image: "/images/tekne-turu-brosur-2026.webp",
     imageAlt: "Alanya tekne turu ve turizm işletmeleri için çok dilli broşür tasarımı",
     date: "2026",
     content: {
@@ -2218,7 +2218,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "afis-hizmet",
-    image: "/images/afis.png",
+    image: "/images/afis.webp",
     imageAlt: "Etkinlik ve reklam afiş tasarımı",
     date: "2025",
     content: {

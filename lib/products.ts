@@ -15,7 +15,7 @@ export type Product = {
 export const products: Product[] = [
   {
     slug: "kase",
-    image: "/images/stamps.png",
+    image: "/images/stamps.webp",
     content: {
       tr: {
         title: "Kaliteli Kaşe Üretimi",
@@ -36,7 +36,7 @@ export const products: Product[] = [
   },
   {
     slug: "brosur",
-    image: "/images/brochures.png",
+    image: "/images/brochures.webp",
     content: {
       tr: {
         title: "Profesyonel Broşür Baskı",
@@ -57,7 +57,7 @@ export const products: Product[] = [
   },
   {
     slug: "davetiye",
-    image: "/images/invitations.png",
+    image: "/images/invitations.webp",
     content: {
       tr: {
         title: "Şık Davetiye Baskı",
@@ -78,7 +78,7 @@ export const products: Product[] = [
   },
   {
     slug: "kartvizit",
-    image: "/images/business-cards.png",
+    image: "/images/business-cards.webp",
     content: {
       tr: {
         title: "Profesyonel Kartvizit Baskı",
@@ -99,7 +99,7 @@ export const products: Product[] = [
   },
   {
     slug: "afis",
-    image: "/images/afis.png",
+    image: "/images/afis.webp",
     content: {
       tr: {
         title: "Afiş Baskı",
@@ -120,7 +120,7 @@ export const products: Product[] = [
   },
   {
     slug: "amerikan-servis",
-    image: "/images/amerikan-servis.png",
+    image: "/images/amerikan-servis.webp",
     content: {
       tr: {
         title: "Amerikan Servis Baskı",
@@ -141,7 +141,7 @@ export const products: Product[] = [
   },
   {
     slug: "antetli-kagit",
-    image: "/images/antetli.png",
+    image: "/images/antetli.webp",
     content: {
       tr: {
         title: "Antetli Kağıt",
@@ -162,7 +162,7 @@ export const products: Product[] = [
   },
   {
     slug: "bloknot",
-    image: "/images/bloknot.png",
+    image: "/images/bloknot.webp",
     content: {
       tr: {
         title: "Bloknot Baskı",
@@ -183,7 +183,7 @@ export const products: Product[] = [
   },
   {
     slug: "cepli-dosya",
-    image: "/images/cepli-dosya.png",
+    image: "/images/cepli-dosya.webp",
     content: {
       tr: {
         title: "Cepli Dosya",
@@ -204,7 +204,7 @@ export const products: Product[] = [
   },
   {
     slug: "etiket-cikartma",
-    image: "/images/etiket.png",
+    image: "/images/etiket.webp",
     content: {
       tr: {
         title: "Etiket ve Çıkartma Baskı",
@@ -225,7 +225,7 @@ export const products: Product[] = [
   },
   {
     slug: "karton-canta",
-    image: "/images/karton-canta.png",
+    image: "/images/karton-canta.webp",
     content: {
       tr: {
         title: "Karton Çanta",
@@ -246,7 +246,7 @@ export const products: Product[] = [
   },
   {
     slug: "kup-bloknot",
-    image: "/images/kup-bloknot.png",
+    image: "/images/kup-bloknot.webp",
     content: {
       tr: {
         title: "Küp Bloknot",
@@ -267,7 +267,7 @@ export const products: Product[] = [
   },
   {
     slug: "magnet",
-    image: "/images/magnet.png",
+    image: "/images/magnet.webp",
     content: {
       tr: {
         title: "Magnet Baskı",
@@ -288,7 +288,7 @@ export const products: Product[] = [
   },
   {
     slug: "tesekkur-karti",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tesekkur-karti-3Osp71dC6QLPR0pUY7MP3EZIpVeJXq.jpg",
+    image: "/images/remote-webp/remote-37.webp",
     content: {
       tr: {
         title: "Teşekkür Kartı Baskı",
@@ -309,7 +309,7 @@ export const products: Product[] = [
   },
   {
     slug: "dergi-baskisi",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dergi-baskisi-elblrKittjQ9VrqyFiPtzM3DExFWSg.jpg",
+    image: "/images/remote-webp/remote-38.webp",
     content: {
       tr: {
         title: "Kurumsal & Süreli Dergi Baskısı",
@@ -330,7 +330,7 @@ export const products: Product[] = [
   },
   {
     slug: "katalog-baskisi",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/katalog-baskisi-oPjdPuBBeIRCxFPcy05LDZiRJDr3ac.jpg",
+    image: "/images/remote-webp/remote-39.webp",
     content: {
       tr: {
         title: "Katalog Baskı Hizmetleri",
@@ -351,7 +351,7 @@ export const products: Product[] = [
   },
   {
     slug: "folyo-etiket",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/folyo-ozel-kesim-etiket-V2jxA6X3KassgHkFjJ5QnCxZLCY4Xo.jpg",
+    image: "/images/remote-webp/remote-40.webp",
     content: {
       tr: {
         title: "Folyo Özel Kesim Etiket (Sticker)",
@@ -372,7 +372,7 @@ export const products: Product[] = [
   },
   {
     slug: "kitap-ayraci",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kitap-ayraci-A1Z3K1MV932Ac97lpxbhb9CfcRjm4U.jpg",
+    image: "/images/remote-webp/remote-41.webp",
     content: {
       tr: {
         title: "Özel Tasarım Kitap Ayracı",
@@ -393,7 +393,7 @@ export const products: Product[] = [
   },
   {
     slug: "ozel-imsakiye",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ozel-imsakiye-08T5IDkfT0evElhwLPbla71vUawhac.jpg",
+    image: "/images/remote-webp/remote-42.webp",
     content: {
       tr: {
         title: "Özel İmsakiye Baskısı",
@@ -414,7 +414,7 @@ export const products: Product[] = [
   },
   {
     slug: "diplomat-zarf",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/diplomat-zarf-cDlr9pyCrupZ59ygsmVMv8KO4iPAjU.jpg",
+    image: "/images/remote-webp/remote-43.webp",
     content: {
       tr: {
         title: "Kurumsal Diplomat Zarf Baskısı",
@@ -435,7 +435,7 @@ export const products: Product[] = [
   },
   {
     slug: "renkli-cikti",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/renkli-cikti-wZenemiQ0Qbb6ag049BaVEJ82Kjzoc.jpg",
+    image: "/images/remote-webp/remote-44.webp",
     content: {
       tr: {
         title: "Yüksek Kaliteli Renkli Çıktı Hizmeti",
@@ -456,7 +456,7 @@ export const products: Product[] = [
   },
   {
     slug: "sadakat-karti",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sadakat-karti-ba947n3KQIN2Es7GYibpQ4ov4okkHl.jpg",
+    image: "/images/remote-webp/remote-45.webp",
     content: {
       tr: {
         title: "Müşteri Sadakat Kartı",
@@ -477,7 +477,7 @@ export const products: Product[] = [
   },
   {
     slug: "acil-el-ilani",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/acil-el-ilani-iR2Ycq8nkGHr8H9fqj5KpdjEG7MzN8.jpg",
+    image: "/images/remote-webp/remote-46.webp",
     content: {
       tr: {
         title: "Acil El İlanı & Broşür Baskısı",
@@ -498,7 +498,7 @@ export const products: Product[] = [
   },
   {
     slug: "dokuman-baskisi",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dokuman-baskisi-SlLcqGehJSfLLhlf0IY7xm653JUxjt.jpg",
+    image: "/images/remote-webp/remote-47.webp",
     content: {
       tr: {
         title: "Kurumsal Doküman & Rapor Baskısı",
@@ -519,7 +519,7 @@ export const products: Product[] = [
   },
   {
     slug: "acil-dugun-davetiyesi",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/acil-dugun-davetiyesi-3905kGMvWVl7I3yQJaUECAph1xChS3.jpg",
+    image: "/images/remote-webp/remote-48.webp",
     content: {
       tr: {
         title: "Acil Düğün & Etkinlik Davetiyesi",
@@ -540,7 +540,7 @@ export const products: Product[] = [
   },
   {
     slug: "sertifika",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sertifika-3e0gwJdSFod8Q3f4f4DPmRCGbsG69F.jpg",
+    image: "/images/remote-webp/remote-49.webp",
     content: {
       tr: {
         title: "Sertifika & Katılım Belgesi Baskısı",
@@ -561,7 +561,7 @@ export const products: Product[] = [
   },
   {
     slug: "oto-paspas",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/oto-paspas-n3BLEpDC6cvifFQsVnSu8AQqV0wxwb.jpg",
+    image: "/images/remote-webp/remote-50.webp",
     content: {
       tr: {
         title: "Kağıt Oto Paspas",
@@ -582,7 +582,7 @@ export const products: Product[] = [
   },
   {
     slug: "otokopili-resmi-evrak",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/otokopili-baskilar-ZMyeyQw8gAxaK3KSHFUYgxughKj5jG.jpg",
+    image: "/images/remote-webp/remote-51.webp",
     content: {
       tr: {
         title: "Otokopili Resmi ve Gayri Resmi Evraklar",
@@ -603,7 +603,7 @@ export const products: Product[] = [
   },
   {
     slug: "bilet-baskisi",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bilet-baskisi-wbjwIICap1STTqn5lKrFhSpvmJWWA8.jpg",
+    image: "/images/remote-webp/remote-52.webp",
     content: {
       tr: {
         title: "Seri Numaralı Etkinlik & Konser Bileti",
@@ -624,7 +624,7 @@ export const products: Product[] = [
   },
   {
     slug: "kupon-baskisi",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kupon-baskisi-6OuDtm2GFlSN77LuREF7OiiksYNNBI.jpg",
+    image: "/images/remote-webp/remote-53.webp",
     content: {
       tr: {
         title: "İndirim Kuponu & Hediye Çeki Baskısı",
@@ -645,7 +645,7 @@ export const products: Product[] = [
   },
   {
     slug: "otel-baski-ihtiyaclari",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/otel-baski-ihtiyaclari-rKhmpBhxLCjzGnSmR8UAwnqNQJJU3Y.jpg",
+    image: "/images/remote-webp/remote-54.webp",
     content: {
       tr: {
         title: "Otel Baskı İhtiyaçları",

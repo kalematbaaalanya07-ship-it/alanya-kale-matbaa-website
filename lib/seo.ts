@@ -46,13 +46,13 @@ export function pageMetadata({ path, title, description, keywords, image }: Page
       siteName: site.name,
       title,
       description,
-      images: [{ url: image ?? "/images/digital-press.png", width: 1200, height: 900, alt: site.name }],
+      images: [{ url: image ?? "/images/digital-press.webp", width: 1200, height: 900, alt: site.name }],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [image ?? "/images/digital-press.png"],
+      images: [image ?? "/images/digital-press.webp"],
     },
   }
 }

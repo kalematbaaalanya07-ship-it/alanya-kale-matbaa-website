@@ -64,13 +64,13 @@ export const metadata: Metadata = {
     title: "Alanya Kale Matbaa | Kaliteli Baskı, Zamanında Teslimat",
     description:
       "Alanya'nın güvenilir matbaası. Dijital & ofset baskı, kaşe, katalog, broşür ve menü baskısı. Ücretsiz profesyonel grafik tasarım. 35+ yıl tecrübe.",
-    images: [{ url: "/images/digital-press.png", width: 1200, height: 900, alt: "Alanya Kale Matbaa Konica Minolta C4065 dijital baskı makinesi" }],
+    images: [{ url: "/images/digital-press.webp", width: 1200, height: 900, alt: "Alanya Kale Matbaa Konica Minolta C4065 dijital baskı makinesi" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Alanya Kale Matbaa | Kaliteli Baskı, Zamanında Teslimat",
     description: "Alanya dijital & ofset baskı, kaşe, katalog ve menü baskısı. Ücretsiz profesyonel tasarım ve aynı gün teslim.",
-    images: ["/images/digital-press.png"],
+    images: ["/images/digital-press.webp"],
     creator: "@kalematbaa",
   },
   robots: {

@@ -16,7 +16,7 @@ export default function KasePage() {
       <section className="relative overflow-hidden bg-primary text-primary-foreground">
         <div className="absolute inset-0">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kase-urunleri-4BdAhwTxhnETuqIwwVPdkDgBwDQ1PY.jpg"
+            src="/images/remote-webp/remote-36.webp"
             alt=""
             fill
             priority
@@ -75,7 +75,7 @@ export default function KasePage() {
             </div>
             <div className="relative aspect-square overflow-hidden rounded-2xl">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kase-urunleri-4BdAhwTxhnETuqIwwVPdkDgBwDQ1PY.jpg"
+                src="/images/remote-webp/remote-36.webp"
                 alt="Profesyonel kaşe çeşitleri"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -88,7 +88,7 @@ export default function KasePage() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="relative aspect-square overflow-hidden rounded-2xl order-2 lg:order-1">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ka%C5%9Fe2-tuhAHpbeszD9GDtuaffnp1Dv0mCzWf.jpg"
+                src="/images/remote-webp/remote-29.webp"
                 alt="Kaşe mürekkep renk seçenekleri"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
