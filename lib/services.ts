@@ -586,7 +586,7 @@ Hemen teklif alın.`,
     slug: 'tesekkur-karti',
     tag: 'Teşekkür Kartı',
     title: 'Alanya\'da Teşekkür Kartı Baskı',
-    metaTitle: 'Alanya\'da Teşekkür Kart�� Baskı | 350 gr Selefonlu',
+    metaTitle: 'Alanya\'da Teşekkür Kartь Baskı | 350 gr Selefonlu',
     subtitle: 'E-ticaret yapan veya paket gönderen işletmeler için teşekkür kartı, müşteri sadakatini artırmanın en etkili ve düşük maliyetli yollarından biridir.',
     image: '/images/services/tesekkur-karti26.webp',
     content: `E-ticaret yapan veya paket gönderen işletmeler için teşekkür kartı, müşteri sadakatini artırmanın en etkili ve düşük maliyetli yollarından biridir. Alanya Kale Matbaa olarak 350 gr kalın kuşe kâğıt üzerine yüksek çözünürlüklü, selefonlu teşekkür kartı baskısı yapıyoruz.
