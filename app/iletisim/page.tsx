@@ -1,6 +1,6 @@
 "use client"
 
-import { MapPin, Phone, Mail, Clock, MessageCircle } from "lucide-react"
+import { MapPin, Phone, Mail, Clock, MessageCircle, Share2 } from "lucide-react"
 import { PageHero } from "@/components/page-hero"
 import { QuoteForm } from "@/components/quote-form"
 import { useLanguage } from "@/components/language-provider"
@@ -56,6 +56,22 @@ export default function ContactPage() {
                     className="text-sm text-muted-foreground transition-colors hover:text-accent"
                   >
                     {site.whatsappDisplay}
+                  </a>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-accent/10 text-accent">
+                  <Share2 className="size-5" />
+                </span>
+                <div>
+                  <p className="font-semibold text-foreground">Instagram</p>
+                  <a
+                    href="https://instagram.com/alanyakalematbaa"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-muted-foreground transition-colors hover:text-accent"
+                  >
+                    @alanyakalematbaa
                   </a>
                 </div>
               </li>
