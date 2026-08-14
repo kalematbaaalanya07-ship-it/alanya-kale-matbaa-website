@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next"
 import { site } from "@/lib/site"
 import { blogPosts } from "@/lib/blog-posts"
+import { services } from "@/lib/services"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
@@ -11,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/portfoy",
     "/blog",
     "/iletisim",
+    ...services.map((service) => `/hizmetlerimiz/${service.slug}`),
     ...blogPosts.map((post) => `/blog/${post.slug}`),
   ]
   const now = new Date()

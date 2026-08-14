@@ -10,21 +10,26 @@ export function generateStaticParams() {
 
 export async function generateMetadata({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>
+  searchParams: Promise<{ lang?: string }>
 }): Promise<Metadata> {
   const { slug } = await params
+  const { lang: requestedLang } = await searchParams
+  const lang = requestedLang === 'en' || requestedLang === 'ru' ? requestedLang : 'tr'
   const post = getPost(slug)
   if (!post) return {}
 
-  const tr = post.content.tr
+  const content = post.content[lang]
   const url = `${site.url}/blog/${post.slug}`
+  const localizedUrl = lang === 'tr' ? url : `${url}?lang=${lang}`
 
   return {
-    title: tr.metaTitle,
-    description: tr.metaDescription,
+    title: content.metaTitle,
+    description: content.metaDescription,
     alternates: {
-      canonical: url,
+      canonical: localizedUrl,
       languages: {
         tr: url,
         en: `${url}?lang=en`,
@@ -34,15 +39,15 @@ export async function generateMetadata({
     },
     openGraph: {
       type: "article",
-      url,
-      title: tr.metaTitle,
-      description: tr.metaDescription,
+      url: localizedUrl,
+      title: content.metaTitle,
+      description: content.metaDescription,
       images: [{ url: post.image, width: 1200, height: 900, alt: post.imageAlt }],
     },
     twitter: {
       card: "summary_large_image",
-      title: tr.metaTitle,
-      description: tr.metaDescription,
+      title: content.metaTitle,
+      description: content.metaDescription,
       images: [post.image],
     },
   }

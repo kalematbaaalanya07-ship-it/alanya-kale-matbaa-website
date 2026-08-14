@@ -6,6 +6,7 @@ import { ArrowLeft, MessageCircle, Check } from 'lucide-react'
 import { getServiceBySlug, getAllServices, getServiceBySlugLocalized, getAllServicesLocalized } from '@/lib/services'
 import type { Lang } from '@/lib/i18n'
 import { notFound } from 'next/navigation'
+import { site } from '@/lib/site'
 
 const waLink = (text: string = '') =>
   `https://wa.me/905309305564?text=${encodeURIComponent(text)}`
@@ -21,17 +22,27 @@ export async function generateMetadata({
   params,
 }: {
   params: Promise<{ slug: string }>
+  searchParams: Promise<{ lang?: string }>
 }): Promise<Metadata> {
   const { slug } = await params
-  const service = getServiceBySlug(slug)
+  const { lang: requestedLang } = await searchParams
+  const lang: Lang = requestedLang === 'en' || requestedLang === 'ru' ? requestedLang : 'tr'
+  const service = getServiceBySlugLocalized(slug, lang)
 
   if (!service) {
     return {}
   }
 
+  const baseUrl = `${site.url}/hizmetlerimiz/${slug}`
+  const localizedUrl = lang === 'tr' ? baseUrl : `${baseUrl}?lang=${lang}`
   return {
     title: service.metaTitle,
     description: service.subtitle,
+    alternates: {
+      canonical: localizedUrl,
+      languages: { tr: baseUrl, en: `${baseUrl}?lang=en`, ru: `${baseUrl}?lang=ru`, 'x-default': baseUrl },
+    },
+    openGraph: { url: localizedUrl, title: service.metaTitle, description: service.subtitle, images: [{ url: service.image, alt: service.title }] },
   }
 }
 
@@ -58,8 +69,22 @@ export default async function ServiceDetailPage({
       ? { back: 'Все услуги', contact: 'Быстрая связь', contactDesc: 'Свяжитесь с нами, чтобы получить подробную информацию и расчет стоимости этой услуги.', whatsapp: 'Написать в WhatsApp', call: 'Позвонить', faq: 'Часто задаваемые вопросы', others: 'Другие наши услуги', ready: 'Готовы начать?', readyDesc: 'свяжитесь с нами, чтобы получить расчет стоимости или узнать больше о', quote: 'Получить расчет стоимости' }
       : { back: 'All Services', contact: 'Quick Contact', contactDesc: 'Get in touch with us for detailed information and a price quote for this service.', whatsapp: 'Message on WhatsApp', call: 'Call Now', faq: 'Frequently Asked Questions', others: 'Other Services', ready: 'Ready to Get Started?', readyDesc: 'contact us for a quote or more information about', quote: 'Get a Quote Now' }
 
+  const serviceUrl = `${site.url}/hizmetlerimiz/${slug}`
+  const serviceJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: service.title,
+    description: service.subtitle,
+    image: `${site.url}${service.image}`,
+    areaServed: { "@type": "City", name: "Alanya" },
+    provider: { "@type": "LocalBusiness", name: site.name, url: site.url, telephone: site.phoneHref },
+    url: serviceUrl,
+  }
+
   return (
-    <main className="min-h-screen">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }} />
+      <main className="min-h-screen">
       {/* Breadcrumb & Back */}
       <div className="bg-background border-b border-border">
         <div className="mx-auto max-w-6xl px-4 py-4">
@@ -254,5 +279,6 @@ export default async function ServiceDetailPage({
         </div>
       </section>
     </main>
+    </>
   )
 }
