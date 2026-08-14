@@ -16,20 +16,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...blogPosts.map((post) => `/blog/${post.slug}`),
   ]
   const now = new Date()
-  return routes.map((route) => {
+  return routes.flatMap((route) => {
     const url = `${site.url}${route}`
-    return {
-      url,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: route === "" ? 1 : 0.8,
-      alternates: {
-        languages: {
-          tr: url,
-          en: `${url}?lang=en`,
-          ru: `${url}?lang=ru`,
-        },
-      },
-    }
+    const priority = route === "" ? 1 : route.startsWith("/hizmetlerimiz/") ? 0.9 : 0.8
+    return [
+      { url, lastModified: now, changeFrequency: "monthly", priority, alternates: { languages: { tr: url, en: `${url}?lang=en`, ru: `${url}?lang=ru`, "x-default": url } } },
+      { url: `${url}?lang=en`, lastModified: now, changeFrequency: "monthly", priority: priority - 0.05 },
+      { url: `${url}?lang=ru`, lastModified: now, changeFrequency: "monthly", priority: priority - 0.05 },
+    ]
   })
 }

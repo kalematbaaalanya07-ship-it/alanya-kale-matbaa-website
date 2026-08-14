@@ -102,7 +102,10 @@ export function StructuredData() {
         { "@type": "AdministrativeArea", name: "Antalya" },
       ],
     },
-    sameAs: [`https://wa.me/${site.whatsapp}`],
+    sameAs: [
+      `https://wa.me/${site.whatsapp}`,
+      "https://instagram.com/alanyakalematbaa",
+    ],
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.9",
@@ -141,7 +144,7 @@ export function StructuredData() {
         { "@type": "AdministrativeArea", name: "Antalya" },
       ],
       image: `${site.url}/images/digital-press.webp`,
-      offers: { "@type": "Offer", priceCurrency: "TRY", price: "Fiyat sorgulatınız", priceValidUntil: "2025-12-31" },
+      offers: { "@type": "Offer", priceCurrency: "TRY", price: "Fiyat sorgulatınız", priceValidUntil: "2026-12-31" },
     },
     {
       "@type": "Service",
