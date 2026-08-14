@@ -267,6 +267,7 @@ const tr: Dictionary = {
       { title: "Otel Kurumsal Broşürü", category: "Broşür", image: "/images/remote-webp/remote-19.webp" },
       { title: "Kuyumcu Ürün Sertifikası", category: "Sertifika", image: "/images/remote-webp/remote-20.webp" },
       { title: "Özel Tasarım Kartvizit", category: "Kartvizit", image: "/images/remote-webp/remote-21.webp" },
+      { title: "Kartvizit Baskımız", category: "Kartvizit", image: "/images/remote-webp/remote-21.webp", video: "https://www.youtube.com/embed/heNWoQcFcEc" },
       { title: "Profesyonel Katalog", category: "Katalog", image: "/images/remote-webp/remote-22.webp", video: "https://www.youtube.com/embed/k5hxvhUJZRM" },
       { title: "Dijital Tasarım Katalog", category: "Dijital", image: "/images/remote-webp/remote-23.webp" },
       { title: "Kurumsal Kaşe Üretimi", category: "Kaşe", image: "/images/remote-webp/remote-24.webp" },
@@ -556,6 +557,7 @@ const en: Dictionary = {
     subtitle: "Printing projects we've completed across different industries.",
     items: [
       { title: "Custom Designed Business Cards", category: "Cards", image: "/images/remote-webp/remote-21.webp" },
+      { title: "Our Business Card Printing", category: "Cards", image: "/images/remote-webp/remote-21.webp", video: "https://www.youtube.com/embed/heNWoQcFcEc" },
       { title: "Professional Catalog", category: "Catalog", image: "/images/remote-webp/remote-22.webp", video: "https://www.youtube.com/embed/k5hxvhUJZRM" },
       { title: "Digital Design Catalog", category: "Digital", image: "/images/remote-webp/remote-23.webp" },
       { title: "Corporate Stamp Production", category: "Stamp", image: "/images/remote-webp/remote-24.webp" },
@@ -842,6 +844,7 @@ const ru: Dictionary = {
     subtitle: "Проекты печати, выполненные для разных отраслей.",
     items: [
       { title: "Пользовательские визитки", category: "Визитки", image: "/images/remote-webp/remote-21.webp" },
+      { title: "Наша печать визиток", category: "Визитки", image: "/images/remote-webp/remote-21.webp", video: "https://www.youtube.com/embed/heNWoQcFcEc" },
       { title: "Профессиональный каталог", category: "Каталог", image: "/images/remote-webp/remote-22.webp", video: "https://www.youtube.com/embed/k5hxvhUJZRM" },
       { title: "Цифровой дизайн каталога", category: "Цифровая", image: "/images/remote-webp/remote-23.webp" },
       { title: "Производство корпоративной печати", category: "Печать", image: "/images/remote-webp/remote-24.webp" },
