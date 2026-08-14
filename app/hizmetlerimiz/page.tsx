@@ -36,7 +36,7 @@ export default function HizmetlerimizPage() {
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {services.map((service) => (
               <Link key={service.id} href={`/hizmetlerimiz/${service.slug}`} className="group flex flex-col overflow-hidden rounded-xl border border-border bg-card transition-all duration-300 hover:border-accent hover:shadow-lg">
-                <div className="relative h-48 w-full overflow-hidden bg-muted"><Image src={service.image} alt={service.title} fill className="object-cover transition-transform duration-300 group-hover:scale-105" /></div>
+                <div className="relative h-48 w-full overflow-hidden bg-muted"><Image src={service.image} alt={`${service.title} - Alanya Kale Matbaa`} fill sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover transition-transform duration-300 group-hover:scale-105" /></div>
                 <div className="flex flex-col gap-3 p-6">
                   <span className="inline-block w-fit rounded-full bg-accent/10 px-3 py-1 text-sm font-medium text-accent">{service.tag}</span>
                   <h3 className="font-heading text-lg font-semibold text-foreground transition-colors group-hover:text-accent">{service.title}</h3>
@@ -46,6 +46,15 @@ export default function HizmetlerimizPage() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+      <section className="border-b border-border bg-background py-12">
+        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 text-center md:flex-row md:text-left">
+          <div>
+            <h2 className="font-heading text-2xl font-bold text-foreground">{lang === 'tr' ? 'Alanya’da matbaa desteği alın' : lang === 'ru' ? 'Получите помощь типографии в Аланье' : 'Get printing support in Alanya'}</h2>
+            <p className="mt-2 text-muted-foreground">{lang === 'tr' ? 'Kartvizit, broşür, kaşe ve diğer baskı işleriniz için hızlı teklif alın.' : lang === 'ru' ? 'Получите быстрый расчет на визитки, брошюры, печати и другие услуги.' : 'Get a fast quote for business cards, brochures, stamps, and more.'}</p>
+          </div>
+          <Link href="/iletisim" className="inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-3 font-semibold text-accent-foreground transition-colors hover:bg-accent/90">{lang === 'tr' ? 'İletişime Geçin' : lang === 'ru' ? 'Связаться с нами' : 'Contact us'} <ArrowRight className="size-4" /></Link>
         </div>
       </section>
       <section id="teklif" className="bg-accent py-16">

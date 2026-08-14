@@ -6,6 +6,7 @@ import { ArrowLeft, CalendarDays, Check, MessageCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/components/language-provider"
 import { blogPosts, getPost } from "@/lib/blog-posts"
+import { getAllServicesLocalized } from "@/lib/services"
 import { site, waLink } from "@/lib/site"
 
 const labels = {
@@ -22,6 +23,8 @@ export function BlogArticle({ slug }: { slug: string }) {
   const c = post.content[lang]
   const l = labels[lang]
   const others = blogPosts.filter((p) => p.slug !== slug)
+  const relatedServices = getAllServicesLocalized(lang).slice(0, 3)
+  const servicesLabel = lang === "tr" ? "İlgili Baskı Hizmetleri" : lang === "ru" ? "Связанные услуги печати" : "Related Printing Services"
 
   return (
     <article className="pb-16">
@@ -53,8 +56,9 @@ export function BlogArticle({ slug }: { slug: string }) {
         <div className="relative -mt-6 aspect-[16/9] overflow-hidden rounded-2xl border border-border shadow-sm">
           <Image
             src={post.image || "/placeholder.svg"}
-            alt={post.imageAlt}
+            alt={`${post.imageAlt} - Alanya Kale Matbaa`}
             fill
+            sizes="(max-width: 768px) 100vw, 768px"
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 768px"
             priority
@@ -90,6 +94,17 @@ export function BlogArticle({ slug }: { slug: string }) {
             )}
           </section>
         ))}
+
+        <section className="mt-10 rounded-2xl border border-border bg-card p-6" aria-labelledby="related-services-heading">
+          <h2 id="related-services-heading" className="font-heading text-lg font-bold text-foreground">{servicesLabel}</h2>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {relatedServices.map((service) => (
+              <Link key={service.id} href={`/hizmetlerimiz/${service.slug}`} className="rounded-full border border-border px-3 py-2 text-sm text-foreground transition-colors hover:border-accent hover:text-accent">
+                {service.title}
+              </Link>
+            ))}
+          </div>
+        </section>
 
         {/* CTA */}
         <div className="mt-10 flex flex-col gap-4 rounded-2xl bg-secondary p-6 text-center sm:p-8">

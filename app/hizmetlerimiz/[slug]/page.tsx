@@ -102,8 +102,9 @@ export default async function ServiceDetailPage({
       <section className="relative h-96 w-full overflow-hidden bg-muted">
         <Image
           src={service.image}
-          alt={service.title}
+          alt={`${service.title} - Alanya Kale Matbaa`}
           fill
+          sizes="100vw"
           className="object-cover"
           priority
         />
@@ -232,8 +233,9 @@ export default async function ServiceDetailPage({
                   <div className="relative h-40 w-full overflow-hidden bg-muted">
                     <Image
                       src={relatedService.image}
-                      alt={relatedService.title}
+                      alt={`${relatedService.title} - Alanya Kale Matbaa`}
                       fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
                       className="object-cover transition-transform duration-300 group-hover:scale-105"
                     />
                   </div>
