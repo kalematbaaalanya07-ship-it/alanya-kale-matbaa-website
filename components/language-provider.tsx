@@ -21,7 +21,8 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (typeof window === "undefined") return
     // URL ?lang= takes priority (shareable, matches hreflang), then localStorage.
-    const urlLang = new URLSearchParams(window.location.search).get("lang") as Lang | null
+    const pathLang = window.location.pathname.match(/^\/(en|ru)(?=\/|$)/)?.[1] as Lang | undefined
+    const urlLang = (new URLSearchParams(window.location.search).get("lang") as Lang | null) ?? pathLang
     if (urlLang && urlLang in dictionaries) {
       setLangState(urlLang)
       localStorage.setItem(STORAGE_KEY, urlLang)
@@ -39,11 +40,12 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     setLangState(next)
     if (typeof window !== "undefined") {
       localStorage.setItem(STORAGE_KEY, next)
-      // Keep the URL in sync with the active language without a full navigation.
+      // Use crawlable locale prefixes while preserving the current route.
       const url = new URL(window.location.href)
-      if (next === "tr") url.searchParams.delete("lang")
-      else url.searchParams.set("lang", next)
-      window.history.replaceState({}, "", url)
+      const currentPath = url.pathname.replace(/^\/(en|ru)(?=\/|$)/, "") || "/"
+      url.pathname = next === "tr" ? currentPath : `/${next}${currentPath === "/" ? "" : currentPath}`
+      url.searchParams.delete("lang")
+      window.history.pushState({}, "", url)
       router.refresh()
     }
   }

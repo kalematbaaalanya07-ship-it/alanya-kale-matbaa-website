@@ -20,9 +20,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const url = `${site.url}${route}`
     const priority = route === "" ? 1 : route.startsWith("/hizmetlerimiz/") ? 0.9 : 0.8
     return [
-      { url, lastModified: now, changeFrequency: "monthly", priority, alternates: { languages: { tr: url, en: `${url}?lang=en`, ru: `${url}?lang=ru`, "x-default": url } } },
-      { url: `${url}?lang=en`, lastModified: now, changeFrequency: "monthly", priority: priority - 0.05 },
-      { url: `${url}?lang=ru`, lastModified: now, changeFrequency: "monthly", priority: priority - 0.05 },
+      { url, lastModified: now, changeFrequency: "monthly", priority, alternates: { languages: { tr: url, en: `${site.url}/en${route}`, ru: `${site.url}/ru${route}`, "x-default": url } } },
+      { url: `${site.url}/en${route}`, lastModified: now, changeFrequency: "monthly", priority: priority - 0.05 },
+      { url: `${site.url}/ru${route}`, lastModified: now, changeFrequency: "monthly", priority: priority - 0.05 },
     ]
   })
 }

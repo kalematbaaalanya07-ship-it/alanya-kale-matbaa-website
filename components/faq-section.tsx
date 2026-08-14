@@ -10,8 +10,20 @@ import { waLink } from "@/lib/site"
 export function FaqSection() {
   const { t } = useLanguage()
 
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: t.faq.items.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: { "@type": "Answer", text: item.a },
+    })),
+  }
+
   return (
-    <section className="bg-secondary/50 py-16">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <section className="bg-secondary/50 py-16">
       <div className="mx-auto max-w-3xl px-4">
         <SectionHeading tag={t.faq.tag} title={t.faq.title} subtitle={t.faq.subtitle} />
         <div className="mt-10 rounded-2xl border border-border bg-card px-6 sm:px-8">
@@ -39,5 +51,6 @@ export function FaqSection() {
         </div>
       </div>
     </section>
+    </>
   )
 }

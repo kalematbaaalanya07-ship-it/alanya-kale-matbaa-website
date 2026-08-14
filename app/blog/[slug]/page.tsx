@@ -23,7 +23,7 @@ export async function generateMetadata({
 
   const content = post.content[lang]
   const url = `${site.url}/blog/${post.slug}`
-  const localizedUrl = lang === 'tr' ? url : `${url}?lang=${lang}`
+  const localizedUrl = lang === 'tr' ? url : `${site.url}/${lang}/blog/${post.slug}`
 
   return {
     title: content.metaTitle,
@@ -32,8 +32,8 @@ export async function generateMetadata({
       canonical: localizedUrl,
       languages: {
         tr: url,
-        en: `${url}?lang=en`,
-        ru: `${url}?lang=ru`,
+        en: `${site.url}/en/blog/${post.slug}`,
+        ru: `${site.url}/ru/blog/${post.slug}`,
         "x-default": url,
       },
     },

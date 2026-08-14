@@ -50,8 +50,8 @@ export const metadata: Metadata = {
     canonical: site.url,
     languages: {
       tr: site.url,
-      en: `${site.url}/?lang=en`,
-      ru: `${site.url}/?lang=ru`,
+      en: `${site.url}/en`,
+      ru: `${site.url}/ru`,
       "x-default": site.url,
     },
   },

@@ -20,6 +20,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>
   searchParams: Promise<{ lang?: string }>
@@ -34,13 +35,13 @@ export async function generateMetadata({
   }
 
   const baseUrl = `${site.url}/hizmetlerimiz/${slug}`
-  const localizedUrl = lang === 'tr' ? baseUrl : `${baseUrl}?lang=${lang}`
+  const localizedUrl = lang === 'tr' ? baseUrl : `${site.url}/${lang}/hizmetlerimiz/${slug}`
   return {
     title: service.metaTitle,
     description: service.subtitle,
     alternates: {
       canonical: localizedUrl,
-      languages: { tr: baseUrl, en: `${baseUrl}?lang=en`, ru: `${baseUrl}?lang=ru`, 'x-default': baseUrl },
+      languages: { tr: baseUrl, en: `${site.url}/en/hizmetlerimiz/${slug}`, ru: `${site.url}/ru/hizmetlerimiz/${slug}`, 'x-default': baseUrl },
     },
     openGraph: { url: localizedUrl, title: service.metaTitle, description: service.subtitle, images: [{ url: service.image, alt: service.title }] },
   }
