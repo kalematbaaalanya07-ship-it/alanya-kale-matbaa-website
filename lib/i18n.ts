@@ -117,6 +117,16 @@ export type Dictionary = {
     notesPlaceholder: string
     submit: string
     intro: string
+    stampType: string
+    stampTypeOptions: string[]
+    inkColor: string
+    inkColorOptions: string[]
+    designDirection: string
+    designDirectionOptions: string[]
+    paperSizeOptions: string[]
+    lamination: string
+    yes: string
+    no: string
   }
   freeDesign: {
     tag: string
@@ -306,6 +316,16 @@ const tr: Dictionary = {
     notesPlaceholder: "Ek detaylar, renk, teslim tarihi...",
     submit: "WhatsApp ile Gönder",
     intro: "Merhaba, teklif almak istiyorum:",
+    stampType: "Kaşe Türü",
+    stampTypeOptions: ["Şirket ve şahıs şirketi kaşesi", "Yuvarlak kaşe", "Stampa kaşe", "Yuvarlak cep kaşesi"],
+    inkColor: "Mürekkep Rengi",
+    inkColorOptions: ["Mavi (Ofis işleri için uygundur)", "Siyah (Resmi işler için uygundur)", "Kırmızı (Acil veya uyarı belirtmek için uygundur)"],
+    designDirection: "Tasarım Yönü",
+    designDirectionOptions: ["Dikey", "Yatay"],
+    paperSizeOptions: ["A6 (10,5 × 14,8 cm)", "A5 (14,8 × 21 cm)", "A4 (21 × 29,7 cm)", "A3 (29,7 × 42 cm)"],
+    lamination: "Selefon",
+    yes: "İstiyorum",
+    no: "İstemiyorum",
   },
   freeDesign: {
     tag: "Ayrıcalığımız",
@@ -349,7 +369,7 @@ const tr: Dictionary = {
       { q: "Kaşe yaptırmak istiyorum hangi bilgileri size göndermeliyim?", a: "Limited Şirket ve Anonim Şirketlerde şirket ünvanı, adres ve vergi numarası yeterlidir. İsteğe göre telefon numarası, MERSİS numarası, ticaret sicil numarası veya mail adresi gibi bilgiler eklenebilir. Şahıs şirketinde isim-soyisim, adres ve T.C. kimlik numarası (veya vergi dairesi numarası) yeterlidir. İsteğe göre ünvan, telefon numarası ve mail adresi eklenebilir." },
       { q: "Alanya'da acil baskı işlerini ne kadar sürede teslim ediyorsunuz?", a: "Dijital baskı işlerinin çoğunu aynı gün veya 24 saat içinde teslim ediyoruz. Yoğun sezonda bile acil işleriniz için önceliklendirme yapıyoruz." },
       { q: "Tasarım dosyam yok, yardımcı olur musunuz?", a: "Elbette. Profesyonel grafik tasarım hizmetimizle kartvizit, broşür, menü ve davetiye tasarımlarınızı sizin için hazırlıyoruz." },
-      { q: "Konica Minolta C4065 ile hangi kağıtlara baskı yapılıyor?", a: "80g ince kağıttan 350g ve üzeri kalın kartona kadar, A3+ boyutuna dek canlı renklerle yüksek kaliteli baskı yapabiliyoruz." },
+      { q: "Konica Minolta C4065 ile hangi kağ��tlara baskı yapılıyor?", a: "80g ince kağıttan 350g ve üzeri kalın kartona kadar, A3+ boyutuna dek canlı renklerle yüksek kaliteli baskı yapabiliyoruz." },
       { q: "Dijital baskı mı ofset baskı mı seçmeliyim?", a: "Düşük ve orta adetli, hızlı işler için dijital baskı; çok yüksek adetli işler için ofset baskı daha ekonomiktir. Size en uygun seçeneği ücretsiz danışmanlıkla birlikte belirliyoruz." },
       { q: "Alanya’nın hangi semt ve mahallelerine matbaa ve baskı hizmeti veriyorsunuz?", a: "Kale Matbaa olarak Alanya genelindeki tüm işletmelere profesyonel baskı çözümleri sunuyoruz. Başlıca hizmet verdiğimiz bölgeler: Merkez: Saray Mahallesi, Çarşı, Güller Pınarı, Kadıpaşa, Kızlar Pınarı, Sugözü, Şekerhane, Fığla. Doğu Bölgesi: Oba, Tosmur, Kestel, Mahmutlar, Kargıcak, Demirtaş. Batı Bölgesi: Büyühasbahçe, Küçükhasbahçe, Konaklı, Payallar, Türkler, Avsallar, Okurcalar." },
       { q: "Siparişlerimizi nasıl teslim alabiliriz? Teslimat yapıyor musunuz?", a: "Siparişlerinizi merkez matbaamızdan doğrudan teslim alabilirsiniz. Ayrıca iş durumumuza ve güzergahımıza bağlı olarak yakın çevredeki işletmeler için adrese teslimat imkanı sağlayabiliyoruz. Yakın çevremiz dışında kalan veya acil teslimat isteyen müşterilerimiz için ise özel kurye veya şehir içi sevk seçenekleri sunmaktayız." },
@@ -596,6 +616,16 @@ const en: Dictionary = {
     notesPlaceholder: "Extra details, color, deadline...",
     submit: "Send via WhatsApp",
     intro: "Hello, I would like to get a quote:",
+    stampType: "Stamp Type",
+    stampTypeOptions: ["Company and sole proprietorship stamp", "Round stamp", "Stampa stamp", "Round pocket stamp"],
+    inkColor: "Ink Color",
+    inkColorOptions: ["Blue (Suitable for office work)", "Black (Suitable for official work)", "Red (For urgent notices or warnings)"],
+    designDirection: "Design Orientation",
+    designDirectionOptions: ["Portrait", "Landscape"],
+    paperSizeOptions: ["A6 (10.5 × 14.8 cm)", "A5 (14.8 × 21 cm)", "A4 (21 × 29.7 cm)", "A3 (29.7 × 42 cm)"],
+    lamination: "Lamination",
+    yes: "I want it",
+    no: "I do not want it",
   },
   freeDesign: {
     tag: "Our Advantage",
@@ -883,6 +913,16 @@ const ru: Dictionary = {
     notesPlaceholder: "Доп. детали, цвет, срок...",
     submit: "Отправить в WhatsApp",
     intro: "Здравствуйте, хочу получить расчёт:",
+    stampType: "Тип печати",
+    stampTypeOptions: ["Печать компании и ИП", "Круглая печать", "Штамп-оснастка", "Круглая карманная печать"],
+    inkColor: "Цвет чернил",
+    inkColorOptions: ["Синий (для офисных работ)", "Чёрный (для официальных документов)", "Красный (для срочных предупреждений)"],
+    designDirection: "Ориентация дизайна",
+    designDirectionOptions: ["Книжная", "Альбомная"],
+    paperSizeOptions: ["A6 (10,5 × 14,8 см)", "A5 (14,8 × 21 см)", "A4 (21 × 29,7 см)", "A3 (29,7 × 42 см)"],
+    lamination: "Ламинация",
+    yes: "Хочу",
+    no: "Не хочу",
   },
   freeDesign: {
     tag: "Наше преимущество",
@@ -903,7 +943,7 @@ const ru: Dictionary = {
     items: [
       {
         name: "Мехмет Йылмаз",
-        role: "Владелец ресторана, Аланья",
+        role: "��ладелец ресторана, Аланья",
         text: "Напечатали наше меню на Konica Minolta C4065 — цвета вышли отличные. Срочный заказ сдали вовремя к началу сезона.",
       },
       {
@@ -1021,7 +1061,7 @@ const ru: Dictionary = {
       }
     ],
     ctaTitle: "Свяжитесь с нами для профессиональных решений для печатей",
-    ctaDesc: "Отправьте нам сообщение через WhatsApp, чтобы найти лучшее решение для печати вашей компании или личного бренда. Бесплатная консультация и гарантированная быстрая доставка."
+    ctaDesc: "Отправьте нам сообщение через WhatsApp, чтобы найти лучшее решение для печати вашей компании или личного бренда. Бесплатная консультация и гарантир��ванная быстрая доставка."
   },
   services: {
     tag: "Полиграфические услуги",
