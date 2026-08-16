@@ -4,9 +4,11 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ArrowLeft, MessageCircle, Check } from 'lucide-react'
 import { getServiceBySlug, getAllServices, getServiceBySlugLocalized, getAllServicesLocalized } from '@/lib/services'
+import { dictionaries } from '@/lib/i18n'
 import type { Lang } from '@/lib/i18n'
 import { notFound } from 'next/navigation'
 import { site } from '@/lib/site'
+import { QuoteForm } from '@/components/quote-form'
 
 const waLink = (text: string = '') =>
   `https://wa.me/905309305564?text=${encodeURIComponent(text)}`
@@ -169,6 +171,12 @@ export default async function ServiceDetailPage({
             {/* Sidebar CTA */}
             <div className="md:col-span-1">
               <div className="sticky top-4 rounded-xl border border-border bg-card p-6 space-y-6">
+                <div className="border-b border-border pb-6">
+                  <h3 className="font-heading text-lg font-bold text-foreground mb-4">{dictionaries[lang].home.quoteTitle}</h3>
+                  <p className="mb-4 text-sm text-foreground/70">{dictionaries[lang].home.quoteSubtitle}</p>
+                  <QuoteForm />
+                </div>
+
                 <div>
                   <h3 className="font-heading text-lg font-bold text-foreground mb-2">
                     {ui.contact}
