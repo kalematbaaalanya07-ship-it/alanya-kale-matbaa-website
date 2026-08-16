@@ -131,6 +131,7 @@ export type Dictionary = {
     designDirectionOptions: string[]
     paperSizeOptions: string[]
     lamination: string
+    designSupport: string
     yes: string
     no: string
   }
@@ -336,6 +337,7 @@ const tr: Dictionary = {
     designDirectionOptions: ["Dikey", "Yatay"],
     paperSizeOptions: ["A6 (10,5 × 14,8 cm)", "A5 (14,8 × 21 cm)", "A4 (21 × 29,7 cm)"],
     lamination: "Selefon",
+    designSupport: "Tasarım Desteği",
     yes: "İstiyorum",
     no: "İstemiyorum",
   },
@@ -642,6 +644,7 @@ const en: Dictionary = {
     designDirectionOptions: ["Portrait", "Landscape"],
     paperSizeOptions: ["A6 (10.5 × 14.8 cm)", "A5 (14.8 × 21 cm)", "A4 (21 × 29.7 cm)", "A3 (29.7 × 42 cm)"],
     lamination: "Lamination",
+    designSupport: "Design Support",
     yes: "I want it",
     no: "I do not want it",
   },
@@ -945,6 +948,7 @@ const ru: Dictionary = {
     designDirectionOptions: ["Книжная", "Альбомная"],
     paperSizeOptions: ["A6 (10,5 × 14,8 см)", "A5 (14,8 × 21 см)", "A4 (21 × 29,7 см)", "A3 (29,7 × 42 см)"],
     lamination: "Ламинация",
+    designSupport: "Помощь с дизайном",
     yes: "Хочу",
     no: "Не хочу",
   },
@@ -1051,7 +1055,7 @@ const ru: Dictionary = {
       },
       {
         title: "Красные чернила",
-        desc: "��вет, используемый срочных, предупредительных и специальных документов. Предпочтителен для привлекающего внимания брендинга."
+        desc: "��вет, используемый срочных, предупредительных �� специальных документов. Предпочтителен для привлекающего внимания брендинга."
       }
     ],
     colorsTitle: "Цвета печати �� варианты чернил",
