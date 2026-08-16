@@ -11,6 +11,7 @@ import { site, waLink } from "@/lib/site"
 
 const PAPER_WEIGHTS = ["130g", "170g", "200g", "300g", "350g"]
 const STAMP_SIZES = ["Küçük 16 × 41 mm", "Orta 50 × 20 mm", "Büyük 58 × 22 mm"]
+const ROUND_STAMP_SIZES = ["30 mm", "40 mm"]
 const selectClass = "h-10 w-full rounded-lg border border-input bg-background px-3 text-sm text-foreground outline-none transition-colors focus-visible:border-ring focus-visible:ring-2 focus-visible:ring-ring/40"
 
 export function QuoteForm() {
@@ -44,7 +45,7 @@ export function QuoteForm() {
       {isStamp ? (
         <div className="grid gap-4 sm:grid-cols-2">
           {field("stampType", q.stampType, q.stampTypeOptions)}
-          {field("size", q.size, STAMP_SIZES, q.sizePlaceholder)}
+          {field("size", q.size, form.stampType?.toLowerCase().includes("yuvarlak") ? ROUND_STAMP_SIZES : STAMP_SIZES, q.sizePlaceholder)}
           {field("inkColor", q.inkColor, q.inkColorOptions)}
           <div className="flex flex-col gap-1.5"><Label htmlFor="quantity">{q.quantity}</Label><Input id="quantity" required inputMode="numeric" placeholder={q.quantityPlaceholder} value={form.quantity} onChange={(e) => update("quantity", e.target.value)} /></div>
         </div>
