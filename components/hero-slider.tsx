@@ -103,7 +103,7 @@ export function HeroSlider() {
           so it fills edge to edge. On mobile the box is taller than the artwork;
           the artwork stays uncropped and a blurred copy fills the band. */}
       <div
-        className="relative aspect-[16/7] w-full overflow-hidden touch-pan-y sm:aspect-[3630/984]"
+        className="relative aspect-[16/9] w-full overflow-hidden touch-pan-y sm:aspect-[3630/984]"
         onPointerDown={handlePointerDown}
         onPointerUp={handlePointerUp}
         onPointerCancel={handlePointerCancel}
