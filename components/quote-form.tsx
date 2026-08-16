@@ -45,7 +45,7 @@ export function QuoteForm() {
       {isStamp ? (
         <div className="grid gap-4 sm:grid-cols-2">
           {field("stampType", q.stampType, q.stampTypeOptions)}
-          {field("size", q.size, form.stampType?.toLowerCase().includes("yuvarlak") ? ROUND_STAMP_SIZES : STAMP_SIZES, q.sizePlaceholder)}
+          {field("size", q.size, form.stampType?.toLowerCase().includes("yuvarlak") ? ROUND_STAMP_SIZES : STAMP_SIZES, isStamp ? "Kaşe Boyutu" : q.sizePlaceholder)}
           {field("inkColor", q.inkColor, q.inkColorOptions)}
           <div className="flex flex-col gap-1.5"><Label htmlFor="quantity">{q.quantity}</Label><Input id="quantity" required inputMode="numeric" placeholder={q.quantityPlaceholder} value={form.quantity} onChange={(e) => update("quantity", e.target.value)} /></div>
         </div>
