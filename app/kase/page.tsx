@@ -50,11 +50,6 @@ export default function KasePage() {
         </div>
       </section>
 
-      {/* Quick Quote Section */}
-      <section className="mx-auto max-w-6xl px-4 py-10 sm:py-16">
-        <QuoteForm />
-      </section>
-
       {/* Introduction Section */}
       <section className="mx-auto max-w-6xl px-4 py-10 sm:py-20">
         <div className="prose prose-neutral max-w-none dark:prose-invert">
@@ -162,6 +157,11 @@ export default function KasePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Quick Quote Section */}
+      <section className="mx-auto max-w-6xl px-4 py-10 sm:py-16">
+        <QuoteForm />
       </section>
 
       {/* CTA Section */}
