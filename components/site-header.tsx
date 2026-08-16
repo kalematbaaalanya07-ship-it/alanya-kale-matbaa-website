@@ -97,7 +97,7 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur">
       {/* Top bar: logo + search + lang + phone */}
-      <div className="mx-auto flex h-16 max-w-6xl items-center gap-3 px-4">
+      <div className="mx-auto flex h-14 max-w-6xl items-center gap-2 px-3 sm:h-16 sm:gap-3 sm:px-4">
         {/* Logo */}
         <Link href="/" className="flex-shrink-0" onClick={() => setOpen(false)}>
           <Image
@@ -105,7 +105,7 @@ export function SiteHeader() {
             alt="Alanya Kale Matbaa"
             width={220}
             height={38}
-            className="h-9 w-auto"
+            className="h-8 w-auto sm:h-9"
             priority
           />
         </Link>
