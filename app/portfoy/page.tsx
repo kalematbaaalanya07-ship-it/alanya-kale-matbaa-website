@@ -12,7 +12,7 @@ export default function PortfolioPage() {
   const p = t.portfolio
 
   return (
-    <>
+    <main data-page="portfolio">
       <PageHero tag={p.tag} title={p.title} subtitle={p.subtitle} />
 
       <section className="mx-auto max-w-6xl px-4 py-16">
@@ -63,6 +63,6 @@ export default function PortfolioPage() {
           </Button>
         </div>
       </section>
-    </>
+    </main>
   )
 }

@@ -16,7 +16,7 @@ export default function HizmetlerimizPage() {
   const copy = t.services
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen" data-page="services">
       <section className="relative bg-gradient-to-b from-accent/10 to-background py-20">
         <div className="mx-auto max-w-6xl px-4 text-center">
           <h1 className="font-heading text-4xl font-bold text-foreground md:text-5xl lg:text-6xl text-balance">{copy.pageTitle}</h1>
