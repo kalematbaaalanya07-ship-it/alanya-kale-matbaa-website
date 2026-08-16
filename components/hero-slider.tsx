@@ -67,6 +67,7 @@ export function HeroSlider() {
           so it fills edge to edge. On mobile the box is taller than the artwork;
           the artwork stays uncropped and a blurred copy fills the band. */}
       <div className="relative aspect-[16/7] w-full overflow-hidden sm:aspect-[3630/984]">
+        <div className="absolute inset-y-0 left-10 right-10 overflow-hidden sm:inset-0">
         {slides.map((slide, i) => (
           <Link
             key={slide.image}
@@ -103,6 +104,7 @@ export function HeroSlider() {
             />
           </Link>
         ))}
+        </div>
       </div>
 
       {/* Prev arrow */}
@@ -110,7 +112,7 @@ export function HeroSlider() {
         type="button"
         onClick={(e) => { e.preventDefault(); prev() }}
         aria-label="Önceki slayt"
-        className="absolute left-[6%] top-1/2 z-10 flex size-8 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60 sm:size-10"
+        className="absolute left-1 top-1/2 z-10 flex size-8 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60 sm:left-[6%] sm:size-10"
       >
         <ChevronLeft className="size-5" />
       </button>
@@ -120,7 +122,7 @@ export function HeroSlider() {
         type="button"
         onClick={(e) => { e.preventDefault(); next() }}
         aria-label="Sonraki slayt"
-        className="absolute right-[6%] top-1/2 z-10 flex size-8 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60 sm:size-10"
+        className="absolute right-1 top-1/2 z-10 flex size-8 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60 sm:right-[6%] sm:size-10"
       >
         <ChevronRight className="size-5" />
       </button>
