@@ -108,6 +108,11 @@ export type Dictionary = {
     sizePlaceholder: string
     weight: string
     weightPlaceholder: string
+    carbonCopy: string
+    carbonCopyOptions: string[]
+    serialNumber: string
+    perforation: string
+    perforationOptions: string[]
     quantity: string
     quantityPlaceholder: string
     sides: string
@@ -308,6 +313,11 @@ const tr: Dictionary = {
     sizePlaceholder: "Örn. A4, A5, 9x5 cm",
     weight: "Gramaj",
     weightPlaceholder: "Gramaj seçin",
+    carbonCopy: "Carbon Copy Adedi",
+    carbonCopyOptions: ["2 nüsha (50 beyaz, 50 sarı renkte)", "3 nüsha", "4 nüsha"],
+    serialNumber: "Seri No",
+    perforation: "Perforaj",
+    perforationOptions: ["Sadece beyaz olan ilk nüsha perforajlı", "Bütün nüshalar perforajlı"],
     quantity: "Adet",
     quantityPlaceholder: "Örn. 500",
     sides: "Baskı Yönü",
@@ -324,7 +334,7 @@ const tr: Dictionary = {
     inkColorOptions: ["Mavi (Ofis işleri için uygundur)", "Siyah (Resmi işler için uygundur)", "Kırmızı (Acil veya uyarı belirtmek için uygundur)"],
     designDirection: "Tasarım Yönü",
     designDirectionOptions: ["Dikey", "Yatay"],
-    paperSizeOptions: ["A6 (10,5 × 14,8 cm)", "A5 (14,8 × 21 cm)", "A4 (21 × 29,7 cm)", "A3 (29,7 × 42 cm)"],
+    paperSizeOptions: ["A6 (10,5 × 14,8 cm)", "A5 (14,8 × 21 cm)", "A4 (21 × 29,7 cm)"],
     lamination: "Selefon",
     yes: "İstiyorum",
     no: "İstemiyorum",
@@ -373,7 +383,7 @@ const tr: Dictionary = {
       { q: "Tasarım dosyam yok, yardımcı olur musunuz?", a: "Elbette. Profesyonel grafik tasarım hizmetimizle kartvizit, broşür, menü ve davetiye tasarımlarınızı sizin için hazırlıyoruz." },
       { q: "Konica Minolta C4065 ile hangi kağ��tlara baskı yapılıyor?", a: "80g ince kağıttan 350g ve üzeri kalın kartona kadar, A3+ boyutuna dek canlı renklerle yüksek kaliteli baskı yapabiliyoruz." },
       { q: "Dijital baskı mı ofset baskı mı seçmeliyim?", a: "Düşük ve orta adetli, hızlı işler için dijital baskı; çok yüksek adetli işler için ofset baskı daha ekonomiktir. Size en uygun seçeneği ücretsiz danışmanlıkla birlikte belirliyoruz." },
-      { q: "Alanya’nın hangi semt ve mahallelerine matbaa ve baskı hizmeti veriyorsunuz?", a: "Kale Matbaa olarak Alanya genelindeki tüm işletmelere profesyonel baskı çözümleri sunuyoruz. Başlıca hizmet verdiğimiz bölgeler: Merkez: Saray Mahallesi, Çarşı, Güller Pınarı, Kadıpaşa, Kızlar Pınarı, Sugözü, Şekerhane, Fığla. Doğu Bölgesi: Oba, Tosmur, Kestel, Mahmutlar, Kargıcak, Demirtaş. Batı Bölgesi: Büyühasbahçe, Küçükhasbahçe, Konaklı, Payallar, Türkler, Avsallar, Okurcalar." },
+      { q: "Alanya’nın hangi semt ve mahallelerine matbaa ve baskı hizmeti veriyorsunuz?", a: "Kale Matbaa olarak Alanya genelindeki tüm işletmelere profesyonel baskı çözümleri sunuyoruz. Başlıca hizmet verdiğimiz bölgeler: Merkez: Saray Mahallesi, Çar��ı, Güller Pınarı, Kadıpaşa, Kızlar Pınarı, Sugözü, Şekerhane, Fığla. Doğu Bölgesi: Oba, Tosmur, Kestel, Mahmutlar, Kargıcak, Demirtaş. Batı Bölgesi: Büyühasbahçe, Küçükhasbahçe, Konaklı, Payallar, Türkler, Avsallar, Okurcalar." },
       { q: "Siparişlerimizi nasıl teslim alabiliriz? Teslimat yapıyor musunuz?", a: "Siparişlerinizi merkez matbaamızdan doğrudan teslim alabilirsiniz. Ayrıca iş durumumuza ve güzergahımıza bağlı olarak yakın çevredeki işletmeler için adrese teslimat imkanı sağlayabiliyoruz. Yakın çevremiz dışında kalan veya acil teslimat isteyen müşterilerimiz için ise özel kurye veya şehir içi sevk seçenekleri sunmaktayız." },
       { q: "Mahmutlar, Oba, Konaklı veya Avsallar gibi mahallelerden verilen siparişler nasıl ulaştırılıyor?", a: "Oba, Mahmutlar, Konaklı ve Avsallar gibi mahallelerdeki müşterilerimiz siparişlerini matbaamızdan aldırabilir veya talep doğrultusunda adrese kurye / sevk seçeneğini tercih edebilirler. Güzergahımız üzerindeki yakın teslimatlar için imkan dahilinde yardımcı olmaya çalışıyoruz." },
       { q: "Kargıcak, Demirtaş veya Okurcalar’daki işletmeler için online sipariş ve tasarım süreci nasıl işliyor?", a: "kalematbaa.com veya WhatsApp hattımız üzerinden tüm detayları dijital ortamda netleştirip baskı sürecini başlatabilirsiniz. Baskısı tamamlanan ürünlerinizi matbaamızdan teslim alabilir ya da size uygun bir kurye/sevk yöntemiyle adresinize yönlendirebiliriz." },
@@ -609,6 +619,11 @@ const en: Dictionary = {
     sizePlaceholder: "e.g. A4, A5, 9x5 cm",
     weight: "Paper Weight",
     weightPlaceholder: "Select weight",
+    carbonCopy: "Carbon Copy Quantity",
+    carbonCopyOptions: ["2 copies (50 white, 50 yellow)", "3 copies", "4 copies"],
+    serialNumber: "Serial Number",
+    perforation: "Perforation",
+    perforationOptions: ["Only the first white copy perforated", "All copies perforated"],
     quantity: "Quantity",
     quantityPlaceholder: "e.g. 500",
     sides: "Printing Sides",
@@ -850,10 +865,10 @@ const ru: Dictionary = {
   },
   about: {
     tag: "О нас",
-    title: "Ваш партнёр по печати в Аланье",
+    title: "Ваш партнёр по печати в Ал��нье",
     lead: "Мы предоставляем качественные полиграфические услуги в Аланье и регионе с опытом более 35 лет.",
     body: [
-      "В Alanya Kale Matbaa мы решаем все задачи печати для бизнеса и частных лиц с помощью современных технологий и опытной команды.",
+      "�� Alanya Kale Matbaa мы решаем все задачи печати для бизнеса и частных лиц с помощью современных технологий и опытной команды.",
       "Мы предлагаем широкий спектр услуг — от изготовления печатей и офсетной печати до цифровой печати, приглашений и брошюр. Наш цифровой пресс Konica Minolta AccurioPrint C4065 обеспечивает яркие цвета и чёткие детали.",
       "Мы всегда ставим удовлетворённость клиентов на первое место, сдавая работу вовремя и в рамках вашего бюджета.",
     ],
@@ -907,10 +922,15 @@ const ru: Dictionary = {
     sizePlaceholder: "напр. A4, A5, 9x5 см",
     weight: "Плотность бумаги",
     weightPlaceholder: "Выберите плотность",
+    carbonCopy: "Количество копий",
+    carbonCopyOptions: ["2 экземпляра (50 белых, 50 жёлтых)", "3 экземпляра", "4 экземпляра"],
+    serialNumber: "Серийный номер",
+    perforation: "Перфорация",
+    perforationOptions: ["Перфорация только первой белой копии", "Перфорация всех копий"],
     quantity: "Количество",
     quantityPlaceholder: "напр. 500",
     sides: "Стороны печати",
-    single: "Односторонняя",
+    single: "Односторо��няя",
     double: "Двусторонняя",
     notes: "Описание товара",
     notesPlaceholder: "Доп. детали, цвет, дата доставки...",
@@ -1031,7 +1051,7 @@ const ru: Dictionary = {
       },
       {
         title: "Красные чернила",
-        desc: "Цвет, используемый срочных, предупредительных и специальных документов. Предпочтителен для привлекающего внимания брендинга."
+        desc: "��вет, используемый срочных, предупредительных и специальных документов. Предпочтителен для привлекающего внимания брендинга."
       }
     ],
     colorsTitle: "Цвета печати �� варианты чернил",
