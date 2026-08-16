@@ -334,7 +334,7 @@ const tr: Dictionary = {
     stampNotes: "Kaşenin İçine Yazılacak Bilgiler",
     intro: "Merhaba, teklif almak istiyorum:",
     stampType: "Kaşe Türü",
-    stampTypeOptions: ["Şirket ve şahıs şirketi kaşesi", "Yuvarlak kaşe", "Stampa kaşe", "Yuvarlak cep kaşesi"],
+    stampTypeOptions: ["Şirket ve şahıs şirketi kaşesi", "Cep Kaşesi", "Yuvarlak kaşe", "Stampa kaşe"],
     inkColor: "Mürekkep Rengi",
     inkColorOptions: ["Mavi (Ofis işleri için uygundur)", "Siyah (Resmi işler için uygundur)", "Kırmızı (Acil veya uyarı belirtmek için uygundur)"],
     designDirection: "Tasarım Yönü",
@@ -945,7 +945,7 @@ const ru: Dictionary = {
     double: "Двусторонняя",
     notes: "Описание товара",
     notesPlaceholder: "Доп. детали, цвет, дата доставки...",
-    submit: "Получить предложение",
+    submit: "Получить пр��дложение",
     stampNotes: "Информация для нанесения на печать",
     intro: "Здравствуйте, хочу получить расчёт:",
     stampType: "Тип печати",
@@ -1040,7 +1040,7 @@ const ru: Dictionary = {
   kase: {
     tag: "Профессиональные печати",
     title: "Профессиональные печати и услуга печати",
-    subtitle: "Широкий ассортимент печатей, служащих официальным инструментом одобрения вашей компании и личного бренда. Качественные материалы, быстрая доставка, приемлемые цены.",
+    subtitle: "Широкий ассортимент печатей, служащ��х официальным инструментом одобрения вашей компании и личного бренда. Качественные материалы, быстрая доставка, приемлемые цены.",
     intro: "Ищете срочную печать в Аланье? Kale Matbaa в районе Şekerhane предлагает корпоративные печати, штампы учителей, карманные печати и автоматические штампы с опытом более 35 лет. Доставка в тот же день, бесплатный дизайн, профессиональное качество, обслуживая Махмутлар, Оба, Конаклы и весь регион Аланьи.",
     typesTitle: "Типы печатей",
     typesDesc: [

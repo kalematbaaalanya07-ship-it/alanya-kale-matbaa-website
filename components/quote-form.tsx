@@ -11,6 +11,7 @@ import { site, waLink } from "@/lib/site"
 
 const PAPER_WEIGHTS = ["130g", "170g", "200g", "300g", "350g"]
 const STAMP_SIZES = ["Küçük 16 × 41 mm", "Orta 50 × 20 mm", "Büyük 58 × 22 mm"]
+const POCKET_STAMP_SIZES = ["Küçük 16 × 41 mm", "Orta 50 × 20 mm"]
 const ROUND_STAMP_SIZES = ["30 mm", "40 mm"]
 const OFFSET_PAPER_SIZES = ["A6 (10,5 × 14,8 cm)", "A5 (14,8 × 21 cm)", "A4 (21 × 29,7 cm)"]
 const DIGITAL_PAPER_SIZES = [...OFFSET_PAPER_SIZES, "A3 (29,7 × 42 cm)"]
@@ -56,7 +57,7 @@ export function QuoteForm() {
               <Label htmlFor="size">{q.size}</Label>
               <Input id="size" required placeholder="Kaşe boyutunu yazın" value={form.size} onChange={(e) => update("size", e.target.value)} />
             </div>
-          ) : field("size", q.size, form.stampType?.toLowerCase().includes("yuvarlak") ? ROUND_STAMP_SIZES : STAMP_SIZES, "Kaşe Boyutu")}
+          ) : field("size", q.size, form.stampType?.toLowerCase().includes("cep") ? POCKET_STAMP_SIZES : form.stampType?.toLowerCase().includes("yuvarlak") ? ROUND_STAMP_SIZES : STAMP_SIZES, "Kaşe Boyutu")}
           {field("inkColor", q.inkColor, q.inkColorOptions)}
           <div className="flex flex-col gap-1.5"><Label htmlFor="quantity">{q.quantity}</Label><Input id="quantity" required inputMode="numeric" placeholder={q.quantityPlaceholder} value={form.quantity} onChange={(e) => update("quantity", e.target.value)} /></div>
         </div>
