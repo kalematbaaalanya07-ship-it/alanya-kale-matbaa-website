@@ -120,22 +120,13 @@ export function HeroSlider() {
             }}
             style={{ opacity: i === current ? 1 : 0, pointerEvents: i === current ? "auto" : "none" }}
           >
-            {/* Blurred fill for the letterbox bands on mobile only. */}
-            <Image
-              src={slide.mobileImage}
-              alt=""
-              aria-hidden="true"
-              fill
-              sizes="100vw"
-              className="object-cover blur-xl sm:hidden"
-            />
             <Image
               src={slide.mobileImage}
               alt={slide.alt}
               fill
               priority={i === 0}
               sizes="100vw"
-              className="object-contain object-center sm:hidden"
+              className="object-cover object-center sm:hidden"
             />
             <Image
               src={slide.image}
