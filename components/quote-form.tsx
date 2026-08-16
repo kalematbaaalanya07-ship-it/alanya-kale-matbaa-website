@@ -62,7 +62,7 @@ export function QuoteForm() {
         </div>
       ) : (
         <div className="grid gap-4 sm:grid-cols-2">
-          {field("size", q.size, isOffset ? OFFSET_PAPER_SIZES : DIGITAL_PAPER_SIZES, q.sizePlaceholder)}
+          {!isBusinessCard && field("size", q.size, isOffset ? OFFSET_PAPER_SIZES : DIGITAL_PAPER_SIZES, q.sizePlaceholder)}
           {isOffset ? field("carbonCopy", q.carbonCopy, q.carbonCopyOptions) : isBusinessCard ? field("size", q.cardType, q.cardTypeOptions) : field("weight", q.weight, PAPER_WEIGHTS, q.weightPlaceholder)}
           {field("designDirection", q.designDirection, q.designDirectionOptions)}
           <div className="flex flex-col gap-1.5"><Label htmlFor="quantity">{q.quantity}</Label><Input id="quantity" required inputMode="numeric" placeholder={q.quantityPlaceholder} value={form.quantity} onChange={(e) => update("quantity", e.target.value)} /></div>
