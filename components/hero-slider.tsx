@@ -8,31 +8,32 @@ import { useLanguage } from "@/components/language-provider"
 
 type Slide = {
   image: string
+  mobileImage: string
   href: string
   alt: string
 }
 
 const SLIDES: Record<string, Slide[]> = {
   tr: [
-    { image: "/images/slides/kaseslide.webp", href: "/kase", alt: "Profesyonel Kaşe Baskısı Alanya" },
-    { image: "/images/slides/brosurslide.webp", href: "/hizmetlerimiz/brosur-baski", alt: "Broşür Baskısı Alanya" },
-    { image: "/images/slides/katalogslide.webp", href: "/hizmetlerimiz/katalog-baski", alt: "Katalog Baskısı Alanya" },
-    { image: "/images/slides/kartvizitslide.webp", href: "/hizmetlerimiz/kartvizit-baski", alt: "Kartvizit Baskısı Alanya" },
-    { image: "/images/slides/davetiyeslide.webp", href: "/hizmetlerimiz/davetiye-baski", alt: "Davetiye Baskısı Alanya" },
+    { image: "/images/slides/kaseslide.webp", mobileImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mka%C5%9Fe-59Rrvq75OfRZAdDnSwczMbfkxE6yxq.png", href: "/kase", alt: "Profesyonel Kaşe Baskısı Alanya" },
+    { image: "/images/slides/brosurslide.webp", mobileImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mbro%C5%9F%C3%BCr-LX7cgxGFYN1fheajpX835pvXRsYe0G.png", href: "/hizmetlerimiz/brosur-baski", alt: "Broşür Baskısı Alanya" },
+    { image: "/images/slides/katalogslide.webp", mobileImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mkatalog-4UrTA0WDE8V3D5zVYYc4XmbCNXE5sL.png", href: "/hizmetlerimiz/katalog-baski", alt: "Katalog Baskısı Alanya" },
+    { image: "/images/slides/kartvizitslide.webp", mobileImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mkartvizit-ZP2gQDQGx4eUE2Ea5OvuSEJ2f7pic2.png", href: "/hizmetlerimiz/kartvizit-baski", alt: "Kartvizit Baskısı Alanya" },
+    { image: "/images/slides/davetiyeslide.webp", mobileImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mdavetiye-ppR3EcmEcjfugYCZJi0tqdm9GbI23D.png", href: "/hizmetlerimiz/davetiye-baski", alt: "Davetiye Baskısı Alanya" },
   ],
   en: [
-    { image: "/images/slides/stampslide.webp", href: "/kase", alt: "Professional Stamp Printing Alanya" },
-    { image: "/images/slides/broshureslide.webp", href: "/hizmetlerimiz/brosur-baski", alt: "Brochure Printing Alanya" },
-    { image: "/images/slides/catalogslide.webp", href: "/hizmetlerimiz/katalog-baski", alt: "Catalog Printing Alanya" },
-    { image: "/images/slides/businescardslide.webp", href: "/hizmetlerimiz/kartvizit-baski", alt: "Business Card Printing Alanya" },
-    { image: "/images/slides/invitationslide.webp", href: "/hizmetlerimiz/davetiye-baski", alt: "Invitation Card Printing Alanya" },
+    { image: "/images/slides/stampslide.webp", mobileImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mstamp-wN0kmolBC36O1z3C2NrysZIKEyaaAM.png", href: "/kase", alt: "Professional Stamp Printing Alanya" },
+    { image: "/images/slides/broshureslide.webp", mobileImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mbrochure-4IheXcy5wCl3MVTr6O1zusLRmUvWiB.png", href: "/hizmetlerimiz/brosur-baski", alt: "Brochure Printing Alanya" },
+    { image: "/images/slides/catalogslide.webp", mobileImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mcatalog-ACyVobu0zemSZgmcJkVumv4RRRs57M.png", href: "/hizmetlerimiz/katalog-baski", alt: "Catalog Printing Alanya" },
+    { image: "/images/slides/businescardslide.webp", mobileImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mbusinesscard-nS8TcO7ov0DUyr2uD7glF6MsXwfbiG.png", href: "/hizmetlerimiz/kartvizit-baski", alt: "Business Card Printing Alanya" },
+    { image: "/images/slides/invitationslide.webp", mobileImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/minvitationcard-18CU6BXxfMDIZPhJX7I5juN4xfS1gq.png", href: "/hizmetlerimiz/davetiye-baski", alt: "Invitation Card Printing Alanya" },
   ],
   ru: [
-    { image: "/images/slides/rkaseslide.webp", href: "/kase", alt: "Профессиональная Печать Штампов Аланья" },
-    { image: "/images/slides/rbrosurslide.webp", href: "/hizmetlerimiz/brosur-baski", alt: "Печать Брошюр Аланья" },
-    { image: "/images/slides/rkatalogslide.webp", href: "/hizmetlerimiz/katalog-baski", alt: "Печать Каталогов Аланья" },
-    { image: "/images/slides/rkartvizitslide.webp", href: "/hizmetlerimiz/kartvizit-baski", alt: "Печать Визиток Аланья" },
-    { image: "/images/slides/rdavetiyeslide.webp", href: "/hizmetlerimiz/davetiye-baski", alt: "Печать Приглашений Аланья" },
+    { image: "/images/slides/rkaseslide.webp", mobileImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/m%D0%9F%D0%95%D0%A7%D0%90%D0%A2%D0%98-XUjh9UuwZ2DVjU3XiGGeQDUu8MLNbb.png", href: "/kase", alt: "Профессиональная Печать Штампов Аланья" },
+    { image: "/images/slides/rbrosurslide.webp", mobileImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/m%D0%91%D0%A0%D0%9E%D0%A8%D0%AE%D0%A0-rap59g49N2qafUne1yFENo4x5WhJt0.png", href: "/hizmetlerimiz/brosur-baski", alt: "Печать Брошюр Аланья" },
+    { image: "/images/slides/rkatalogslide.webp", mobileImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/m%D0%9A%D0%90%D0%A2%D0%90%D0%9B%D0%9E%D0%93%D0%9E%D0%92%20%D0%98%20%D0%96%D0%A3%D0%A0%D0%9D%D0%90%D0%9B%D0%9E%D0%92-q4jia01q8IEHFnVPdZL3oKYsTpW3YO.png", href: "/hizmetlerimiz/katalog-baski", alt: "Печать Каталогов Аланья" },
+    { image: "/images/slides/rkartvizitslide.webp", mobileImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/m%D0%92%D0%98%D0%97%D0%98%D0%A2%D0%9E%D0%9A-DOI4FOO8xO2tnUEoQ8zB2bDbpXeqOI.png", href: "/hizmetlerimiz/kartvizit-baski", alt: "Печать Визиток Аланья" },
+    { image: "/images/slides/rdavetiyeslide.webp", mobileImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/m%D0%9F%D0%A0%D0%98%D0%93%D0%9B%D0%90%D0%A8%D0%95%D0%9D%D0%98%D0%AF-rFeOMNZBg9Zmofq1noTICW2AdrjoTu.png", href: "/hizmetlerimiz/davetiye-baski", alt: "Печать Приглашений Аланья" },
   ],
 }
 
@@ -77,12 +78,20 @@ export function HeroSlider() {
           >
             {/* Blurred fill for the letterbox bands on mobile only. */}
             <Image
-              src={slide.image}
+              src={slide.mobileImage}
               alt=""
               aria-hidden="true"
               fill
               sizes="100vw"
-              className="scale-150 object-cover blur-xl sm:hidden"
+              className="object-cover blur-xl sm:hidden"
+            />
+            <Image
+              src={slide.mobileImage}
+              alt={slide.alt}
+              fill
+              priority={i === 0}
+              sizes="100vw"
+              className="object-contain object-center sm:hidden"
             />
             <Image
               src={slide.image}
@@ -90,7 +99,7 @@ export function HeroSlider() {
               fill
               priority={i === 0}
               sizes="100vw"
-              className="scale-[90%] object-contain object-center"
+              className="hidden scale-[90%] object-contain object-center sm:block"
             />
           </Link>
         ))}
