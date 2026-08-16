@@ -5,6 +5,7 @@ import { useLanguage } from '@/components/language-provider'
 import { Button } from '@/components/ui/button'
 import { waLink } from '@/lib/site'
 import { Phone } from 'lucide-react'
+import { QuoteForm } from '@/components/quote-form'
 
 export default function KasePage() {
   const { t } = useLanguage()
@@ -25,12 +26,12 @@ export default function KasePage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-primary/60" />
         </div>
-        <div className="relative mx-auto flex max-w-6xl flex-col gap-6 px-4 py-20 sm:py-28">
+        <div className="relative mx-auto flex max-w-6xl flex-col gap-4 px-4 py-10 sm:gap-5 sm:py-16">
           <div className="space-y-4">
             <div className="inline-block rounded-full border border-primary-foreground/30 px-4 py-1 text-sm font-medium backdrop-blur-sm">
               {content.tag}
             </div>
-            <h1 className="font-heading text-4xl font-bold leading-tight sm:text-5xl md:text-6xl text-balance">
+            <h1 className="font-heading text-3xl font-bold leading-tight sm:text-4xl md:text-5xl text-balance">
               {content.title}
             </h1>
             <p className="max-w-2xl text-lg text-primary-foreground/90 leading-relaxed">
@@ -49,8 +50,13 @@ export default function KasePage() {
         </div>
       </section>
 
+      {/* Quick Quote Section */}
+      <section className="mx-auto max-w-6xl px-4 py-10 sm:py-16">
+        <QuoteForm />
+      </section>
+
       {/* Introduction Section */}
-      <section className="mx-auto max-w-6xl px-4 py-16 sm:py-24">
+      <section className="mx-auto max-w-6xl px-4 py-10 sm:py-20">
         <div className="prose prose-neutral max-w-none dark:prose-invert">
           <p className="text-lg leading-relaxed text-muted-foreground mb-8">
             {content.intro}
