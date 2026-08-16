@@ -39,7 +39,7 @@ export function StructuredData() {
 
   const localBusiness = {
     "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "PrintShop", "ProfessionalService"],
+    "@type": ["LocalBusiness", "ProfessionalService"],
     "@id": businessId,
     name: site.name,
     image: `${site.url}/images/digital-press.webp`,
@@ -50,13 +50,16 @@ export function StructuredData() {
       height: 1200,
     },
     url: site.url,
-    telephone: site.phone,
-    email: site.email,
+    telephone: site.whatsappDisplay,
+    email: "kalematbaaalanya@hotmail.com",
+    currenciesAccepted: "TRY",
+    paymentAccepted: ["Cash", "Credit Card"],
     priceRange: "$$",
+    knowsAbout: ["Dijital Baskı", "Ofset Baskı", "Kaşe Üretimi", "Kartvizit", "Broşür", "Maliye Anlaşmalı Resmi Evrak"],
     foundingDate: "1990",
     slogan: "35+ yıllık tecrübe, 20.000+ mutlu müşteri",
     description:
-      "Alanya Şekerhane'de bulunan 35+ yıllık profesyonel matbaacılık hizmeti. Dijital (Konica Minolta C4065), ofset ve kaşe basımı. Kartvizit, broşür, katalog, menü, davetiye. Aynı gün teslim, ücretsiz grafik tasarım.",
+      "Alanya'da kaşe, ofset ve dijital baskı hizmetleri. Konica Minolta C4065 ile kaliteli baskı, zamanında teslimat. Maliye Anlaşmalı Resmi Matbaadır.",
     address: {
       "@type": "PostalAddress",
       streetAddress: site.street,
@@ -72,10 +75,10 @@ export function StructuredData() {
     },
     areaServed: [
       { "@type": "City", name: "Alanya" },
-      { "@type": "City", name: "Mahmutlar" },
-      { "@type": "City", name: "Oba" },
-      { "@type": "City", name: "Cikcilli" },
-      { "@type": "City", name: "Konaklı" },
+      { "@type": "Place", name: "Mahmutlar" },
+      { "@type": "Place", name: "Oba" },
+      { "@type": "Place", name: "Konaklı" },
+      { "@type": "Place", name: "Avsallar" },
       { "@type": "AdministrativeArea", name: "Antalya" },
     ],
     openingHoursSpecification: [
@@ -83,13 +86,7 @@ export function StructuredData() {
         "@type": "OpeningHoursSpecification",
         dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
         opens: "09:00",
-        closes: "19:00",
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: "Sunday",
-        opens: "10:00",
-        closes: "17:00",
+        closes: "18:00",
       },
     ],
     contactPoint: {
