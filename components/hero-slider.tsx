@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect, useCallback, useRef } from "react"
-import type { TouchEvent } from "react"
+import type { PointerEvent } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { ChevronLeft, ChevronRight } from "lucide-react"
@@ -44,31 +44,35 @@ export function HeroSlider() {
 
   const [current, setCurrent] = useState(0)
   const [paused, setPaused] = useState(false)
-  const touchStartX = useRef<number | null>(null)
-  const touchStartY = useRef<number | null>(null)
-  const handleTouchStart = (event: TouchEvent<HTMLDivElement>) => {
-    touchStartX.current = event.touches[0]?.clientX ?? null
-    touchStartY.current = event.touches[0]?.clientY ?? null
-    swiped.current = false
+  const pointerStartX = useRef<number | null>(null)
+  const pointerStartY = useRef<number | null>(null)
+  const didSwipe = useRef(false)
+
+  const handlePointerDown = (event: PointerEvent<HTMLDivElement>) => {
+    if (event.pointerType === "mouse") return
+    pointerStartX.current = event.clientX
+    pointerStartY.current = event.clientY
+    didSwipe.current = false
     setPaused(true)
   }
 
-  const handleTouchMove = (event: TouchEvent<HTMLDivElement>) => {
-    if (touchStartX.current === null || touchStartY.current === null) return
-    const deltaX = event.touches[0].clientX - touchStartX.current
-    const deltaY = event.touches[0].clientY - touchStartY.current
-
-    if (Math.abs(deltaX) < 40 || Math.abs(deltaX) < Math.abs(deltaY)) return
-    swiped.current = true
-    if (deltaX < 0) next()
-    else prev()
-    touchStartX.current = null
-    touchStartY.current = null
+  const handlePointerUp = (event: PointerEvent<HTMLDivElement>) => {
+    if (pointerStartX.current === null || pointerStartY.current === null) return
+    const deltaX = event.clientX - pointerStartX.current
+    const deltaY = event.clientY - pointerStartY.current
+    if (Math.abs(deltaX) >= 35 && Math.abs(deltaX) > Math.abs(deltaY)) {
+      didSwipe.current = true
+      if (deltaX < 0) next()
+      else prev()
+    }
+    pointerStartX.current = null
+    pointerStartY.current = null
+    setPaused(false)
   }
 
-  const handleTouchEnd = () => {
-    touchStartX.current = null
-    touchStartY.current = null
+  const handlePointerCancel = () => {
+    pointerStartX.current = null
+    pointerStartY.current = null
     setPaused(false)
   }
 
@@ -96,18 +100,24 @@ export function HeroSlider() {
           the artwork stays uncropped and a blurred copy fills the band. */}
       <div
         className="relative aspect-[16/7] w-full overflow-hidden touch-pan-y sm:aspect-[3630/984]"
-        onTouchStart={handleTouchStart}
-        onTouchMove={handleTouchMove}
-        onTouchEnd={handleTouchEnd}
+        onPointerDown={handlePointerDown}
+        onPointerUp={handlePointerUp}
+        onPointerCancel={handlePointerCancel}
       >
-        <div className="absolute inset-y-0 left-10 right-10 overflow-hidden sm:inset-0">
+        <div className="absolute inset-0 overflow-hidden">
         {slides.map((slide, i) => (
           <Link
             key={slide.image}
             href={slide.href}
             tabIndex={i === current ? 0 : -1}
             aria-hidden={i !== current}
-            className="absolute inset-0 block transition-opacity duration-700 focus:outline-none"
+            className="absolute inset-0 block touch-pan-y transition-opacity duration-700 focus:outline-none"
+            onClick={(event) => {
+              if (didSwipe.current) {
+                event.preventDefault()
+                didSwipe.current = false
+              }
+            }}
             style={{ opacity: i === current ? 1 : 0, pointerEvents: i === current ? "auto" : "none" }}
           >
             {/* Blurred fill for the letterbox bands on mobile only. */}
