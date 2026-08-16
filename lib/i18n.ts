@@ -370,7 +370,7 @@ const tr: Dictionary = {
       {
         name: "Ayşe Demir",
         role: "Otel Yöneticisi",
-        text: "Broşür ve tanıtım kataloglarımızı yıllardır buradan yaptır��yoruz. Ücretsiz tasarım desteği gerçekten büyük avantaj.",
+        text: "Broşür ve tanıtım kataloglarımızı yıllardır buradan yaptırıyoruz. Ücretsiz tasarım desteği gerçekten büyük avantaj.",
       },
       {
         name: "Sergey Ivanov",
@@ -387,9 +387,9 @@ const tr: Dictionary = {
       { q: "Kaşe yaptırmak istiyorum hangi bilgileri size göndermeliyim?", a: "Limited Şirket ve Anonim Şirketlerde şirket ünvanı, adres ve vergi numarası yeterlidir. İsteğe göre telefon numarası, MERSİS numarası, ticaret sicil numarası veya mail adresi gibi bilgiler eklenebilir. Şahıs şirketinde isim-soyisim, adres ve T.C. kimlik numarası (veya vergi dairesi numarası) yeterlidir. İsteğe göre ünvan, telefon numarası ve mail adresi eklenebilir." },
       { q: "Alanya'da acil baskı işlerini ne kadar sürede teslim ediyorsunuz?", a: "Dijital baskı işlerinin çoğunu aynı gün veya 24 saat içinde teslim ediyoruz. Yoğun sezonda bile acil işleriniz için önceliklendirme yapıyoruz." },
       { q: "Tasarım dosyam yok, yardımcı olur musunuz?", a: "Elbette. Profesyonel grafik tasarım hizmetimizle kartvizit, broşür, menü ve davetiye tasarımlarınızı sizin için hazırlıyoruz." },
-      { q: "Konica Minolta C4065 ile hangi kağ��tlara baskı yapılıyor?", a: "80g ince kağıttan 350g ve üzeri kalın kartona kadar, A3+ boyutuna dek canlı renklerle yüksek kaliteli baskı yapabiliyoruz." },
+      { q: "Konica Minolta C4065 ile hangi kağıtlara baskı yapılıyor?", a: "80g ince kağıttan 350g ve üzeri kalın kartona kadar, A3+ boyutuna dek canlı renklerle yüksek kaliteli baskı yapabiliyoruz." },
       { q: "Dijital baskı mı ofset baskı mı seçmeliyim?", a: "Düşük ve orta adetli, hızlı işler için dijital baskı; çok yüksek adetli işler için ofset baskı daha ekonomiktir. Size en uygun seçeneği ücretsiz danışmanlıkla birlikte belirliyoruz." },
-      { q: "Alanya’nın hangi semt ve mahallelerine matbaa ve baskı hizmeti veriyorsunuz?", a: "Kale Matbaa olarak Alanya genelindeki tüm işletmelere profesyonel baskı çözümleri sunuyoruz. Başlıca hizmet verdiğimiz bölgeler: Merkez: Saray Mahallesi, Çar��ı, Güller Pınarı, Kadıpaşa, Kızlar Pınarı, Sugözü, Şekerhane, Fığla. Doğu Bölgesi: Oba, Tosmur, Kestel, Mahmutlar, Kargıcak, Demirtaş. Batı Bölgesi: Büyühasbahçe, Küçükhasbahçe, Konaklı, Payallar, Türkler, Avsallar, Okurcalar." },
+      { q: "Alanya’nın hangi semt ve mahallelerine matbaa ve baskı hizmeti veriyorsunuz?", a: "Kale Matbaa olarak Alanya genelindeki tüm işletmelere profesyonel baskı çözümleri sunuyoruz. Başlıca hizmet verdiğimiz bölgeler: Merkez: Saray Mahallesi, Çarşı, Güller Pınarı, Kadıpaşa, Kızlar Pınarı, Sugözü, Şekerhane, Fığla. Doğu Bölgesi: Oba, Tosmur, Kestel, Mahmutlar, Kargıcak, Demirtaş. Batı Bölgesi: Büyühasbahçe, Küçükhasbahçe, Konaklı, Payallar, Türkler, Avsallar, Okurcalar." },
       { q: "Siparişlerimizi nasıl teslim alabiliriz? Teslimat yapıyor musunuz?", a: "Siparişlerinizi merkez matbaamızdan doğrudan teslim alabilirsiniz. Ayrıca iş durumumuza ve güzergahımıza bağlı olarak yakın çevredeki işletmeler için adrese teslimat imkanı sağlayabiliyoruz. Yakın çevremiz dışında kalan veya acil teslimat isteyen müşterilerimiz için ise özel kurye veya şehir içi sevk seçenekleri sunmaktayız." },
       { q: "Mahmutlar, Oba, Konaklı veya Avsallar gibi mahallelerden verilen siparişler nasıl ulaştırılıyor?", a: "Oba, Mahmutlar, Konaklı ve Avsallar gibi mahallelerdeki müşterilerimiz siparişlerini matbaamızdan aldırabilir veya talep doğrultusunda adrese kurye / sevk seçeneğini tercih edebilirler. Güzergahımız üzerindeki yakın teslimatlar için imkan dahilinde yardımcı olmaya çalışıyoruz." },
       { q: "Kargıcak, Demirtaş veya Okurcalar’daki işletmeler için online sipariş ve tasarım süreci nasıl işliyor?", a: "kalematbaa.com veya WhatsApp hattımız üzerinden tüm detayları dijital ortamda netleştirip baskı sürecini başlatabilirsiniz. Baskısı tamamlanan ürünlerinizi matbaamızdan teslim alabilir ya da size uygun bir kurye/sevk yöntemiyle adresinize yönlendirebiliriz." },
@@ -874,10 +874,10 @@ const ru: Dictionary = {
   },
   about: {
     tag: "О нас",
-    title: "Ваш партнёр по печати в Ал��нье",
+    title: "Ваш партнёр по печати в Аланье",
     lead: "Мы предоставляем качественные полиграфические услуги в Аланье и регионе с опытом более 35 лет.",
     body: [
-      "�� Alanya Kale Matbaa мы решаем все задачи печати для бизнеса и частных лиц с помощью современных технологий и опытной команды.",
+      "В Alanya Kale Matbaa мы решаем все задачи печати для бизнеса и частных лиц с помощью современных технологий и опытной команды.",
       "Мы предлагаем широкий спектр услуг — от изготовления печатей и офсетной печати до цифровой печати, приглашений и брошюр. Наш цифровой пресс Konica Minolta AccurioPrint C4065 обеспечивает яркие цвета и чёткие детали.",
       "Мы всегда ставим удовлетворённость клиентов на первое место, сдавая работу вовремя и в рамках вашего бюджета.",
     ],
@@ -941,7 +941,7 @@ const ru: Dictionary = {
     quantity: "Количество",
     quantityPlaceholder: "напр. 500",
     sides: "Стороны печати",
-    single: "Односторо��няя",
+    single: "Односторонняя",
     double: "Двусторонняя",
     notes: "Описание товара",
     notesPlaceholder: "Доп. детали, цвет, дата доставки...",
@@ -979,7 +979,7 @@ const ru: Dictionary = {
     items: [
       {
         name: "Мехмет Йылмаз",
-        role: "��ладелец ресторана, Аланья",
+        role: "Владелец ресторана, Аланья",
         text: "Напечатали наше меню на Konica Minolta C4065 — цвета вышли отличные. Срочный заказ сдали вовремя к началу сезона.",
       },
       {
@@ -997,7 +997,7 @@ const ru: Dictionary = {
   faq: {
     tag: "Вопросы",
     title: "Часто задаваемые вопросы (FAQ)",
-    subtitle: "Все, что вам нужно знать о типографии Kale Matbaa и доставке в ��ланье.",
+    subtitle: "Все, что вам нужно знать о типографии Kale Matbaa и доставке в Аланье.",
     items: [
       { q: "Какая информация нужна для изготовления печати/штампа?", a: "Для ООО и АО достаточно названия компании, адреса и налогового номера. Дополнительно можно указать телефон, регистрационные данные и e-mail. Для ИП требуется ФИО, адрес и ИНН/паспортные данные." },
       { q: "Как быстро вы выполняете срочные заказы на печать в Аланье?", a: "Большинство заказов цифровой печати мы выполняем в тот же день или в течение 24 часов. Даже в высокий сезон мы отдаем приоритет срочным заказам." },
@@ -1063,10 +1063,10 @@ const ru: Dictionary = {
       },
       {
         title: "Красные чернила",
-        desc: "��вет, используемый срочных, предупредительных �� специальных документов. Предпочтителен для привлекающего внимания брендинга."
+        desc: "Цвет, используемый срочных, предупредительных и специальных документов. Предпочтителен для привлекающего внимания брендинга."
       }
     ],
-    colorsTitle: "Цвета печати �� варианты чернил",
+    colorsTitle: "Цвета печати и варианты чернил",
     colorsDesc: "Вы можете персонализировать свои печати с цветом и вариантами чернил, чтобы получить максимальную пользу. Каждый цвет имеет свой уникальный вариант использования и влияние на клиентов.",
     colors: [
       { name: "Черный", usage: "Официальные и юридические дела", class: "border-black bg-black/10" },
@@ -1097,7 +1097,7 @@ const ru: Dictionary = {
       }
     ],
     ctaTitle: "Свяжитесь с нами для профессиональных решений для печатей",
-    ctaDesc: "Отправьте нам сообщение через WhatsApp, чтобы найти лучшее решение для печати вашей компании или личного бренда. Бесплатная консультация и гарантир��ванная быстрая доставка."
+    ctaDesc: "Отправьте нам сообщение через WhatsApp, чтобы найти лучшее решение для печати вашей компании или личного бренда. Бесплатная консультация и гарантированная быстрая доставка."
   },
   services: {
     tag: "Полиграфические услуги",
