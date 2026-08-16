@@ -106,6 +106,8 @@ export type Dictionary = {
     serviceOptions: string[]
     size: string
     sizePlaceholder: string
+    cardType: string
+    cardTypeOptions: string[]
     weight: string
     weightPlaceholder: string
     carbonCopy: string
@@ -312,6 +314,8 @@ const tr: Dictionary = {
     serviceOptions: ["Kaşe", "Ofset Baskı", "Dijital Baskı", "Broşür", "Davetiye", "Kartvizit", "Diğer"],
     size: "Boyut",
     sizePlaceholder: "Örn. A4, A5, 9x5 cm",
+    cardType: "Kartvizit Türü",
+    cardTypeOptions: ["82 × 52 mm ölçüsünde 350 gr standart parlak selefonlu kartvizit", "82 × 52 mm ölçüsünde 350 gr standart mat selefonlu kartvizit", "700 gr sıvama, embos laklı, oval kesim kalın kartvizit", "700 gr sıvama, embos laklı, oval kesim, altın veya gümüş yaldızlı kalın kartvizit", "164 × 52 mm ölçüsünde 350 gr ortadan kırımlı parlak selefonlu kartvizit", "164 × 52 mm ölçüsünde 350 gr ortadan kırımlı mat selefonlu kartvizit", "350 gr, 50 × 50 mm ölçüsünde selefonlu kartvizit"],
     weight: "Gramaj",
     weightPlaceholder: "Gramaj seçin",
     carbonCopy: "Carbon Copy Adedi",
@@ -366,7 +370,7 @@ const tr: Dictionary = {
       {
         name: "Ayşe Demir",
         role: "Otel Yöneticisi",
-        text: "Broşür ve tanıtım kataloglarımızı yıllardır buradan yaptırıyoruz. Ücretsiz tasarım desteği gerçekten büyük avantaj.",
+        text: "Broşür ve tanıtım kataloglarımızı yıllardır buradan yaptır��yoruz. Ücretsiz tasarım desteği gerçekten büyük avantaj.",
       },
       {
         name: "Sergey Ivanov",
@@ -619,6 +623,8 @@ const en: Dictionary = {
     serviceOptions: ["Stamp", "Offset Printing", "Digital Printing", "Brochure", "Invitation", "Business Card", "Other"],
     size: "Size",
     sizePlaceholder: "e.g. A4, A5, 9x5 cm",
+    cardType: "Business Card Type",
+    cardTypeOptions: ["82 × 52 mm, 350 gsm standard glossy laminated business card", "82 × 52 mm, 350 gsm standard matte laminated business card", "700 gsm mounted, embossed lacquered, rounded thick business card", "700 gsm mounted, embossed lacquered, rounded thick business card with gold or silver foil", "164 × 52 mm, 350 gsm center-fold glossy laminated business card", "164 × 52 mm, 350 gsm center-fold matte laminated business card", "350 gsm, 50 × 50 mm laminated business card"],
     weight: "Paper Weight",
     weightPlaceholder: "Select weight",
     carbonCopy: "Carbon Copy Quantity",
@@ -923,6 +929,8 @@ const ru: Dictionary = {
     serviceOptions: ["Печать", "Офсетная печать", "Цифровая печать", "Брошюра", "Приглашение", "Визитка", "Другое"],
     size: "Размер",
     sizePlaceholder: "напр. A4, A5, 9x5 см",
+    cardType: "Тип визитки",
+    cardTypeOptions: ["82 × 52 мм, 350 г/м², стандартная визитка с глянцевой ламинацией", "82 × 52 мм, 350 г/м², стандартная визитка с матовой ламинацией", "700 г/м², кашированная, с эмбоссированным лаком, толстая визитка с овальной вырубкой", "700 г/м², кашированная, с эмбоссированным лаком, овальная вырубка, золотая или серебряная фольга", "164 × 52 мм, 350 г/м², визитка с центральным сгибом и глянцевой ламинацией", "164 × 52 мм, 350 г/м², визитка с центральным сгибом и матовой ламинацией", "350 г/м², 50 × 50 мм, визитка с ламинацией"],
     weight: "Плотность бумаги",
     weightPlaceholder: "Выберите плотность",
     carbonCopy: "Количество копий",
