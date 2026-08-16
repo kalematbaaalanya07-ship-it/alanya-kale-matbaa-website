@@ -13,6 +13,7 @@ const PAPER_WEIGHTS = ["130g", "170g", "200g", "300g", "350g"]
 const STAMP_SIZES = ["Küçük 16 × 41 mm", "Orta 50 × 20 mm", "Büyük 58 × 22 mm"]
 const ROUND_STAMP_SIZES = ["30 mm", "40 mm"]
 const OFFSET_PAPER_SIZES = ["A6 (10,5 × 14,8 cm)", "A5 (14,8 × 21 cm)", "A4 (21 × 29,7 cm)"]
+const DIGITAL_PAPER_SIZES = [...OFFSET_PAPER_SIZES, "A3 (29,7 × 42 cm)"]
 const selectClass = "h-10 w-full rounded-lg border border-input bg-background px-3 text-sm text-foreground outline-none transition-colors focus-visible:border-ring focus-visible:ring-2 focus-visible:ring-ring/40"
 
 export function QuoteForm() {
@@ -59,7 +60,7 @@ export function QuoteForm() {
         </div>
       ) : (
         <div className="grid gap-4 sm:grid-cols-2">
-          {field("size", q.size, isOffset ? OFFSET_PAPER_SIZES : q.paperSizeOptions, q.sizePlaceholder)}
+          {field("size", q.size, isOffset ? OFFSET_PAPER_SIZES : DIGITAL_PAPER_SIZES, q.sizePlaceholder)}
           {isOffset ? field("carbonCopy", q.carbonCopy, q.carbonCopyOptions) : field("weight", q.weight, PAPER_WEIGHTS, q.weightPlaceholder)}
           {field("designDirection", q.designDirection, q.designDirectionOptions)}
           <div className="flex flex-col gap-1.5"><Label htmlFor="quantity">{q.quantity}</Label><Input id="quantity" required inputMode="numeric" placeholder={q.quantityPlaceholder} value={form.quantity} onChange={(e) => update("quantity", e.target.value)} /></div>
