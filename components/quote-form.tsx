@@ -59,7 +59,7 @@ export function QuoteForm() {
         </div>
       )}
       {!isStamp && <div className="flex flex-col gap-1.5"><Label>{q.sides}</Label><div className="flex gap-2">{[q.single, q.double].map((option) => <button key={option} type="button" onClick={() => update("sides", option)} className={`flex-1 rounded-lg border px-3 py-2 text-sm font-medium transition-colors ${form.sides === option ? "border-accent bg-accent text-accent-foreground" : "border-input bg-background text-muted-foreground hover:border-accent"}`}>{option}</button>)}</div></div>}
-      <div className="flex flex-col gap-1.5"><Label htmlFor="notes">{q.notes}</Label><Textarea id="notes" rows={3} placeholder={q.notesPlaceholder} value={form.notes} onChange={(e) => update("notes", e.target.value)} /></div>
+      <div className="flex flex-col gap-1.5"><Label htmlFor="notes">{isStamp ? q.stampNotes : q.notes}</Label><Textarea id="notes" rows={3} placeholder={isStamp ? q.stampNotes : q.notesPlaceholder} value={form.notes} onChange={(e) => update("notes", e.target.value)} /></div>
       <Button type="submit" size="lg" className="bg-[#25D366] text-white hover:bg-[#1eb958]"><MessageCircle className="size-4" />{q.submit}</Button>
       <p className="text-center text-xs text-muted-foreground">{site.phoneDisplay}</p>
     </form>

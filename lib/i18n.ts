@@ -119,6 +119,7 @@ export type Dictionary = {
     intro: string
     stampType: string
     stampTypeOptions: string[]
+    stampNotes: string
     inkColor: string
     inkColorOptions: string[]
     designDirection: string
@@ -312,9 +313,10 @@ const tr: Dictionary = {
     sides: "Baskı Yönü",
     single: "Tek Yön",
     double: "Çift Yön",
-    notes: "Açıklama",
+    notes: "Ürün Açıklaması",
     notesPlaceholder: "Ek detaylar, renk, teslim tarihi...",
-    submit: "WhatsApp ile Gönder",
+    submit: "Teslim Tarihi Sor",
+    stampNotes: "Kaşenin İçine Yazılacak Bilgiler",
     intro: "Merhaba, teklif almak istiyorum:",
     stampType: "Kaşe Türü",
     stampTypeOptions: ["Şirket ve şahıs şirketi kaşesi", "Yuvarlak kaşe", "Stampa kaşe", "Yuvarlak cep kaşesi"],
@@ -612,9 +614,10 @@ const en: Dictionary = {
     sides: "Printing Sides",
     single: "Single-Sided",
     double: "Double-Sided",
-    notes: "Notes",
-    notesPlaceholder: "Extra details, color, deadline...",
-    submit: "Send via WhatsApp",
+    notes: "Product Description",
+    notesPlaceholder: "Extra details, color, delivery date...",
+    submit: "Ask Delivery Date",
+    stampNotes: "Information to Be Written Inside the Stamp",
     intro: "Hello, I would like to get a quote:",
     stampType: "Stamp Type",
     stampTypeOptions: ["Company and sole proprietorship stamp", "Round stamp", "Stampa stamp", "Round pocket stamp"],
@@ -909,9 +912,10 @@ const ru: Dictionary = {
     sides: "Стороны печати",
     single: "Односторонняя",
     double: "Двусторонняя",
-    notes: "Комментарий",
-    notesPlaceholder: "Доп. детали, цвет, срок...",
-    submit: "Отправить в WhatsApp",
+    notes: "Описание товара",
+    notesPlaceholder: "Доп. детали, цвет, дата доставки...",
+    submit: "Узнать дату доставки",
+    stampNotes: "Информация для нанесения на печать",
     intro: "Здравствуйте, хочу получить расчёт:",
     stampType: "Тип печати",
     stampTypeOptions: ["Печать компании и ИП", "Круглая печать", "Штамп-оснастка", "Круглая карманная печать"],
@@ -961,7 +965,7 @@ const ru: Dictionary = {
   faq: {
     tag: "Вопросы",
     title: "Часто задаваемые вопросы (FAQ)",
-    subtitle: "Все, что вам нужно знать о типографии Kale Matbaa и доставке в Аланье.",
+    subtitle: "Все, что вам нужно знать о типографии Kale Matbaa и доставке в ��ланье.",
     items: [
       { q: "Какая информация нужна для изготовления печати/штампа?", a: "Для ООО и АО достаточно названия компании, адреса и налогового номера. Дополнительно можно указать телефон, регистрационные данные и e-mail. Для ИП требуется ФИО, адрес и ИНН/паспортные данные." },
       { q: "Как быстро вы выполняете срочные заказы на печать в Аланье?", a: "Большинство заказов цифровой печати мы выполняем в тот же день или в течение 24 часов. Даже в высокий сезон мы отдаем приоритет срочным заказам." },
@@ -1030,7 +1034,7 @@ const ru: Dictionary = {
         desc: "Цвет, используемый срочных, предупредительных и специальных документов. Предпочтителен для привлекающего внимания брендинга."
       }
     ],
-    colorsTitle: "Цвета печати и варианты чернил",
+    colorsTitle: "Цвета печати �� варианты чернил",
     colorsDesc: "Вы можете персонализировать свои печати с цветом и вариантами чернил, чтобы получить максимальную пользу. Каждый цвет имеет свой уникальный вариант использования и влияние на клиентов.",
     colors: [
       { name: "Черный", usage: "Официальные и юридические дела", class: "border-black bg-black/10" },
