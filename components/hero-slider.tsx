@@ -1,6 +1,7 @@
 "use client"
 
-import { useState, useEffect, useCallback } from "react"
+import { useState, useEffect, useCallback, useRef } from "react"
+import type { TouchEvent } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { ChevronLeft, ChevronRight } from "lucide-react"
@@ -43,6 +44,33 @@ export function HeroSlider() {
 
   const [current, setCurrent] = useState(0)
   const [paused, setPaused] = useState(false)
+  const touchStartX = useRef<number | null>(null)
+  const touchStartY = useRef<number | null>(null)
+  const handleTouchStart = (event: TouchEvent<HTMLDivElement>) => {
+    touchStartX.current = event.touches[0]?.clientX ?? null
+    touchStartY.current = event.touches[0]?.clientY ?? null
+    swiped.current = false
+    setPaused(true)
+  }
+
+  const handleTouchMove = (event: TouchEvent<HTMLDivElement>) => {
+    if (touchStartX.current === null || touchStartY.current === null) return
+    const deltaX = event.touches[0].clientX - touchStartX.current
+    const deltaY = event.touches[0].clientY - touchStartY.current
+
+    if (Math.abs(deltaX) < 40 || Math.abs(deltaX) < Math.abs(deltaY)) return
+    swiped.current = true
+    if (deltaX < 0) next()
+    else prev()
+    touchStartX.current = null
+    touchStartY.current = null
+  }
+
+  const handleTouchEnd = () => {
+    touchStartX.current = null
+    touchStartY.current = null
+    setPaused(false)
+  }
 
   const next = useCallback(() => setCurrent((c) => (c + 1) % slides.length), [slides.length])
   const prev = useCallback(() => setCurrent((c) => (c - 1 + slides.length) % slides.length), [slides.length])
@@ -66,7 +94,12 @@ export function HeroSlider() {
       {/* Slides — from sm up the container ratio equals the artwork's (3630x984),
           so it fills edge to edge. On mobile the box is taller than the artwork;
           the artwork stays uncropped and a blurred copy fills the band. */}
-      <div className="relative aspect-[16/7] w-full overflow-hidden sm:aspect-[3630/984]">
+      <div
+        className="relative aspect-[16/7] w-full overflow-hidden touch-pan-y sm:aspect-[3630/984]"
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+      >
         <div className="absolute inset-y-0 left-10 right-10 overflow-hidden sm:inset-0">
         {slides.map((slide, i) => (
           <Link
