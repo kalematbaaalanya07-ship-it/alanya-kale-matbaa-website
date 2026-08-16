@@ -38,6 +38,10 @@ const SLIDES: Record<string, Slide[]> = {
   ],
 }
 
+function getLocalizedHref(lang: string, href: string) {
+  return lang === "tr" ? href : `/${lang}${href}`
+}
+
 export function HeroSlider() {
   const { lang } = useLanguage()
   const slides = SLIDES[lang] ?? SLIDES.tr
@@ -108,7 +112,7 @@ export function HeroSlider() {
         {slides.map((slide, i) => (
           <Link
             key={slide.image}
-            href={slide.href}
+            href={getLocalizedHref(lang, slide.href)}
             tabIndex={i === current ? 0 : -1}
             aria-hidden={i !== current}
             className="absolute inset-0 block touch-pan-y transition-opacity duration-700 focus:outline-none"
