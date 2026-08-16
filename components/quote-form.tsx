@@ -25,7 +25,6 @@ export function QuoteForm() {
   const isOffset = form.service.toLowerCase().includes("ofset")
   const isBrochure = form.service.toLowerCase().includes("broşür") || form.service.toLowerCase().includes("brochure")
   const isBusinessCard = form.service.toLowerCase().includes("kartvizit") || form.service.toLowerCase().includes("business card") || form.service.toLowerCase().includes("визит")
-  const isCardQuantityLocked = isBusinessCard && !form.size.includes("82 × 52")
   const isStampa = form.stampType?.toLowerCase().includes("stampa")
   const field = (id: keyof typeof form, label: string, options: string[], placeholder = label) => (
     <div className="flex flex-col gap-1.5">
@@ -42,7 +41,7 @@ export function QuoteForm() {
     e.preventDefault()
     const lines = [q.intro, "", optionsText(q.service, form.service), ...(isStamp
       ? [optionsText(q.stampType, form.stampType), optionsText(q.size, form.size), optionsText(q.inkColor, form.inkColor), optionsText(q.quantity, form.quantity), optionsText(q.notes, form.notes)]
-      : [optionsText(q.size, form.size), optionsText(q.designDirection, form.designDirection), optionsText(q.quantity, isCardQuantityLocked ? "1000" : form.quantity), ...(isOffset ? [optionsText(q.carbonCopy, form.carbonCopy), optionsText(q.serialNumber, form.serialNumber), optionsText(q.perforation, form.perforation)] : isBusinessCard ? [optionsText(q.cardType, form.size), optionsText(q.designDirection, form.designDirection), optionsText(q.sides, form.sides)] : [optionsText(q.weight, form.weight), optionsText(isBrochure ? q.designSupport : q.lamination, form.lamination), optionsText(q.sides, form.sides)]), optionsText(q.notes, form.notes)])]
+      : [optionsText(q.size, form.size), optionsText(q.designDirection, form.designDirection), optionsText(q.quantity, form.quantity), ...(isOffset ? [optionsText(q.carbonCopy, form.carbonCopy), optionsText(q.serialNumber, form.serialNumber), optionsText(q.perforation, form.perforation)] : isBusinessCard ? [optionsText(q.cardType, form.size), optionsText(q.designDirection, form.designDirection), optionsText(q.sides, form.sides)] : [optionsText(q.weight, form.weight), optionsText(isBrochure ? q.designSupport : q.lamination, form.lamination), optionsText(q.sides, form.sides)]), optionsText(q.notes, form.notes)])]
     window.open(waLink(lines.join("\n")), "_blank", "noopener,noreferrer")
   }
 
@@ -66,7 +65,7 @@ export function QuoteForm() {
           {!isBusinessCard && field("size", q.size, isOffset ? OFFSET_PAPER_SIZES : DIGITAL_PAPER_SIZES, q.sizePlaceholder)}
           {isOffset ? field("carbonCopy", q.carbonCopy, q.carbonCopyOptions) : isBusinessCard ? field("size", q.cardType, q.cardTypeOptions) : field("weight", q.weight, PAPER_WEIGHTS, q.weightPlaceholder)}
           {field("designDirection", q.designDirection, q.designDirectionOptions)}
-          <div className="flex flex-col gap-1.5"><Label htmlFor="quantity">{q.quantity}</Label><Input id="quantity" required={isCardQuantityLocked ? false : true} inputMode="numeric" placeholder={q.quantityPlaceholder} value={isCardQuantityLocked ? "1000" : form.quantity} disabled={isCardQuantityLocked} onChange={(e) => update("quantity", e.target.value)} /></div>
+          <div className="flex flex-col gap-1.5"><Label htmlFor="quantity">{q.quantity}</Label><Input id="quantity" required inputMode="numeric" placeholder={q.quantityPlaceholder} value={form.quantity} onChange={(e) => update("quantity", e.target.value)} /></div>
           {isOffset ? field("serialNumber", q.serialNumber, [q.yes, q.no]) : !isBusinessCard && field("lamination", isBrochure ? q.designSupport : q.lamination, [q.yes, q.no])}
           {isOffset && field("perforation", q.perforation, q.perforationOptions)}
         </div>
