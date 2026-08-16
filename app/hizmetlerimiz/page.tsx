@@ -17,7 +17,7 @@ export default function HizmetlerimizPage() {
 
   return (
     <main className="min-h-screen" data-page="services">
-      <section className="relative bg-gradient-to-b from-accent/10 to-background py-20">
+      <section className="relative bg-gradient-to-b from-accent/10 to-background py-12 md:py-16">
         <div className="mx-auto max-w-6xl px-4 text-center">
           <h1 className="font-heading text-4xl font-bold text-foreground md:text-5xl lg:text-6xl text-balance">{copy.pageTitle}</h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-foreground/80">{copy.pageSubtitle}</p>
@@ -31,7 +31,7 @@ export default function HizmetlerimizPage() {
           </div>
         </div>
       </section>
-      <section className="border-b border-border bg-background py-20">
+      <section className="border-b border-border bg-background py-12 md:py-16">
         <div className="mx-auto max-w-6xl px-4">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {services.map((service) => (
