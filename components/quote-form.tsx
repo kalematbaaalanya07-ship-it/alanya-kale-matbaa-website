@@ -20,6 +20,7 @@ export function QuoteForm() {
   const [form, setForm] = useState({ service: "", stampType: "", size: "", weight: "", inkColor: "", designDirection: "", quantity: "", lamination: q.no, sides: q.single, notes: "" })
   const update = (key: keyof typeof form, value: string) => setForm((f) => ({ ...f, [key]: value }))
   const isStamp = form.service === q.serviceOptions[0]
+  const isStampa = form.stampType?.toLowerCase().includes("stampa")
   const field = (id: keyof typeof form, label: string, options: string[], placeholder = label) => (
     <div className="flex flex-col gap-1.5">
       <Label htmlFor={id}>{label}</Label>
@@ -45,7 +46,12 @@ export function QuoteForm() {
       {isStamp ? (
         <div className="grid gap-4 sm:grid-cols-2">
           {field("stampType", q.stampType, q.stampTypeOptions)}
-          {field("size", q.size, form.stampType?.toLowerCase().includes("yuvarlak") ? ROUND_STAMP_SIZES : STAMP_SIZES, isStamp ? "Kaşe Boyutu" : q.sizePlaceholder)}
+          {isStampa ? (
+            <div className="flex flex-col gap-1.5">
+              <Label htmlFor="size">{q.size}</Label>
+              <Input id="size" required placeholder="Kaşe boyutunu yazın" value={form.size} onChange={(e) => update("size", e.target.value)} />
+            </div>
+          ) : field("size", q.size, form.stampType?.toLowerCase().includes("yuvarlak") ? ROUND_STAMP_SIZES : STAMP_SIZES, "Kaşe Boyutu")}
           {field("inkColor", q.inkColor, q.inkColorOptions)}
           <div className="flex flex-col gap-1.5"><Label htmlFor="quantity">{q.quantity}</Label><Input id="quantity" required inputMode="numeric" placeholder={q.quantityPlaceholder} value={form.quantity} onChange={(e) => update("quantity", e.target.value)} /></div>
         </div>
