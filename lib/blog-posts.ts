@@ -1,6 +1,6 @@
 import type { Lang } from "@/lib/i18n"
 
-export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "acil-kase" | "canva-tasarimi" | "5-baski-hatasi" | "grafik-trendler-2026" | "dukkan-acma-rehberi" | "dijital-vs-ofset" | "anlamli-hediye-baski" | "kartvizit-hizmet" | "brosur-hizmet" | "menus-hizmet" | "dijital-baski-hizmet" | "ofset-baski-hizmet" | "etiket-hizmet" | "afis-hizmet" | "el-ilani-hizmet" | "alanya-menu-tasarimi-2026" | "tekne-turu-brosur-2026"
+export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "ayni-gun-baski" | "acil-kase" | "canva-tasarimi" | "5-baski-hatasi" | "grafik-trendler-2026" | "dukkan-acma-rehberi" | "dijital-vs-ofset" | "anlamli-hediye-baski" | "kartvizit-hizmet" | "brosur-hizmet" | "menus-hizmet" | "dijital-baski-hizmet" | "ofset-baski-hizmet" | "etiket-hizmet" | "afis-hizmet" | "el-ilani-hizmet" | "alanya-menu-tasarimi-2026" | "tekne-turu-brosur-2026"
 
 export interface BlogSection {
   heading: string
@@ -863,7 +863,7 @@ export const blogPosts: BlogPost[] = [
               "Добавьте 3-4 мм выпуска за обрез: Для профессионального обрезания ваш дизайн должен выходить на 3 мм за край. Откройте Файл > Параметры просмотра > Показать выпуск за обрез в Canva.",
               "Используйте изображения высокого разрешения: Для четкой печати изображения должны быть не менее 300 DPI. Фотографии низкого разрешения из интернета будут выглядеть размытыми.",
               "Скачайте как PDF для пьчаьи: Наьмьте Поделиться > Загрьзьть в верхнем правом углу. Выберите PDF для печати (не PDF Standard). Отметььье метки обреьььи и выпуск за обрез.",
-              "ьсьи используете Canva Pro, установите цветьвой профиль CMYK: Бесплатьые учетные записи выдаьт RGB, мы можем конвертировать дль вас.",
+              "ьсьи используете Canva Pro, установите цветьвой профиль CMYK: Бесплатьые учетные ��аписи выдаьт RGB, мы можем конвертировать дль вас.",
             ],
           },
           {
@@ -1074,7 +1074,7 @@ export const blogPosts: BlogPost[] = [
           {
             heading: "5 | Ошибки макета страницы в мньгьстраничных продуктах",
             bullets: [
-              "Наиболее распространённая ошибка в продуктах, таких как брошюры, папки и газеты, - это страницы, подготовленные в неправильном порядке или неправильном формате.",
+              "Наиболее распр��странённая ошибка в продуктах, таких как брошюры, папки и газеты, - это страницы, подготовленные в неправильном порядке или неправильном формате.",
               "Брошюра/газета → один PDF, правильный порядок чтения, обложка считается отдельно",
               "Простая сложенная папка → снаружи + внутри или 4 отдельные страницы, размеры сгибов должны быть совместимы",
               "Конверт → 10 мм непечатаемое поле-держатель вверху, 4+4 листа → 10 страниц = 5 двусторонних печатных листов",
@@ -1231,7 +1231,7 @@ export const blogPosts: BlogPost[] = [
             bullets: [
               "Искусственный интеллект по-прежнему важен, но настоящие лидеры - люди. Дизайнеры используют генеративные инструменты как трамплин для творчества, а затем ьознатьльно совершенствуют и направляют результаты.",
               "Это сотрудничество создаёт оригинальные произведения с техничьскоь глубиной.",
-              "В 2026 году ИИ используется для идей, вариаций, эскизов и исследования настроения. Дизайнер выбирает, комбинирует и совершенствует результаты. Финальный стиль, сообщение и чувство полностью человеческие.",
+              "В 2026 году ИИ используется для идей, вариаций, эскизов и исследов��ния настроения. Дизайнер выбирает, комбинирует и совершенствует результаты. Финальный стиль, сообщение и чувство полностью человеческие.",
               "После первоначального всплеска возбуждения поиск оригинальности и смысла усилился. Чистые изображения ИИ быстро становятся банальными.",
             ],
           },
@@ -1383,7 +1383,7 @@ export const blogPosts: BlogPost[] = [
         metaDescription:
           "Печатные материалы и услуги типограьии при открьтии магазина в Алань. Визитные карточки, меню, брошюры, офсетная печать, изготовление печатей.",
         intro: [
-          "Открыть новый магазин в Алань - это волнующе, но и интенсивный процесс. С выбором места, оформлением, запасами и персоналом печатные материалы, которые представят ваш бренд клиентам, часто отодвигаются на второй план.",
+          "Открыть новый магазин в Алань - это волнующе, но и интенсивный процесс. С выбором места, оформлением, запасами и персоналом печатные ма��ериалы, которые представят ваш бренд клиентам, часто отодвигаются на второй план.",
           "Однако профессиональная печать и услуги типографии не только выполняют ваши юридические требования, но и повышают доверие клиентов. В этом руководстве вы найдёте все материалы печати и услуги типографии, необходимые каждому бизнесу, открывающемуся в Алань, на что обратить внимание и практическую информацию для облегчения вашей работы.",
         ],
         sections: [
@@ -2005,7 +2005,7 @@ export const blogPosts: BlogPost[] = [
         category: "Цифровая печать",
         title: "Быстрые решения цифровой печати",
         excerpt: "Быстрые решения цифровой печати для всех ваших потребностей.",
-        metaTitle: "Быстрые решения цифровой печати",
+        metaTitle: "Быстрые решения цифров��й печати",
         metaDescription: "Услуги цифровой печати. Цветная и чёрно-белая печать.",
         intro: ["Быстрые решения цифровой печати для всех ваших потребностей от малых до крупных объёмов. Мы доставляем с цветной и чёрно-белой печатью."],
         sections: [{heading: "Наши услуги", bullets: ["Качественные результаты", "Доступная стоимость", "Гибкое производство", "Практические решения", "Надежно для срочных работ"]}],
@@ -2140,7 +2140,7 @@ export const blogPosts: BlogPost[] = [
         intro: ["Если вы открываете ресторан или кафе в Аланье, меню — это не просто список блюд, а первое и самое сильное представление вашего бренда. В туристическом городе дизайн меню критически важен и для продаж, и для профессионального имиджа."] ,
         sections: [
           { heading: "1. Важность дизайна меню в Аланье", paragraphs: ["В туристических районах Дамлаташ/Клеопатра, у Аланийской крепости, в Махмутларе, Оба и Конаклы гости просматриьают меню за 5ь8 секунд. Хороший дизайн с рекомендованными блюдами и визуалами может увеличить средний чек на 15–25%."] },
-          { heading: "2. Обязательные элементы дизайна меню в 2026 году", bullets: ["Минимум три языка: турецкий, английский и русский; немецкий по желанию", "Четкие жирные заголовки, описания 10–11 pt или крупнее", "Хорошо заметные цены, выровненные по правому краю или выделенные жирным", "Важный контраст фона и текста", "6–8 качественных фотографий вместо фото каждого блюда"] },
+          { heading: "2. Обязательные элементы дизайна меню в 2026 году", bullets: ["Минимум три языка: турецкий, английский и русский; немецкий по желанию", "Четкие жирные заголовки, описания 10–11 pt или крупнее", "Хорошо заметные цены, выровненные по правому краю или выделенные жирным", "Важный контраст фон�� и текста", "6–8 качественных фотографий вместо фото каждого блюда"] },
           { heading: "3. Рекомендации по размеру и формату", bullets: ["Кафе и завтраки: односторонний A4 или складной формат", "Ресторан: двусторонний A4 или A3", "Fine dining: твердая обложка-книжка", "Beach club и бар: водостойкое ламинированное меню", "Take-away и доставка: компактный складной или A5", "Тренд 2026: легкая качественная бумага и хорошая ламинация"] },
           { heading: "4. Выбор бумаги и печати", paragraphs: ["Идеальны мелованная или матовая бумага плотностью 130–170–200–300–350 г/м². Матовая ламинация и soft-touch добавляют прочность и премиальный вид. Цифровая печать тиражом 10–100 экземпляров удобна для сезонных обновлений."] },
           { heading: "5. Частые ошибки", bullets: ["Перегружать меню фотографией каждого блюда", "Писать цены слишком мелко", "Делать только турецкое меню", "Использовать фотографии низкого разрешения", "Каждый раз проектировать меню с нуля вместо создания шаблона"] },
@@ -2206,13 +2206,64 @@ export const blogPosts: BlogPost[] = [
           { heading: "1. Почему важна профессиональная брошюра?", bullets: ["Туристы обычно принимают решение за 5–10 секунд", "Качественная брошюра вызывает доверие, а дешёвая на вид создаёт ощущение «дешёвого тура»", "Многоязычные брошюры (турецкий + английский + русский) значительно увеличивают потенциал среди иностранных клиентов", "Брошюры, раздаваемые в начале и середине сезона, приносят прямые бронирования"] },
           { heading: "2. Что должно быть в эффективной брошюре", bullets: ["Чёткий и привлекательный заголовок/слоган: «Самые красивые бухты Аланьи — ежедневный лодочный тур»", "Минимум 4–6 качественных фотографий высокого разрешения (лодка/яхта, бухты, еда, люди, моменты активностей)", "Программа тура (по часам)", "Включённые услуги (еда, напитки, оборудование и т.д.)", "Чёткие и читаемые цены", "Место отправления, контактная информация, WhatsApp и Instagram"] },
           { heading: "3. Выбор языка", paragraphs: ["Самая эффективная комбинация для Аланьи — турецкий + английский + русский. Все три языка можно грамотно разместить на одной брошюре."] },
-          { heading: "4. Рекомендации по формату и размеру", bullets: ["A4 со складкой (2 или 3 сгиба): самый популярный и экономичный вариант, удобно раздавать", "Одностраничный A4 / A5: подходит для простых и быстро читаемых туров", "Люксовый буклет (4–8 страниц): предпочтительнее для VIP и частных яхтенных туров", "Бумага: 150–170 г/м² глянцевая/матовая мелованная (стандарт) или 200–250 г/м² мелованная + ламинация (премиум)"] },
+          { heading: "4. Рекомендации по формату и размеру", bullets: ["A4 со складкой (2 или 3 сгиба): самый популярный и экономич��ый вариант, удобно раздавать", "Одностраничный A4 / A5: подходит для простых и быстро читаемых туров", "Люксовый буклет (4–8 страниц): предпочтительнее для VIP и частных яхтенных туров", "Бумага: 150–170 г/м² глянцевая/матовая мелованная (стандарт) или 200–250 г/м² мелованная + ламинация (премиум)"] },
           { heading: "5. На что обратить внимание при дизайне", bullets: ["Цвета должны соответствовать вашему бренду (сине-бирюзовые тона отлично подходят для морской тематики)", "Текст должен быть читаемым; проверяйте контраст при размещении текста поверх фото", "Добавьте QR-код (ведущий на WhatsApp, Instagram или страницу бронирования)", "Пишите цены чётко; можно использовать формулировку «цены от»", "Избегайте лишнего текста. Меньше текста + сильные визуалы работают лучше"] },
           { heading: "6. Частые ошибки", bullets: ["Использование некачественных, размытых фотографий", "Подготовка брошюры только на турецком языке", "Слишком мелкий шрифт цен или их отсутствие", "Перегруженность брошюры", "Забытые контактные данные (номер WhatsApp)", "Использование одной и той же брошюры годами без обновления"] },
           { heading: "7. Пошаговый процесс подготовки брошюры", bullets: ["Уточните программу тура и цены", "Выберите лучшие фотографии (высокое разрешение)", "Подготовьте тексты на 3 языках", "Работайте с дизайн- и полиграфической компанией", "Получите цифровую пробу и утвердите её", "Переходите к печати и начинайте распространение"] },
           { heading: "8. Профессиональный дизайн и печать брошюр в Аланье", paragraphs: ["Мы, Alanya Kale Matbaa, предлагаем специальные решения по брошюрам для лодочных туров и туристических компаний: бесплатный профессиональный графический дизайн, вёрстка на 3 языках (TR-EN-RU), высококачественная печать на Konica Minolta AccurioPrint C4065, варианты глянцевой/матовой мелованной бумаги + ламинация, доставка в тот же день или в течение 24 часов и гибкое производство от малых до больших тиражей."] }
         ],
         cta: "Чтобы начать разработку брошюры для вашего лодочного тура или туристического бизнеса, отправьте нам ваши фотографии и информацию о туре через WhatsApp."
+      }
+    }
+  },
+  {
+    slug: "ayni-gun-baski",
+    image: "/images/ayni-gun-baski.webp",
+    imageAlt: "Bu İş Acil - Alanya Kale Matbaa aynı gün baskı",
+    date: "2026",
+    content: {
+      tr: {
+        category: "Dijital Baskı",
+        title: "Aynı Gün Baskı Nedir? Hangi Ürünler Aynı Gün Hazırlanabilir?",
+        excerpt: "Acil baskı ihtiyacınız varsa kartvizit, broşür, menü, afiş, davetiye ve etiket gibi birçok ürün uygun koşullarda aynı gün hazırlanabilir.",
+        metaTitle: "Aynı Gün Baskı Nedir? Hangi Ürünler Hazırlanabilir? | Kale Matbaa",
+        metaDescription: "Alanya'da aynı gün baskı hizmeti: kartvizit, broşür, menü, afiş, davetiye, etiket ve el ilanı için üretim süreci ve sipariş önerileri.",
+        intro: [
+          "Acil bir baskı ihtiyacınız varsa saatlerce beklemenize gerek olmayabilir. Özellikle dijital baskı teknolojileri sayesinde birçok baskı ürünü, tasarım ve baskı süreci tamamlandıktan sonra aynı gün içerisinde hazırlanabilir.",
+          "Alanya'da işletmeler için son dakika baskı ihtiyaçları ortaya çıkabilir. Restoran menüsü, emlak kartviziti, turizm broşürü veya etkinlik afişi gibi işler için hızlı üretim planlaması yapılabilir.",
+          "Bu yazımızda aynı gün baskının ne olduğunu, hangi ürünlerin hazırlanabileceğini ve sipariş verirken nelere dikkat edilmesi gerektiğini anlatıyoruz."
+        ],
+        sections: [
+          { heading: "Aynı Gün Baskı Nedir?", paragraphs: ["Aynı gün baskı; gerekli bilgilerin ve baskı dosyasının alınmasından sonra uygun üretim planlamasıyla baskının aynı gün tamamlanmasıdır. Süreç yalnızca makinenin hızına değil, tasarım, dijital prova, onay, baskı, sonlandırma ve teslimat aşamalarının doğru planlanmasına bağlıdır.", "Alanya Kale Matbaa'da Konica Minolta AccurioPrint C4065 dijital baskı sistemiyle kısa ve orta tirajlı işlerde hızlı ve kaliteli üretim yapılabilir."] },
+          { heading: "Hangi Baskı Ürünleri Aynı Gün Hazırlanabilir?", bullets: ["Kartvizit: tek veya çift taraflı baskı, farklı gramajlar, mat veya parlak selefon, QR kod ve özel tasarım seçenekleri", "Broşür: turizm, restoran, otel ve mağazalar için uygun adet ve kağıt türlerinde hızlı planlama", "Menü: A4, A5, özel ölçü, kalın karton, mat veya parlak selefon ve çift taraflı baskı", "Afiş: etkinlik, kampanya, indirim ve açılış duyuruları için uygun ölçü ve tasarımla hızlı üretim", "Davetiye ve etkinlik baskıları: davetiye, masa kartı, program ve bilgilendirme kartları", "Etiket: ürün, fiyat, paket ve promosyon etiketleri", "El ilanı ve tanıtım kartları: düşük adetlerde hızlı dijital baskı avantajı"] },
+          { heading: "Aynı Gün Baskıda Süreyi Neler Belirler?", bullets: ["Tasarım dosyasının baskıya hazır olup olmaması", "Baskı adedi ve seçilen üretim yöntemi", "Kağıt türü ve gramajı", "Selefon, lak, kabartma, yaldız veya özel kesim gibi işlemler", "Dijital prova ve müşteri onayının ne kadar hızlı verilmesi"] },
+          { heading: "Acil Baskı Siparişi Verirken Ne Göndermelisiniz?", bullets: ["Ürün adı, ölçü ve adet", "Tek veya çift taraflı baskı bilgisi", "Kağıt türü veya gramaj", "Selefon ve özel işlem tercihleri", "Baskı dosyası veya tasarım için logo, fotoğraf ve metinler", "Teslim almak istediğiniz saat"] },
+          { heading: "Baskı Dosyam Hazır Değilse Ne Olur?", paragraphs: ["Elinizdeki logo, fotoğraf, metin ve iletişim bilgilerini paylaşabilirsiniz. Grafik tasarım süreci ayrıca planlanabilir. Aynı gün baskı isteniyorsa tasarım onayının hızlı verilmesi gerekir; baskı başlamadan önce son tasarım onaylanmalıdır."] },
+          { heading: "Aynı Gün Baskı İçin En Hızlı Yöntem", paragraphs: ["Acil baskı ihtiyacınızı telefon veya WhatsApp üzerinden ürün, adet, ölçü, tasarım durumu ve teslim saatiyle birlikte net biçimde iletmeniz değerlendirme sürecini hızlandırır. Hızlı teklif formumuz üzerinden baskı türü, boyut, adet ve diğer özellikleri belirterek teklif alabilirsiniz."] },
+          { heading: "Alanya'da Aynı Gün Baskı", paragraphs: ["Alanya'da restoran, otel, emlak ofisi, mağaza ve etkinliklerin baskı ihtiyaçları her zaman önceden planlanamayabilir. Alanya Kale Matbaa olarak kartvizit, broşür, menü, afiş ve farklı dijital baskı ihtiyaçları için işin özelliklerine göre hızlı üretim seçeneklerini değerlendiriyoruz."] },
+          { heading: "Sıkça Sorulan Sorular", bullets: ["Aynı gün her baskı ürünü hazırlanabilir mi? Hayır. Süre; ürün, adet, tasarım, kağıt ve özel işlemlere göre değişir.", "Tasarım hazır değilse aynı gün baskı yapılabilir mi? İşin kapsamı ve onay süresine bağlı olarak değerlendirilebilir.", "Acil baskı için minimum adet var mı? Ürüne ve baskı yöntemine göre değişir; dijital baskı düşük adetlerde avantaj sağlar.", "Aynı gün teslim garantili midir? Her siparişte otomatik garanti verilemez; işin özellikleri ve sipariş saati kontrol edilir.", "Alanya dışından sipariş verebilir miyim? Sipariş ve teslimat seçenekleri bölgeye ve ürünün özelliklerine göre değerlendirilir."] }
+        ],
+        cta: "Acil baskı ihtiyacınız varsa ürününüzü, adedinizi, ölçünüzü, tasarım dosyanızı ve istediğiniz teslim zamanını WhatsApp'tan gönderin; üretim seçeneğini birlikte değerlendirelim."
+      },
+      en: {
+        category: "Digital Printing",
+        title: "What Is Same-Day Printing? Which Products Can Be Prepared the Same Day?",
+        excerpt: "Cards, brochures, menus, posters, invitations and labels may be prepared the same day under suitable conditions.",
+        metaTitle: "Same-Day Printing in Alanya | Kale Matbaa",
+        metaDescription: "A practical guide to same-day digital printing for business cards, brochures, menus, posters, invitations and labels in Alanya.",
+        intro: ["Urgent printing does not always require a long wait. With digital printing, many products can be prepared on the same day once the design and approval process is complete."],
+        sections: [{ heading: "What Determines the Delivery Time?", bullets: ["Ready-to-print artwork", "Quantity and paper selection", "Lamination and finishing processes", "Proof approval speed", "Requested delivery time"] }, { heading: "Products That May Be Prepared the Same Day", bullets: ["Business cards", "Brochures and menus", "Posters", "Invitations and event cards", "Labels and flyers"] }],
+        cta: "Send your product details, quantity, size and artwork via WhatsApp for a fast production assessment."
+      },
+      ru: {
+        category: "Цифровая печать",
+        title: "Что такое печать в тот же день? Какие изделия можно подготовить срочно?",
+        excerpt: "В подходящих условиях в тот же день можно подготовить визитки, брошюры, меню, плакаты, приглашения и этикетки.",
+        metaTitle: "Срочная печать в Аланье в тот же день | Kale Matbaa",
+        metaDescription: "Практическое руководство по срочной цифровой печати визиток, брошюр, меню, плакатов, приглашений и этикеток в Аланье.",
+        intro: ["Срочная печать не всегда требует долгого ожидания. Благодаря цифровой печати многие изделия можно подготовить в тот же день после утверждения дизайна."],
+        sections: [{ heading: "Что определяет срок?", bullets: ["Готовность файла к печати", "Тираж и выбор бумаги", "Ламинация и дополнительные операции", "Скорость утверждения макета", "Желаемое время получения"] }, { heading: "Какие изделия можно подготовить в тот же день?", bullets: ["Визитки", "Брошюры и меню", "Плакаты", "Приглашения и карточки мероприятий", "Этикетки и листовки"] }],
+        cta: "Отправьте в WhatsApp информацию об изделии, количестве, размере и макете для быстрой оценки производства."
       }
     }
   },
