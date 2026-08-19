@@ -1,6 +1,6 @@
 import type { Lang } from "@/lib/i18n"
 
-export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "ayni-gun-baski" | "acil-kase" | "canva-tasarimi" | "5-baski-hatasi" | "grafik-trendler-2026" | "dukkan-acma-rehberi" | "dijital-vs-ofset" | "anlamli-hediye-baski" | "kartvizit-hizmet" | "brosur-hizmet" | "menus-hizmet" | "dijital-baski-hizmet" | "ofset-baski-hizmet" | "etiket-hizmet" | "afis-hizmet" | "el-ilani-hizmet" | "alanya-menu-tasarimi-2026" | "tekne-turu-brosur-2026"
+export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "ayni-gun-baski" | "google-yorum-karti" | "acil-kase" | "canva-tasarimi" | "5-baski-hatasi" | "grafik-trendler-2026" | "dukkan-acma-rehberi" | "dijital-vs-ofset" | "anlamli-hediye-baski" | "kartvizit-hizmet" | "brosur-hizmet" | "menus-hizmet" | "dijital-baski-hizmet" | "ofset-baski-hizmet" | "etiket-hizmet" | "afis-hizmet" | "el-ilani-hizmet" | "alanya-menu-tasarimi-2026" | "tekne-turu-brosur-2026"
 
 export interface BlogSection {
   heading: string
@@ -686,7 +686,7 @@ export const blogPosts: BlogPost[] = [
       },
       ru: {
         category: "Срочная печать",
-        title: "Срочьььая печать в Аланье | Доставка в тььт же день - Kale Matbaa",
+        title: "Срочьььая печать в Аланье | Доставка в тьь�� же день - Kale Matbaa",
         excerpt:
           "Нужна срочная печать в Аланье? Дизайн за 1 чьс, печать и доставка за 2-3 часа. Заказ через WhatsApp.",
         metaTitle: "Срочная ьечать Алань | Доставка в тот же час - Kale Matbaa",
@@ -1074,7 +1074,7 @@ export const blogPosts: BlogPost[] = [
           {
             heading: "5 | Ошибки макета страницы в мньгьстраничных продуктах",
             bullets: [
-              "Наиболее распр��странённая ошибка в продуктах, таких как брошюры, папки и газеты, - это страницы, подготовленные в неправильном порядке или неправильном формате.",
+              "На��более распр��странённая ошибка в продуктах, таких как брошюры, папки и газеты, - это страницы, подготовленные в неправильном порядке или неправильном формате.",
               "Брошюра/газета → один PDF, правильный порядок чтения, обложка считается отдельно",
               "Простая сложенная папка → снаружи + внутри или 4 отдельные страницы, размеры сгибов должны быть совместимы",
               "Конверт → 10 мм непечатаемое поле-держатель вверху, 4+4 листа → 10 страниц = 5 двусторонних печатных листов",
@@ -1392,7 +1392,7 @@ export const blogPosts: BlogPost[] = [
             bullets: [
               "Визитные карточки: По-прежнему наиболее эффективный инструмент для контактов. Качественная бумага, матовые/глянцевые варианты и профессиональный дизайн делают ваш магазин запоминающимся.",
               "Меню, прайс-лист и каталог: Необходимы для ресторанов, кафе, бутиков или сервисных компаний. Устойчивые к влаге и пятнам ламинированные меню или цифровые каталоги одновременно элегантны и практичны.",
-              "Брошюры, листовки и плакаты: Для кампании открытия, скидок или представления новых продуктов. Распространение листовок в многолюдных туристических местах Аланьи дает эффективные результаты.",
+              "Брошюры, листовки и плакаты: Для кампании открытия, скидок или представления новых продуктов. Распространение листовок в многолюдных туристических местах Аланьи дает эффективные р��зультаты.",
               "Официальные документы и офсетная печать: Счета-ьактуры, расписки, заказные формы, накладные. Офсетная печать производит большой объём, экономичные и профессионально выглядящие документы.",
               "Изготовление печатей (штампов): Корпоративные печати, печати подписи, датированные печати и печати с пользовательским текстом. Эти требуемые в официальных процедурах изделия производятся с быстрой доставкой и четкой печатью.",
             ],
@@ -1481,7 +1481,7 @@ export const blogPosts: BlogPost[] = [
           {
             heading: "5 | Ne Zaman Dijital, Ne Zaman Ofset?",
             bullets: [
-              "Dijital seçin: 500 adedin altı, hızlı teslimat gerekli (24-48 saat), kişiselleştirme (değişken veri), bütçe sınırlı, test baskısı yapıyorsanız",
+              "Dijital seçin: 500 adedin altı, hızlı teslimat gerekli (24-48 saat), kişiselleştirme (değişken veri), büt��e sınırlı, test baskısı yapıyorsanız",
               "Ofset seçin: 1.000 adedin üzeri, maksimum kalite gerekli, fotoğraf ve ton geçişleri önemli, uzun süre stoklayacaksanız, katalog veya dergi basıyorsanız",
               "Danışmanın baskısını takip et: Alanya Kale Matbaa olarak hem dijital hem ofset baskı imkânımız mevcut.",
             ],
@@ -1559,7 +1559,7 @@ export const blogPosts: BlogPost[] = [
         metaDescription:
           "Различия между цифровой и офсетной печатью. Точка ьезубыточности, качество, объём, скорость и сравнение стоимости.",
         intro: [
-          "Когда вы хотите сделать печать, может быть сложно решить, какую выбрать. Цифровая печать или офсетная печать? Какая дешевле, быстрее, качественнее?",
+          "Когда вы хотите сделать печать, может быть сложно решить, какую выбр��ть. Цифровая печать или офсетная печать? Какая дешевле, быстрее, качественнее?",
           "Ответ: обе правильные, но для разных ситуаций. Ваш тираж, бюджет, ограничения по времени и ожидания по качеству определяют, какую вы выберете. Вы найдёте все детали в руководстве Kale Matbaa.",
         ],
         sections: [
@@ -1588,7 +1588,7 @@ export const blogPosts: BlogPost[] = [
               "Установка занимает больше времени, но обеспечивает превосходные детали ьля больших оьъёмов: Первые 100-200 кьпий сдеьаны для контьоля качества.",
               "С разрешением 2400-4800 DPI для каталогов, буклетов и массовых работ: Качество фото очень высокое.",
               "Стоимость уменьшается с увеличением объёма: Гораздо более экономично, чем цифровая выше 1000 копий.",
-              "Согласованность цвета в больших тиражах идеальна.",
+              "Согласованность цвета в больши�� тиражах идеальна.",
             ],
           },
           {
@@ -2140,7 +2140,7 @@ export const blogPosts: BlogPost[] = [
         intro: ["Если вы открываете ресторан или кафе в Аланье, меню — это не просто список блюд, а первое и самое сильное представление вашего бренда. В туристическом городе дизайн меню критически важен и для продаж, и для профессионального имиджа."] ,
         sections: [
           { heading: "1. Важность дизайна меню в Аланье", paragraphs: ["В туристических районах Дамлаташ/Клеопатра, у Аланийской крепости, в Махмутларе, Оба и Конаклы гости просматриьают меню за 5ь8 секунд. Хороший дизайн с рекомендованными блюдами и визуалами может увеличить средний чек на 15–25%."] },
-          { heading: "2. Обязательные элементы дизайна меню в 2026 году", bullets: ["Минимум три языка: турецкий, английский и русский; немецкий по желанию", "Четкие жирные заголовки, описания 10–11 pt или крупнее", "Хорошо заметные цены, выровненные по правому краю или выделенные жирным", "Важный контраст фон�� и текста", "6–8 качественных фотографий вместо фото каждого блюда"] },
+          { heading: "2. Обязательные элементы дизайна меню в 2026 году", bullets: ["Минимум три языка: турецкий, английский и русский; немецкий по желанию", "Четкие жирные заголовки, описания 10–11 pt или крупнее", "Хорошо заметные цены, выровненные по правому краю или выделенные жи��ным", "Важный контраст фон�� и текста", "6–8 качественных фотографий вместо фото каждого блюда"] },
           { heading: "3. Рекомендации по размеру и формату", bullets: ["Кафе и завтраки: односторонний A4 или складной формат", "Ресторан: двусторонний A4 или A3", "Fine dining: твердая обложка-книжка", "Beach club и бар: водостойкое ламинированное меню", "Take-away и доставка: компактный складной или A5", "Тренд 2026: легкая качественная бумага и хорошая ламинация"] },
           { heading: "4. Выбор бумаги и печати", paragraphs: ["Идеальны мелованная или матовая бумага плотностью 130–170–200–300–350 г/м². Матовая ламинация и soft-touch добавляют прочность и премиальный вид. Цифровая печать тиражом 10–100 экземпляров удобна для сезонных обновлений."] },
           { heading: "5. Частые ошибки", bullets: ["Перегружать меню фотографией каждого блюда", "Писать цены слишком мелко", "Делать только турецкое меню", "Использовать фотографии низкого разрешения", "Каждый раз проектировать меню с нуля вместо создания шаблона"] },
@@ -2198,7 +2198,7 @@ export const blogPosts: BlogPost[] = [
       ru: {
         category: "Брошюра",
         title: "Как подготовить эффективную брошюру для лодочных туров и туристических компаний",
-        excerpt: "Практическое, ориентированное на продажи руководство по подготовке брошюр для лодочных туров и туристических компаний в Аланье на сезон 2026 года.",
+        excerpt: "Практическое, ориентированное на продажи руководство по подго��овке брошюр для лодочных туров и туристических компаний в Аланье на сезон 2026 года.",
         metaTitle: "Как подготовить брошюру для лодочного тура? Руководство 2026 | Kale Matbaa",
         metaDescription: "Многоязычное, ориентированное на продажи руководство по дизайну, бумаге, формату и печати брошюр для лодочных туров в Аланье.",
         intro: ["Если вы управляете лодочным туром, ежедневным туром, арендой яхт или туристическим бизнесом в Аланье, ваша брошюра — один из самых важных инструментов продаж. Особенно в районах Клеопатра, Искеле, Махмутлар и Кейкубат клиенты обычно принимают решения быстро. Хорошо подготовленная брошюра повышает интерес к вашему туру и увеличивает количество бронирований.", "В этой статье вы найдёте практическое и ориентированное на продажи руководство по подготовке брошюр специально для лодочных туров и туристических компаний в Аланье на сезон 2026 года."],
@@ -2264,6 +2264,51 @@ export const blogPosts: BlogPost[] = [
         intro: ["Срочная печать не всегда требует долгого ожидания. Благодаря цифровой печати многие изделия можно подготовить в тот же день после утверждения дизайна."],
         sections: [{ heading: "Что определяет срок?", bullets: ["Готовность файла к печати", "Тираж и выбор бумаги", "Ламинация и дополнительные операции", "Скорость утверждения макета", "Желаемое время получения"] }, { heading: "Какие изделия можно подготовить в тот же день?", bullets: ["Визитки", "Брошюры и меню", "Плакаты", "Приглашения и карточки мероприятий", "Этикетки и листовки"] }],
         cta: "Отправьте в WhatsApp информацию об изделии, количестве, размере и макете для быстрой оценки производства."
+      }
+    }
+  },
+  {
+    slug: "google-yorum-karti",
+    image: "/images/google-yorum-karti.png",
+    imageAlt: "Google yorum kartı ve QR kodlu değerlendirme kartı",
+    date: "2026",
+    content: {
+      tr: {
+        category: "Baskı Ürünleri",
+        title: "Google Yorum Kartı Nedir? Alanya’da Daha Fazla Google Yorumu Almanın En Kolay Yolu",
+        excerpt: "QR kodlu Google yorum kartlarıyla müşterilerinizin işletmenizi değerlendirmesini kolaylaştırın ve dijital itibarınızı güçlendirin.",
+        metaTitle: "Google Yorum Kartı Nedir? | Alanya Kale Matbaa",
+        metaDescription: "Alanya'da işletmenize özel QR kodlu Google yorum kartı tasarımı ve baskısı. Daha fazla yorum almak için pratik ve etkili çözüm.",
+        intro: ["Müşteriler bir işletmeyi tercih etmeden önce çoğu zaman Google'daki yorumlara ve puana bakar. Yüksek puan ve olumlu yorumlar güven oluşturur; ancak memnun müşterilerden yorum istemek her zaman kolay değildir. Google Yorum Kartı bu süreci pratik hale getirir."],
+        sections: [
+          { heading: "Google Yorum Kartı Nedir?", paragraphs: ["Google Yorum Kartı, müşterilerinizi doğrudan Google İşletme Profilinizin yorum bırakma sayfasına yönlendiren, üzerinde QR kod bulunan fiziksel bir karttır.", "Kart üzerinde işletme logosu ve adı, kısa bir çağrı metni ve doğrudan yorum sayfanıza giden QR kod yer alabilir. Müşterinin yorum bırakmayı unutması veya işletme adınızı aramakla uğraşması gibi engelleri ortadan kaldırır."] },
+          { heading: "Google Yorum Kartı Nasıl Çalışır?", bullets: ["Kartı müşterinize uzatır veya kasa, masa ve paket gibi görünür bir yerde bırakırsınız.", "Müşteri telefonunun kamerasıyla QR kodu tarar.", "Telefon Google yorum sayfanızı açar.", "Müşteri yıldız puanını seçer, kısa yorumunu yazar ve gönderir."] },
+          { heading: "Neden Google Yorum Kartı Kullanmalısınız?", bullets: ["Daha fazla yorum, Google görünürlüğünüzü destekler.", "Potansiyel müşteriler gerçek yorumları gördüğünde karar vermesi kolaylaşır.", "QR kod neredeyse tüm akıllı telefonlarla çalışır.", "Hizmet tamamlandıktan hemen sonra yorum istemeyi kolaylaştırır.", "Uygun maliyetli ve uzun ömürlü bir tanıtım ürünüdür."] },
+          { heading: "Alanya Kale Matbaa’da Google Yorum Kartınızı Hazırlatın", paragraphs: ["Alanya Kale Matbaa olarak işletmenize özel Google Yorum Kartı tasarlıyor ve basıyoruz. Logonuzu ve işletme bilgilerinizi profesyonel şekilde yerleştiriyor, Google yorum sayfanıza yönlendiren QR kodunuzu tasarıma ekliyoruz.", "Kartlarınızı kasada, masalarda, paketlerin içinde veya personeliniz aracılığıyla kullanabilirsiniz. İstediğiniz boyut ve adette üretim seçeneklerini birlikte değerlendirebiliriz."] },
+          { heading: "Kullanım İpuçları", bullets: ["Hizmet bittikten hemen sonra, müşteri memnunken isteyin.", "Kısa ve samimi bir çağrı cümlesi kullanın.", "Personelinizi kartın kullanımı konusunda bilgilendirin.", "Hem olumlu hem olumsuz yorumlara yanıt verin.", "Kartı kasa, masa, paket ve fatura gibi birden fazla noktada kullanın."] },
+          { heading: "Sonuç", paragraphs: ["Google Yorum Kartı, karmaşık yazılımlara gerek kalmadan işletmenizin dijital itibarını güçlendirmenin pratik yollarından biridir. Müşteri deneyimini Google'a taşımayı kolaylaştırır ve yerel aramalarda daha görünür olmanıza katkı sağlayabilir.", "Google yorum kartınızı tasarlatmak ve bastırmak için Google yorum linkinizi bize iletmeniz yeterli. Geri kalan tasarım ve baskı sürecini birlikte planlayalım."] }
+        ],
+        cta: "İşletmenize özel Google Yorum Kartı hazırlatmak için logonuzu ve Google yorum linkinizi WhatsApp üzerinden gönderin; tasarım ve baskı seçeneklerini birlikte değerlendirelim."
+      },
+      en: {
+        category: "Print Products",
+        title: "What Is a Google Review Card? The Easy Way to Get More Google Reviews in Alanya",
+        excerpt: "Make it easier for customers to review your business with QR-coded Google review cards.",
+        metaTitle: "Google Review Cards in Alanya | Kale Matbaa",
+        metaDescription: "Custom QR-coded Google review card design and printing for businesses in Alanya.",
+        intro: ["Customers often check Google ratings before choosing a business. A Google review card makes it easier for satisfied customers to leave feedback immediately."],
+        sections: [{ heading: "How Does a Google Review Card Work?", bullets: ["Place the card at the counter, table or inside packages.", "The customer scans the QR code with a phone camera.", "The Google review page opens directly.", "The customer selects a rating and submits a review."] }, { heading: "Custom Design and Printing", paragraphs: ["We place your logo and business information professionally and add a QR code that links directly to your Google review page. Contact us for sizes, quantities and printing options."] }],
+        cta: "Send your logo and Google review link via WhatsApp to start your custom review card design."
+      },
+      ru: {
+        category: "Печатная продукция",
+        title: "Что такое карточка Google Отзывов? Как получить больше отзывов в Аланье",
+        excerpt: "Упростите клиентам публикацию отзывов с помощью карточек с QR-кодом Google.",
+        metaTitle: "Карточки Google Отзывов в Аланье | Kale Matbaa",
+        metaDescription: "Индивидуальный дизайн и печать карточек с QR-кодом для отзывов Google в Аланье.",
+        intro: ["Клиенты часто проверяют оценки в Google перед выбором компании. Карточка с QR-кодом помогает довольным клиентам быстро оставить отзыв."],
+        sections: [{ heading: "Как работает карточка Google Отзывов?", bullets: ["Разместите карточку на кассе, столе или в упаковке.", "Клиент сканирует QR-код камерой телефона.", "Открывается страница отзывов Google.", "Клиент выбирает оценку и отправляет отзыв."] }, { heading: "Индивидуальный дизайн и печать", paragraphs: ["Мы разместим ваш логотип и данные компании и добавим QR-код со ссылкой на страницу отзывов. Свяжитесь с нами для выбора размера, тиража и варианта печати."] }],
+        cta: "Отправьте логотип и ссылку на отзывы Google через WhatsApp, чтобы начать дизайн карточки."
       }
     }
   },
