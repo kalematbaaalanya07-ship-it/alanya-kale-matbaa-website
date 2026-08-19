@@ -5,6 +5,7 @@ import { MapPin, Phone, Mail, MessageCircle, MapIcon } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/components/language-provider"
 import { site, waLink } from "@/lib/site"
+import { LiveInfoPanel } from "@/components/live-info-panel"
 
 export function SiteFooter() {
   const { t } = useLanguage()
@@ -97,6 +98,7 @@ export function SiteFooter() {
               </a>
             </li>
           </ul>
+          <LiveInfoPanel />
         </div>
       </div>
 
