@@ -59,7 +59,7 @@ export function BlogArticle({ slug }: { slug: string }) {
             alt={`${post.imageAlt} - Alanya Kale Matbaa`}
             fill
             sizes="(max-width: 768px) 100vw, 768px"
-            className="object-cover"
+            className="object-contain bg-muted"
             sizes="(max-width: 768px) 100vw, 768px"
             priority
           />
