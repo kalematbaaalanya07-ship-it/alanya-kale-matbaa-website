@@ -28,7 +28,7 @@ export default function HomePage() {
 
       {/* Reference-style introduction */}
       <section className="border-b border-border bg-background">
-        <div className="mx-auto grid max-w-6xl items-stretch lg:grid-cols-2">
+        <div className="mx-auto grid max-w-7xl items-stretch lg:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)_390px]">
           <div className="flex flex-col justify-center gap-5 px-4 py-6 sm:px-8 sm:py-14 lg:px-10 lg:py-12">
             <h1 className="font-heading text-4xl font-extrabold leading-[1.05] tracking-tight text-balance sm:text-5xl">
               {t.home.introTitle}
@@ -77,6 +77,9 @@ export default function HomePage() {
               <p className="font-heading text-base font-bold text-foreground">{t.home.urgentSubtitle}</p>
               <p className="mt-1 text-sm leading-relaxed text-muted-foreground">{t.home.urgentDesc}</p>
             </div>
+          </div>
+          <div className="bg-card p-4 shadow-xl sm:p-5 lg:my-2 lg:rounded-2xl">
+            <QuoteForm />
           </div>
         </div>
       </section>
@@ -146,18 +149,6 @@ export default function HomePage() {
 
       {/* Testimonials */}
       <TestimonialsSection />
-
-      {/* Quote form */}
-      <section id="teklif" className="scroll-mt-24 bg-secondary/50 py-16">
-        <div className="mx-auto grid max-w-6xl items-start gap-10 px-4 lg:grid-cols-2">
-          <div className="flex flex-col gap-4 lg:pt-4">
-            <SectionHeading tag={t.cta.quote} title={t.home.quoteTitle} subtitle={t.home.quoteSubtitle} align="left" />
-          </div>
-          <div className="rounded-2xl bg-card p-6 shadow-xl sm:p-8">
-            <QuoteForm />
-          </div>
-        </div>
-      </section>
 
       {/* FAQ */}
       <FaqSection />
