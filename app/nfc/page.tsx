@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { useState } from "react"
 import { Copy, ExternalLink, Star, Wifi, X } from "lucide-react"
 import { QRCodeSVG } from "qrcode.react"
@@ -22,7 +23,9 @@ export default function NfcPage() {
     <main className="min-h-dvh bg-[#eef3f7] px-5 py-8 text-[#0d2137] sm:flex sm:items-center sm:justify-center sm:py-12">
       <div className="w-full max-w-md">
         <header className="mb-8 text-center">
-          <div className="mx-auto mb-4 flex size-16 items-center justify-center rounded-2xl bg-[#0d2137] text-xl font-bold text-white shadow-lg shadow-[#0d2137]/20">AK</div>
+          <div className="mx-auto mb-4 flex h-16 w-48 items-center justify-center rounded-2xl bg-white px-4 shadow-lg shadow-[#0d2137]/20">
+            <Image src="/images/kalematbaalogo.svg" alt="Alanya Kale Matbaa logosu" width={180} height={58} className="h-auto max-h-12 w-auto object-contain" priority />
+          </div>
           <h1 className="font-heading text-2xl font-bold tracking-tight">Alanya Kale Matbaa</h1>
           <p className="mt-1 text-sm text-[#5b6b7c]">Hızlı erişim</p>
         </header>
