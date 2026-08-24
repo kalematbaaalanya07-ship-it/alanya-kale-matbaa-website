@@ -1,5 +1,6 @@
 import { Analytics } from "@vercel/analytics/next"
 import type { Metadata, Viewport } from "next"
+import { headers } from "next/headers"
 import { Inter, Poppins } from "next/font/google"
 import { LanguageProvider } from "@/components/language-provider"
 import { SiteHeader } from "@/components/site-header"
@@ -87,21 +88,20 @@ export const viewport: Viewport = {
   colorScheme: "light",
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const pathname = (await headers()).get("x-pathname") ?? ""
+  const isNfcPage = pathname === "/nfc" || pathname.startsWith("/nfc/")
+
   return (
     <html lang="tr" className={`${inter.variable} ${poppins.variable} bg-background`}>
       <body className="antialiased font-sans">
-        <StructuredData />
-        <LanguageProvider>
-          <SiteHeader />
-          <main className="min-h-screen">{children}</main>
-          <SiteFooter />
-        </LanguageProvider>
-        {process.env.NODE_ENV === "production" && <Analytics />}
+        {!isNfcPage && <StructuredData />}
+        {isNfcPage ? children : <LanguageProvider><SiteHeader /><main className="min-h-screen">{children}</main><SiteFooter /></LanguageProvider>}
+        {!isNfcPage && process.env.NODE_ENV === "production" && <Analytics />}
       </body>
     </html>
   )
