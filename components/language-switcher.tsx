@@ -26,12 +26,12 @@ export function LanguageSwitcher() {
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
-        className="inline-flex items-center gap-1.5 rounded-md border border-border px-2.5 py-1.5 text-sm font-medium text-foreground transition-colors hover:bg-secondary"
+        className="inline-flex items-center gap-1 rounded-md border border-border px-2 py-1.5 text-xs font-medium text-foreground transition-colors hover:bg-secondary sm:gap-1.5 sm:px-2.5 sm:text-sm"
         aria-haspopup="listbox"
         aria-expanded={open}
       >
         <span aria-hidden>{current.flag}</span>
-        <span className="hidden sm:inline">{current.label}</span>
+        <span>{current.label}</span>
         <ChevronDown className="size-3.5 text-muted-foreground" />
       </button>
 

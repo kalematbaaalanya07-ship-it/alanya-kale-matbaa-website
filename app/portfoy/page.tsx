@@ -12,7 +12,7 @@ export default function PortfolioPage() {
   const p = t.portfolio
 
   return (
-    <>
+    <main data-page="portfolio">
       <PageHero tag={p.tag} title={p.title} subtitle={p.subtitle} />
 
       <section className="mx-auto max-w-6xl px-4 py-16">
@@ -22,14 +22,26 @@ export default function PortfolioPage() {
               key={item.title}
               className="group relative aspect-square overflow-hidden rounded-xl border border-border"
             >
-              <Image
-                src={item.image || "/placeholder.svg"}
-                alt={item.title}
-                fill
-                sizes="(max-width: 768px) 100vw, 33vw"
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent" />
+              {item.video ? (
+                <iframe
+                  src={item.video}
+                  title={item.title}
+                  className="w-full h-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              ) : (
+                <>
+                  <Image
+                    src={item.image || "/placeholder.svg"}
+                    alt={`${item.title} - Alanya Kale Matbaa portföy çalışması`}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent" />
+                </>
+              )}
               <div className="absolute bottom-0 left-0 flex flex-col gap-1 p-5">
                 <span className="text-xs font-semibold uppercase tracking-wide text-accent">{item.category}</span>
                 <h3 className="font-heading text-lg font-semibold text-primary-foreground">{item.title}</h3>
@@ -51,6 +63,6 @@ export default function PortfolioPage() {
           </Button>
         </div>
       </section>
-    </>
+    </main>
   )
 }

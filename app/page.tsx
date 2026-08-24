@@ -12,6 +12,7 @@ import { FaqSection } from "@/components/faq-section"
 import { BlogSection } from "@/components/blog-section"
 import { useLanguage } from "@/components/language-provider"
 import { waLink } from "@/lib/site"
+import { HeroSlider } from "@/components/hero-slider"
 
 const FEATURE_ICONS = [Zap, Layers, Clock]
 
@@ -20,52 +21,72 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Hero */}
-      <section className="relative overflow-hidden bg-primary text-primary-foreground">
-        <div className="absolute inset-0">
-          <Image
-            src="/images/hero-print.png"
-            alt=""
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover opacity-25"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-primary/60" />
-        </div>
-        <div className="relative mx-auto flex max-w-6xl flex-col gap-6 px-4 py-20 sm:py-28">
-          <span className="inline-flex w-fit items-center rounded-full bg-accent/20 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-accent">
-            {t.home.heroTag}
-          </span>
-          <h1 className="max-w-3xl font-heading text-4xl font-extrabold leading-tight tracking-tight text-balance sm:text-5xl md:text-6xl">
-            {t.home.heroTitle}
-          </h1>
-          <p className="max-w-xl text-lg leading-relaxed text-primary-foreground/80 text-pretty">{t.home.heroSubtitle}</p>
-          <div className="flex flex-wrap gap-3">
-            <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
-              <Link href="#teklif">
-                {t.cta.quote}
-                <ArrowRight className="size-4" />
-              </Link>
-            </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10"
-            >
-              <a href={waLink(t.quote.intro)} target="_blank" rel="noopener noreferrer">
-                <MessageCircle className="size-4" />
-                {t.cta.whatsapp}
-              </a>
-            </Button>
+      {/* Full-width Slider */}
+      <section className="w-full overflow-hidden border-b border-border">
+        <HeroSlider />
+      </section>
+
+      {/* Reference-style introduction */}
+      <section className="border-b border-border bg-background">
+        <div className="mx-auto grid max-w-7xl items-stretch lg:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)_390px]">
+          <div className="flex flex-col justify-center gap-5 px-4 py-6 sm:px-8 sm:py-14 lg:px-10 lg:py-12">
+            <h1 className="font-heading text-4xl font-extrabold leading-[1.05] tracking-tight text-balance sm:text-5xl">
+              {t.home.introTitle}
+            </h1>
+            <p className="max-w-xl text-lg font-medium leading-relaxed text-foreground/85 text-pretty">{t.home.introDesc}</p>
+            <div className="flex flex-wrap gap-2">
+              <Button asChild size="sm" className="bg-accent text-accent-foreground hover:bg-accent/90">
+                <a href={waLink(t.quote.intro)} target="_blank" rel="noopener noreferrer">
+                  <MessageCircle className="size-4" />
+                  {t.cta.whatsapp}
+                </a>
+              </Button>
+              <Button asChild size="sm" variant="outline">
+                <Link href="/hizmetlerimiz">
+                  {t.cta.viewServices}
+                  <ArrowRight className="size-4" />
+                </Link>
+              </Button>
+            </div>
+            <div className="border border-border bg-card px-4 py-3 shadow-sm">
+              <p className="font-heading text-base font-bold text-foreground">{t.freeDesign.title}</p>
+              <p className="mt-1 text-xs text-muted-foreground">{t.freeDesign.desc.split(".")[0]}.</p>
+              <div className="mt-4 grid grid-cols-5 items-start gap-1 text-center text-[10px] font-medium text-muted-foreground">
+                {[PenTool, Layers, Check, Zap, ArrowRight].map((Icon, index) => (
+                  <div key={index} className="flex flex-col items-center gap-1">
+                    <span className="flex size-9 items-center justify-center rounded-full border border-border bg-background text-accent"><Icon className="size-4" /></span>
+                    <span>{t.home.processLabels[index]}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className="relative min-h-[320px] overflow-hidden sm:min-h-[440px] lg:min-h-[560px]">
+            <Image
+              src="/images/digital-press-home.webp"
+              alt="Konica Minolta AccurioPrint C4065 dijital baskı makinesi"
+              fill
+              priority
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover object-center"
+            />
+            <div className="absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-background via-background/55 to-transparent" />
+            <div className="absolute bottom-6 right-5 max-w-[280px] rounded-xl bg-card/95 p-4 pl-16 shadow-xl sm:bottom-8 sm:right-8">
+              <span className="absolute left-4 top-1/2 flex size-10 -translate-y-1/2 items-center justify-center rounded-full border-4 border-yellow-300 text-foreground"><Clock className="size-5" /></span>
+              <p className="font-heading text-lg font-bold text-foreground">{t.home.urgentTitle}</p>
+              <p className="font-heading text-base font-bold text-foreground">{t.home.urgentSubtitle}</p>
+              <p className="mt-1 text-sm leading-relaxed text-muted-foreground">{t.home.urgentDesc}</p>
+            </div>
+          </div>
+          <div className="bg-card p-4 shadow-xl sm:p-5 lg:my-2 lg:rounded-2xl">
+            <QuoteForm />
           </div>
         </div>
       </section>
 
       {/* Stats */}
       <section className="border-b border-border bg-card">
-        <div className="mx-auto grid max-w-6xl grid-cols-2 gap-6 px-4 py-10 md:grid-cols-4">
+        <div className="mx-auto grid max-w-6xl grid-cols-2 gap-6 px-4 py-8 md:grid-cols-4 md:py-10">
           {t.about.stats.map((stat) => (
             <div key={stat.label} className="flex flex-col items-center gap-1 text-center">
               <span className="font-heading text-3xl font-extrabold text-accent sm:text-4xl">{stat.value}</span>
@@ -76,7 +97,7 @@ export default function HomePage() {
       </section>
 
       {/* Features */}
-      <section className="mx-auto max-w-6xl px-4 py-16">
+      <section className="mx-auto max-w-6xl px-4 py-14 sm:py-16">
         <div className="grid gap-6 md:grid-cols-3">
           {t.home.features.map((feature, i) => {
             const Icon = FEATURE_ICONS[i]
@@ -93,55 +114,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Services preview */}
-      <section className="bg-secondary/50 py-16">
-        <div className="mx-auto max-w-6xl px-4">
-          <SectionHeading tag={t.home.servicesTitle} title={t.services.title} subtitle={t.home.servicesSubtitle} />
-          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {t.services.items.slice(0, 3).map((item) => (
-              <ServiceCard key={item.id} title={item.title} desc={item.desc} image={item.image} />
-            ))}
-          </div>
-          <div className="mt-8 flex justify-center">
-            <Button asChild variant="outline" size="lg">
-              <Link href="/hizmetlerimiz">
-                {t.cta.viewServices}
-                <ArrowRight className="size-4" />
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* Machine showcase */}
-      <section className="mx-auto max-w-6xl px-4 py-16">
-        <div className="grid items-center gap-10 lg:grid-cols-2">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
-            <Image
-              src="/images/digital-press.png"
-              alt="Konica Minolta AccurioPrint C4065 profesyonel dijital baskı makinesi - Alanya Kale Matbaa"
-              fill
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
-            />
-          </div>
-          <div className="flex flex-col gap-4">
-            <span className="inline-flex w-fit items-center rounded-full bg-brand-magenta/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-brand-magenta">
-              {t.home.machineTag}
-            </span>
-            <h2 className="font-heading text-3xl font-bold tracking-tight text-balance">{t.home.machineTitle}</h2>
-            <p className="leading-relaxed text-muted-foreground">{t.home.machineDesc}</p>
-            <ul className="mt-2 flex flex-col gap-3">
-              {t.home.machineSpecs.map((spec) => (
-                <li key={spec} className="flex items-start gap-2.5 text-sm text-foreground">
-                  <Check className="mt-0.5 size-4 shrink-0 text-accent" />
-                  {spec}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </section>
+      {/* Removed duplicate lower machine showcase; the reference-style intro now owns this content. */}
 
       {/* Free design USP */}
       <section className="bg-primary py-16 text-primary-foreground">
@@ -176,18 +149,6 @@ export default function HomePage() {
 
       {/* Testimonials */}
       <TestimonialsSection />
-
-      {/* Quote form */}
-      <section id="teklif" className="bg-secondary/50 py-16">
-        <div className="mx-auto grid max-w-6xl items-start gap-10 px-4 lg:grid-cols-2">
-          <div className="flex flex-col gap-4 lg:pt-4">
-            <SectionHeading tag={t.cta.quote} title={t.home.quoteTitle} subtitle={t.home.quoteSubtitle} align="left" />
-          </div>
-          <div className="rounded-2xl bg-card p-6 shadow-xl sm:p-8">
-            <QuoteForm />
-          </div>
-        </div>
-      </section>
 
       {/* FAQ */}
       <FaqSection />

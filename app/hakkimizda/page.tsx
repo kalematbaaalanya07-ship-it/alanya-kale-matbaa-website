@@ -20,8 +20,8 @@ export default function AboutPage() {
         <div className="grid items-center gap-10 lg:grid-cols-2">
           <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
             <Image
-              src="/images/offset.png"
-              alt={a.title}
+              src="/images/offset.webp"
+              alt="Alanya Kale Matbaa ofset baskı makinesi ve tecrübeli matbaacılar"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"

@@ -15,7 +15,7 @@ export type Product = {
 export const products: Product[] = [
   {
     slug: "kase",
-    image: "/images/stamps.png",
+    image: "/images/stamps.webp",
     content: {
       tr: {
         title: "Kaliteli Kaşe Üretimi",
@@ -36,7 +36,7 @@ export const products: Product[] = [
   },
   {
     slug: "brosur",
-    image: "/images/brochures.png",
+    image: "/images/brochures.webp",
     content: {
       tr: {
         title: "Profesyonel Broşür Baskı",
@@ -57,7 +57,7 @@ export const products: Product[] = [
   },
   {
     slug: "davetiye",
-    image: "/images/invitations.png",
+    image: "/images/invitations.webp",
     content: {
       tr: {
         title: "Şık Davetiye Baskı",
@@ -78,7 +78,7 @@ export const products: Product[] = [
   },
   {
     slug: "kartvizit",
-    image: "/images/business-cards.png",
+    image: "/images/business-cards.webp",
     content: {
       tr: {
         title: "Profesyonel Kartvizit Baskı",
@@ -99,7 +99,7 @@ export const products: Product[] = [
   },
   {
     slug: "afis",
-    image: "/images/afis.png",
+    image: "/images/afis.webp",
     content: {
       tr: {
         title: "Afiş Baskı",
@@ -120,7 +120,7 @@ export const products: Product[] = [
   },
   {
     slug: "amerikan-servis",
-    image: "/images/amerikan-servis.png",
+    image: "/images/amerikan-servis.webp",
     content: {
       tr: {
         title: "Amerikan Servis Baskı",
@@ -141,7 +141,7 @@ export const products: Product[] = [
   },
   {
     slug: "antetli-kagit",
-    image: "/images/antetli.png",
+    image: "/images/antetli.webp",
     content: {
       tr: {
         title: "Antetli Kağıt",
@@ -162,7 +162,7 @@ export const products: Product[] = [
   },
   {
     slug: "bloknot",
-    image: "/images/bloknot.png",
+    image: "/images/bloknot.webp",
     content: {
       tr: {
         title: "Bloknot Baskı",
@@ -183,7 +183,7 @@ export const products: Product[] = [
   },
   {
     slug: "cepli-dosya",
-    image: "/images/cepli-dosya.png",
+    image: "/images/cepli-dosya.webp",
     content: {
       tr: {
         title: "Cepli Dosya",
@@ -204,7 +204,7 @@ export const products: Product[] = [
   },
   {
     slug: "etiket-cikartma",
-    image: "/images/etiket.png",
+    image: "/images/etiket.webp",
     content: {
       tr: {
         title: "Etiket ve Çıkartma Baskı",
@@ -225,7 +225,7 @@ export const products: Product[] = [
   },
   {
     slug: "karton-canta",
-    image: "/images/karton-canta.png",
+    image: "/images/karton-canta.webp",
     content: {
       tr: {
         title: "Karton Çanta",
@@ -246,7 +246,7 @@ export const products: Product[] = [
   },
   {
     slug: "kup-bloknot",
-    image: "/images/kup-bloknot.png",
+    image: "/images/kup-bloknot.webp",
     content: {
       tr: {
         title: "Küp Bloknot",
@@ -267,7 +267,7 @@ export const products: Product[] = [
   },
   {
     slug: "magnet",
-    image: "/images/magnet.png",
+    image: "/images/magnet.webp",
     content: {
       tr: {
         title: "Magnet Baskı",
@@ -281,14 +281,14 @@ export const products: Product[] = [
       },
       ru: {
         title: "Печать магнитов",
-        desc: "Качественные магниты на холодильник и промо-магниты овальной, фигурной и стандартной формы.",
+        desc: "Качеььтвенные магниты на холодильник и промо-магниты овальной, фигурной и стандартной формы.",
         features: ["Овальные и фигурные", "Стандартные размеры", "Для холодильника и промо", "Яркая цветная печать"],
       },
     },
   },
   {
     slug: "tesekkur-karti",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tesekkur-karti-3Osp71dC6QLPR0pUY7MP3EZIpVeJXq.jpg",
+    image: "/images/remote-webp/remote-37.webp",
     content: {
       tr: {
         title: "Teşekkür Kartı Baskı",
@@ -309,49 +309,49 @@ export const products: Product[] = [
   },
   {
     slug: "dergi-baskisi",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dergi-baskisi-elblrKittjQ9VrqyFiPtzM3DExFWSg.jpg",
+    image: "/images/remote-webp/remote-38.webp",
     content: {
       tr: {
         title: "Kurumsal & Süreli Dergi Baskısı",
-        desc: "Konica Minolta AccurioPress C4065 dijital baskı teknolojimiz ile az adetli veya yüksek adetli dergi taleplerinizi sıfır hata ile üretiyoruz. 80 gr - 350 gr arası kuşe, 1. hamur veya fantezi kağıt seçenekleri; A4, A5, B5 ve özel boyut imkanları. Tel dikiş, amerikan cilt ve yüksek renk doğruluğu (3600x2400 dpi eşdeğeri) ile profesyonel dergi basımı.",
-        features: ["80-350 gr kağıt seçenekleri", "C4065 dijital teknoloji", "Tel dikiş ve amerikan cilt", "3600x2400 dpi renk doğruluğu"],
+        desc: "Konica Minolta AccurioPress C4065 dijital baskı teknolojimiz ile az adetli veya yüksek adetli dergi taleplerinizi sıfır hata ile üretiyoruz. 80 gr - 350 gr arası kağıt seçenekleri; A4, A5, B5 ve özel boyut imkanları. Tel dikiş ve yüksek renk doğruluğu (3600x2400 dpi eşdeğeri) ile profesyonel dergi basımı.",
+        features: ["80-350 gr kağıt seçenekleri", "C4065 dijital teknoloji", "Tel dikiş ve cilt seçenekleri", "3600x2400 dpi renk doğruluğu"],
       },
       en: {
         title: "Corporate & Periodical Magazine Printing",
-        desc: "Using our Konica Minolta AccurioPress C4065 digital printing technology, we produce magazines from small to large runs with zero errors. Options from 80 gsm to 350 gsm coated, woodfree or specialty papers; A4, A5, B5 and custom sizes. Professional magazine printing with saddle stitching, perfect binding and high color accuracy (equivalent to 3600x2400 dpi).",
-        features: ["80-350 gsm paper options", "C4065 digital technology", "Saddle stitch and perfect binding", "3600x2400 dpi color accuracy"],
+        desc: "Using our Konica Minolta AccurioPress C4065 digital printing technology, we produce magazines from small to large runs with zero errors. Options from 80 gsm to 350 gsm coated and woodfree papers; A4, A5, B5 and custom sizes. Professional magazine printing with saddle stitching and high color accuracy (equivalent to 3600x2400 dpi).",
+        features: ["80-350 gsm paper options", "C4065 digital technology", "Saddle stitch and binding options", "3600x2400 dpi color accuracy"],
       },
       ru: {
         title: "Печать корпоративных и периодических журналов",
-        desc: "Используя нашу цифровую печать Konica Minolta AccurioPress C4065, мы производим журналы от малых до больших тиражей с нулевыми ошибками. Опции от 80 г до 350 г мелованной, офсетной или специальной бумаги; форматы A4, A5, B5 и нестандартные размеры. Профессиональная печать журналов с проволочной скреплением, идеальным переплётом и высокой цветопередачей (эквивалент 3600x2400 dpi).",
-        features: ["Опции бумаги 80-350 г", "Цифровая технология C4065", "Проволочное скрепление и переплёт", "Цветопередача 3600x2400 dpi"],
+        desc: "Используя нашу цифровую печать Konica Minolta AccurioPress C4065, мы производим журналы от малых до больших тиражей с нулевыми ошибками. Опции от 80 г до 350 г мелованной и офсетной бумаги; форматы A4, A5, B5 и нестандартные размеры. Профессиональная печать журналов с проволочной скреплением и высокой цветопередачей (эквивалент 3600x2400 dpi).",
+        features: ["Опции бумаги 80-350 г", "Цифровая технология C4065", "Проволочное скрепление и опции переплёта", "Цветопередача 3600x2400 dpi"],
       },
     },
   },
   {
     slug: "katalog-baskisi",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/katalog-baskisi-oPjdPuBBeIRCxFPcy05LDZiRJDr3ac.jpg",
+    image: "/images/remote-webp/remote-39.webp",
     content: {
       tr: {
         title: "Katalog Baskı Hizmetleri",
-        desc: "Şirketinizin vizyonunu ve ürünlerinizi en üst kalitede sergileyin. C4065 dijital baskı makinemiz sayesinde 130 gr ile 350 gr arasındaki tüm kuşe ve fantezi kağıtlara, A4, A5 veya özel kare ebatlarda üretim yapıyoruz. Selefon ile preste mükemmel sonuç.",
-        features: ["130-350 gr kuşe kağıt", "Özel ebat seçenekleri", "Selefon ve pres uygulaması", "Profesyonel katalog tasarımı"],
+        desc: "Şirketinizin vizyonunu ve ürünlerinizi en üst kalitede sergileyin. C4065 dijital baskı makinemiz sayesinde 130 gr ile 350 gr arasındaki tüm kağıt seçeneklerine, A4, A5 veya özel kare ebatlarda üretim yapıyoruz. Selefon ile preste mükemmel sonuç.",
+        features: ["130-350 gr kağıt seçenekleri", "Özel ebat seçenekleri", "Selefon ve pres uygulaması", "Profesyonel katalog tasarımı"],
       },
       en: {
         title: "Catalog Printing Services",
-        desc: "Showcase your company's vision and products in the highest quality. Thanks to our C4065 digital printing machine, we produce catalogs on all coated and specialty papers between 130 gsm and 350 gsm in A4, A5 or custom square sizes. Perfect results with lamination and pressing.",
-        features: ["130-350 gsm coated paper", "Custom size options", "Lamination and pressing", "Professional catalog design"],
+        desc: "Showcase your company's vision and products in the highest quality. Thanks to our C4065 digital printing machine, we produce catalogs on all paper options between 130 gsm and 350 gsm in A4, A5 or custom square sizes. Perfect results with lamination and pressing.",
+        features: ["130-350 gsm paper options", "Custom size options", "Lamination and pressing", "Professional catalog design"],
       },
       ru: {
         title: "Услуги печати каталогов",
-        desc: "Представьте видение вашей компании и продукты в наивысшем качестве. Благодаря нашей цифровой печати C4065 мы производим каталоги на всех мелованных и специальных бумаг от 130 г до 350 г в форматах A4, A5 или нестандартных размерах. Идеальный результат с ламинацией и прессованием.",
-        features: ["Мелованная бумага 130-350 г", "Нестандартные размеры", "Ламинация и прессование", "Профессиональный дизайн каталога"],
+        desc: "Представьте видение вашей компании и продукты в наивысшем качестве. Благодаря нашей цифровой печати C4065 мы производим каталоги на всех бумагах от 130 г до 350 г в форматах A4, A5 или нестандартных размерах. Идеальный результат с ламинацией и прессованием.",
+        features: ["Бумага 130-350 г", "Нестандартные размеры", "Ламинация и прессование", "Профессиональный дизайн каталога"],
       },
     },
   },
   {
     slug: "folyo-etiket",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/folyo-ozel-kesim-etiket-V2jxA6X3KassgHkFjJ5QnCxZLCY4Xo.jpg",
+    image: "/images/remote-webp/remote-40.webp",
     content: {
       tr: {
         title: "Folyo Özel Kesim Etiket (Sticker)",
@@ -372,7 +372,7 @@ export const products: Product[] = [
   },
   {
     slug: "kitap-ayraci",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kitap-ayraci-A1Z3K1MV932Ac97lpxbhb9CfcRjm4U.jpg",
+    image: "/images/remote-webp/remote-41.webp",
     content: {
       tr: {
         title: "Özel Tasarım Kitap Ayracı",
@@ -393,7 +393,7 @@ export const products: Product[] = [
   },
   {
     slug: "ozel-imsakiye",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ozel-imsakiye-08T5IDkfT0evElhwLPbla71vUawhac.jpg",
+    image: "/images/remote-webp/remote-42.webp",
     content: {
       tr: {
         title: "Özel İmsakiye Baskısı",
@@ -414,7 +414,7 @@ export const products: Product[] = [
   },
   {
     slug: "diplomat-zarf",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/diplomat-zarf-cDlr9pyCrupZ59ygsmVMv8KO4iPAjU.jpg",
+    image: "/images/remote-webp/remote-43.webp",
     content: {
       tr: {
         title: "Kurumsal Diplomat Zarf Baskısı",
@@ -435,7 +435,7 @@ export const products: Product[] = [
   },
   {
     slug: "renkli-cikti",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/renkli-cikti-wZenemiQ0Qbb6ag049BaVEJ82Kjzoc.jpg",
+    image: "/images/remote-webp/remote-44.webp",
     content: {
       tr: {
         title: "Yüksek Kaliteli Renkli Çıktı Hizmeti",
@@ -456,7 +456,7 @@ export const products: Product[] = [
   },
   {
     slug: "sadakat-karti",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sadakat-karti-ba947n3KQIN2Es7GYibpQ4ov4okkHl.jpg",
+    image: "/images/remote-webp/remote-45.webp",
     content: {
       tr: {
         title: "Müşteri Sadakat Kartı",
@@ -477,7 +477,7 @@ export const products: Product[] = [
   },
   {
     slug: "acil-el-ilani",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/acil-el-ilani-iR2Ycq8nkGHr8H9fqj5KpdjEG7MzN8.jpg",
+    image: "/images/remote-webp/remote-46.webp",
     content: {
       tr: {
         title: "Acil El İlanı & Broşür Baskısı",
@@ -498,7 +498,7 @@ export const products: Product[] = [
   },
   {
     slug: "dokuman-baskisi",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dokuman-baskisi-SlLcqGehJSfLLhlf0IY7xm653JUxjt.jpg",
+    image: "/images/remote-webp/remote-47.webp",
     content: {
       tr: {
         title: "Kurumsal Doküman & Rapor Baskısı",
@@ -519,7 +519,7 @@ export const products: Product[] = [
   },
   {
     slug: "acil-dugun-davetiyesi",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/acil-dugun-davetiyesi-3905kGMvWVl7I3yQJaUECAph1xChS3.jpg",
+    image: "/images/remote-webp/remote-48.webp",
     content: {
       tr: {
         title: "Acil Düğün & Etkinlik Davetiyesi",
@@ -540,7 +540,7 @@ export const products: Product[] = [
   },
   {
     slug: "sertifika",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sertifika-3e0gwJdSFod8Q3f4f4DPmRCGbsG69F.jpg",
+    image: "/images/remote-webp/remote-49.webp",
     content: {
       tr: {
         title: "Sertifika & Katılım Belgesi Baskısı",
@@ -561,7 +561,7 @@ export const products: Product[] = [
   },
   {
     slug: "oto-paspas",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/oto-paspas-n3BLEpDC6cvifFQsVnSu8AQqV0wxwb.jpg",
+    image: "/images/remote-webp/remote-50.webp",
     content: {
       tr: {
         title: "Kağıt Oto Paspas",
@@ -582,7 +582,7 @@ export const products: Product[] = [
   },
   {
     slug: "otokopili-resmi-evrak",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/otokopili-baskilar-ZMyeyQw8gAxaK3KSHFUYgxughKj5jG.jpg",
+    image: "/images/remote-webp/remote-51.webp",
     content: {
       tr: {
         title: "Otokopili Resmi ve Gayri Resmi Evraklar",
@@ -603,7 +603,7 @@ export const products: Product[] = [
   },
   {
     slug: "bilet-baskisi",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bilet-baskisi-wbjwIICap1STTqn5lKrFhSpvmJWWA8.jpg",
+    image: "/images/remote-webp/remote-52.webp",
     content: {
       tr: {
         title: "Seri Numaralı Etkinlik & Konser Bileti",
@@ -624,7 +624,7 @@ export const products: Product[] = [
   },
   {
     slug: "kupon-baskisi",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kupon-baskisi-6OuDtm2GFlSN77LuREF7OiiksYNNBI.jpg",
+    image: "/images/remote-webp/remote-53.webp",
     content: {
       tr: {
         title: "İndirim Kuponu & Hediye Çeki Baskısı",
@@ -640,6 +640,27 @@ export const products: Product[] = [
         title: "Печать дисконтных купонов и подарочных сертификатов",
         desc: "Незаменимый маркетинговый инструмент для компаний, желающих увеличить объём продаж, завоевать новых клиентов и увеличить сезонные кампании. С нашей инфраструктурой C4065, персональный номер/код, перфорация (лёгкий отрыв) и опции нестандартной высечки для корпоративных подарочных сертификатов и дисконтных купонов на мелованной или специальной бумаге 130-350 г.",
         features: ["Мелованная бумага 130-350 г", "Персональный номер/код", "Перфорация с отрывом", "Опция нестандартной высечки"],
+      },
+    },
+  },
+  {
+    slug: "otel-baski-ihtiyaclari",
+    image: "/images/remote-webp/remote-54.webp",
+    content: {
+      tr: {
+        title: "Otel Baskı İhtiyaçları",
+        desc: "Konaklama alanlarının tüm baskı gereksinimlerine profesyonel çözüm. Konuk formları, housekeeper raporları, ön muhasebe belgeleri, çalışan yönetim formları ve daha birçok özel otel baskı ihtiyacı. 2 nüsha, 3 nüsha otokopili kağıtlar ve standart kağıtlarda istenilen boyut ve renkte üretim.",
+        features: ["Konuk ve personel formları", "2-3 nüsha otokopili kağıtlar", "Standart ve özel boyutlar", "Renkli ve siyah-beyaz seçenekleri"],
+      },
+      en: {
+        title: "Hotel Printing Needs",
+        desc: "Professional solutions for all printing requirements of accommodation facilities. Guest forms, housekeeper reports, front desk documents, staff management forms and many more specialized hotel printing needs. Production on 2-copy and 3-copy carbonless papers and standard papers in any desired size and color.",
+        features: ["Guest and staff forms", "2-3 copy carbonless papers", "Standard and custom sizes", "Color and black-white options"],
+      },
+      ru: {
+        title: "Потребности в печати для отелей",
+        desc: "Профессиональные решения для всех требований печати учреждений размещения. Гостевые формы, отчёты уборщиков, документы стойки регистрации, формы управления персоналом и многие другие специализированные потребности печати для отелей. Производство на 2-копийной и 3-копийной безуглеводной бумаге и стандартной бумаге любого размера и цвета.",
+        features: ["Гостевые и кадровые формы", "Бумага 2-3 копии без углерода", "Стандартные и нестандартные размеры", "Цветные и чёрно-белые варианты"],
       },
     },
   },

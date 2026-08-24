@@ -1,5 +1,6 @@
 import { Analytics } from "@vercel/analytics/next"
 import type { Metadata, Viewport } from "next"
+import { headers } from "next/headers"
 import { Inter, Poppins } from "next/font/google"
 import { LanguageProvider } from "@/components/language-provider"
 import { SiteHeader } from "@/components/site-header"
@@ -22,28 +23,36 @@ export const metadata: Metadata = {
     template: "%s | Alanya Kale Matbaa",
   },
   description:
-    "Alanya matbaa ve dijital baskı: Konica Minolta AccurioPrint C4065 ile katalog, broşür, menü, kaşe ve kartvizit baskısı. Ücretsiz profesyonel tasarım, hızlı ve zamanında teslimat.",
+    "Alanya'nın güvenilir matbaası. Dijital copy & ofset baskı, kaşe, broşür, kartvizit, davetiye. Aynı gün teslim, profesyonel grafik tasarım. 35+ yıl tecrübe. Hemen teklif alın!",
   generator: "v0.app",
   applicationName: site.name,
   keywords: [
     "Alanya matbaa",
     "Alanya dijital baskı",
+    "Alanya ofset baskı",
     "Konica Minolta C4065",
     "katalog baskı Alanya",
     "menü baskı Alanya",
     "kaşe Alanya",
     "broşür baskı Alanya",
-    "ofset baskı Alanya",
     "kartvizit Alanya",
+    "davetiye baskı Alanya",
     "matbaa Antalya",
+    "baskı hizmeti Alanya",
   ],
   authors: [{ name: site.name }],
+  creator: site.name,
+  formatDetection: {
+    email: true,
+    telephone: true,
+    address: true,
+  },
   alternates: {
     canonical: site.url,
     languages: {
       tr: site.url,
-      en: `${site.url}/?lang=en`,
-      ru: `${site.url}/?lang=ru`,
+      en: `${site.url}/en`,
+      ru: `${site.url}/ru`,
       "x-default": site.url,
     },
   },
@@ -55,16 +64,23 @@ export const metadata: Metadata = {
     siteName: site.name,
     title: "Alanya Kale Matbaa | Kaliteli Baskı, Zamanında Teslimat",
     description:
-      "Alanya'nın güvenilir matbaası. Dijital & ofset baskı, kaşe, katalog, broşür ve menü baskısı. Ücretsiz profesyonel grafik tasarım.",
-    images: [{ url: "/images/digital-press.png", width: 1200, height: 900, alt: "Alanya Kale Matbaa dijital baskı makinesi" }],
+      "Alanya'nın güvenilir matbaası. Dijital & ofset baskı, kaşe, katalog, broşür ve menü baskısı. Ücretsiz profesyonel grafik tasarım. 35+ yıl tecrübe.",
+    images: [{ url: "/images/digital-press.webp", width: 1200, height: 900, alt: "Alanya Kale Matbaa Konica Minolta C4065 dijital baskı makinesi" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Alanya Kale Matbaa | Kaliteli Baskı, Zamanında Teslimat",
-    description: "Alanya dijital & ofset baskı, kaşe, katalog ve menü baskısı. Ücretsiz profesyonel tasarım.",
-    images: ["/images/digital-press.png"],
+    description: "Alanya dijital & ofset baskı, kaşe, katalog ve menü baskısı. Ücretsiz profesyonel tasarım ve aynı gün teslim.",
+    images: ["/images/digital-press.webp"],
+    creator: "@kalematbaa",
   },
-  robots: { index: true, follow: true },
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+    "max-video-preview": -1,
+  },
 }
 
 export const viewport: Viewport = {
@@ -72,21 +88,20 @@ export const viewport: Viewport = {
   colorScheme: "light",
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const pathname = (await headers()).get("x-pathname") ?? ""
+  const isNfcPage = pathname === "/nfc" || pathname.startsWith("/nfc/")
+
   return (
     <html lang="tr" className={`${inter.variable} ${poppins.variable} bg-background`}>
       <body className="antialiased font-sans">
-        <StructuredData />
-        <LanguageProvider>
-          <SiteHeader />
-          <main className="min-h-screen">{children}</main>
-          <SiteFooter />
-        </LanguageProvider>
-        {process.env.NODE_ENV === "production" && <Analytics />}
+        {!isNfcPage && <StructuredData />}
+        {isNfcPage ? children : <LanguageProvider><SiteHeader /><main className="min-h-screen">{children}</main><SiteFooter /></LanguageProvider>}
+        {!isNfcPage && process.env.NODE_ENV === "production" && <Analytics />}
       </body>
     </html>
   )

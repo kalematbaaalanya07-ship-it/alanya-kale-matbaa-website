@@ -1,9 +1,11 @@
 "use client"
 
 import Link from "next/link"
-import { MapPin, Phone, Mail, MessageCircle } from "lucide-react"
+import { MapPin, Phone, Mail, MessageCircle, MapIcon } from "lucide-react"
+import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/components/language-provider"
 import { site, waLink } from "@/lib/site"
+import { LiveInfoPanel } from "@/components/live-info-panel"
 
 export function SiteFooter() {
   const { t } = useLanguage()
@@ -52,27 +54,51 @@ export function SiteFooter() {
           <ul className="flex flex-col gap-3 text-sm text-primary-foreground/70">
             <li className="flex items-start gap-2">
               <MapPin className="mt-0.5 size-4 shrink-0 text-accent" />
-              <span>{site.address}</span>
+              <div>
+                <p className="text-xs font-semibold text-primary-foreground mb-1">Adres</p>
+                <a
+                  href={`https://www.google.com/maps/search/${encodeURIComponent(site.address)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-primary-foreground/70 hover:text-accent transition-colors"
+                  itemProp="address"
+                  itemScope
+                  itemType="https://schema.org/PostalAddress"
+                >
+                  <span itemProp="streetAddress">{site.street}</span>
+                  <span itemProp="postalCode" className="hidden">{site.postalCode}</span>
+                  <span itemProp="addressLocality" className="hidden">{site.city}</span>
+                  <span itemProp="addressRegion" className="hidden">{site.region}</span>
+                  <span itemProp="addressCountry" className="hidden">{site.country}</span>
+                </a>
+              </div>
             </li>
             <li className="flex items-center gap-2">
               <Phone className="size-4 shrink-0 text-accent" />
-              <a href={`tel:${site.phoneHref}`} className="transition-colors hover:text-accent">
+              <a href={`tel:${site.phoneHref}`} itemProp="telephone" className="transition-colors hover:text-accent">
                 {site.phone}
+              </a>
+            </li>
+            <li className="flex items-center gap-2">
+              <Phone className="size-4 shrink-0 text-accent" />
+              <a href={`https://wa.me/${site.whatsapp}`} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-accent">
+                {site.whatsappDisplay} <span className="text-xs">(WhatsApp)</span>
               </a>
             </li>
             <li className="flex items-center gap-2">
               <MessageCircle className="size-4 shrink-0 text-accent" />
               <a href={waLink()} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-accent">
-                {site.whatsappDisplay}
+                Hızlı İleti Gönder
               </a>
             </li>
             <li className="flex items-center gap-2">
               <Mail className="size-4 shrink-0 text-accent" />
-              <a href={`mailto:${site.email}`} className="transition-colors hover:text-accent">
+              <a href={`mailto:${site.email}`} itemProp="email" className="transition-colors hover:text-accent">
                 {site.email}
               </a>
             </li>
           </ul>
+          <LiveInfoPanel />
         </div>
       </div>
 

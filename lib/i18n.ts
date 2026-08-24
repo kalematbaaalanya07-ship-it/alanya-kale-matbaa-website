@@ -17,15 +17,22 @@ type PortfolioItem = {
   title: string
   category: string
   image: string
+  video?: string
 }
 
 export type Dictionary = {
-  nav: { home: string; about: string; services: string; products: string; portfolio: string; contact: string }
-  cta: { quote: string; call: string; whatsapp: string; viewServices: string; contactUs: string; getOffer: string }
+  nav: { home: string; about: string; services: string; products: string; portfolio: string; contact: string; searchPlaceholder: string }
+  cta: { quote: string; call: string; whatsapp: string; viewServices: string; contactUs: string; getOffer: string; professionalStamp: string }
   home: {
     heroTag: string
     heroTitle: string
     heroSubtitle: string
+    introTitle: string
+    introDesc: string
+    processLabels: string[]
+    urgentTitle: string
+    urgentSubtitle: string
+    urgentDesc: string
     features: { title: string; desc: string }[]
     servicesTitle: string
     servicesSubtitle: string
@@ -56,6 +63,24 @@ export type Dictionary = {
     paperTitle: string
     paperSubtitle: string
     paperWeights: { weight: string; use: string }[]
+    // hizmetlerimiz page UI
+    pageTitle: string
+    pageSubtitle: string
+    viewDetails: string
+    ctaTitle: string
+    ctaSubtitle: string
+    ctaWhatsapp: string
+    // detail page UI
+    detailContact: string
+    detailContactDesc: string
+    detailWhatsapp: string
+    detailCall: string
+    detailFaqTitle: string
+    detailBack: string
+    detailOthers: string
+    detailReady: string
+    detailReadyDesc: string
+    detailGetQuote: string
   }
   portfolio: {
     tag: string
@@ -81,8 +106,15 @@ export type Dictionary = {
     serviceOptions: string[]
     size: string
     sizePlaceholder: string
+    cardType: string
+    cardTypeOptions: string[]
     weight: string
     weightPlaceholder: string
+    carbonCopy: string
+    carbonCopyOptions: string[]
+    serialNumber: string
+    perforation: string
+    perforationOptions: string[]
     quantity: string
     quantityPlaceholder: string
     sides: string
@@ -92,6 +124,18 @@ export type Dictionary = {
     notesPlaceholder: string
     submit: string
     intro: string
+    stampType: string
+    stampTypeOptions: string[]
+    stampNotes: string
+    inkColor: string
+    inkColorOptions: string[]
+    designDirection: string
+    designDirectionOptions: string[]
+    paperSizeOptions: string[]
+    lamination: string
+    designSupport: string
+    yes: string
+    no: string
   }
   freeDesign: {
     tag: string
@@ -111,6 +155,8 @@ export type Dictionary = {
     title: string
     subtitle: string
     items: { q: string; a: string }[]
+    ctaTitle: string
+    ctaButton: string
   }
   blog: {
     tag: string
@@ -119,6 +165,23 @@ export type Dictionary = {
     readMore: string
     soon: string
     items: { title: string; excerpt: string; category: string; date: string }[]
+  }
+  kase: {
+    tag: string
+    title: string
+    subtitle: string
+    intro: string
+    typesTitle: string
+    typesDesc: string[]
+    specsTitle: string
+    specs: { title: string; desc: string }[]
+    colorsTitle: string
+    colorsDesc: string
+    colors: { name: string; usage: string; class: string }[]
+    processTitle: string
+    process: { title: string; desc: string }[]
+    ctaTitle: string
+    ctaDesc: string
   }
   footer: {
     about: string
@@ -131,7 +194,7 @@ export type Dictionary = {
 }
 
 const tr: Dictionary = {
-  nav: { home: "Ana Sayfa", about: "Hakkımızda", services: "Hizmetlerimiz", products: "Ürünlerimiz", portfolio: "Portföy", contact: "İletişim" },
+  nav: { home: "Ana Sayfa", about: "Hakkımızda", services: "Hizmetlerimiz", products: "Ürünlerimiz", portfolio: "Portföy", contact: "İletişim", searchPlaceholder: "Ne bastırmak istiyorsunuz?" },
   cta: {
     quote: "Hızlı Teklif Al",
     call: "Hemen Ara",
@@ -139,12 +202,19 @@ const tr: Dictionary = {
     viewServices: "Hizmetleri İncele",
     contactUs: "Bize Ulaşın",
     getOffer: "Teklif Al",
+    professionalStamp: "Profesyonel Kaşe Basımı",
   },
   home: {
     heroTag: "Alanya'nın Güvenilir Matbaası",
     heroTitle: "Kaliteli Baskı, Zamanında Teslimat",
+    introTitle: "Alanya’da Hızlı ve Profesyonel Baskı",
+    introDesc: "Alanya Kale Matbaa olarak kaşe, kartvizit, broşür, menü, davetiye, ofset ve dijital copy baskı ihtiyaçlarınız için profesyonel çözümler sunuyoruz.",
+    processLabels: ["Tasarım", "Dijital Prova", "Onay", "Baskı", "Teslimat"],
+    urgentTitle: "ACİL BASKINIZ MI VAR?",
+    urgentSubtitle: "Bugün Teslim Edelim!",
+    urgentDesc: "Bize ulaşın, çözümünü birlikte bulalım.",
     heroSubtitle:
-      "Kaşe, ofset ve dijital baskıda uzman ekibimizle işletmenizin tüm baskı ihtiyaçlarını profesyonelce karşılıyoruz.",
+      "Ofset ve dijital baskıda uzman ekibimizle işletmenizin tüm baskı ihtiyaçlarını profesyonelce karşılıyoruz.\nKartvizit, kaşe, broşür, magnet, davetiye, etiket, sticker, antetli kâğıt, diplomat zarf, cepli dosya, bloknot, el ilanı, menü, poster, otokopili form ve resmi evrak yazıları…\nHepsi tek adreste, kaliteli ve hızlı çözümlerle.\nİhtiyacınız olan her baskı ürünü için buradayız.",
     features: [
       { title: "Yüksek Hızlı Dijital Baskı", desc: "Konica Minolta AccurioPrint C4065 ile hızlı ve net baskı." },
       { title: "Kalın Kağıt Desteği", desc: "350g ve üzeri kartonlarda kusursuz baskı kalitesi." },
@@ -190,38 +260,40 @@ const tr: Dictionary = {
       { title: "Uygun Fiyat", desc: "Rekabetçi fiyatlarla profesyonel hizmet sunarız." },
     ],
   },
-  services: {
-    tag: "Hizmetlerimiz",
-    title: "Baskı Çözümlerimiz",
-    subtitle: "İşletmeniz ve etkinlikleriniz için ihtiyacınız olan her şey.",
-    items: [
-      { id: "kase", title: "Kaşe", desc: "Otomatik ve klasik kaşe üretimi. Hızlı ve net baskı sonucu.", image: "/images/stamps.png" },
-      { id: "ofset", title: "Ofset Baskı", desc: "Yüksek adetli işlerde ekonomik ve kaliteli ofset baskı.", image: "/images/offset.png" },
-      { id: "dijital", title: "C4065 Dijital Baskı", desc: "Konica Minolta C4065 ile 80g'dan 350g+'a kadar dijital baskı.", image: "/images/digital-press.png" },
-      { id: "brosur", title: "Broşür", desc: "Katlı ve düz broşürler, katalog ve tanıtım materyalleri.", image: "/images/brochures.png" },
-      { id: "davetiye", title: "Davetiye", desc: "Düğün, nişan ve etkinlikler için şık davetiye baskısı.", image: "/images/invitations.png" },
-      { id: "kartvizit", title: "Kartvizit", desc: "Kalın kartonda profesyonel kartvizit baskısı.", image: "/images/business-cards.png" },
-    ],
-    paperTitle: "Kağıt Gramajları",
-    paperSubtitle: "İşinize uygun gramajı seçin, geri kalanını bize bırakın.",
-    paperWeights: [
-      { weight: "80g", use: "El ilanı, iç sayfa, evrak" },
-      { weight: "130g", use: "Broşür, katalog, afiş" },
-      { weight: "170g", use: "Kaliteli broşür, poster" },
-      { weight: "350g+", use: "Kartvizit, davetiye, kapak" },
-    ],
-  },
   portfolio: {
     tag: "Portföy",
     title: "Çalışmalarımızdan Örnekler",
     subtitle: "Farklı sektörlerden tamamladığımız baskı projeleri.",
     items: [
-      { title: "Kurumsal Kartvizit", category: "Kartvizit", image: "/images/business-cards.png" },
-      { title: "Tanıtım Broşürü", category: "Broşür", image: "/images/brochures.png" },
-      { title: "Düğün Davetiyesi", category: "Davetiye", image: "/images/invitations.png" },
-      { title: "Şirket Kaşesi", category: "Kaşe", image: "/images/stamps.png" },
-      { title: "Katalog Baskısı", category: "Dijital", image: "/images/digital-press.png" },
-      { title: "Afiş & Poster", category: "Ofset", image: "/images/offset.png" },
+      { title: "Restoran Menü Broşürü", category: "Broşür", image: "/images/remote-webp/remote-1.webp" },
+      { title: "Otel Bagaj Emanet Fişi", category: "Ofset", image: "/images/remote-webp/remote-2.webp" },
+      { title: "Diplomat Hotel Zarfı", category: "Kurumsal", image: "/images/remote-webp/remote-3.webp" },
+      { title: "Terapi Hizmetleri Broşürü", category: "Broşür", image: "/images/remote-webp/remote-4.webp" },
+      { title: "Cepli Dosya - İç Sayfa", category: "Kurumsal", image: "/images/remote-webp/remote-5.webp" },
+      { title: "Deri Ürün Sertifikası", category: "Sertifika", image: "/images/remote-webp/remote-6.webp" },
+      { title: "Kurumsal Antetli Kağıt", category: "Kurumsal", image: "/images/remote-webp/remote-7.webp" },
+      { title: "Otel Bilgilendirme Yazısı", category: "Ofset", image: "/images/remote-webp/remote-8.webp" },
+      { title: "Otel Oda Kartlığı", category: "Kurumsal", image: "/images/remote-webp/remote-9.webp" },
+      { title: "3 Kırımlı Güzellik Broşürü", category: "Broşür", image: "/images/remote-webp/remote-10.webp" },
+      { title: "Folding Glass Dosya", category: "Kurumsal", image: "/images/remote-webp/remote-11.webp" },
+      { title: "Restaurant El İlanı", category: "Dijital", image: "/images/remote-webp/remote-12.webp" },
+      { title: "Kuaför Hizmetleri Broşürü", category: "Broşür", image: "/images/remote-webp/remote-13.webp" },
+      { title: "Otel Kapı Kolu Askısı", category: "Kurumsal", image: "/images/remote-webp/remote-14.webp" },
+      { title: "Turizm Broşürü", category: "Broşür", image: "/images/remote-webp/remote-15.webp" },
+      { title: "Hamam Hizmetleri Broşürü", category: "Broşür", image: "/images/remote-webp/remote-16.webp" },
+      { title: "Dergi İç Sayfa Tasarımı", category: "Ofset", image: "/images/remote-webp/remote-17.webp" },
+      { title: "Otel Anket Formu", category: "Ofset", image: "/images/remote-webp/remote-18.webp" },
+      { title: "Otel Kurumsal Broşürü", category: "Broşür", image: "/images/remote-webp/remote-19.webp" },
+      { title: "Kuyumcu Ürün Sertifikası", category: "Sertifika", image: "/images/remote-webp/remote-20.webp" },
+      { title: "Özel Tasarım Kartvizit", category: "Kartvizit", image: "/images/remote-webp/remote-21.webp" },
+      { title: "Kartvizit Baskımız", category: "Kartvizit", image: "/images/remote-webp/remote-21.webp", video: "https://www.youtube.com/embed/heNWoQcFcEc" },
+      { title: "Profesyonel Katalog", category: "Katalog", image: "/images/remote-webp/remote-22.webp", video: "https://www.youtube.com/embed/k5hxvhUJZRM" },
+      { title: "Dijital Tasarım Katalog", category: "Dijital", image: "/images/remote-webp/remote-23.webp" },
+      { title: "Kurumsal Kaşe Üretimi", category: "Kaşe", image: "/images/remote-webp/remote-24.webp" },
+      { title: "Baskılı Kaşe Çeşitleri", category: "Kaşe", image: "/images/remote-webp/remote-25.webp" },
+      { title: "Renkli Kaşe Örnekleri", category: "Kaşe", image: "/images/remote-webp/remote-26.webp" },
+      { title: "Rent a Car Sözleşmesi", category: "Ofset", image: "/images/remote-webp/remote-27.webp" },
+      { title: "Tahsilat Makbuzu Kitapçığı", category: "Ofset", image: "/images/remote-webp/remote-28.webp" },
     ],
   },
   contact: {
@@ -242,29 +314,48 @@ const tr: Dictionary = {
     serviceOptions: ["Kaşe", "Ofset Baskı", "Dijital Baskı", "Broşür", "Davetiye", "Kartvizit", "Diğer"],
     size: "Boyut",
     sizePlaceholder: "Örn. A4, A5, 9x5 cm",
+    cardType: "Kartvizit Türü",
+    cardTypeOptions: ["82 × 52 mm ölçüsünde 350 gr standart parlak selefonlu kartvizit", "82 × 52 mm ölçüsünde 350 gr standart mat selefonlu kartvizit", "700 gr sıvama, embos laklı, oval kesim kalın kartvizit", "700 gr sıvama, embos laklı, oval kesim, altın veya gümüş yaldızlı kalın kartvizit", "164 × 52 mm ölçüsünde 350 gr ortadan kırımlı parlak selefonlu kartvizit", "164 × 52 mm ölçüsünde 350 gr ortadan kırımlı mat selefonlu kartvizit", "350 gr, 50 × 50 mm ölçüsünde selefonlu kartvizit"],
     weight: "Gramaj",
     weightPlaceholder: "Gramaj seçin",
+    carbonCopy: "Carbon Copy Adedi",
+    carbonCopyOptions: ["2 nüsha (50 beyaz, 50 sarı renkte)", "3 nüsha", "4 nüsha"],
+    serialNumber: "Seri No",
+    perforation: "Perforaj",
+    perforationOptions: ["Sadece beyaz olan ilk nüsha perforajlı", "Bütün nüshalar perforajlı"],
     quantity: "Adet",
     quantityPlaceholder: "Örn. 500",
     sides: "Baskı Yönü",
     single: "Tek Yön",
     double: "Çift Yön",
-    notes: "Açıklama",
+    notes: "Ürün Açıklaması",
     notesPlaceholder: "Ek detaylar, renk, teslim tarihi...",
-    submit: "WhatsApp ile Gönder",
+    submit: "Teklif Al",
+    stampNotes: "Kaşenin İçine Yazılacak Bilgiler",
     intro: "Merhaba, teklif almak istiyorum:",
+    stampType: "Kaşe Türü",
+    stampTypeOptions: ["Şirket ve şahıs şirketi kaşesi", "Cep Kaşesi", "Yuvarlak kaşe", "Stampa kaşe"],
+    inkColor: "Mürekkep Rengi",
+    inkColorOptions: ["Mavi (Ofis işleri için uygundur)", "Siyah (Resmi işler için uygundur)", "Kırmızı (Acil veya uyarı belirtmek için uygundur)"],
+    designDirection: "Tasarım Yönü",
+    designDirectionOptions: ["Dikey", "Yatay"],
+    paperSizeOptions: ["A6 (10,5 × 14,8 cm)", "A5 (14,8 × 21 cm)", "A4 (21 × 29,7 cm)"],
+    lamination: "Selefon",
+    designSupport: "Tasarım Desteği",
+    yes: "İstiyorum",
+    no: "İstemiyorum",
   },
   freeDesign: {
     tag: "Ayrıcalığımız",
-    title: "Ücretsiz Profesyonel Grafik Tasarım",
-    desc: "Baskı siparişlerinizde tasarım derdi yok. Deneyimli grafik ekibimiz CorelDRAW, Photoshop ve yapay zeka destekli araçlarla markanıza özel tasarımları ücretsiz hazırlar.",
+    title: "Profesyonel Grafik Tasarım",
+    desc: "Baskı siparişlerinizde tasarım derdi yaşamayın. Deneyimli grafik ekibimiz CorelDRAW ve yapay zeka destekli araçlarla markanıza özel profesyonel tasarımları siparişinizle birlikte hazırlar. Kalite ve hızdan ödün vermeden baskıya hazır dosyalarınızı teslim ediyoruz.",
     points: [
-      "Kartvizit, broşür ve menü tasarımı dahil",
-      "CorelDRAW & Adobe Photoshop uzmanlığı",
-      "Yapay zeka destekli hızlı revizyon",
+      "Profesyonel kartvizit, broşür ve menü tasarımı",
+      "CorelDRAW uzmanlığı",
+      "Yapay zeka destekli hızlı ve kaliteli revizyon",
       "Baskı öncesi ücretsiz dijital prova",
     ],
-    cta: "Ücretsiz Tasarım İste",
+    cta: "Profesyonel Tasarım İste →",
   },
   testimonials: {
     tag: "Yorumlar",
@@ -290,35 +381,27 @@ const tr: Dictionary = {
   },
   faq: {
     tag: "S.S.S.",
-    title: "Sıkça Sorulan Sorular",
-    subtitle: "Aklınıza takılanlar için hızlı yanıtlar.",
+    title: "Sıkça Sorulan Sorular (SSS)",
+    subtitle: "Alanya ve çevresindeki matbaa, baskı, kaşe ve teslimat süreçlerimiz hakkında merak edilenler.",
     items: [
-      {
-        q: "Alanya'da acil baskı işlerini ne kadar sürede teslim ediyorsunuz?",
-        a: "Dijital baskı işlerinin çoğunu aynı gün veya 24 saat içinde teslim ediyoruz. Yoğun sezonda bile acil işleriniz için önceliklendirme yapıyoruz.",
-      },
-      {
-        q: "Tasarım dosyam yok, yardımcı olur musunuz?",
-        a: "Elbette. Ücretsiz profesyonel grafik tasarım hizmetimizle kartvizit, broşür, menü ve davetiye tasarımlarınızı sizin için hazırlıyoruz.",
-      },
-      {
-        q: "Konica Minolta C4065 ile hangi kağıtlara baskı yapılıyor?",
-        a: "80g ince kağıttan 350g ve üzeri kalın kartona kadar, A3 boyutuna dek canlı renklerle baskı yapabiliyoruz.",
-      },
-      {
-        q: "Dijital baskı mı ofset baskı mı seçmeliyim?",
-        a: "Düşük ve orta adetli, hızlı işler için dijital baskı; çok yüksek adetli işler için ofset baskı daha ekonomiktir. Size en uygun seçeneği ücretsiz danışmanlıkla belirliyoruz.",
-      },
-      {
-        q: "Alanya dışına gönderim yapıyor musunuz?",
-        a: "Evet, Antalya ve çevre ilçelere kargo ile gönderim yapıyoruz. Detaylar için WhatsApp'tan bize yazabilirsiniz.",
-      },
+      { q: "Kaşe yaptırmak istiyorum hangi bilgileri size göndermeliyim?", a: "Limited Şirket ve Anonim Şirketlerde şirket ünvanı, adres ve vergi numarası yeterlidir. İsteğe göre telefon numarası, MERSİS numarası, ticaret sicil numarası veya mail adresi gibi bilgiler eklenebilir. Şahıs şirketinde isim-soyisim, adres ve T.C. kimlik numarası (veya vergi dairesi numarası) yeterlidir. İsteğe göre ünvan, telefon numarası ve mail adresi eklenebilir." },
+      { q: "Alanya'da acil baskı işlerini ne kadar sürede teslim ediyorsunuz?", a: "Dijital baskı işlerinin çoğunu aynı gün veya 24 saat içinde teslim ediyoruz. Yoğun sezonda bile acil işleriniz için önceliklendirme yapıyoruz." },
+      { q: "Tasarım dosyam yok, yardımcı olur musunuz?", a: "Elbette. Profesyonel grafik tasarım hizmetimizle kartvizit, broşür, menü ve davetiye tasarımlarınızı sizin için hazırlıyoruz." },
+      { q: "Konica Minolta C4065 ile hangi kağıtlara baskı yapılıyor?", a: "80g ince kağıttan 350g ve üzeri kalın kartona kadar, A3+ boyutuna dek canlı renklerle yüksek kaliteli baskı yapabiliyoruz." },
+      { q: "Dijital baskı mı ofset baskı mı seçmeliyim?", a: "Düşük ve orta adetli, hızlı işler için dijital baskı; çok yüksek adetli işler için ofset baskı daha ekonomiktir. Size en uygun seçeneği ücretsiz danışmanlıkla birlikte belirliyoruz." },
+      { q: "Alanya’nın hangi semt ve mahallelerine matbaa ve baskı hizmeti veriyorsunuz?", a: "Kale Matbaa olarak Alanya genelindeki tüm işletmelere profesyonel baskı çözümleri sunuyoruz. Başlıca hizmet verdiğimiz bölgeler: Merkez: Saray Mahallesi, Çarşı, Güller Pınarı, Kadıpaşa, Kızlar Pınarı, Sugözü, Şekerhane, Fığla. Doğu Bölgesi: Oba, Tosmur, Kestel, Mahmutlar, Kargıcak, Demirtaş. Batı Bölgesi: Büyühasbahçe, Küçükhasbahçe, Konaklı, Payallar, Türkler, Avsallar, Okurcalar." },
+      { q: "Siparişlerimizi nasıl teslim alabiliriz? Teslimat yapıyor musunuz?", a: "Siparişlerinizi merkez matbaamızdan doğrudan teslim alabilirsiniz. Ayrıca iş durumumuza ve güzergahımıza bağlı olarak yakın çevredeki işletmeler için adrese teslimat imkanı sağlayabiliyoruz. Yakın çevremiz dışında kalan veya acil teslimat isteyen müşterilerimiz için ise özel kurye veya şehir içi sevk seçenekleri sunmaktayız." },
+      { q: "Mahmutlar, Oba, Konaklı veya Avsallar gibi mahallelerden verilen siparişler nasıl ulaştırılıyor?", a: "Oba, Mahmutlar, Konaklı ve Avsallar gibi mahallelerdeki müşterilerimiz siparişlerini matbaamızdan aldırabilir veya talep doğrultusunda adrese kurye / sevk seçeneğini tercih edebilirler. Güzergahımız üzerindeki yakın teslimatlar için imkan dahilinde yardımcı olmaya çalışıyoruz." },
+      { q: "Kargıcak, Demirtaş veya Okurcalar’daki işletmeler için online sipariş ve tasarım süreci nasıl işliyor?", a: "kalematbaa.com veya WhatsApp hattımız üzerinden tüm detayları dijital ortamda netleştirip baskı sürecini başlatabilirsiniz. Baskısı tamamlanan ürünlerinizi matbaamızdan teslim alabilir ya da size uygun bir kurye/sevk yöntemiyle adresinize yönlendirebiliriz." },
+      { q: "Alanya Sanayi, Fığla, Kadıpaşa ve Saray Mahallesi’ndeki işletmelere teslimat kolaylığınız var mı?", a: "Merkezi konumumuz sayesinde Sanayi, Fığla, Kadıpaşa ve Saray Mahallesi gibi yakın çevremizde yer alan işletmelere iş yoğunluğumuza göre elden teslimat konusunda destek olmaya çalışıyoruz. Dilerseniz basımı biten işlerinizi matbaamızdan da anında teslim alabilirsiniz." },
     ],
+    ctaTitle: "Başka bir sorunuz mu var?",
+    ctaButton: "WhatsApp’tan bize ulaşın",
   },
   blog: {
-    tag: "Blog",
-    title: "Baskı Rehberi & İpuçları",
-    subtitle: "Matbaa dünyasından faydalı bilgiler ve öneriler.",
+    tag: "Baskı Rehberi",
+    title: "Alanya Baskı Rehberi & İpuçları",
+    subtitle: "Kaşe, broşür, davetiye, kartvizit üretiminde faydalı bilgiler. Profesyonel tasarım, aynı gün teslim ve en iyi fiyatlandırma için tüm detaylar.",
     readMore: "Devamını Oku",
     soon: "Yakında",
     items: [
@@ -342,6 +425,93 @@ const tr: Dictionary = {
       },
     ],
   },
+  kase: {
+    tag: "Profesyonel Kaşe Çeşitleri",
+    title: "Profesyonel Kaşe Çeşitleri ve Baskı Hizmeti",
+    subtitle: "Şirketinizin ve kişisel markanızın resmi onay aracı olan kaşelerde geniş ürün yelpazesi. Kaliteli malzeme, hızlı teslimat, uygun fiyat.",
+    intro: "Profesyonel Kaşe Yapımı ve Baskı Hizmeti\n\nKaşe, işletmenin veya kişinin yasal belgelerini tasdik etmek için kullanılan resmi bir araçtır. Alanya Kale Matbaa olarak, tüm kaşe ihtiyaçlarınız için profesyonel ve güvenilir hizmetler sunuyoruz. Standart kaşelerden başlayarak özel tasarımlı kaşelere kadar geniş bir ürün yelpazesi oluşturdum.\n\nŞirketinizin ve kişisel markanızın resmi onay aracı olan kaşelerde geniş ürün yelpazesi. Kaliteli malzeme, hızlı teslimat, uygun fiyat. Profesyonel kaşe çeşitleriyle şirketinizi en iyi şekilde temsil edin.",
+    typesTitle: "Kaşe Çeşitleri",
+    typesDesc: [
+      "Şirket Kaşesi: Limited Şirket ve Anonim Şirketler için kullanılan resmi kaşeler. Şirketin ünvanı, adresi ve vergi numarası ile birlikte kullanılır.",
+      "Şahıs Şirketi Kaşesi: Esnaf, sanatkar ve serbest meslek sahibi olan işletmeleri için tasarlanmış kaşeler.",
+      "Öğretmen Kaşesi: Eğitim kurumlarında kullanılan kaşeler, not defter ve belgelerine imza atarken kullanılır.",
+      "Cep Kaşesi & Yuvarlak Cep Kaşesi: Kolaylık ve mobilite için tasarlanmış kompakt kaşeler. İş ve yaşamın her yerinde pratik kullanım.",
+      "Yuvarlak Otomatik Kaşe: Modern işletmelerin tercih ettiği, mürekkep sistemi sayesinde kolay ve hızlı kullanım sağlayan kaşeler.",
+      "Stampa Kaşe & Logolu Kaşe: Özel tasarım ve markalama ihtiyaçları için, işletmenizin logosu ve özel bilgileri ile hazırlanmış kaşeler."
+    ],
+    specsTitle: "Mürekkep Renk Seçenekleri",
+    specs: [
+      {
+        title: "Siyah Mürekkep",
+        desc: "En yaygın ve resmi karışımda kullanılan mürekkep rengi. Resmi belgeler ve yasal işlemler için tercih edilir."
+      },
+      {
+        title: "Mavi Mürekkep",
+        desc: "Modern ve profesyonel görünüm için seçilen renk. Ofis ortamlarında geniş kullanım alanı bulunan bir seçenek."
+      },
+      {
+        title: "Kırmızı Mürekkep",
+        desc: "Acil, uyarı ve özel durum belgelerine kullanılan renk. İşletmelerin dikkat çeken markası için tercih edilir."
+      }
+    ],
+    colorsTitle: "Kaşe Renkleri ve Mürekkep Seçenekleri",
+    colorsDesc: "Kaşelerınızı maksimum fayda sağlayacak şekilde renk ve mürekkep seçenekleriyle özelleştirebilirsiniz. Her rengin kendine özgü kullanım alanı ve müşteri etkileri vardır.",
+    colors: [
+      { name: "Siyah", usage: "Resmi ve yasal işlemler", class: "border-black bg-black/10" },
+      { name: "Mavi", usage: "Ofis ve kurumsal kullanım", class: "border-blue-500 bg-blue-500/10" },
+      { name: "Kırmızı", usage: "Acil ve uyarı bildirimler", class: "border-red-500 bg-red-500/10" }
+    ],
+    processTitle: "Kaşe Yapımı Süreci",
+    process: [
+      {
+        title: "Bilgi Alınması",
+        desc: "Şirketin veya kişinin tam bilgilerini, ünvanı, adresi ve vergi numarası gibi detayları alıyoruz."
+      },
+      {
+        title: "Tasarım & Onay",
+        desc: "Kaşe tasarımını hazırlıyoruz ve müşterinin onayını alıyoruz. İsteğe göre değişiklikler yapıyoruz."
+      },
+      {
+        title: "Üretim",
+        desc: "En yüksek kalitede malzeme ve teknoloji kullanarak kaşeleri üretiyoruz."
+      },
+      {
+        title: "Mürekkep Doldurma",
+        desc: "Tercih edilen mürekkep rengini kaşeye dolduruyoruz ve test ediyoruz."
+      },
+      {
+        title: "Kalite Kontrol",
+        desc: "Her kaşe kalite kontrol sürecinden geçer ve mükemmel baskı sağlandığını doğrularız."
+      }
+    ],
+    ctaTitle: "Profesyonel Kaşe Çözümü İçin Bize Ulaşın",
+    ctaDesc: "Şirketinizin veya kişisel markanızın resmi kaşesi için en uygun çözümü bulmak için WhatsApp üzerinden bize mesaj gönderin. Ücretsiz danışmanlık ve hızlı teslimat garantisi."
+  },
+  services: {
+    tag: "Baskı Hizmetleri",
+    title: "Hizmetlerimiz",
+    subtitle: "Alanya'da profesyonel baskı hizmetleri. Kurumsal kimliğinizden pazarlama materyallerinize kadar, her ihtiyacınız için kaliteli çözümler sunuyoruz.",
+    items: [],
+    paperTitle: "Kağıt Seçenekleri",
+    paperSubtitle: "Kaliteli baskı için doğru kağıt",
+    paperWeights: [],
+    pageTitle: "Hizmetlerimiz",
+    pageSubtitle: "Alanya'da profesyonel baskı hizmetleri. Kurumsal kimliğinizden pazarlama materyallerinize kadar, her ihtiyacınız için kaliteli çözümler sunuyoruz.",
+    viewDetails: "Detayları Gör",
+    ctaTitle: "Aradığınız Hizmet Burada",
+    ctaSubtitle: "Hangi hizmet hakkında merak ettiğiniz varsa, bize yazın. Profesyonel ekibimiz size en uygun çözümü sunmak için hazır.",
+    ctaWhatsapp: "WhatsApp ile Yazın",
+    detailContact: "Hızlı İletişim",
+    detailContactDesc: "Hizmet hakkında detaylı bilgi ve fiyat teklifi almak için bizimle iletişime geçin.",
+    detailWhatsapp: "WhatsApp ile Yazın",
+    detailCall: "Hemen Ara",
+    detailFaqTitle: "Sıkça Sorulan Sorular",
+    detailBack: "Tüm Hizmetler",
+    detailOthers: "Diğer Hizmetlerimiz",
+    detailReady: "Başlamaya Hazır mısınız?",
+    detailReadyDesc: "hizmeti için teklif almak veya daha fazla bilgi edinmek için bize ulaşın.",
+    detailGetQuote: "Hemen Teklif İste",
+  },
   footer: {
     about: "Alanya'da kaşe, ofset ve dijital baskı hizmetleri. Konica Minolta C4065 ile kaliteli baskı, zamanında teslimat.",
     quickLinks: "Hızlı Bağlantılar",
@@ -353,7 +523,7 @@ const tr: Dictionary = {
 }
 
 const en: Dictionary = {
-  nav: { home: "Home", about: "About", services: "Services", products: "Products", portfolio: "Portfolio", contact: "Contact" },
+  nav: { home: "Home", about: "About", services: "Services", products: "Products", portfolio: "Portfolio", contact: "Contact", searchPlaceholder: "What would you like to print?" },
   cta: {
     quote: "Get a Quick Quote",
     call: "Call Now",
@@ -361,12 +531,19 @@ const en: Dictionary = {
     viewServices: "View Services",
     contactUs: "Contact Us",
     getOffer: "Get Offer",
+    professionalStamp: "Professional Stamp Printing",
   },
   home: {
     heroTag: "Alanya's Trusted Print Shop",
     heroTitle: "Quality Printing, Delivered on Time",
+    introTitle: "Fast, Professional Printing in Alanya",
+    introDesc: "As Alanya Kale Matbaa, we provide professional solutions for stamps, business cards, brochures, menus, invitations, offset and digital copy printing.",
+    processLabels: ["Design", "Digital Proof", "Approval", "Printing", "Delivery"],
+    urgentTitle: "NEED A RUSH PRINT?",
+    urgentSubtitle: "Delivered Today!",
+    urgentDesc: "Contact us and let’s find the right solution together.",
     heroSubtitle:
-      "From stamps to offset and digital printing, our expert team handles all of your business's printing needs professionally.",
+      "Did you come to Turkey from abroad and want affordable printing and custom stamps before returning home? Looking for urgent printing or professional digital & offset printing in Alanya? Kale Matbaa, with over 35 years of experience in Alanya Şekerhane, offers same-day delivery, free design and Konica Minolta AccurioPrint C4065 quality for stamps, business cards, brochures, catalogs and menus. We serve Mahmutlar, Oba, Cikcilli, Konaklı and the entire Antalya region.",
     features: [
       { title: "High-Speed Digital Printing", desc: "Fast, crisp prints with the Konica Minolta AccurioPrint C4065." },
       { title: "Thick Paper Support", desc: "Flawless print quality on 350g+ cardstock." },
@@ -412,38 +589,20 @@ const en: Dictionary = {
       { title: "Fair Pricing", desc: "Professional service at competitive prices." },
     ],
   },
-  services: {
-    tag: "Services",
-    title: "Our Printing Solutions",
-    subtitle: "Everything you need for your business and events.",
-    items: [
-      { id: "kase", title: "Stamps", desc: "Self-inking and classic stamp production. Fast, sharp results.", image: "/images/stamps.png" },
-      { id: "ofset", title: "Offset Printing", desc: "Economical, high-quality offset printing for large runs.", image: "/images/offset.png" },
-      { id: "dijital", title: "C4065 Digital Printing", desc: "Digital printing from 80g to 350g+ with the Konica Minolta C4065.", image: "/images/digital-press.png" },
-      { id: "brosur", title: "Brochures", desc: "Folded and flat brochures, catalogs and marketing materials.", image: "/images/brochures.png" },
-      { id: "davetiye", title: "Invitations", desc: "Elegant invitation printing for weddings and events.", image: "/images/invitations.png" },
-      { id: "kartvizit", title: "Business Cards", desc: "Professional business cards on thick cardstock.", image: "/images/business-cards.png" },
-    ],
-    paperTitle: "Paper Weights",
-    paperSubtitle: "Choose the right weight for your job and leave the rest to us.",
-    paperWeights: [
-      { weight: "80g", use: "Flyers, inner pages, documents" },
-      { weight: "130g", use: "Brochures, catalogs, posters" },
-      { weight: "170g", use: "Premium brochures, posters" },
-      { weight: "350g+", use: "Business cards, invitations, covers" },
-    ],
-  },
   portfolio: {
     tag: "Portfolio",
     title: "Samples of Our Work",
     subtitle: "Printing projects we've completed across different industries.",
     items: [
-      { title: "Corporate Business Cards", category: "Cards", image: "/images/business-cards.png" },
-      { title: "Marketing Brochure", category: "Brochure", image: "/images/brochures.png" },
-      { title: "Wedding Invitation", category: "Invitation", image: "/images/invitations.png" },
-      { title: "Company Stamp", category: "Stamp", image: "/images/stamps.png" },
-      { title: "Catalog Printing", category: "Digital", image: "/images/digital-press.png" },
-      { title: "Posters & Banners", category: "Offset", image: "/images/offset.png" },
+      { title: "Custom Designed Business Cards", category: "Cards", image: "/images/remote-webp/remote-21.webp" },
+      { title: "Our Business Card Printing", category: "Cards", image: "/images/remote-webp/remote-21.webp", video: "https://www.youtube.com/embed/heNWoQcFcEc" },
+      { title: "Professional Catalog", category: "Catalog", image: "/images/remote-webp/remote-22.webp", video: "https://www.youtube.com/embed/k5hxvhUJZRM" },
+      { title: "Digital Design Catalog", category: "Digital", image: "/images/remote-webp/remote-23.webp" },
+      { title: "Corporate Stamp Production", category: "Stamp", image: "/images/remote-webp/remote-24.webp" },
+      { title: "Printed Stamp Varieties", category: "Stamp", image: "/images/remote-webp/remote-25.webp" },
+      { title: "Colored Stamp Samples", category: "Stamp", image: "/images/remote-webp/remote-26.webp" },
+      { title: "Official Document Printing", category: "Offset", image: "/images/remote-webp/remote-27.webp" },
+      { title: "Receipt Booklet Printing", category: "Offset", image: "/images/remote-webp/remote-28.webp" },
     ],
   },
   contact: {
@@ -464,29 +623,48 @@ const en: Dictionary = {
     serviceOptions: ["Stamp", "Offset Printing", "Digital Printing", "Brochure", "Invitation", "Business Card", "Other"],
     size: "Size",
     sizePlaceholder: "e.g. A4, A5, 9x5 cm",
+    cardType: "Business Card Type",
+    cardTypeOptions: ["82 × 52 mm, 350 gsm standard glossy laminated business card", "82 × 52 mm, 350 gsm standard matte laminated business card", "700 gsm mounted, embossed lacquered, rounded thick business card", "700 gsm mounted, embossed lacquered, rounded thick business card with gold or silver foil", "164 × 52 mm, 350 gsm center-fold glossy laminated business card", "164 × 52 mm, 350 gsm center-fold matte laminated business card", "350 gsm, 50 × 50 mm laminated business card"],
     weight: "Paper Weight",
     weightPlaceholder: "Select weight",
+    carbonCopy: "Carbon Copy Quantity",
+    carbonCopyOptions: ["2 copies (50 white, 50 yellow)", "3 copies", "4 copies"],
+    serialNumber: "Serial Number",
+    perforation: "Perforation",
+    perforationOptions: ["Only the first white copy perforated", "All copies perforated"],
     quantity: "Quantity",
     quantityPlaceholder: "e.g. 500",
     sides: "Printing Sides",
     single: "Single-Sided",
     double: "Double-Sided",
-    notes: "Notes",
-    notesPlaceholder: "Extra details, color, deadline...",
-    submit: "Send via WhatsApp",
+    notes: "Product Description",
+    notesPlaceholder: "Extra details, color, delivery date...",
+    submit: "Get a Quote",
+    stampNotes: "Information to Be Written Inside the Stamp",
     intro: "Hello, I would like to get a quote:",
+    stampType: "Stamp Type",
+    stampTypeOptions: ["Company and sole proprietorship stamp", "Round stamp", "Stampa stamp", "Round pocket stamp"],
+    inkColor: "Ink Color",
+    inkColorOptions: ["Blue (Suitable for office work)", "Black (Suitable for official work)", "Red (For urgent notices or warnings)"],
+    designDirection: "Design Orientation",
+    designDirectionOptions: ["Portrait", "Landscape"],
+    paperSizeOptions: ["A6 (10.5 × 14.8 cm)", "A5 (14.8 × 21 cm)", "A4 (21 × 29.7 cm)", "A3 (29.7 × 42 cm)"],
+    lamination: "Lamination",
+    designSupport: "Design Support",
+    yes: "I want it",
+    no: "I do not want it",
   },
   freeDesign: {
     tag: "Our Advantage",
-    title: "Free Professional Graphic Design",
-    desc: "No design headaches with your print orders. Our experienced graphic team prepares custom designs for your brand for free using CorelDRAW, Photoshop and AI-powered tools.",
+    title: "Professional Graphic Design",
+    desc: "Don't worry about design with your print orders. Our experienced graphic team prepares professional designs tailored to your brand with CorelDRAW and AI-powered tools alongside your order. We deliver print-ready files without compromising quality or speed.",
     points: [
-      "Business card, brochure and menu design included",
-      "CorelDRAW & Adobe Photoshop expertise",
-      "AI-assisted fast revisions",
+      "Professional business card, brochure and menu design",
+      "CorelDRAW expertise",
+      "AI-assisted fast and quality revisions",
       "Free digital proof before printing",
     ],
-    cta: "Request Free Design",
+    cta: "Request Professional Design →",
   },
   testimonials: {
     tag: "Reviews",
@@ -512,30 +690,19 @@ const en: Dictionary = {
   },
   faq: {
     tag: "FAQ",
-    title: "Frequently Asked Questions",
-    subtitle: "Quick answers to what you may be wondering.",
+    title: "Frequently Asked Questions (FAQ)",
+    subtitle: "Everything you need to know about our printing services and delivery options in Alanya.",
     items: [
-      {
-        q: "How fast can you deliver urgent print jobs in Alanya?",
-        a: "Most digital print jobs are delivered the same day or within 24 hours. Even in peak season, we prioritize your urgent work.",
-      },
-      {
-        q: "I don't have a design file, can you help?",
-        a: "Absolutely. With our free professional graphic design service we prepare your business card, brochure, menu and invitation designs for you.",
-      },
-      {
-        q: "What papers can you print on with the Konica Minolta C4065?",
-        a: "We print in vibrant colors on everything from 80g light paper to 350g+ thick cardstock, up to A3 size.",
-      },
-      {
-        q: "Should I choose digital or offset printing?",
-        a: "Digital printing suits low-to-medium volume, fast jobs; offset is more economical for very high volumes. We help you pick the best option with free consultation.",
-      },
-      {
-        q: "Do you ship outside Alanya?",
-        a: "Yes, we ship to Antalya and surrounding districts by courier. Message us on WhatsApp for details.",
-      },
+      { q: "What information is needed to make a custom rubber stamp?", a: "For Limited and Joint Stock Companies, company title, address, and tax number are sufficient. Optionally, phone number, registration numbers, and email can be added. For sole proprietorships, full name, address, and ID/Tax number are enough." },
+      { q: "How fast can you deliver urgent printing jobs in Alanya?", a: "Most digital printing jobs are delivered on the same day or within 24 hours. Even during peak seasons, we prioritize your urgent print orders." },
+      { q: "I don't have a design file, can you help with graphic design?", a: "Absolutely. With our professional graphic design service, we prepare custom designs for your business cards, brochures, menus, and invitations." },
+      { q: "Which paper types and weights can be printed with Konica Minolta C4065?", a: "We can print in vivid colors on paper ranging from 80g thin paper up to 350g+ thick cardstock, up to A3 size." },
+      { q: "Should I choose digital printing or offset printing?", a: "Digital printing is more economical and faster for low to medium quantities, while offset printing is ideal for high-volume orders. We help you choose the best option with free consultation." },
+      { q: "Which districts in Alanya do you provide printing services for?", a: "At Kale Matbaa, we provide printing services across all regions of Alanya, including Central Alanya (Saray, Çarşı, Kadıpaşa), Eastern areas (Oba, Tosmur, Kestel, Mahmutlar), and Western areas (Konaklı, Avsallar, Okurcalar)." },
+      { q: "How can I receive my order? Do you offer local delivery?", a: "You can pick up your completed orders directly from our main print shop in central Alanya. Depending on our daily route and workload, we may offer local delivery to nearby businesses or arrange local courier services." },
     ],
+    ctaTitle: "Have another question?",
+    ctaButton: "Contact us on WhatsApp",
   },
   blog: {
     tag: "Blog",
@@ -564,6 +731,93 @@ const en: Dictionary = {
       },
     ],
   },
+  kase: {
+    tag: "Professional Stamp Types",
+    title: "Professional Stamp Types and Printing Service",
+    subtitle: "A wide range of stamp products that serve as official approval tools for your company and personal brand. Quality materials, fast delivery, affordable prices.",
+    intro: "Looking for urgent stamp printing in Alanya? Kale Matbaa in Şekerhane offers corporate seals, teacher stamps, pocket stamps, and automatic stamps with 35+ years of expertise. Same-day delivery, free design, and professional quality serving Mahmutlar, Oba, Konaklı, and all Alanya region.",
+    typesTitle: "Types of Seals",
+    typesDesc: [
+      "Company Seal: Official seals for Limited Companies and Joint Stock Companies. Used with the company name, address and tax number.",
+      "Personal Company Seal: Designed seals for sole proprietors, craftspeople and self-employed professionals.",
+      "Teacher Seal: Seals used in educational institutions for signing grade books and documents.",
+      "Pocket Seal & Round Pocket Seal: Compact seals designed for convenience and mobility. Practical for use anywhere in business and life.",
+      "Round Self-Inking Seal: The choice of modern businesses; thanks to its ink system, it provides easy and fast use.",
+      "Stamper Seal & Logo Seal: For special design and branding needs, seals prepared with your company logo and special information."
+    ],
+    specsTitle: "Ink Color Options",
+    specs: [
+      {
+        title: "Black Ink",
+        desc: "The most common ink color used in official documents. Preferred for official documents and legal proceedings."
+      },
+      {
+        title: "Blue Ink",
+        desc: "The color chosen for a modern and professional appearance. A widely used option in office environments."
+      },
+      {
+        title: "Red Ink",
+        desc: "The color used on urgent, warning and special occasion documents. Preferred for attention-grabbing branding."
+      }
+    ],
+    colorsTitle: "Seal Colors and Ink Options",
+    colorsDesc: "You can customize your seals with color and ink options to provide maximum benefit. Each color has its own unique use case and customer impact.",
+    colors: [
+      { name: "Black", usage: "Official and legal matters", class: "border-black bg-black/10" },
+      { name: "Blue", usage: "Office and corporate use", class: "border-blue-500 bg-blue-500/10" },
+      { name: "Red", usage: "Urgent and warning notices", class: "border-red-500 bg-red-500/10" }
+    ],
+    processTitle: "Seal Manufacturing Process",
+    process: [
+      {
+        title: "Information Collection",
+        desc: "We gather complete information about the company or individual, including name, address and tax number details."
+      },
+      {
+        title: "Design & Approval",
+        desc: "We prepare the seal design and get customer approval. We make changes as needed."
+      },
+      {
+        title: "Production",
+        desc: "We manufacture seals using the highest quality materials and technology."
+      },
+      {
+        title: "Ink Filling",
+        desc: "We fill the seal with the preferred ink color and test it."
+      },
+      {
+        title: "Quality Control",
+        desc: "Every seal goes through quality control and we verify perfect printing is achieved."
+      }
+    ],
+    ctaTitle: "Contact Us for Professional Seal Solutions",
+    ctaDesc: "Send us a message via WhatsApp to find the best solution for your company or personal brand seal. Free consultation and fast delivery guaranteed."
+  },
+  services: {
+    tag: "Print Services",
+    title: "Our Services",
+    subtitle: "Professional printing services in Alanya. Quality solutions for every need — from corporate identity to marketing materials.",
+    items: [],
+    paperTitle: "Paper Options",
+    paperSubtitle: "The right paper for quality printing",
+    paperWeights: [],
+    pageTitle: "Our Services",
+    pageSubtitle: "Professional printing services in Alanya. Quality solutions for every need — from corporate identity to marketing materials.",
+    viewDetails: "View Details",
+    ctaTitle: "The Service You're Looking For Is Here",
+    ctaSubtitle: "If you have any questions about a service, message us. Our professional team is ready to offer you the best solution.",
+    ctaWhatsapp: "Message on WhatsApp",
+    detailContact: "Quick Contact",
+    detailContactDesc: "Get in touch with us for detailed information and a price quote for this service.",
+    detailWhatsapp: "Message on WhatsApp",
+    detailCall: "Call Now",
+    detailFaqTitle: "Frequently Asked Questions",
+    detailBack: "All Services",
+    detailOthers: "Other Services",
+    detailReady: "Ready to Get Started?",
+    detailReadyDesc: "contact us for a quote or more information about",
+    detailGetQuote: "Get a Quote Now",
+  },
   footer: {
     about: "Stamps, offset and digital printing services in Alanya. Quality printing with the Konica Minolta C4065, delivered on time.",
     quickLinks: "Quick Links",
@@ -575,7 +829,7 @@ const en: Dictionary = {
 }
 
 const ru: Dictionary = {
-  nav: { home: "Главная", about: "О нас", services: "Услуги", products: "Продукция", portfolio: "Портфолио", contact: "Контакты" },
+  nav: { home: "Главная", about: "О нас", services: "Услуги", products: "Продукция", portfolio: "Портфолио", contact: "Контакты", searchPlaceholder: "Что вы хотите напечатать?" },
   cta: {
     quote: "Быстрый расчёт",
     call: "Позвонить",
@@ -583,12 +837,19 @@ const ru: Dictionary = {
     viewServices: "Смотреть услуги",
     contactUs: "Связаться с нами",
     getOffer: "Получить расчёт",
+    professionalStamp: "Профессиональная печать штампов",
   },
   home: {
     heroTag: "Надёжная типография Аланьи",
-    heroTitle: "Качественная печать точно в срок",
+    heroTitle: "Быстрая и профессиональная печать в Аланье",
+    introTitle: "Быстрая и профессиональная печать в Аланье",
+    introDesc: "Компания Alanya Kale Matbaa предлагает профессиональные решения для печати штампов, визиток, брошюр, меню, приглашений, офсетной и цифровой печати.",
+    processLabels: ["Дизайн", "Цифровая проба", "Согласование", "Печать", "Доставка"],
+    urgentTitle: "НУЖНА СРОЧНАЯ ПЕЧАТЬ?",
+    urgentSubtitle: "Доставим сегодня!",
+    urgentDesc: "Свяжитесь с нами, и мы вместе найдём решение.",
     heroSubtitle:
-      "От печатей до офсетной и цифровой печати — наша команда профессионально решает все задачи печати для вашего бизнеса.",
+      "Приехали в Турцию из-за границы и хотите сделать печать и штампы по выгодной цене перед возвращением домой? Ищете срочную печать или профессиональную цифровую и офсетную печать в Аланье? Kale Matbaa с более чем 35-летним опытом в Аланье Шекерхане предлагает доставку в тот же день, бесплатный дизайн и качество Konica Minolta AccurioPrint C4065: штампы, визитки, брошюры, каталоги и меню. Мы обслуживаем Махмутлар, Оба, Джикджилли, Конаклы и весь регион Антальи.",
     features: [
       { title: "Высокоскоростная цифровая печать", desc: "Быстрая и чёткая печать на Konica Minolta AccurioPrint C4065." },
       { title: "Печать на плотной бумаге", desc: "Безупречное качество на картоне 350г и выше." },
@@ -634,38 +895,20 @@ const ru: Dictionary = {
       { title: "Честные цены", desc: "Профессиональный сервис по конкурентным ценам." },
     ],
   },
-  services: {
-    tag: "Услуги",
-    title: "Наши решения для печати",
-    subtitle: "Всё необходимое для вашего бизнеса и мероприятий.",
-    items: [
-      { id: "kase", title: "Печати", desc: "Изготовление автоматических и классических печатей. Быстро и чётко.", image: "/images/stamps.png" },
-      { id: "ofset", title: "Офсетная печать", desc: "Экономичная и качественная офсетная печать больших тиражей.", image: "/images/offset.png" },
-      { id: "dijital", title: "Цифровая печать C4065", desc: "Цифровая печать от 80г до 350г+ на Konica Minolta C4065.", image: "/images/digital-press.png" },
-      { id: "brosur", title: "Брошюры", desc: "Складные и плоские брошюры, каталоги и рекламные материалы.", image: "/images/brochures.png" },
-      { id: "davetiye", title: "Приглашения", desc: "Элегантная печать приглашений для свадеб и мероприятий.", image: "/images/invitations.png" },
-      { id: "kartvizit", title: "Визитки", desc: "Профессиональные визитки на плотном картоне.", image: "/images/business-cards.png" },
-    ],
-    paperTitle: "Плотность бумаги",
-    paperSubtitle: "Выберите нужную плотность, остальное сделаем мы.",
-    paperWeights: [
-      { weight: "80г", use: "Листовки, внутренние страницы, документы" },
-      { weight: "130г", use: "Брошюры, каталоги, афиши" },
-      { weight: "170г", use: "Премиум-брошюры, постеры" },
-      { weight: "350г+", use: "Визитки, приглашения, обложки" },
-    ],
-  },
   portfolio: {
     tag: "Портфолио",
     title: "Примеры наших работ",
     subtitle: "Проекты печати, выполненные для разных отраслей.",
     items: [
-      { title: "Корпоративные визитки", category: "Визитки", image: "/images/business-cards.png" },
-      { title: "Рекламная брошюра", category: "Брошюра", image: "/images/brochures.png" },
-      { title: "Свадебное приглашение", category: "Приглашение", image: "/images/invitations.png" },
-      { title: "Печать компании", category: "Печать", image: "/images/stamps.png" },
-      { title: "Печать каталога", category: "Цифровая", image: "/images/digital-press.png" },
-      { title: "Постеры и баннеры", category: "Офсет", image: "/images/offset.png" },
+      { title: "Пользовательские визитки", category: "Визитки", image: "/images/remote-webp/remote-21.webp" },
+      { title: "Наша печать визиток", category: "Визитки", image: "/images/remote-webp/remote-21.webp", video: "https://www.youtube.com/embed/heNWoQcFcEc" },
+      { title: "Профессиональный каталог", category: "Каталог", image: "/images/remote-webp/remote-22.webp", video: "https://www.youtube.com/embed/k5hxvhUJZRM" },
+      { title: "Цифровой дизайн каталога", category: "Цифровая", image: "/images/remote-webp/remote-23.webp" },
+      { title: "Производство корпоративной печати", category: "Печать", image: "/images/remote-webp/remote-24.webp" },
+      { title: "Разнообразие печатей", category: "Печать", image: "/images/remote-webp/remote-25.webp" },
+      { title: "Образцы цветных печатей", category: "Печать", image: "/images/remote-webp/remote-26.webp" },
+      { title: "Печать официальных документов", category: "Офсет", image: "/images/remote-webp/remote-27.webp" },
+      { title: "Печать квитанционной книжицы", category: "Офсет", image: "/images/remote-webp/remote-28.webp" },
     ],
   },
   contact: {
@@ -686,29 +929,48 @@ const ru: Dictionary = {
     serviceOptions: ["Печать", "Офсетная печать", "Цифровая печать", "Брошюра", "Приглашение", "Визитка", "Другое"],
     size: "Размер",
     sizePlaceholder: "напр. A4, A5, 9x5 см",
+    cardType: "Тип визитки",
+    cardTypeOptions: ["82 × 52 мм, 350 г/м², стандартная визитка с глянцевой ламинацией", "82 × 52 мм, 350 г/м², стандартная визитка с матовой ламинацией", "700 г/м², кашированная, с эмбоссированным лаком, толстая визитка с овальной вырубкой", "700 г/м², кашированная, с эмбоссированным лаком, овальная вырубка, золотая или серебряная фольга", "164 × 52 мм, 350 г/м², визитка с центральным сгибом и глянцевой ламинацией", "164 × 52 мм, 350 г/м², визитка с центральным сгибом и матовой ламинацией", "350 г/м², 50 × 50 мм, визитка с ламинацией"],
     weight: "Плотность бумаги",
     weightPlaceholder: "Выберите плотность",
+    carbonCopy: "Количество копий",
+    carbonCopyOptions: ["2 экземпляра (50 белых, 50 жёлтых)", "3 экземпляра", "4 экземпляра"],
+    serialNumber: "Серийный номер",
+    perforation: "Перфорация",
+    perforationOptions: ["Перфорация только первой белой копии", "Перфорация всех копий"],
     quantity: "Количество",
     quantityPlaceholder: "напр. 500",
     sides: "Стороны печати",
     single: "Односторонняя",
     double: "Двусторонняя",
-    notes: "Комментарий",
-    notesPlaceholder: "Доп. детали, цвет, срок...",
-    submit: "Отправить в WhatsApp",
+    notes: "Описание товара",
+    notesPlaceholder: "Доп. детали, цвет, дата доставки...",
+    submit: "Получить пр��дложение",
+    stampNotes: "Информация для нанесения на печать",
     intro: "Здравствуйте, хочу получить расчёт:",
+    stampType: "Тип печати",
+    stampTypeOptions: ["Печать компании и ИП", "Круглая печать", "Штамп-оснастка", "Круглая карманная печать"],
+    inkColor: "Цвет чернил",
+    inkColorOptions: ["Синий (для офисных работ)", "Чёрный (для официальных документов)", "Красный (для срочных предупреждений)"],
+    designDirection: "Ориентация дизайна",
+    designDirectionOptions: ["Книжная", "Альбомная"],
+    paperSizeOptions: ["A6 (10,5 × 14,8 см)", "A5 (14,8 × 21 см)", "A4 (21 × 29,7 см)", "A3 (29,7 × 42 см)"],
+    lamination: "Ламинация",
+    designSupport: "Помощь с дизайном",
+    yes: "Хочу",
+    no: "Не хочу",
   },
   freeDesign: {
     tag: "Наше преимущество",
-    title: "Бесплатный профессиональный дизайн",
-    desc: "Никаких забот о дизайне при заказе печати. Наша опытная команда дизайнеров бесплатно готовит индивидуальный дизайн для вашего бренда в CorelDRAW, Photoshop и с помощью ИИ-инструментов.",
+    title: "Профессиональный графический дизайн",
+    desc: "Не переживайте о дизайне при заказе печати. Наша опытная команда дизайнеров готовит профессиональный дизайн специально для вашего бренда с помощью CorelDRAW и ИИ-инструментов параллельно с вашим заказом. Мы предоставляем файлы, готовые к печати, без компромиссов в качестве и скорости.",
     points: [
-      "Дизайн визиток, брошюр и меню включён",
-      "Опыт работы в CorelDRAW и Adobe Photoshop",
-      "Быстрые правки с помощью ИИ",
+      "Профессиональный дизайн визиток, брошюр и меню",
+      "Опыт работы в CorelDRAW",
+      "Быстрые и качественные правки с помощью ИИ",
       "Бесплатная цифровая проба перед печатью",
     ],
-    cta: "Запросить дизайн бесплатно",
+    cta: "Запросить профессиональный дизайн →",
   },
   testimonials: {
     tag: "Отзывы",
@@ -718,7 +980,7 @@ const ru: Dictionary = {
       {
         name: "Мехмет Йылмаз",
         role: "Владелец ресторана, Аланья",
-        text: "Напечатали наши меню на Konica Minolta C4065 — цвета вышли отличные. Срочный заказ сдали вовремя к началу сезона.",
+        text: "Напечатали наше меню на Konica Minolta C4065 — цвета вышли отличные. Срочный заказ сдали вовремя к началу сезона.",
       },
       {
         name: "Айше Демир",
@@ -734,30 +996,19 @@ const ru: Dictionary = {
   },
   faq: {
     tag: "Вопросы",
-    title: "Часто задаваемые вопросы",
-    subtitle: "Быстрые ответы на то, что вас интересует.",
+    title: "Часто задаваемые вопросы (FAQ)",
+    subtitle: "Все, что вам нужно знать о типографии Kale Matbaa и доставке в Аланье.",
     items: [
-      {
-        q: "Как быстро вы выполняете срочные заказы печати в Аланье?",
-        a: "Большинство заказов цифровой печати мы сдаём в тот же день или в течение 24 часов. Даже в высокий сезон срочные заказы в приоритете.",
-      },
-      {
-        q: "У меня нет файла дизайна, вы поможете?",
-        a: "Конечно. Благодаря бесплатному профессиональному дизайну мы подготовим для вас визитки, брошюры, меню и приглашения.",
-      },
-      {
-        q: "На какой бумаге можно печатать на Konica Minolta C4065?",
-        a: "Печатаем яркими цветами на всём — от лёгкой бумаги 80г до плотного картона 350г и выше, вплоть до формата A3.",
-      },
-      {
-        q: "Выбрать цифровую или офсетную печать?",
-        a: "Цифровая печать подходит для малых и средних быстрых тиражей; офсет выгоднее для очень больших тиражей. Мы бесплатно поможем выбрать лучший вариант.",
-      },
-      {
-        q: "Доставляете ли вы за пределы Аланьи?",
-        a: "Да, отправляем в Анталью и соседние районы курьером. Напишите нам в WhatsApp для деталей.",
-      },
+      { q: "Какая информация нужна для изготовления печати/штампа?", a: "Для ООО и АО достаточно названия компании, адреса и налогового номера. Дополнительно можно указать телефон, регистрационные данные и e-mail. Для ИП требуется ФИО, адрес и ИНН/паспортные данные." },
+      { q: "Как быстро вы выполняете срочные заказы на печать в Аланье?", a: "Большинство заказов цифровой печати мы выполняем в тот же день или в течение 24 часов. Даже в высокий сезон мы отдаем приоритет срочным заказам." },
+      { q: "У меня нет готового макета, вы помогаете с дизайном?", a: "Конечно. Наша команда графического дизайна разработает для вас макеты визиток, брошюр, меню и пригласительных." },
+      { q: "На каких типах бумаги печатает Konica Minolta C4065?", a: "Мы печатаем на бумаге плотностью от 80 г/м² до плотного картона 350+ г/м² в формате до A3 с яркой и четкой цветопередачей." },
+      { q: "Что выбрать: цифровую или офсетную печать?", a: "Цифровая печать выгоднее и быстрее для малых и средних тиражей. Офсетная печать подходит для больших тиражей. Мы бесплатно проконсультируем вас и подберем лучший вариант." },
+      { q: "В каких районах Аланьи вы предоставляете услуги?", a: "Типография Kale Matbaa обслуживает все районы Аланьи, включая центр (Saray, Çarşı, Kadıpaşa), восточные (Oba, Tosmur, Mahmutlar) и западные районы (Konaklı, Avsallar, Okurcalar)." },
+      { q: "Как забрать заказ? Есть ли доставка?", a: "Вы можете забрать заказ лично из нашей типографии в центре Аланьи. В зависимости от загруженности и маршрута возможна локальная доставка или вызов курьера." },
     ],
+    ctaTitle: "У вас есть другой вопрос?",
+    ctaButton: "Свяжитесь с нами в WhatsApp",
   },
   blog: {
     tag: "Блог",
@@ -785,6 +1036,93 @@ const ru: Dictionary = {
         date: "2025",
       },
     ],
+  },
+  kase: {
+    tag: "Профессиональные печати",
+    title: "Профессиональные печати и услуга печати",
+    subtitle: "Широкий ассортимент печатей, служащ��х официальным инструментом одобрения вашей компании и личного бренда. Качественные материалы, быстрая доставка, приемлемые цены.",
+    intro: "Ищете срочную печать в Аланье? Kale Matbaa в районе Şekerhane предлагает корпоративные печати, штампы учителей, карманные печати и автоматические штампы с опытом более 35 лет. Доставка в тот же день, бесплатный дизайн, профессиональное качество, обслуживая Махмутлар, Оба, Конаклы и весь регион Аланьи.",
+    typesTitle: "Типы печатей",
+    typesDesc: [
+      "Печать компании: официальные печати для ООО и АО. Используется с названием компании, адресом и налоговым номером.",
+      "Печать индивидуального предпринимателя: разработанные печати для индивидуальных предпринимателей, ремесленников и самозанятых специалистов.",
+      "Печать учителя: печати, используемые в учебных заведениях для подписи классных журналов и документов.",
+      "Карманная печать и круглая карманная печать: компактные печати, предназначенные для удобства и мобильности. Практичны для использования везде в бизнесе и жизни.",
+      "Круглая автоматическая печать: выбор современных предприятий; благодаря системе чернил обеспечивает легкое и быстрое использование.",
+      "Штамповая печать и печать с логотипом: для специальных потребностей в дизайне и брендинге, печати подготовлены с логотипом вашей компании и специальной информацией."
+    ],
+    specsTitle: "Варианты цвета чернил",
+    specs: [
+      {
+        title: "Черные чернила",
+        desc: "Наиболее распространенный цвет чернил, используемый в официальных документах. Предпочтителен для официальных документов и судебных разбирательств."
+      },
+      {
+        title: "Синие чернила",
+        desc: "Цвет, выбранный для современного и профессионального внешнего вида. Широко используется в офисной среде."
+      },
+      {
+        title: "Красные чернила",
+        desc: "Цвет, используемый срочных, предупредительных и специальных документов. Предпочтителен для привлекающего внимания брендинга."
+      }
+    ],
+    colorsTitle: "Цвета печати и варианты чернил",
+    colorsDesc: "Вы можете персонализировать свои печати с цветом и вариантами чернил, чтобы получить максимальную пользу. Каждый цвет имеет свой уникальный вариант использования и влияние на клиентов.",
+    colors: [
+      { name: "Черный", usage: "Официальные и юридические дела", class: "border-black bg-black/10" },
+      { name: "Синий", usage: "Офисное и корпоративное использование", class: "border-blue-500 bg-blue-500/10" },
+      { name: "Красный", usage: "Срочные и предупредительные уведомления", class: "border-red-500 bg-red-500/10" }
+    ],
+    processTitle: "Процесс изготовления печати",
+    process: [
+      {
+        title: "Сбор информации",
+        desc: "Мы собираем полную информацию о компании или физическом лице, включая название, адрес и налоговый номер."
+      },
+      {
+        title: "Дизайн и одобрение",
+        desc: "Мы подготавливаем дизайн печати и получаем одобрение заказчика. При необходимости вносим изменения."
+      },
+      {
+        title: "Производство",
+        desc: "Мы производим печати, используя материалы и технологии высочайшего качества."
+      },
+      {
+        title: "Заполнение чернилами",
+        desc: "Мы заполняем печать выбранным цветом чернил и тестируем ее."
+      },
+      {
+        title: "Контроль качества",
+        desc: "Каждая печать проходит контроль качества, и мы проверяем, достигнута ли идеальная печать."
+      }
+    ],
+    ctaTitle: "Свяжитесь с нами для профессиональных решений для печатей",
+    ctaDesc: "Отправьте нам сообщение через WhatsApp, чтобы найти лучшее решение для печати вашей компании или личного бренда. Бесплатная консультация и гарантированная быстрая доставка."
+  },
+  services: {
+    tag: "Полиграфические услуги",
+    title: "Наши услуги",
+    subtitle: "Профессиональные полиграфические услуги в Аланье. Качественные решения для любых задач — от корпоративного стиля до маркетинговых материалов.",
+    items: [],
+    paperTitle: "Варианты бумаги",
+    paperSubtitle: "Правильная бумага для качественной печати",
+    paperWeights: [],
+    pageTitle: "Наши услуги",
+    pageSubtitle: "Профессиональные полиграфические услуги в Аланье. Качественные решения для любых задач — от корпоративного стиля до маркетинговых материалов.",
+    viewDetails: "Подробнее",
+    ctaTitle: "Услуга, которую вы искали, здесь",
+    ctaSubtitle: "Если у вас есть вопросы об услуге, напишите нам. Наша профессиональная команда готова предложить вам лучшее решение.",
+    ctaWhatsapp: "Написать в WhatsApp",
+    detailContact: "Быстрая связь",
+    detailContactDesc: "Свяжитесь с нами, чтобы получить подробную информацию и расчет стоимости этой услуги.",
+    detailWhatsapp: "Написать в WhatsApp",
+    detailCall: "Позвонить",
+    detailFaqTitle: "Часто задаваемые вопросы",
+    detailBack: "Все услуги",
+    detailOthers: "Другие наши услуги",
+    detailReady: "Готовы начать?",
+    detailReadyDesc: "свяжитесь с нами, чтобы получить расчет стоимости или узнать больше о услуге",
+    detailGetQuote: "Получить расчет стоимости",
   },
   footer: {
     about: "Печати, офсетная и цифровая печать в Аланье. Качественная печать на Konica Minolta C4065 точно в срок.",
