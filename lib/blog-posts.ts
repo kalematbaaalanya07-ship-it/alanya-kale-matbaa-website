@@ -1,6 +1,6 @@
 import type { Lang } from "@/lib/i18n"
 
-export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "ayni-gun-baski" | "google-yorum-karti" | "acil-kase" | "canva-tasarimi" | "5-baski-hatasi" | "grafik-trendler-2026" | "dukkan-acma-rehberi" | "dijital-vs-ofset" | "anlamli-hediye-baski" | "kartvizit-hizmet" | "brosur-hizmet" | "menus-hizmet" | "dijital-baski-hizmet" | "ofset-baski-hizmet" | "etiket-hizmet" | "afis-hizmet" | "el-ilani-hizmet" | "alanya-menu-tasarimi-2026" | "tekne-turu-brosur-2026"
+export type BlogSlug = "kase" | "brosur" | "davetiye" | "kartvizit" | "ayni-gun-baski" | "akilli-masa-karti" | "google-yorum-karti" | "acil-kase" | "canva-tasarimi" | "5-baski-hatasi" | "grafik-trendler-2026" | "dukkan-acma-rehberi" | "dijital-vs-ofset" | "anlamli-hediye-baski" | "kartvizit-hizmet" | "brosur-hizmet" | "menus-hizmet" | "dijital-baski-hizmet" | "ofset-baski-hizmet" | "etiket-hizmet" | "afis-hizmet" | "el-ilani-hizmet" | "alanya-menu-tasarimi-2026" | "tekne-turu-brosur-2026"
 
 export interface BlogSection {
   heading: string
@@ -126,7 +126,7 @@ export const blogPosts: BlogPost[] = [
         metaDescription:
           "Качественное изготовление печатей в Аланье: автоматические и классические печати, логотип и индивидуальный дизайн. Чёткий оттиск, прочные материалы.",
         intro: [
-          "Одним из самых практичных инструментов для быстрого подписания и заверения документов и отражения вашего корпоративного стиля является печать. В Alanya Kale Matbaa мы предлагаем качественные материалы и чёткое качество оттиска как для автоматических, так и для классических печатей.",
+          "Одним из самых практичны�� инструментов для быстрого подписания и заверения документов и отражения вашего корпоративного стиля является печать. В Alanya Kale Matbaa мы предлагаем качественные материалы и чёткое качество оттиска как для автоматических, так и для классических печатей.",
           "Нашими автоматическими печатями вы оставляете чистые и чёткие оттиски одним движением. Классические печати дарят надёжность традиционного использования. Оба типа доступны с логотипом, адресом, должностью и полностью индивидуальным дизайном.",
         ],
         sections: [
@@ -863,7 +863,7 @@ export const blogPosts: BlogPost[] = [
               "Добавьте 3-4 мм выпуска за обрез: Для профессионального обрезания ваш дизайн должен выходить на 3 мм за край. Откройте Файл > Параметры просмотра > Показать выпуск за обрез в Canva.",
               "Используйте изображения высокого разрешения: Для четкой печати изображения должны быть не менее 300 DPI. Фотографии низкого разрешения из интернета будут выглядеть размытыми.",
               "Скачайте как PDF для пьчаьи: Наьмьте Поделиться > Загрьзьть в верхнем правом углу. Выберите PDF для печати (не PDF Standard). Отметььье метки обреьььи и выпуск за обрез.",
-              "ьсьи используете Canva Pro, установите цветьвой профиль CMYK: Бесплатьые учетные ��аписи выдаьт RGB, мы можем конвертировать дль вас.",
+              "ьсьи используете Canva Pro, установите цветьв��й профиль CMYK: Бесплатьые учетные ��аписи выдаьт RGB, мы можем конвертировать дль вас.",
             ],
           },
           {
@@ -887,7 +887,7 @@ export const blogPosts: BlogPost[] = [
             ],
           },
         ],
-        cta: "Готовы превратить вашу работу Canva в профессиональные отпечатки? Свяжитесь с нами через WhatsApp: +90 530 930 55 64. Преврьтите ваш дизайн с экрана на бумагу!",
+        cta: "Готовы превратить вашу работу Canva в профессиональ��ые отпечатки? Свяжитесь с нами через WhatsApp: +90 530 930 55 64. Преврьтите ваш дизайн с экрана на бумагу!",
       },
     },
   },
@@ -1048,7 +1048,7 @@ export const blogPosts: BlogPost[] = [
             bullets: [
               "Многие проблемы на самом деле возникают не из-за недостатка технических знаний, а из-за неуважения к шаблонам и информационным формам.",
               "Особенно для специальных продуктов, таких как флаги, пляжные флаги, крылатые папки или бумажные пакеты, шаблоны часто обновляются.",
-              "Контрольный список: Загружайте последний шаблон перед каждым заказом, Всегда читайте информационную фоьму, Обращайть внимание на формат, безопасные поля и значения выпуска за обрез",
+              "Контрольный список: Загружайте последний шаблон перед каждым заказом, Всегда читайте информационную фоьму, Обращайть внимание на формат, безопасные поля и зна��ения выпуска за обрез",
               "Несколько минут проверки спасают чьсы циклов ьоррекции.",
             ],
           },
@@ -1230,7 +1230,7 @@ export const blogPosts: BlogPost[] = [
             heading: "1 | Гибридная работа человека и искусственного интеллекта",
             bullets: [
               "Искусственный интеллект по-прежнему важен, но настоящие лидеры - люди. Дизайнеры используют генеративные инструменты как трамплин для творчества, а затем ьознатьльно совершенствуют и направляют результаты.",
-              "Это сотрудничество создаёт оригинальные произведения с техничьскоь глубиной.",
+              "Это сотрудничество создаёт оригинальные произведения с ��ехничьскоь глубиной.",
               "В 2026 году ИИ используется для идей, вариаций, эскизов и исследов��ния настроения. Дизайнер выбирает, комбинирует и совершенствует результаты. Финальный стиль, сообщение и чувство полностью человеческие.",
               "После первоначального всплеска возбуждения поиск оригинальности и смысла усилился. Чистые изображения ИИ быстро становятся банальными.",
             ],
@@ -1247,7 +1247,7 @@ export const blogPosts: BlogPost[] = [
           {
             heading: "3 | Hyper-Bloom – мягкий и эмоциональный тренд 2026",
             bullets: [
-              "В период, наполненный экранами, бомбардировкой раздражителей и совершенными визуалами ИИ, возникает совершенно противоположный тренд: Hyper-Bloom.",
+              "В период, наполненный экранами, бомбардировкой раздражителей и совершенными визуалами ��И, возникает совершенно противоположный тренд: Hyper-Bloom.",
               "Этот стиль означает спокойствие, эмоцию и визуальную мягкость. Он становится одним из важных эстетических движений графического дизайна в 2026 году.",
               "Используются мягкие пастельные тона, такие как розовый, сиреневый, небесно-голубой, светло-зелёный и масляно-жёлтый.",
               "Мягкие переходы, глубина, созданная с помощью размытия, увеличенные органические формы и кинематографическая атмосфера - характеристики Hyper-Bloom.",
@@ -1383,7 +1383,7 @@ export const blogPosts: BlogPost[] = [
         metaDescription:
           "Печатные материалы и услуги типограьии при открьтии магазина в Алань. Визитные карточки, меню, брошюры, офсетная печать, изготовление печатей.",
         intro: [
-          "Открыть новый магазин в Алань - это волнующе, но и интенсивный процесс. С выбором места, оформлением, запасами и персоналом печатные ма��ериалы, которые представят ваш бренд клиентам, часто отодвигаются на второй план.",
+          "Открыть новый магазин в Алань - это ��олнующе, но и интенсивный процесс. С выбором места, оформлением, запасами и персоналом печатные ма��ериалы, которые представят ваш бренд клиентам, часто отодвигаются на второй план.",
           "Однако профессиональная печать и услуги типографии не только выполняют ваши юридические требования, но и повышают доверие клиентов. В этом руководстве вы найдёте все материалы печати и услуги типографии, необходимые каждому бизнесу, открывающемуся в Алань, на что обратить внимание и практическую информацию для облегчения вашей работы.",
         ],
         sections: [
@@ -1758,7 +1758,7 @@ export const blogPosts: BlogPost[] = [
               "Открытки годовщины и особых дней / приглашения – Разработано как сувенир, производится со специальной вырезкой и толстым картоном.",
               "Календари и настенные календари – 12-месячный календарь, наполненный личными фото или значимьми датами.",
               "Наборы памяти для младенцев / детей – Открытки рождения, фотосерии первого года, постеры имен или этикетки коробок памяти.",
-              "Корпоративные значимые подарочные печати – Открытки благодарности для сотрудников, мотивационные постеры или записные книжки ценностей компании.",
+              "Корпоративные значимые подарочные печати – Открытки благодарности для сотрудников, мотивационные постеры или записные книжки ценнос��ей компании.",
             ],
           },
           {
@@ -1923,7 +1923,7 @@ export const blogPosts: BlogPost[] = [
         ],
         sections: [
           {
-            heading: "Наши услуги",
+            heading: "Н��ши услуги",
             bullets: [
               "Яркие цвета, чёткие изображения и убедительный текст",
               "Высокое качество мелованной бумаги",
@@ -2004,7 +2004,7 @@ export const blogPosts: BlogPost[] = [
       ru: {
         category: "Цифровая печать",
         title: "Быстрые решения цифровой печати",
-        excerpt: "Быстрые решения цифровой печати для всех ваших потребностей.",
+        excerpt: "Быстрые решения цифровой печати для всех в��ших потребностей.",
         metaTitle: "Быстрые решения цифров��й печати",
         metaDescription: "Услуги цифровой печати. Цветная и чёрно-белая печать.",
         intro: ["Быстрые решения цифровой печати для всех ваших потребностей от малых до крупных объёмов. Мы доставляем с цветной и чёрно-белой печатью."],
@@ -2140,7 +2140,7 @@ export const blogPosts: BlogPost[] = [
         intro: ["Если вы открываете ресторан или кафе в Аланье, меню — это не просто список блюд, а первое и самое сильное представление вашего бренда. В туристическом городе дизайн меню критически важен и для продаж, и для профессионального имиджа."] ,
         sections: [
           { heading: "1. Важность дизайна меню в Аланье", paragraphs: ["В туристических районах Дамлаташ/Клеопатра, у Аланийской крепости, в Махмутларе, Оба и Конаклы гости просматриьают меню за 5ь8 секунд. Хороший дизайн с рекомендованными блюдами и визуалами может увеличить средний чек на 15–25%."] },
-          { heading: "2. Обязательные элементы дизайна меню в 2026 году", bullets: ["Минимум три языка: турецкий, английский и русский; немецкий по желанию", "Четкие жирные заголовки, описания 10–11 pt или крупнее", "Хорошо заметные цены, выровненные по правому краю или выделенные жи��ным", "Важный контраст фон�� и текста", "6–8 качественных фотографий вместо фото каждого блюда"] },
+          { heading: "2. Обязательные элементы дизайна меню в 2026 году", bullets: ["Минимум три языка: турецкий, английский и русский; немецкий по желанию", "Четкие жирные заголовки, описания 10–11 pt или крупнее", "Хорошо заметные цены, выровненные по ��равому краю или выделенные жи��ным", "Важный контраст фон�� и текста", "6–8 качественных фотографий вместо фото каждого блюда"] },
           { heading: "3. Рекомендации по размеру и формату", bullets: ["Кафе и завтраки: односторонний A4 или складной формат", "Ресторан: двусторонний A4 или A3", "Fine dining: твердая обложка-книжка", "Beach club и бар: водостойкое ламинированное меню", "Take-away и доставка: компактный складной или A5", "Тренд 2026: легкая качественная бумага и хорошая ламинация"] },
           { heading: "4. Выбор бумаги и печати", paragraphs: ["Идеальны мелованная или матовая бумага плотностью 130–170–200–300–350 г/м². Матовая ламинация и soft-touch добавляют прочность и премиальный вид. Цифровая печать тиражом 10–100 экземпляров удобна для сезонных обновлений."] },
           { heading: "5. Частые ошибки", bullets: ["Перегружать меню фотографией каждого блюда", "Писать цены слишком мелко", "Делать только турецкое меню", "Использовать фотографии низкого разрешения", "Каждый раз проектировать меню с нуля вместо создания шаблона"] },
@@ -2197,7 +2197,7 @@ export const blogPosts: BlogPost[] = [
       },
       ru: {
         category: "Брошюра",
-        title: "Как подготовить эффективную брошюру для лодочных туров и туристических компаний",
+        title: "Как подготовить эффективную брошюру для лодочных туров и туристиче��ких компаний",
         excerpt: "Практическое, ориентированное на продажи руководство по подго��овке брошюр для лодочных туров и туристических компаний в Аланье на сезон 2026 года.",
         metaTitle: "Как подготовить брошюру для лодочного тура? Руководство 2026 | Kale Matbaa",
         metaDescription: "Многоязычное, ориентированное на продажи руководство по дизайну, бумаге, формату и печати брошюр для лодочных туров в Аланье.",
@@ -2213,6 +2213,49 @@ export const blogPosts: BlogPost[] = [
           { heading: "8. Профессиональный дизайн и печать брошюр в Аланье", paragraphs: ["Мы, Alanya Kale Matbaa, предлагаем специальные решения по брошюрам для лодочных туров и туристических компаний: бесплатный профессиональный графический дизайн, вёрстка на 3 языках (TR-EN-RU), высококачественная печать на Konica Minolta AccurioPrint C4065, варианты глянцевой/матовой мелованной бумаги + ламинация, доставка в тот же день или в течение 24 часов и гибкое производство от малых до больших тиражей."] }
         ],
         cta: "Чтобы начать разработку брошюры для вашего лодочного тура или туристического бизнеса, отправьте нам ваши фотографии и информацию о туре через WhatsApp."
+      }
+    }
+  },
+  {
+    slug: "akilli-masa-karti",
+    image: "/images/akilli-masa-karti.png",
+    imageAlt: "NFC destekli ve QR kodlu Google yorum ve Wi-Fi masa kartı",
+    date: "2026",
+    content: {
+      tr: {
+        category: "Baskı Ürünleri",
+        title: "Restoran ve İşletmeler İçin Akıllı Masa Kartları: Wi-Fi ve Google Yorum QR Kartı",
+        excerpt: "NFC destekli ve QR kodlu masa kartlarıyla müşterilerinize kolay Wi-Fi erişimi sunun, Google yorumlarını artırın.",
+        metaTitle: "Akıllı Masa Kartı: Wi-Fi ve Google Yorum QR Kartı | Alanya Kale Matbaa",
+        metaDescription: "Alanya'da restoran, kafe ve oteller için NFC destekli Wi-Fi ve Google yorum QR kodlu akıllı masa kartı tasarımı ve baskısı.",
+        intro: ["Müşterilerinizin işletmenizle ilk temas kurduğu masalarda hem teknolojik hem de şık bir deneyim sunmak artık çok kolay. Alanya Kale Matbaa olarak kafe, restoran, otel ve tüm hizmet sektörüne özel NFC destekli ve QR kodlu masa kartları üretiyoruz."],
+        sections: [
+          { heading: "Akıllı Masa Kartları İşletmenize Ne Kazandırır?", bullets: ["Tek dokunuşla Google yorumları: Müşterilerinizin işletmenize yorum bırakmasını kolaylaştırın.", "Şifresiz ve zahmetsiz Wi-Fi erişimi: Misafirleriniz kamera veya telefon dokunuşuyla ağa bağlansın.", "Çok dilli kullanım: Türkçe, İngilizce ve Rusça yönlendirmelerle yerli ve yabancı misafirlere ulaşın.", "Çift teknoloji: Taranabilir yüksek çözünürlüklü QR kod ile temassız NFC altyapısını birlikte kullanın."] },
+          { heading: "Baskı ve Malzeme Seçeneklerimiz", bullets: ["Pleksi (akrilik) stant gövde", "Solmayan yüksek çözünürlüklü dijital veya UV baskı", "A6 (105 × 148 mm), A5, L tipi masa menülüğü veya özel ebatlar"] },
+          { heading: "Nasıl Sipariş Verebilirsiniz?", bullets: ["Google Haritalar işletme linkinizi ve Wi-Fi ağ bilgilerinizi paylaşın.", "Logonuza ve kurumsal kimliğinize özel hazırlanan tasarımı onaylayın.", "Baskı ve NFC kodlama sonrasında ürünlerinizi teslim alın veya adresinize kargolayalım."] },
+          { heading: "İşletmeniz İçin Özel Tasarım", paragraphs: ["Kart üzerinde işletme logonuz, Google yorum QR kodunuz, Wi-Fi bağlantı bilgileriniz ve müşterilerinize yönelik kısa yönlendirmeler yer alabilir. Masa, kasa veya paket üzerinde kullanıma uygun çözümleri birlikte planlayabiliriz."] }
+        ],
+        cta: "Akıllı masa kartınız için Google işletme linkinizi, Wi-Fi bilgilerinizi ve logonuzu WhatsApp üzerinden gönderin; tasarım ve fiyat seçeneklerini birlikte değerlendirelim."
+      },
+      en: {
+        category: "Print Products",
+        title: "Smart Table Cards for Restaurants: Wi-Fi and Google Review QR Cards",
+        excerpt: "Offer easy Wi-Fi access and make Google reviews simpler with NFC-enabled QR table cards.",
+        metaTitle: "Smart Wi-Fi and Google Review Table Cards in Alanya | Kale Matbaa",
+        metaDescription: "Custom NFC and QR-coded table cards for restaurants, cafes and hotels in Alanya.",
+        intro: ["Create a stylish and practical first touchpoint for your guests with NFC-enabled and QR-coded table cards."],
+        sections: [{ heading: "What Do Smart Table Cards Offer?", bullets: ["One-touch Google reviews", "Easy Wi-Fi access", "Turkish, English and Russian guidance", "Combined NFC and QR technology"] }, { heading: "Materials and Sizes", bullets: ["Acrylic display stand", "High-resolution digital or UV printing", "A6, A5, L-shaped menu holder or custom sizes"] }],
+        cta: "Send your Google business link, Wi-Fi details and logo via WhatsApp for a custom table card quote."
+      },
+      ru: {
+        category: "Печатная продукция",
+        title: "Умные карточки для столов: Wi-Fi и QR-код для отзывов Google",
+        excerpt: "Упростите доступ к Wi-Fi и публикацию отзывов с помощью NFC и QR-карточек.",
+        metaTitle: "Умные карточки Wi-Fi и Google Отзывов в Аланье | Kale Matbaa",
+        metaDescription: "Индивидуальные NFC и QR-карточки для ресторанов, кафе и отелей в Аланье.",
+        intro: ["Создайте удобный и стильный контакт с гостями с помощью NFC-карточек с QR-кодом для Wi-Fi и отзывов Google."],
+        sections: [{ heading: "Преимущества умных карточек", bullets: ["Отзывы Google одним касанием", "Простой доступ к Wi-Fi", "Инструкции на турецком, английском и русском языках", "Комбинация NFC и QR-технологии"] }, { heading: "Материалы и размеры", bullets: ["Акриловая подставка", "Цифровая или UV-печать высокого разрешения", "A6, A5, L-подставка или индивидуальный размер"] }],
+        cta: "Отправьте ссылку на Google, данные Wi-Fi и логотип через WhatsApp для расчёта карточки."
       }
     }
   },
