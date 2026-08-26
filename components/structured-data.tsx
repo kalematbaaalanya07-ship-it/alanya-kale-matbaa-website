@@ -211,7 +211,7 @@ export function StructuredData() {
     "@type": "Organization",
     name: site.name,
     url: site.url,
-    logo: `${site.url}/images/digital-press.webp`,
+    logo: `${site.url}/images/kale-matbaa-logo.webp`,
     description:
       "Alanya'da 35+ yıllık matbaacılık tecrübesi. Dijital & ofset baskı, kaşe, katalog, broşür, kartvizit ve menü baskı hizmetleri.",
     foundingDate: "1990",
