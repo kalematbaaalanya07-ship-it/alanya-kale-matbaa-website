@@ -578,7 +578,7 @@ Hemen teklif alın.`,
     faqs: [
       { question: 'Özel şekil kesilebilir mi?', answer: 'Evet.' },
       { question: 'Minimum adet?', answer: '500 adetten başlıyoruz.' },
-      { question: 'Aynı gün üretim mümkün mü?', answer: 'Yoğunluğa göre.' }
+      { question: 'Aynı gün üretim mümkün mü?', answer: 'Yo��unluğa göre.' }
     ]
   },
   {
@@ -644,20 +644,49 @@ Hemen teklif alın, yayınınızı profesyonelce bastırın.`,
     id: 'katalog-baski',
     slug: 'katalog-baski',
     tag: 'Katalog Baskısı',
-    title: 'Alanya\'da Katalog Baskı',
-    metaTitle: 'Alanya\'da Katalog Baskı | A4, A5, Özel Kare Ebat',
+    title: 'Alanya\'da Katalog Baskı | A4, A5, Kare Ebat',
+    metaTitle: 'Alanya\'da Katalog Baskı | A4, A5, Kare Ebat | Alanya Kale Matbaa',
     subtitle: 'Şirketinizin ürünlerini, hizmetlerini veya otelinizin olanaklarını en iyi şekilde sergilemek için katalog şarttır.',
     image: '/images/services/katalog26.webp',
     content: `Şirketinizin ürünlerini, hizmetlerini veya otelinizin olanaklarını en iyi şekilde sergilemek için katalog şarttır. Alanya Kale Matbaa olarak 130 gr ile 350 gr arasındaki kağıt seçenekleriyle, A4, A5 veya özel kare ebatlarda profesyonel katalog baskısı yapıyoruz.
 
 C4065 dijital baskı makinemiz sayesinde selefon ve pres uygulamasıyla mükemmel sonuç elde ediyoruz. Az adetli kataloglarda bile ofset kalitesine yakın baskı alırsınız.
 
-## Özellikler
+## Teknik Özellikler
 
-- 130-350 gr kağıt seçenekleri
-- Özel ebat imkânı
-- Mat/parlak selefon
-- Tel dikiş veya spiral cilt
+- Ebat: A4 dikey, A5, 20x20 / 21x21 kare ve özel ölçü
+- Kağıt: 130, 150, 170, 200, 250, 300 ve 350 gr kuşe
+- Kapak: İç sayfadan farklı, daha kalın gramaj seçeneği
+- Yüzey: Mat veya parlak selefon, kapakta pres
+- Cilt: Tel dikiş, spiral, omega dikiş; sayfa sayısına göre Amerikan cilt
+- Sayfa: 8, 12, 16, 20, 24 ve üzeri; 4’ün katları tercih edilir
+- Adet: 10 adetten başlar; acil işlerde hızlı teslimat
+
+Dijital baskı sayesinde her nüsha aynı kalitededir. 10 adet oda kataloğu da 200 adet ürün kataloğu da aynı renk standardıyla hazırlanır.
+
+## Kimler İçin İdeal?
+
+Oteller ve pansiyonlar, restoran ve kafeler, tekne turu ve transfer firmaları, emlak ofisleri, üretim ve toptan satış firmaları, güzellik merkezleri, spa ve klinikler ile fuar ve B2B firmaları için idealdir. Türkçe, İngilizce, Rusça veya Almanca çok dilli katalog baskısı yapıyoruz.
+
+## Kağıt ve Cilt Nasıl Seçilir?
+
+8–16 sayfalık kısa kataloglarda tel dikiş ekonomik ve pratiktir. Daha kalın kataloglarda spiral cilt sayfaların düzgün açılmasını sağlar. Çoğu işte 250–350 gr kapak ve 130–170 gr iç sayfa dengeli durur. Mat selefon parlamayı azaltır, parlak selefon fotoğrafları öne çıkarır.
+
+## Süreç Nasıl İşler?
+
+Ebat, sayfa sayısı, adet ve kağıt tercihinizi iletin. Tasarım dosyanızı gönderin veya grafik tasarım desteği isteyin. Baskı öncesi taşma, CMYK renk profili ve yazı gömme kontrollerini yapalım. Onaylı prova sonrası baskı, selefon ve cilt işlemlerini tamamlayıp teslim veya kargo yapalım.
+
+## Sıkça Sorulan Sorular
+
+**Minimum adet nedir?** 10 adetten başlıyoruz.
+
+**Kapak ve iç sayfa farklı gramaj olabilir mi?** Evet. En sık tercih edilen seçenek kalın kapak ve daha ince iç sayfadır.
+
+**Acil üretim mümkün mü?** Dosya hazırsa işin kapsamına göre aynı gün veya ertesi gün planlanabilir.
+
+**Özel ebat ve çok dilli katalog basıyor musunuz?** Evet. Kare katalog, özel ölçü ve TR / EN / RU kombinasyonları hazırlıyoruz.
+
+Hemen teklif alın. Adet, ebat ve sayfa sayısını yazmanız yeterli; uygun kağıt ve cilt seçeneğini birlikte netleştirelim.
 
 Oteller, restoranlar, emlak ofisleri, tur şirketleri ve üretim firmaları için idealdir. Özellikle Alanya\'daki otellerin oda katalogları ve restoran menü katalogları sık basılır.
 
