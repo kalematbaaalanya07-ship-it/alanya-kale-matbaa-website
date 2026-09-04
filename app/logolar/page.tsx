@@ -3,6 +3,26 @@ import { ArrowDownToLine, ArrowLeft, FileImage } from "lucide-react"
 
 const logos = [
   { name: "Alanya Kale Matbaa Logo", file: "/images/kalematbaalogo.svg" },
+  { name: "Mail", file: "/logos/mail.svg" },
+  { name: "A4 Ofset Kalıbı", file: "/logos/a4-ofset-kalibi.svg" },
+  { name: "A6 Ofset Kalıbı", file: "/logos/a6-ofset-kalibi.svg" },
+  { name: "Instagram Yazısı", file: "/logos/instagram-yazisi.svg" },
+  { name: "Konum", file: "/logos/konum.svg" },
+  { name: "Telefon", file: "/logos/telefon.svg" },
+  { name: "Telegram", file: "/logos/telegram.svg" },
+  { name: "Instagram", file: "/logos/instagram.svg" },
+  { name: "A5 Broşür Kesim Payı", file: "/logos/a5-brosur-kesim-payi.svg" },
+  { name: "YouTube", file: "/logos/youtube.svg" },
+  { name: "TikTok", file: "/logos/tiktok.svg" },
+  { name: "A5 Ofset Kalıbı", file: "/logos/a5-ofset-kalibi.svg" },
+  { name: "Facebook", file: "/logos/facebook.svg" },
+  { name: "Instagram Siyah", file: "/logos/instagram-siyah.svg" },
+  { name: "Facebook Siyah", file: "/logos/facebook-siyah.svg" },
+  { name: "Alanya Türkiye", file: "/logos/alanya-turkiye.svg" },
+  { name: "WhatsApp Siyah", file: "/logos/whatsapp-siyah.svg" },
+  { name: "Tutkallı A4 Kalıp", file: "/logos/tutkalli-a4-kalip.svg" },
+  { name: "WhatsApp", file: "/logos/whatsapp.svg" },
+  { name: "Kartvizit Cross", file: "/logos/kartvizit-cross.svg" },
 ]
 
 export default function LogolarPage() {
