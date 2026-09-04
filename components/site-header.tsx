@@ -91,6 +91,7 @@ export function SiteHeader() {
     { href: "/hizmetlerimiz", label: t.nav.services },
     { href: "/portfoy", label: t.nav.portfolio },
     { href: "/blog", label: t.blog.tag },
+    { href: "/logolar", label: "Logolar" },
     { href: "/iletisim", label: t.nav.contact },
   ]
 
