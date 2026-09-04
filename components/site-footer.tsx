@@ -17,6 +17,7 @@ export function SiteFooter() {
     { href: "/urunlerimiz", label: t.nav.products },
     { href: "/portfoy", label: t.nav.portfolio },
     { href: "/blog", label: t.blog.tag },
+    { href: "/logolar", label: "Logolar" },
     { href: "/iletisim", label: t.nav.contact },
   ]
 
