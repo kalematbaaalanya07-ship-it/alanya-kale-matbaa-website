@@ -42,12 +42,6 @@ export function HolidayCalendar({ special, publicHolidays, summary }: { special:
 
   return (
     <>
-      <section className="grid gap-4 sm:grid-cols-3" aria-label="2026 özet bilgileri">
-        <div className="rounded-2xl border border-border bg-card p-5 shadow-sm"><p className="text-sm text-muted-foreground">Toplam özel gün</p><p className="mt-1 text-3xl font-bold text-primary">{special.length}</p></div>
-        <div className="rounded-2xl border border-border bg-card p-5 shadow-sm"><p className="text-sm text-muted-foreground">Resmi tatil</p><p className="mt-1 text-3xl font-bold text-accent">{publicHolidays.length}</p></div>
-        <div className="rounded-2xl border border-border bg-card p-5 shadow-sm"><p className="text-sm text-muted-foreground">Takvim yılı</p><p className="mt-1 text-3xl font-bold text-primary">2026</p></div>
-      </section>
-
       <section className="mt-8 rounded-2xl border border-border bg-card p-4 shadow-sm sm:p-6">
         <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
           <div className="flex items-center gap-2"><CalendarDays className="size-5 text-accent" /><h2 className="font-heading text-xl font-bold">Özel Günler Takvimi</h2></div>
