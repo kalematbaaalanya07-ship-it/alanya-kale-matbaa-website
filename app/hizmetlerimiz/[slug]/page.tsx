@@ -7,11 +7,8 @@ import { getServiceBySlug, getAllServices, getServiceBySlugLocalized, getAllServ
 import { dictionaries } from '@/lib/i18n'
 import type { Lang } from '@/lib/i18n'
 import { notFound } from 'next/navigation'
-import { site } from '@/lib/site'
+import { site, waLink as siteWaLink } from '@/lib/site'
 import { QuoteForm } from '@/components/quote-form'
-
-const waLink = (text: string = '') =>
-  `https://wa.me/905309305564?text=${encodeURIComponent(text)}`
 
 export async function generateStaticParams() {
   const services = getAllServices()
@@ -73,6 +70,15 @@ export default async function ServiceDetailPage({
       : { back: 'All Services', contact: 'Quick Contact', contactDesc: 'Get in touch with us for detailed information and a price quote for this service.', whatsapp: 'Message on WhatsApp', call: 'Call Now', faq: 'Frequently Asked Questions', others: 'Other Services', ready: 'Ready to Get Started?', readyDesc: 'contact us for a quote or more information about', quote: 'Get a Quote Now' }
 
   const serviceUrl = `${site.url}/hizmetlerimiz/${slug}`
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: site.url },
+      { "@type": "ListItem", position: 2, name: "Hizmetlerimiz", item: `${site.url}/hizmetlerimiz` },
+      { "@type": "ListItem", position: 3, name: service.title, item: serviceUrl },
+    ],
+  }
   const serviceJsonLd = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -86,11 +92,19 @@ export default async function ServiceDetailPage({
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }} />
       <main className="min-h-screen">
       {/* Breadcrumb & Back */}
       <div className="bg-background border-b border-border">
         <div className="mx-auto max-w-6xl px-4 py-4">
+          <nav aria-label="Breadcrumb" className="mb-3 text-xs text-muted-foreground">
+            <Link href="/" className="hover:text-foreground">Ana Sayfa</Link>
+            <span className="mx-2">/</span>
+            <Link href="/hizmetlerimiz" className="hover:text-foreground">Hizmetlerimiz</Link>
+            <span className="mx-2">/</span>
+            <span className="text-foreground/70">{service.title}</span>
+          </nav>
           <Link
             href="/hizmetlerimiz"
             className="inline-flex items-center gap-2 text-sm text-foreground/70 hover:text-foreground transition-colors"
@@ -191,7 +205,7 @@ export default async function ServiceDetailPage({
                     className="w-full bg-accent text-accent-foreground hover:bg-accent/90"
                   >
                     <a
-                      href={waLink(`${service.title} hakkında bilgi almak istiyorum`)}
+                      href={siteWaLink(`${service.title} hakkında bilgi almak istiyorum`)}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -278,7 +292,7 @@ export default async function ServiceDetailPage({
               className="bg-accent-foreground text-accent hover:bg-accent-foreground/90"
             >
               <a
-                href={waLink(`${service.title} hakkında bilgi almak istiyorum`)}
+                href={siteWaLink(`${service.title} hakkında bilgi almak istiyorum`)}
                 target="_blank"
                 rel="noopener noreferrer"
               >

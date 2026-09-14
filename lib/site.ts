@@ -7,7 +7,7 @@ export const site = {
   phone: "+90 242 513 48 30",
   phoneHref: "+902425134830",
   // Backwards-compatible alias used across the UI
-  phoneDisplay: "+90 530 930 55 64",
+  phoneDisplay: "+90 242 513 48 30",
   email: "kalematbaaalanya@hotmail.com",
   // Trust stats
   yearsExperience: "35+",

@@ -50,7 +50,7 @@ export function StructuredData() {
       height: 1200,
     },
     url: site.url,
-    telephone: site.whatsappDisplay,
+    telephone: site.phone,
     email: "kalematbaaalanya@hotmail.com",
     currenciesAccepted: "TRY",
     paymentAccepted: ["Cash", "Credit Card"],
