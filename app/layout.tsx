@@ -19,11 +19,11 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Alanya Matbaa | Dijital & Ofset Baskı, Kaşe - Alanya Kale Matbaa",
+    default: "Alanya Matbaa | Dijital ve Ofset Baskı | Kale Matbaa",
     template: "%s | Alanya Kale Matbaa",
   },
   description:
-    "Alanya'nın güvenilir matbaası. Dijital copy & ofset baskı, kaşe, broşür, kartvizit, davetiye. Aynı gün teslim, profesyonel grafik tasarım. 35+ yıl tecrübe. Hemen teklif alın!",
+    "Alanya Kale Matbaa; dijital ve ofset baskı, kaşe, katalog, broşür, kartvizit ve menü baskısı sunar. Şekerhane, Alanya'da 35+ yıllık deneyim.",
   generator: "v0.app",
   applicationName: site.name,
   icons: {
