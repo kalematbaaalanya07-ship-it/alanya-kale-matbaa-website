@@ -26,8 +26,8 @@ const monthOrder = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Tem
 
 function formatDate(value: string) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) return value
-  const [year, month, day] = value.split("-")
-  return `${day}.${month}`
+  const [, month, day] = value.split("-")
+  return `${Number(day)} ${monthOrder[Number(month) - 1]}`
 }
 
 export function HolidayCalendar({ special, publicHolidays, summary }: { special: SpecialDay[]; publicHolidays: PublicHoliday[]; summary: Summary[] }) {
