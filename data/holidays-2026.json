@@ -1,0 +1,824 @@
+{
+  "year": 2026,
+  "special": [
+    {
+      "date": "2026-01-01",
+      "name": "Yeni Yıl",
+      "holiday": "Resmi Tatil",
+      "month": "Ocak"
+    },
+    {
+      "date": "2026-01-02",
+      "name": "Bilim Kurgu Günü",
+      "holiday": "—",
+      "month": "Ocak"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "Dünya Gazeteciler Günü, Ziraat Mühendisleri Günü",
+      "holiday": "—",
+      "month": "Ocak"
+    },
+    {
+      "date": "2026-01-16",
+      "name": "Dünya Hijyen Günü",
+      "holiday": "—",
+      "month": "Ocak"
+    },
+    {
+      "date": "2026-01-21",
+      "name": "Dünya Sarılma Günü",
+      "holiday": "—",
+      "month": "Ocak"
+    },
+    {
+      "date": "2026-01-24",
+      "name": "Dünya Karşılıksız İyilik Günü",
+      "holiday": "—",
+      "month": "Ocak"
+    },
+    {
+      "date": "24 – 31 Ocak",
+      "name": "Dünya Cüzzam Haftası",
+      "holiday": "—",
+      "month": "Ocak"
+    },
+    {
+      "date": "2026-01-26",
+      "name": "Uluslararası Gümrük Günü",
+      "holiday": "—",
+      "month": "Ocak"
+    },
+    {
+      "date": "2026-01-28",
+      "name": "Veri Koruma Günü",
+      "holiday": "—",
+      "month": "Ocak"
+    },
+    {
+      "date": "2026-02-04",
+      "name": "Dünya Kanser Günü",
+      "holiday": "—",
+      "month": "Şubat"
+    },
+    {
+      "date": "2026-02-09",
+      "name": "Dünya Sigarayı Bırakma Günü, Dünya Pizza Günü",
+      "holiday": "—",
+      "month": "Şubat"
+    },
+    {
+      "date": "2026-02-13",
+      "name": "Dünya Radyo Günü",
+      "holiday": "—",
+      "month": "Şubat"
+    },
+    {
+      "date": "2026-02-14",
+      "name": "Sevgililer Günü, Dünya Öykü Günü",
+      "holiday": "—",
+      "month": "Şubat"
+    },
+    {
+      "date": "2026-02-17",
+      "name": "Dünya Kediler Günü",
+      "holiday": "—",
+      "month": "Şubat"
+    },
+    {
+      "date": "2026-02-27",
+      "name": "Dünya Ressamlar Günü",
+      "holiday": "—",
+      "month": "Şubat"
+    },
+    {
+      "date": "2026-02-28",
+      "name": "Sivil Savunma Günü",
+      "holiday": "—",
+      "month": "Şubat"
+    },
+    {
+      "date": "1 – 7 Mart",
+      "name": "Yeşilay Haftası, Deprem Haftası, Girişimcilik Haftası",
+      "holiday": "—",
+      "month": "Mart"
+    },
+    {
+      "date": "2026-03-08",
+      "name": "Dünya Kadınlar Günü",
+      "holiday": "—",
+      "month": "Mart"
+    },
+    {
+      "date": "8 – 14 Mart",
+      "name": "Bilim ve Teknoloji Haftası",
+      "holiday": "—",
+      "month": "Mart"
+    },
+    {
+      "date": "2026-03-12",
+      "name": "İstiklal Marşı’nın Kabulü ve Mehmet Akif Ersoy’u Anma Günü",
+      "holiday": "—",
+      "month": "Mart"
+    },
+    {
+      "date": "2026-03-14",
+      "name": "Tıp Bayramı",
+      "holiday": "—",
+      "month": "Mart"
+    },
+    {
+      "date": "2026-03-18",
+      "name": "Çanakkale Zaferi",
+      "holiday": "—",
+      "month": "Mart"
+    },
+    {
+      "date": "18-24 Mart",
+      "name": "Yaşlılara Saygı Haftası",
+      "holiday": "—",
+      "month": "Mart"
+    },
+    {
+      "date": "2026-03-21",
+      "name": "Nevruz Bayramı",
+      "holiday": "—",
+      "month": "Mart"
+    },
+    {
+      "date": "2026-03-21",
+      "name": "Dünya Down Sendromu Farkındalık Günü",
+      "holiday": "—",
+      "month": "Mart"
+    },
+    {
+      "date": "2026-03-21",
+      "name": "Dünya Şiir Günü",
+      "holiday": "—",
+      "month": "Mart"
+    },
+    {
+      "date": "2026-03-21",
+      "name": "Dünya Ormancılık Günü",
+      "holiday": "—",
+      "month": "Mart"
+    },
+    {
+      "date": "21 – 26 Mart",
+      "name": "Orman Haftası",
+      "holiday": "—",
+      "month": "Mart"
+    },
+    {
+      "date": "2026-03-22",
+      "name": "Dünya Su Günü",
+      "holiday": "—",
+      "month": "Mart"
+    },
+    {
+      "date": "2026-03-23",
+      "name": "Dünya Meteoroloji Günü",
+      "holiday": "—",
+      "month": "Mart"
+    },
+    {
+      "date": "2026-03-27",
+      "name": "Dünya Tiyatrolar Günü",
+      "holiday": "—",
+      "month": "Mart"
+    },
+    {
+      "date": "27 Mart – 2 Nisan",
+      "name": "Kütüphane Haftası",
+      "holiday": "—",
+      "month": "Mart"
+    },
+    {
+      "date": "2026-04-01",
+      "name": "Dünya Şaka Günü",
+      "holiday": "—",
+      "month": "Nisan"
+    },
+    {
+      "date": "1 – 7 Nisan",
+      "name": "Kanserle Savaş Haftası",
+      "holiday": "—",
+      "month": "Nisan"
+    },
+    {
+      "date": "2026-04-02",
+      "name": "Dünya Otizm Farkındalık Günü",
+      "holiday": "—",
+      "month": "Nisan"
+    },
+    {
+      "date": "2026-04-04",
+      "name": "Dünya Sokak Hayvanları Günü",
+      "holiday": "—",
+      "month": "Nisan"
+    },
+    {
+      "date": "2026-04-07",
+      "name": "Kişisel Verileri Koruma Günü",
+      "holiday": "—",
+      "month": "Nisan"
+    },
+    {
+      "date": "7 – 13 Nisan",
+      "name": "Dünya Sağlık Haftası, Sağlık ve Sosyal Güvenlik Haftası",
+      "holiday": "—",
+      "month": "Nisan"
+    },
+    {
+      "date": "2026-04-10",
+      "name": "Polis Günü",
+      "holiday": "—",
+      "month": "Nisan"
+    },
+    {
+      "date": "15 – 21 Nisan",
+      "name": "Malazgirt Haftası, Turizm Haftası",
+      "holiday": "—",
+      "month": "Nisan"
+    },
+    {
+      "date": "19 – 25 Nisan",
+      "name": "Kitap Günü ve Kütüphaneler Haftası",
+      "holiday": "—",
+      "month": "Nisan"
+    },
+    {
+      "date": "2026-04-22",
+      "name": "Dünya Günü",
+      "holiday": "—",
+      "month": "Nisan"
+    },
+    {
+      "date": "2026-04-23",
+      "name": "Ulusal Egemenlik ve Çocuk Bayramı",
+      "holiday": "Resmi Tatil",
+      "month": "Nisan"
+    },
+    {
+      "date": "2026-04-25",
+      "name": "Dünya Veteriner Hekimliği Günü, Türkiye İstatistik Günü",
+      "holiday": "—",
+      "month": "Nisan"
+    },
+    {
+      "date": "2026-04-29",
+      "name": "Dünya Dans Günü",
+      "holiday": "—",
+      "month": "Nisan"
+    },
+    {
+      "date": "2026-05-01",
+      "name": "İşçi Bayramı",
+      "holiday": "Resmi Tatil",
+      "month": "Mayıs"
+    },
+    {
+      "date": "1 – 7 Mayıs",
+      "name": "Trafik ve İlkyardım Haftası",
+      "holiday": "—",
+      "month": "Mayıs"
+    },
+    {
+      "date": "2 – 10 Mayıs",
+      "name": "İş Güvenliği Haftası",
+      "holiday": "—",
+      "month": "Mayıs"
+    },
+    {
+      "date": "5 – 6 Mayıs",
+      "name": "Hıdırellez",
+      "holiday": "—",
+      "month": "Mayıs"
+    },
+    {
+      "date": "2026-05-08",
+      "name": "Dünya Ebeveynler Günü",
+      "holiday": "—",
+      "month": "Mayıs"
+    },
+    {
+      "date": "10 – 16 Mayıs",
+      "name": "Engelliler Haftası",
+      "holiday": "—",
+      "month": "Mayıs"
+    },
+    {
+      "date": "2026-05-10",
+      "name": "Anneler Günü",
+      "holiday": "—",
+      "month": "Mayıs"
+    },
+    {
+      "date": "12 – 18 Mayıs",
+      "name": "Hemşireler Haftası",
+      "holiday": "—",
+      "month": "Mayıs"
+    },
+    {
+      "date": "15 – 21 Mayıs",
+      "name": "Gençlik Haftası",
+      "holiday": "—",
+      "month": "Mayıs"
+    },
+    {
+      "date": "18 – 24 Mayıs",
+      "name": "Müzeler Haftası",
+      "holiday": "—",
+      "month": "Mayıs"
+    },
+    {
+      "date": "2026-05-19",
+      "name": "Atatürk’ü Anma Gençlik ve Spor Bayramı",
+      "holiday": "Resmi Tatil",
+      "month": "Mayıs"
+    },
+    {
+      "date": "2026-05-29",
+      "name": "İstanbul’un Fethi",
+      "holiday": "—",
+      "month": "Mayıs"
+    },
+    {
+      "date": "2026-05-31",
+      "name": "Dünya Sigara İçmeme Günü",
+      "holiday": "—",
+      "month": "Mayıs"
+    },
+    {
+      "date": "2026-06-01",
+      "name": "Dünya Çocuk Günü",
+      "holiday": "—",
+      "month": "Haziran"
+    },
+    {
+      "date": "2026-06-05",
+      "name": "Çevre Koruma Haftası",
+      "holiday": "—",
+      "month": "Haziran"
+    },
+    {
+      "date": "2026-06-08",
+      "name": "Dünya Okyanus Günü",
+      "holiday": "—",
+      "month": "Haziran"
+    },
+    {
+      "date": "2026-06-21",
+      "name": "Babalar Günü",
+      "holiday": "—",
+      "month": "Haziran"
+    },
+    {
+      "date": "2026-06-21",
+      "name": "En Uzun Gün",
+      "holiday": "—",
+      "month": "Haziran"
+    },
+    {
+      "date": "2026-06-26",
+      "name": "Aşure Günü",
+      "holiday": "—",
+      "month": "Haziran"
+    },
+    {
+      "date": "2026-07-01",
+      "name": "Kabotaj ve Deniz Bayramı",
+      "holiday": "—",
+      "month": "Temmuz"
+    },
+    {
+      "date": "1 – 7 Temmuz",
+      "name": "Uluslararası Nasreddin Hoca Şenlikleri",
+      "holiday": "—",
+      "month": "Temmuz"
+    },
+    {
+      "date": "2026-07-02",
+      "name": "Dünya Ufo Günü",
+      "holiday": "—",
+      "month": "Temmuz"
+    },
+    {
+      "date": "2026-07-06",
+      "name": "Dünya Öpücük Günü",
+      "holiday": "—",
+      "month": "Temmuz"
+    },
+    {
+      "date": "2026-07-07",
+      "name": "Dünya Çikolata Günü",
+      "holiday": "—",
+      "month": "Temmuz"
+    },
+    {
+      "date": "2026-07-10",
+      "name": "Dünya Hukuk Günü",
+      "holiday": "—",
+      "month": "Temmuz"
+    },
+    {
+      "date": "2026-07-11",
+      "name": "Dünya Nüfus Günü",
+      "holiday": "—",
+      "month": "Temmuz"
+    },
+    {
+      "date": "2026-07-15",
+      "name": "Demokrasi ve Milli Birlik Günü",
+      "holiday": "Resmi Tatil",
+      "month": "Temmuz"
+    },
+    {
+      "date": "2026-07-17",
+      "name": "Dünya Emoji Günü",
+      "holiday": "—",
+      "month": "Temmuz"
+    },
+    {
+      "date": "2026-07-20",
+      "name": "Uluslararası Satranç Günü",
+      "holiday": "—",
+      "month": "Temmuz"
+    },
+    {
+      "date": "2026-07-28",
+      "name": "Dünya Hepatit Günü",
+      "holiday": "—",
+      "month": "Temmuz"
+    },
+    {
+      "date": "2026-07-30",
+      "name": "Dünya Arkadaşlık Günü",
+      "holiday": "—",
+      "month": "Temmuz"
+    },
+    {
+      "date": "2026-08-16",
+      "name": "Türklerin Anadolu’da İlk Fetih Günü",
+      "holiday": "—",
+      "month": "Ağustos"
+    },
+    {
+      "date": "16 Ağustos – 23 Ağustos",
+      "name": "Hacı Bektaşı Veli’yi Anma Günü ve Haftası",
+      "holiday": "—",
+      "month": "Ağustos"
+    },
+    {
+      "date": "2026-08-19",
+      "name": "Dünya İnsanı Yardım Günü",
+      "holiday": "—",
+      "month": "Ağustos"
+    },
+    {
+      "date": "2026-08-30",
+      "name": "Zafer Bayramı",
+      "holiday": "Resmi Tatil",
+      "month": "Ağustos"
+    },
+    {
+      "date": "2026-09-01",
+      "name": "Dünya Barış Günü",
+      "holiday": "—",
+      "month": "Eylül"
+    },
+    {
+      "date": "3 – 9 Eylül",
+      "name": "Halk Sağlığı Haftası",
+      "holiday": "—",
+      "month": "Eylül"
+    },
+    {
+      "date": "2026-09-08",
+      "name": "Dünya Okuma Yazma Günü",
+      "holiday": "—",
+      "month": "Eylül"
+    },
+    {
+      "date": "2026-09-19",
+      "name": "Gaziler Günü",
+      "holiday": "—",
+      "month": "Eylül"
+    },
+    {
+      "date": "2026-09-21",
+      "name": "Dünya Barış Günü",
+      "holiday": "—",
+      "month": "Eylül"
+    },
+    {
+      "date": "2026-09-25",
+      "name": "Dünya Eczacılık Günü",
+      "holiday": "—",
+      "month": "Eylül"
+    },
+    {
+      "date": "2026-09-26",
+      "name": "Dil Bayramı",
+      "holiday": "—",
+      "month": "Eylül"
+    },
+    {
+      "date": "2026-09-27",
+      "name": "Dünya Turizm Günü",
+      "holiday": "—",
+      "month": "Eylül"
+    },
+    {
+      "date": "2026-10-04",
+      "name": "Hayvanları Koruma Günü, Dünya Mimarlık Günü",
+      "holiday": "—",
+      "month": "Ekim"
+    },
+    {
+      "date": "2026-10-10",
+      "name": "Dünya Ruh Sağlığı Günü",
+      "holiday": "—",
+      "month": "Ekim"
+    },
+    {
+      "date": "2026-10-11",
+      "name": "Dünya Kız Çocukları Günü",
+      "holiday": "—",
+      "month": "Ekim"
+    },
+    {
+      "date": "2026-10-13",
+      "name": "Ankara’nın Başkent Oluşu",
+      "holiday": "—",
+      "month": "Ekim"
+    },
+    {
+      "date": "2026-10-16",
+      "name": "Dünya Gıda Günü",
+      "holiday": "—",
+      "month": "Ekim"
+    },
+    {
+      "date": "2026-10-17",
+      "name": "Dünya Yoksullukla Mücadele Günü",
+      "holiday": "—",
+      "month": "Ekim"
+    },
+    {
+      "date": "19 Ekim – 4 Kasım",
+      "name": "Kızılay Haftası",
+      "holiday": "—",
+      "month": "Ekim"
+    },
+    {
+      "date": "2026-10-24",
+      "name": "Birleşmiş Milletler Günü",
+      "holiday": "—",
+      "month": "Ekim"
+    },
+    {
+      "date": "2026-10-29",
+      "name": "Cumhuriyet Bayramı",
+      "holiday": "Resmi Tatil",
+      "month": "Ekim"
+    },
+    {
+      "date": "2026-10-31",
+      "name": "Dünya Tasarruf Günü",
+      "holiday": "—",
+      "month": "Ekim"
+    },
+    {
+      "date": "2026-11-01",
+      "name": "Türk Harflerinin Kabulü",
+      "holiday": "—",
+      "month": "Kasım"
+    },
+    {
+      "date": "2 – 8 Kasım",
+      "name": "Lösemili Çocuklar Haftası",
+      "holiday": "—",
+      "month": "Kasım"
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Dünya Şehircilik Günü",
+      "holiday": "—",
+      "month": "Kasım"
+    },
+    {
+      "date": "2026-11-10",
+      "name": "Atatürk’ü Anma Günü",
+      "holiday": "—",
+      "month": "Kasım"
+    },
+    {
+      "date": "2026-11-14",
+      "name": "Dünya Diyabet Günü, D��nya Sinema Günü",
+      "holiday": "—",
+      "month": "Kasım"
+    },
+    {
+      "date": "2026-11-20",
+      "name": "Çocuk Hakları Günü",
+      "holiday": "—",
+      "month": "Kasım"
+    },
+    {
+      "date": "22 – 28 Kasım",
+      "name": "Ağız ve Diş Sağlığı Haftası",
+      "holiday": "—",
+      "month": "Kasım"
+    },
+    {
+      "date": "2026-11-24",
+      "name": "Öğretmenler Günü",
+      "holiday": "—",
+      "month": "Kasım"
+    },
+    {
+      "date": "2026-11-25",
+      "name": "Kadına Yönelik Şiddete Karşı Uluslararası Mücadele Günü",
+      "holiday": "—",
+      "month": "Kasım"
+    },
+    {
+      "date": "2026-12-01",
+      "name": "Dünya AIDS Günü",
+      "holiday": "—",
+      "month": "Aralık"
+    },
+    {
+      "date": "2026-12-03",
+      "name": "Dünya Engelliler Günü",
+      "holiday": "—",
+      "month": "Aralık"
+    },
+    {
+      "date": "2026-12-04",
+      "name": "Dünya Madenciler Günü",
+      "holiday": "—",
+      "month": "Aralık"
+    },
+    {
+      "date": "2026-12-05",
+      "name": "Dünya Mühendisler Günü, Kadın Hakları Günü, Türk Kahvesi Günü, Dünya Toprak Günü",
+      "holiday": "—",
+      "month": "Aralık"
+    },
+    {
+      "date": "2026-12-07",
+      "name": "Dünya Sivil Havacılık Günü",
+      "holiday": "—",
+      "month": "Aralık"
+    },
+    {
+      "date": "2026-12-15",
+      "name": "Uluslararası Çay Günü",
+      "holiday": "—",
+      "month": "Aralık"
+    },
+    {
+      "date": "2026-12-21",
+      "name": "En Uzun Gece",
+      "holiday": "—",
+      "month": "Aralık"
+    },
+    {
+      "date": "2026-12-31",
+      "name": "Yılbaşı Akşamı",
+      "holiday": "—",
+      "month": "Aralık"
+    }
+  ],
+  "publicHolidays": [
+    {
+      "date": "1 Ocak 2026",
+      "day": "Perşembe",
+      "name": "Yeni Yıl"
+    },
+    {
+      "date": "19 Mart 2026",
+      "day": "Perşembe",
+      "name": "Ramazan Bayramı Arifesi (Yarım Gün)"
+    },
+    {
+      "date": "20 Mart -22 Mart 2026",
+      "day": "Cuma – Pazar",
+      "name": "Ramazan Bayramı"
+    },
+    {
+      "date": "23 Nisan 2026",
+      "day": "Perşembe",
+      "name": "Ulusal Egemenlik ve Çocuk Bayramı"
+    },
+    {
+      "date": "1 Mayıs 2026",
+      "day": "Cuma",
+      "name": "İşçi Bayramı"
+    },
+    {
+      "date": "19 Mayıs 2026",
+      "day": "Salı",
+      "name": "Atatürk’ü Anma Gençlik ve Spor Bayramı"
+    },
+    {
+      "date": "26 Mayıs 2026",
+      "day": "Salı",
+      "name": "Kurban Bayramı Arefesi"
+    },
+    {
+      "date": "27-30 Mayıs 2026",
+      "day": "Çarşamba – Cumartesi",
+      "name": "Kurban Bayramı"
+    },
+    {
+      "date": "15 Temmuz 2026",
+      "day": "Çarşamba",
+      "name": "Demokrasi ve Milli Birlik Günü"
+    },
+    {
+      "date": "30 Ağustos 2026",
+      "day": "Pazar",
+      "name": "Zafer Bayramı"
+    },
+    {
+      "date": "29 Ekim 2026",
+      "day": "Perşembe",
+      "name": "Cumhuriyet Bayramı"
+    },
+    {
+      "date": "Not: Avansas resmi tatiller tablosunda 28 Ekim Cumhuriyet Bayramı arifesi (yarım gün) ayrı satır olarak yer almıyor. 2429 sayılı Kanun’a göre 28 Ekim öğleden sonra da resmi tatildir.",
+      "day": "",
+      "name": ""
+    }
+  ],
+  "summary": [
+    {
+      "month": "Ocak",
+      "count": 9,
+      "holidayCount": 1
+    },
+    {
+      "month": "Şubat",
+      "count": 7,
+      "holidayCount": 0
+    },
+    {
+      "month": "Mart",
+      "count": 16,
+      "holidayCount": 0
+    },
+    {
+      "month": "Nisan",
+      "count": 13,
+      "holidayCount": 1
+    },
+    {
+      "month": "Mayıs",
+      "count": 13,
+      "holidayCount": 2
+    },
+    {
+      "month": "Haziran",
+      "count": 6,
+      "holidayCount": 0
+    },
+    {
+      "month": "Temmuz",
+      "count": 12,
+      "holidayCount": 1
+    },
+    {
+      "month": "Ağustos",
+      "count": 4,
+      "holidayCount": 1
+    },
+    {
+      "month": "Eylül",
+      "count": 8,
+      "holidayCount": 0
+    },
+    {
+      "month": "Ekim",
+      "count": 10,
+      "holidayCount": 1
+    },
+    {
+      "month": "Kasım",
+      "count": 9,
+      "holidayCount": 0
+    },
+    {
+      "month": "Aralık",
+      "count": 8,
+      "holidayCount": 0
+    },
+    {
+      "month": "Toplam",
+      "count": 115,
+      "holidayCount": 7
+    }
+  ]
+}

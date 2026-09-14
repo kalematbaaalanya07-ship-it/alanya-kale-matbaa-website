@@ -17,6 +17,7 @@ export function SiteFooter() {
     { href: "/portfoy", label: t.nav.portfolio },
     { href: "/blog", label: t.blog.tag },
     { href: "/logolar", label: "Logolar" },
+    { href: "/ozel-gunler", label: "Özel Günler" },
     { href: "/iletisim", label: t.nav.contact },
   ]
 
